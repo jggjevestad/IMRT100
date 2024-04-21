@@ -1,6 +1,8 @@
 ---
 title: IMRT100
 ---
+![](bilder/nmbu.svg)
+
 # Velkommen til IMRT100
 Målet i dette faget er å bli kjent med geomatikk og få prøvd noen målemetoder i praksis og bli kjent med noen programmer som dere kommer til å bruke mye senere. Dere skal jobbe i grupper med ca. 3 til 4 personer.
 
