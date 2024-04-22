@@ -12,7 +12,9 @@ I tillegg dere skal også lage en film basert på hva dere gjør i kurset, det e
 
 
 ## Oppgaver:
-1. Skritte opp og tegne et kart for hånd
-2. [Bruke GNSS til å måle et punkt ved statisk måling](oppgaver/statisk_gnss.html)
-3. Bruke GNSS til å tegne inn en vei med kinetisk måling
+1. [Bruke GNSS til å måle et punkt](oppgaver/statisk_gnss.html)
+2. Bruke GNSS til å tegne inn en vei i gis
+3. [Gjøre en 3d scan med Faro 3d scanner](oppgaver/3d_scan_proff.html)
+4. [Gjøre en 3d scan med mobilen](oppgaver/3d_scan_mobil.html)
+5. Bruke RTK til å måle punkt
 
