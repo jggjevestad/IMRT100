@@ -2,8 +2,19 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+root: index
+
+parts:
+  - caption: Del 1 - Elektronikk
+    chapters:
+    - file: oppgaver/arduino
+#    - file: path/to/part1/chapter2
+#      sections:
+#      - file: path/to/part1/chapter2/section1
+  - caption: Del 2 - Laserskanning
+    chapters:
+    - file: oppgaver/3d_scan_mobil
+    - file: oppgaver/3d_scan_prof
+    - file: oppgaver/statisk_gnss
+#      sections:
+#      - file: path/to/part2/chapter2/section1
