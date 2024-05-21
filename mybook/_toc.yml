@@ -5,16 +5,22 @@ format: jb-book
 root: index
 
 parts:
-  - caption: Del 1 - Elektronikk
+  - caption: Administrasjon
     chapters:
-    - file: oppgaver/arduino
-#    - file: path/to/part1/chapter2
+    - file: fremdriftsplan
+  - caption: Oppgaver
+    chapters:
+    - file: oppgaver/google_earth
+    - file: oppgaver/rebuslop
 #      sections:
-#      - file: path/to/part1/chapter2/section1
-  - caption: Del 2 - Laserskanning
+#      - file: oppgaver/arduino
+#  - caption: Python
+#    chapters:
+#    - file: oppgaver
+#      sections:
+#      - file: path/to/part2/chapter2/section1
+  - caption: 3D laserskanning
     chapters:
     - file: oppgaver/3d_scan_mobil
-    - file: oppgaver/3d_scan_prof
-    - file: oppgaver/statisk_gnss
 #      sections:
 #      - file: path/to/part2/chapter2/section1
