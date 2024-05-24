@@ -12,6 +12,9 @@ parts:
     chapters:
     - file: oppgaver/google_earth
     - file: oppgaver/rebuslop
+    - file: oppgaver/3d_scan_mobil
+    - file: oppgaver/statisk_gnss
+    - file: oppgaver/python
 #      sections:
 #      - file: oppgaver/arduino
 #  - caption: Python
@@ -19,8 +22,8 @@ parts:
 #    - file: oppgaver
 #      sections:
 #      - file: path/to/part2/chapter2/section1
-  - caption: 3D laserskanning
-    chapters:
-    - file: oppgaver/3d_scan_mobil
+#  - caption: 3D laserskanning
+#    chapters:
+#    - file: oppgaver/3d_scan_mobil
 #      sections:
 #      - file: path/to/part2/chapter2/section1

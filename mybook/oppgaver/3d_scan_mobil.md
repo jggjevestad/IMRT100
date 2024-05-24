@@ -2,7 +2,7 @@
 title: 3D scanning med mobilen
 ---
 
-# Oppgave 4: 3D scanning med mobilen
+# 3D scanning med mobilen
 
 ![](../bilder/frukt.png)
 
