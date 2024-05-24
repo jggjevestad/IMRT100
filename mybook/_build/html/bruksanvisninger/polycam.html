@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Statisk GNSS måling med mobilen &#8212; IMRT100</title>
+    <title>Hvordan bruke polycam og Blender &#8212; IMRT100</title>
   
   
   
@@ -58,11 +58,10 @@
     <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'oppgaver/statisk_gnss';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'bruksanvisninger/polycam';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Python" href="python.html" />
-    <link rel="prev" title="3D scanning med mobilen" href="3d_scan_mobil.html" />
+    <link rel="prev" title="Python" href="../oppgaver/python.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -182,12 +181,16 @@
 <li class="toctree-l1"><a class="reference internal" href="../fremdriftsplan.html">Fremdriftsplan</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Oppgaver</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../oppgaver/google_earth.html">Bli kjent med Google Earth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../oppgaver/rebuslop.html">Rebusløp på Campus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../oppgaver/3d_scan_mobil.html">3D scanning med mobilen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../oppgaver/statisk_gnss.html">Statisk GNSS måling med mobilen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../oppgaver/python.html">Python</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Bruksanvisninger</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="google_earth.html">Bli kjent med Google Earth</a></li>
-<li class="toctree-l1"><a class="reference internal" href="rebuslop.html">Rebusløp på Campus</a></li>
-<li class="toctree-l1"><a class="reference internal" href="3d_scan_mobil.html">3D scanning med mobilen</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Statisk GNSS måling med mobilen</a></li>
-<li class="toctree-l1"><a class="reference internal" href="python.html">Python</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Hvordan bruke polycam og Blender</a></li>
 </ul>
 
     </div>
@@ -259,7 +262,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Foppgaver/statisk_gnss.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fbruksanvisninger/polycam.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -289,7 +292,7 @@
       
       
       
-      <li><a href="../_sources/oppgaver/statisk_gnss.md" target="_blank"
+      <li><a href="../_sources/bruksanvisninger/polycam.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -371,7 +374,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Statisk GNSS måling med mobilen</h1>
+    <h1>Hvordan bruke polycam og Blender</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -385,30 +388,39 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="statisk-gnss-maling-med-mobilen">
-<h1>Statisk GNSS måling med mobilen<a class="headerlink" href="#statisk-gnss-maling-med-mobilen" title="Permalink to this heading">#</a></h1>
-<p>I denne oppgaven skal dere prøve å finne koordinatene til et punkt så nøyaktig som mulig, kun med mobilen.</p>
-<p>Dere skal måle punktet SSIR som har disse koordinatene i UTM 32:</p>
-<table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p></p></th>
-<th class="head"><p>X</p></th>
-<th class="head"><p>Y</p></th>
-<th class="head"><p>H</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>SSIR</p></td>
-<td><p>6615572.623</p></td>
-<td><p>600117.216</p></td>
-<td><p>97.162</p></td>
-</tr>
-</tbody>
-</table>
-<ol class="arabic simple">
-<li><p>Legg mobilen oppå SSIR og logg GNSS possisjonen i 5 minutt. Se: <a class="reference internal" href="#../bruksanvisninger/gnss_mobil.html"><span class="xref myst">hvordan logge posisjon med mobilen</span></a></p></li>
-<li><p>Lag en Python kode for å finne gjennomsnittet av målingene</p></li>
-</ol>
+  <section class="tex2jax_ignore mathjax_ignore" id="hvordan-bruke-polycam-og-blender">
+<h1>Hvordan bruke polycam og Blender<a class="headerlink" href="#hvordan-bruke-polycam-og-blender" title="Permalink to this heading">#</a></h1>
+<p>Polycam er en app som lager 3d modeller av bilder du tar med mobilen. Den er desverre ikke fri programvare, men det finnes mer tekniske, frie programmer som kan gjøre det samme på pc.<br />
+Polycam kan lastes ned til <a class="reference external" href="https://play.google.com/store/apps/details?id=ai.polycam">android</a> og <a class="reference external" href="https://apps.apple.com/no/app/polycam-3d-scanner-lidar-360/id1532482376">iphone</a></p>
+<p>Første gang du åpner appen blir du spurt om å lage en bruker. etter du har registrert deg får du opp denne skjermen:</p>
+<p><img alt="Startskjermen" src="../_images/start.png" />{ width=250px }</p>
+<p>Nå er det bare å trykke på den hvit knappen så tar den automatisk bilder når du beveger deg rundt motivet.<br />
+Når du er ferdig trykker du på knappen som heter “Done”:</p>
+<p><img alt="Trykk på Done når du er ferdig" src="../_images/record.png" />{ width=250px }</p>
+<p>Da år du opp en skjerm som ser slik ut:</p>
+<p><img alt="Eksport skjermen" src="../_images/eksport.png" />{ width=250px }</p>
+<p>“Detail” styrer hvor stor fila blir, medium er som regel nok. “Object Masking” prøver å klippe vekk bakgrunn fra modellen så du kun sitter igjen med motivet. I første omgang er et lurt å skru den av.</p>
+<p>Trykk “Upload &amp; process” og vent på at den gjør seg ferdig.</p>
+<p>Når modellen er klar kan trykke inn og se hvordan den ble</p>
+<p><img alt="Den ferdige 3d modellen" src="../_images/ferdig.png" />{ width=250px }</p>
+<p>For å kunne se nøye på modellen er det lurt å åpne den i Blender på pcen. For å eksportere modellen trykker man på nedlastingsikonet of velger GLTF. Deretter må du på en eller annem måte overføre den til pcen.</p>
+<p><img alt="" src="../_images/gltf_eksport.png" />{ width=250px }</p>
+<p>På pcen må du ha Blender installert. Windows og Mac versjoner finnes på <a class="reference external" href="https://www.blender.org/">https://www.blender.org/</a>, mens Linux versjonen hentes fra <a class="reference external" href="https://flathub.org/apps/org.blender.Blender">Flathub</a>.<br />
+Blender brukes til å lage både dataspill og hollywood filmer, men for oss funker det også fint til å titte på 3d modeller.</p>
+<p><img alt="Blender velkomstskjermen" src="../_images/blender.png" /></p>
+<p>Først sletter vi standardkuben ved å høyreklikke og velge delete</p>
+<p><img alt="" src="../_images/slett.png" /></p>
+<p>Så importerer modellen vår ved å trykke på  <code class="docutils literal notranslate"><span class="pre">File-&gt;Import-&gt;glTF</span></code></p>
+<p><img alt="" src="../_images/import_gltf.png" /></p>
+<p>Deretter navigerer du til mappa med <code class="docutils literal notranslate"><span class="pre">.glb</span></code> fila fra Polycam og dobbeltrykker på den:</p>
+<p><img alt="" src="../_images/velg_fil.png" /></p>
+<p>Nå kan du rotere deg rundt, zoome inn og inspisere modellen.<br />
+For å fargelegge modellen må du velge shading oppe til høyre:</p>
+<p><img alt="" src="../_images/ingen_shading.png" />
+<img alt="" src="../_images/shading.png" /></p>
+<p>Blender kan være litt knotete både med og uten datamus, men det finnes mye info i manualen: <a class="reference external" href="https://docs.blender.org/manual/en/latest/editors/3dview/navigate/navigation.html">https://docs.blender.org/manual/en/latest/editors/3dview/navigate/navigation.html</a></p>
+<p>Det går også an å skru på spaseringsnavigasjon: <a class="reference external" href="https://docs.blender.org/manual/en/latest/editors/3dview/navigate/walk_fly.html">https://docs.blender.org/manual/en/latest/editors/3dview/navigate/walk_fly.html</a></p>
+<p><img alt="Walk Navigation" src="../_images/walk.png" /></p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -424,7 +436,7 @@ document.write(`
         },
         kernelOptions: {
             name: "python3",
-            path: "./oppgaver"
+            path: "./bruksanvisninger"
         },
         predefinedOutput: true
     }
@@ -442,22 +454,13 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="3d_scan_mobil.html"
+       href="../oppgaver/python.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">3D scanning med mobilen</p>
-      </div>
-    </a>
-    <a class="right-next"
-       href="python.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
         <p class="prev-next-title">Python</p>
       </div>
-      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>

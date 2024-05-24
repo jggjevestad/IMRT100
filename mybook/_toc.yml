@@ -15,6 +15,9 @@ parts:
     - file: oppgaver/3d_scan_mobil
     - file: oppgaver/statisk_gnss
     - file: oppgaver/python
+  - caption: Bruksanvisninger
+    chapters:
+    - file: bruksanvisninger/polycam
 #      sections:
 #      - file: oppgaver/arduino
 #  - caption: Python

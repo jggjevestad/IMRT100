@@ -13,12 +13,12 @@ Google Earth er en omfattende geografisk utforskningstjeneste som tilbyr detalje
 
 Bruk litt tid på å gjøre deg kjent med funksjonene Google Earth, enten ved å bruke web-applikasjonen direkte eller ved å laste ned applikasjonen til egen PC.
 
-## Oppvarming
+## Finner du ut av dette?
 1. Hvilken breddegrad og lengdegrad har disse landemerkene?
     1. Eiffeltårnet i Paris
     2. Machu Picchu, Peru
     3. Kheopspyramiden, Egypt
-1. Hvor er dette?
+1. Hva er dette?
     1. $N41^0 53' 24.68''$, $E12^0 29' 32.19''$
     1. $S72^0 00' 41.14''$, $E02^0 32' 06.09''$
 1. Bruk GNSS mottakeren i mobiltelefonen din å finn fram til disse posisjonene rundt på Campus. Ta en selfie av gruppa som viser hvor dere mener disse posisjonene er:
