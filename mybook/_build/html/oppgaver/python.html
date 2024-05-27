@@ -61,6 +61,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'oppgaver/python';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Hvordan bruke polycam og Blender" href="../bruksanvisninger/polycam.html" />
     <link rel="prev" title="Statisk GNSS måling med mobilen" href="statisk_gnss.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -184,9 +185,13 @@
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="google_earth.html">Bli kjent med Google Earth</a></li>
 <li class="toctree-l1"><a class="reference internal" href="rebuslop.html">Rebusløp på Campus</a></li>
-<li class="toctree-l1"><a class="reference internal" href="3d_scan_mobil.html">Oppgave 4: 3D scanning med mobilen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3d_scan_mobil.html">3D scanning med mobilen</a></li>
 <li class="toctree-l1"><a class="reference internal" href="statisk_gnss.html">Statisk GNSS måling med mobilen</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Python</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Bruksanvisninger</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/polycam.html">Hvordan bruke polycam og Blender</a></li>
 </ul>
 
     </div>
@@ -387,6 +392,27 @@ document.write(`
   <section class="tex2jax_ignore mathjax_ignore" id="python">
 <h1>Python<a class="headerlink" href="#python" title="Permalink to this heading">#</a></h1>
 <p>Python er et at de mest anvendelige programmeringsspråkene for læring og utvkling, og støtter et stort utviklingsmiljø for pakker for alt fra ststitstikk til maskinlæring. Dere kommer til bruke Python mye gjennom studiet, så dette er en god anledning til å friske opp kunnskapene fra videregående skole og se hvordan dette programmeringsspråket kan brukes med enkle eksempler fra geomatikk.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Import</span>
+<span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">pi</span>
+
+<span class="c1"># Konverter fra grader til radianer</span>
+<span class="k">def</span> <span class="nf">deg2rad</span><span class="p">(</span><span class="n">deg</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">deg</span><span class="o">*</span><span class="p">(</span><span class="n">pi</span><span class="o">/</span><span class="mi">180</span><span class="p">)</span>
+
+<span class="c1"># Test funksjonen</span>
+<span class="n">deg</span> <span class="o">=</span> <span class="mi">90</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">deg</span><span class="si">:</span><span class="s2">5.3f</span><span class="si">}</span><span class="s2"> grader tilsvarer </span><span class="si">{</span><span class="n">deg2rad</span><span class="p">(</span><span class="n">deg</span><span class="p">)</span><span class="si">:</span><span class="s2">6.5f</span><span class="si">}</span><span class="s2"> radianer&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>90.000 grader tilsvarer 1.57080 radianer
+</pre></div>
+</div>
+</div>
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -427,6 +453,15 @@ document.write(`
         <p class="prev-next-subtitle">previous</p>
         <p class="prev-next-title">Statisk GNSS måling med mobilen</p>
       </div>
+    </a>
+    <a class="right-next"
+       href="../bruksanvisninger/polycam.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Hvordan bruke polycam og Blender</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
