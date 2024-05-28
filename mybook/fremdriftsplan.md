@@ -1,14 +1,10 @@
----
-title: Administrasjon
----
-
 # Fremdriftsplan
 
 | Dato  | Tid | Sted | Aktivitet | Ansvar |  Merknad |
 | --- | --- | --- | --- | --- | --- |
-| 12.08 | 1300-1500 | TF3-103 | Presentasjon av studieprogram  | JGG  | |
-| 13.08 | 1015-1200 | TF3-103 | Presentasjon av forskning | JGG | |
-| | 1200-1500 | TF3-103 | Oppstart prosjektoppgave | JGG <br> IMS <br> TBN | Hva er en student? <br> Hvordan lage video? <br> Hvilke oppgaver skal løses? |
+| 12.08 | 1300-1500 | TF3-103 | Presentasjon av studieprogram  | JGG | Instituttleder <br> UU-leder ved fakultetet |
+| 13.08 | 1015-1200 | TF3-103 | Presentasjon av forskning | JGG | Forskere ved instituttet |
+| | 1200-1500 | TF3-103 | Oppstart prosjektoppgave | JGG <br> TBN <br> IMS | Hva er en student? <br> Hvilke oppgaver skal løses? <br> Hvordan lage video? |
 | 14.08 | 0830-1130 | TF3-103 | Prosjektoppgave | JGG | Oppgave 1 <br> Google Earth |
 | 15.08 | 0830-1500 | TF3-103 | Prosjektoppgave | JGG | Oppgave 2 <br> Introduksjon til Python |
 | 16.08 | 0830-1200 | TF3-103 | Prosjektoppgave | JGG | Oppgave 3 <br> Hvor høyt er tuntreet? |

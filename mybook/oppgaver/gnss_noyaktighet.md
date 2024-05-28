@@ -1,0 +1,2 @@
+# Hvor nøyaktig er GNSS?
+

@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>3D scanning med mobilen &#8212; IMRT100</title>
+    <title>GNSS måling med mobilen &#8212; IMRT100</title>
   
   
   
@@ -58,11 +58,13 @@
     <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'oppgaver/3d_scan_mobil';</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'oppgaver/gnss_mobil';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Statisk GNSS måling med mobilen" href="statisk_gnss.html" />
-    <link rel="prev" title="Rebusløp på Campus" href="rebuslop.html" />
+    <link rel="next" title="Konkurranse i stativoppsett" href="stativoppsett.html" />
+    <link rel="prev" title="Hvor høyt er Tuntreet?" href="tuntreet.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -185,10 +187,14 @@
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Oppgaver</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="google_earth.html">Bli kjent med Google Earth</a></li>
-<li class="toctree-l1"><a class="reference internal" href="rebuslop.html">Rebusløp på Campus</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">3D scanning med mobilen</a></li>
-<li class="toctree-l1"><a class="reference internal" href="statisk_gnss.html">Statisk GNSS måling med mobilen</a></li>
 <li class="toctree-l1"><a class="reference internal" href="python_intro.html">Introduksjon til Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tuntreet.html">Hvor høyt er Tuntreet?</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">GNSS måling med mobilen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="stativoppsett.html">Konkurranse i stativoppsett</a></li>
+<li class="toctree-l1"><a class="reference internal" href="orienteringslop.html">Orienteringsløp korteste vei</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rebuslop.html">Rebusløp på Campus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gnss_bygge.html">Bygg din egen GNSS mottaker</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gnss_noyaktighet.html">Hvor nøyaktig er GNSS?</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Bruksanvisninger</span></p>
 <ul class="nav bd-sidenav">
@@ -264,7 +270,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Foppgaver/3d_scan_mobil.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Foppgaver/gnss_mobil.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -294,7 +300,7 @@
       
       
       
-      <li><a href="../_sources/oppgaver/3d_scan_mobil.md" target="_blank"
+      <li><a href="../_sources/oppgaver/gnss_mobil.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -376,7 +382,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>3D scanning med mobilen</h1>
+    <h1>GNSS måling med mobilen</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -390,16 +396,29 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="d-scanning-med-mobilen">
-<h1>3D scanning med mobilen<a class="headerlink" href="#d-scanning-med-mobilen" title="Permalink to this heading">#</a></h1>
-<p><img alt="" src="../_images/frukt.png" /></p>
-<p>Dere skal bruke appen Polycam til å lage en 3d modell av noe dere velger selv. Det er lurt å scanne noe som også ble scanna med Faro’n så dere kan sammenligne resultatet!</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="gnss-maling-med-mobilen">
+<h1>GNSS måling med mobilen<a class="headerlink" href="#gnss-maling-med-mobilen" title="Permalink to this heading">#</a></h1>
+<p>I denne oppgaven skal dere prøve å finne koordinatene til et punkt så nøyaktig som mulig, kun med mobilen.</p>
+<p>Dere skal måle punktet SSIR som har disse koordinatene i UTM 32:</p>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>N</p></th>
+<th class="head"><p>E</p></th>
+<th class="head"><p>H</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>SSIR</p></td>
+<td><p><span class="math notranslate nohighlight">\(6615572.623m\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(600117.216m\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(97.162m\)</span></p></td>
+</tr>
+</tbody>
+</table>
 <ol class="arabic simple">
-<li><p>Scan noe med Polycam og eksporter 3d fila til pcen. <a class="reference internal" href="#../bruksanvisninger/polycam.html"><span class="xref myst">Se bruksanvisning</span></a></p></li>
-<li><p>Ta en titt på modellen og svar på følgende spørsmål:
-a. Hva tror dere dette kan brukes til?
-b. Gi et anslag på nøyaktigheten på målingene, hvorfor tror dere noen deler av modellen blir feil?
-c. Sammenlign Resultatet med Faro scannen. (kostnad, tid, nøyaktighet etc.)</p></li>
+<li><p>Legg mobilen oppå SSIR og logg GNSS possisjonen i 5 minutt. Se: <a class="reference internal" href="#../bruksanvisninger/gnss_mobil.html"><span class="xref myst">hvordan logge posisjon med mobilen</span></a></p></li>
+<li><p>Lag en Python kode for å finne gjennomsnittet av målingene</p></li>
 </ol>
 </section>
 
@@ -434,20 +453,20 @@ c. Sammenlign Resultatet med Faro scannen. (kostnad, tid, nøyaktighet etc.)</p>
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="rebuslop.html"
+       href="tuntreet.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Rebusløp på Campus</p>
+        <p class="prev-next-title">Hvor høyt er Tuntreet?</p>
       </div>
     </a>
     <a class="right-next"
-       href="statisk_gnss.html"
+       href="stativoppsett.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Statisk GNSS måling med mobilen</p>
+        <p class="prev-next-title">Konkurranse i stativoppsett</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>

@@ -1,0 +1,2 @@
+# Konkurranse i stativoppsett
+

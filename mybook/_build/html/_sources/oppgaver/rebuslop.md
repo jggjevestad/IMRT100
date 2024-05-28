@@ -1,7 +1,3 @@
----
-title: Rebusløp på Campus
----
-
 # Rebusløp på Campus
 
 I dette rebusløpet skal dere gjennom 8 oppgaver finne frem til steder på Campus ved hjelp av målinger og enkel geometri. Når dere har funnet stedet, så skal dere dokumentere hvor dere mener det er ved å ta en selfie av hele gruppa. Til hver oppgave er det også et spørsmål som dere må finne frem til svaret på.
@@ -42,7 +38,7 @@ Spørsmål: Hvilket årstall?
 
 
 ## Spørsmål 3 - Uleselig
-Du finner en lapp på bakken hvor noen har skrevet en posisjon med breddegrad og lengdegrad. Lappen er helt utvasket, men du klarer såvidt å tyde tallene, men dessverre så er sekundene i lengdegraden blitt helt borte. Bygningen dere skal finne ligger midt imellom ytterpunktene til de mulige posisjonene.
+Du finner en lapp på bakken hvor noen har skrevet en posisjon med breddegrad og lengdegrad. Lappen er helt utvasket og du klarer såvidt å tyde tallene, men dessverre så er sekundene i lengdegraden blitt helt borte. Bygningen dere skal finne ligger midt imellom ytterpunktene til de mulige posisjonene.
 
 ![](../bilder/note.jpg)
 

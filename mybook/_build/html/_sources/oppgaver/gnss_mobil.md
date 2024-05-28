@@ -1,4 +1,4 @@
-# Statisk GNSS måling med mobilen
+# GNSS måling med mobilen
 
 I denne oppgaven skal dere prøve å finne koordinatene til et punkt så nøyaktig som mulig, kun med mobilen.
 
