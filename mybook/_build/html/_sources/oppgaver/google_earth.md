@@ -1,3 +1,4 @@
+(google_earth)=
 # Bli kjent med Google Earth
 
 Google Earth er en omfattende geografisk utforskningstjeneste som tilbyr detaljerte globale satellittbilder og 3D-terrengmodeller. Med Google Earth kan brukere:
