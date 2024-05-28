@@ -1,3 +1,4 @@
+(rebuslop)=
 # Rebusløp på Campus
 
 I dette rebusløpet skal dere gjennom 8 oppgaver finne frem til steder på Campus ved hjelp av målinger og enkel geometri. Når dere har funnet stedet, så skal dere dokumentere hvor dere mener det er ved å ta en selfie av hele gruppa. Til hver oppgave er det også et spørsmål som dere må finne frem til svaret på.
