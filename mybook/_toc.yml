@@ -14,6 +14,7 @@ parts:
     - file: oppgaver/google_earth
     - file: oppgaver/python_intro
     - file: oppgaver/tuntreet
+    - file: oppgaver/3d_scan_mobil
     - file: oppgaver/gnss_mobil
     - file: oppgaver/stativoppsett
     - file: oppgaver/orienteringslop
