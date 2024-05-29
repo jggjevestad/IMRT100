@@ -1,7 +1,4 @@
----
-title: Bli kjent med Google Earth
----
-
+(google_earth)=
 # Bli kjent med Google Earth
 
 Google Earth er en omfattende geografisk utforskningstjeneste som tilbyr detaljerte globale satellittbilder og 3D-terrengmodeller. Med Google Earth kan brukere:
@@ -13,18 +10,29 @@ Google Earth er en omfattende geografisk utforskningstjeneste som tilbyr detalje
 
 Bruk litt tid på å gjøre deg kjent med funksjonene Google Earth, enten ved å bruke web-applikasjonen direkte eller ved å laste ned applikasjonen til egen PC.
 
-## Oppvarming
+![](../bilder/google_earth.jpg)
+
+
+## Klarer du dette?
 1. Hvilken breddegrad og lengdegrad har disse landemerkene?
-    1. Eiffeltårnet i Paris
-    2. Machu Picchu, Peru
-    3. Kheopspyramiden, Egypt
-1. Hvor er dette?
-    1. $N41^0 53' 24.68''$, $E12^0 29' 32.19''$
-    1. $S72^0 00' 41.14''$, $E02^0 32' 06.09''$
-1. Bruk GNSS mottakeren i mobiltelefonen din å finn fram til disse posisjonene rundt på Campus. Ta en selfie av gruppa som viser hvor dere mener disse posisjonene er:
-    1. $N59^0 39' 59.45''$, $E10^0 46' 06.64''$
-    1. $N59^0 39' 57.26''$, $E10^0 45' 52.29''$
-1. Hva er avstanden fra ekvator til Nordpolen? <br>Anta et jorden er en kule med radius 6371km og forsøk å beregne avstanden selv. Sammenlign ditt svar med den målte avstanden i Google Earth.
+   - Eiffeltårnet i Paris
+   - Machu Picchu, Peru
+   - Kheopspyramiden, Egypt
 
+2. Hva finner du her?
 
+|Breddegrad|Lengdegrad|
+|---|---|
+|$N41^0 53' 24.68''$|$E12^0 29' 32.19''$|
+|$S72^0 00' 41.14''$|$E02^0 32' 06.09''$|
 
+3. Bruk GNSS mottakeren i mobiltelefonen din til å finne fram til disse posisjonene rundt på Campus.
+
+|Breddegrad|Lengdegrad|
+|---|---|
+|$N59^0 39' 59.45''$|$E10^0 46' 06.64''$|
+|$N59^0 39' 57.26''$|$E10^0 45' 52.29''$|
+
+4. Hva er avstanden fra ekvator til Nordpolen?
+
+Anta et jorden er en kule med radius $6371km$ og forsøk å regne ut avstanden selv. Sammenlign ditt svar med den målte avstanden i Google Earth.

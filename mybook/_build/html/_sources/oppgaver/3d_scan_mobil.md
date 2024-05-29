@@ -1,7 +1,4 @@
----
-title: 3D scanning med mobilen
----
-
+(3d_scan_mobil)=
 # 3D scanning med mobilen
 
 ![](../bilder/frukt.png)

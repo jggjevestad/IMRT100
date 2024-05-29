@@ -8,13 +8,22 @@ parts:
   - caption: Administrasjon
     chapters:
     - file: fremdriftsplan
+    - file: felles_info
   - caption: Oppgaver
     chapters:
     - file: oppgaver/google_earth
-    - file: oppgaver/rebuslop
+    - file: oppgaver/python_intro
+    - file: oppgaver/tuntreet
     - file: oppgaver/3d_scan_mobil
-    - file: oppgaver/statisk_gnss
-    - file: oppgaver/python
+    - file: oppgaver/gnss_mobil
+    - file: oppgaver/stativoppsett
+    - file: oppgaver/orienteringslop
+    - file: oppgaver/rebuslop
+    - file: oppgaver/gnss_bygge
+    - file: oppgaver/gnss_noyaktighet
+  - caption: Bruksanvisninger
+    chapters:
+    - file: bruksanvisninger/polycam
 #      sections:
 #      - file: oppgaver/arduino
 #  - caption: Python

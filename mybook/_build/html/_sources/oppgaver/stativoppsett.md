@@ -1,0 +1,4 @@
+(stativoppsett)=
+# Konkurranse i stativoppsett
+
+...
