@@ -1,1 +1,0 @@
-# Hvordan logge GNSS posisjon med mobilen

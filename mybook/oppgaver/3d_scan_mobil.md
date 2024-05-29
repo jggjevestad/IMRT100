@@ -1,8 +1,7 @@
 ---
-title: 3D scanning med mobilen
+title: 3d scanning med mobilen
 ---
-
-# 3D scanning med mobilen
+# 3d scanning med mobilen
 
 ![](../bilder/frukt.png)
 
