@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Hvor høyt er Tuntreet? &#8212; IMRT100</title>
+    <title>3D Scanning &#8212; IMRT100</title>
   
   
   
@@ -58,11 +58,11 @@
     <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'oppgaver/tuntreet';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'oppgaver/3d_scanning';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="3D Scanning" href="3d_scanning.html" />
-    <link rel="prev" title="Introduksjon til Python" href="python_intro.html" />
+    <link rel="next" title="Måle inn punkt med GNSS" href="gnss_punkt.html" />
+    <link rel="prev" title="Hvor høyt er Tuntreet?" href="tuntreet.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -186,8 +186,8 @@
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="google_earth.html">Bli kjent med Google Earth</a></li>
 <li class="toctree-l1"><a class="reference internal" href="python_intro.html">Introduksjon til Python</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Hvor høyt er Tuntreet?</a></li>
-<li class="toctree-l1"><a class="reference internal" href="3d_scanning.html">3D Scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tuntreet.html">Hvor høyt er Tuntreet?</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">3D Scanning</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gnss_punkt.html">Måle inn punkt med GNSS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="stativoppsett.html">Konkurranse i stativoppsett</a></li>
 <li class="toctree-l1"><a class="reference internal" href="orienteringslop.html">Orienteringsløp korteste vei</a></li>
@@ -269,7 +269,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Foppgaver/tuntreet.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Foppgaver/3d_scanning.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -299,7 +299,7 @@
       
       
       
-      <li><a href="../_sources/oppgaver/tuntreet.md" target="_blank"
+      <li><a href="../_sources/oppgaver/3d_scanning.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -370,7 +370,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -381,11 +383,21 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Hvor høyt er Tuntreet?</h1>
+    <h1>3D Scanning</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#faro-3d-scanner">Faro 3d scanner</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#d-scanning-pa-mobilen">3d Scanning på mobilen</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sporsmal">Spørsmål</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -395,9 +407,27 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="hvor-hoyt-er-tuntreet">
-<span id="tuntreet"></span><h1>Hvor høyt er Tuntreet?<a class="headerlink" href="#hvor-hoyt-er-tuntreet" title="Permalink to this heading">#</a></h1>
-<p>…</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="d-scanning">
+<span id="d-scan-mobil"></span><h1>3D Scanning<a class="headerlink" href="#d-scanning" title="Permalink to this heading">#</a></h1>
+<p><img alt="" src="../_images/frukt.png" /></p>
+<p>De siste årene har 3d scanning gjort det mulig å lage veldig detaljerte 3d modeller av virkeligheten på veldig kort tid.
+Det finnes forskjellige metoder og utstyr for dette. I denne oppgaven skal dere sammenligne resultatet fra en app på mobilen mot en veldig dyr kommersiell laserscanner.</p>
+<section id="faro-3d-scanner">
+<h2>Faro 3d scanner<a class="headerlink" href="#faro-3d-scanner" title="Permalink to this heading">#</a></h2>
+<p>Det blir en felles demo med scanneren. Etterpå legges 3d modellen ut på canvas.</p>
+</section>
+<section id="d-scanning-pa-mobilen">
+<h2>3d Scanning på mobilen<a class="headerlink" href="#d-scanning-pa-mobilen" title="Permalink to this heading">#</a></h2>
+<p>Det finnes flere 3d-scanning apper til å både iphone og android. Polycam er en som funker på begge og har en gratisversjon med nok funksjoner for det vi skal gjøre.</p>
+<p>Bruk PolyCam til å scanne noe av det samme som ble scanna med Faro scanneren. <a class="reference internal" href="#../bruksanvisninger/polycam.html"><span class="xref myst">Se bruksanvisning</span></a></p>
+</section>
+<section id="sporsmal">
+<h2>Spørsmål<a class="headerlink" href="#sporsmal" title="Permalink to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Se på 3d modellene deres. Hva ble bra og hva ble dårlig? hva tror dere feilkildene er?</p></li>
+<li><p>Sammenlign modellen fra mobilen med den fra Faro’n. Hvor mye bedre nøyaktighet får du får prisen?</p></li>
+</ol>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -431,20 +461,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="python_intro.html"
+       href="tuntreet.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Introduksjon til Python</p>
+        <p class="prev-next-title">Hvor høyt er Tuntreet?</p>
       </div>
     </a>
     <a class="right-next"
-       href="3d_scanning.html"
+       href="gnss_punkt.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">3D Scanning</p>
+        <p class="prev-next-title">Måle inn punkt med GNSS</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -455,7 +485,22 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#faro-3d-scanner">Faro 3d scanner</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#d-scanning-pa-mobilen">3d Scanning på mobilen</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sporsmal">Spørsmål</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

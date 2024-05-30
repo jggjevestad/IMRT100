@@ -9,18 +9,21 @@ parts:
     chapters:
     - file: fremdriftsplan
     - file: felles_info
-  - caption: Oppgaver
+  - caption: Rapport
     chapters:
-    - file: oppgaver/google_earth
-    - file: oppgaver/python_intro
     - file: oppgaver/tuntreet
     - file: oppgaver/3d_scanning
     - file: oppgaver/gnss_punkt
-    - file: oppgaver/stativoppsett
-    - file: oppgaver/orienteringslop
-    - file: oppgaver/rebuslop
     - file: oppgaver/gnss_bygge
     - file: oppgaver/gnss_noyaktighet
+  - caption: Aktiviteter
+    chapters:
+    - file: oppgaver/google_earth
+    - file: oppgaver/video_intro
+    - file: oppgaver/qgis_intro
+    - file: oppgaver/python_intro
+    - file: oppgaver/orienteringslop
+    - file: oppgaver/rebuslop
   - caption: Bruksanvisninger
     chapters:
     - file: bruksanvisninger/polycam
