@@ -1,6 +1,4 @@
----
-title: Bruksanvisning polycam
----
+(polycam)=
 # Hvordan bruke polycam og Blender
 Polycam er en app som lager 3d modeller av bilder du tar med mobilen. Den er desverre ikke fri programvare, men det finnes mer tekniske, frie programmer som kan gjøre det samme på pc.  
 Polycam kan lastes ned til [android](https://play.google.com/store/apps/details?id=ai.polycam) og [iphone](https://apps.apple.com/no/app/polycam-3d-scanner-lidar-360/id1532482376)

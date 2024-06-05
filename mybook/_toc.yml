@@ -18,8 +18,8 @@ parts:
     - file: oppgaver/gnss_noyaktighet
   - caption: Aktiviteter
     chapters:
-    - file: oppgaver/google_earth
     - file: oppgaver/video_intro
+    - file: oppgaver/google_earth
     - file: oppgaver/qgis_intro
     - file: oppgaver/python_intro
     - file: oppgaver/orienteringslop

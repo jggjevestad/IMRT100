@@ -62,7 +62,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Hvor nøyaktig er GNSS?" href="gnss_noyaktighet.html" />
-    <link rel="prev" title="Rebusløp på Campus" href="rebuslop.html" />
+    <link rel="prev" title="Måle inn punkt med GNSS" href="gnss_punkt.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -182,18 +182,22 @@
 <li class="toctree-l1"><a class="reference internal" href="../fremdriftsplan.html">Fremdriftsplan</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../felles_info.html">Kjekt å vite</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Oppgaver</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Rapport</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="google_earth.html">Bli kjent med Google Earth</a></li>
-<li class="toctree-l1"><a class="reference internal" href="python_intro.html">Introduksjon til Python</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tuntreet.html">Hvor høyt er Tuntreet?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="3d_scanning.html">3D Scanning</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gnss_punkt.html">Måle inn punkt med GNSS</a></li>
-<li class="toctree-l1"><a class="reference internal" href="stativoppsett.html">Konkurranse i stativoppsett</a></li>
-<li class="toctree-l1"><a class="reference internal" href="orienteringslop.html">Orienteringsløp korteste vei</a></li>
-<li class="toctree-l1"><a class="reference internal" href="rebuslop.html">Rebusløp på Campus</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Bygg din egen GNSS mottaker</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gnss_noyaktighet.html">Hvor nøyaktig er GNSS?</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Aktiviteter</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="google_earth.html">Bli kjent med Google Earth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="video_intro.html">Hvordan lage video?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="qgis_intro.html">Introduksjon til QGIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_intro.html">Introduksjon til Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="orienteringslop.html">Orienteringsløp korteste vei</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rebuslop.html">Rebusløp på Campus</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Bruksanvisninger</span></p>
 <ul class="nav bd-sidenav">
@@ -370,7 +374,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -386,6 +392,15 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gnss">GNSS</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgave-1-arduino-gnss-logger">Oppgave 1 Arduino GNSS logger</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -397,7 +412,73 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="bygg-din-egen-gnss-mottaker">
 <span id="gnss-bygge"></span><h1>Bygg din egen GNSS mottaker<a class="headerlink" href="#bygg-din-egen-gnss-mottaker" title="Permalink to this heading">#</a></h1>
-<p>…</p>
+<section id="gnss">
+<h2>GNSS<a class="headerlink" href="#gnss" title="Permalink to this heading">#</a></h2>
+<p>GNSS er en fellesbetegnelse for satellittbaserte navigasjonssystemer. Det finnes flere slike satellittbaserte navigasjonssystemer, men de to mest utbredte er det amerikanske GPS systemet og det russiske GLONAS. Begge disse er militære navigasjonssystemer.
+Det europeiske navigasjonssystemet heter Galileo og er et sivilt navigasjonssystem. Nyere mottakere har også begynt å ta i bruk dette navigasjonssystemet.
+Desto flere navigasjonssystemer en mottaker kan bruke, desto flere satellitter har man tilgang til. Dette fører som regel til en bedre og mer nøyaktig posisjonsbestemmelse.
+Kort og enkelt forklart så måles avstanden mellom mottakeren og satellittene for å finne en posisjon. Man måler tiden det tar fra signalet sendes ut fra satellitten til det når mottakeren.
+Man trenger fire satellitter for å beregne sin posisjon. Dette er fordi vi har de romlige koordinatene i x, y og z-retning som ukjente, i tillegg til en klokkefeil i satellitt og mottakerklokke.</p>
+<p>Mottakerene dere skal bygge logger dataene på NMEA format. Dere skal bruke dette formatet til å lese av data som er aktuelle for å løse oppgavene. Se link for full beskrivelse av formatet.</p>
+</section>
+<section id="oppgave-1-arduino-gnss-logger">
+<h2>Oppgave 1 Arduino GNSS logger<a class="headerlink" href="#oppgave-1-arduino-gnss-logger" title="Permalink to this heading">#</a></h2>
+<p>Utstyr:
+•	Adafruit Ultimate GPS Breakout – Versjon 3
+•	SparkFun Openlog – SD data logger<br />
+•	Kingston® Micro SD card
+•	Breadboard (terminal)<br />
+•	Kompatible ledninger<br />
+•	Batteri 3,7 V, 850 mAh</p>
+<ol class="arabic simple">
+<li><p>Klargjøring
+a.	Installer Arduino IDE (programvare). <a class="reference external" href="https://www.arduino.cc/en/Main/Software">https://www.arduino.cc/en/Main/Software</a>
+b.	Installer Adafruit GPS Library  <a class="reference external" href="https://learn.adafruit.com/adafruit-ultimate-gps/arduino-wiring">https://learn.adafruit.com/adafruit-ultimate-gps/arduino-wiring</a></p></li>
+<li><p>Oppkobling</p></li>
+</ol>
+<p><img alt="" src="../_images/gnss_arduino.jpg" /></p>
+<ol class="arabic simple" start="3">
+<li><p>Data
+a.	Koble til Arduino UNO til PC med USB . Åpne Arduino IDE (program)
+b.	Innstillinger i Arduino IDE , verktøylinjen :
+Verktøy -&gt; Kort - velg Arduino/Genuino UNO
+Verktøy -&gt; Port – velg COM3</p></li>
+</ol>
+<p>c.	Kommunisere med GNSS loggeren</p>
+<p>i.	Finne frem kode
+Fil -&gt; eksempler – velg Adafruit GPS Library – velg parsing</p>
+<p>ii.	Laste opp kode til Arduino</p>
+<p>Trykk på pil ikonet i høyre hjørne</p>
+<p>iii.	Lese av Arduinoen
+Trykk på forstørellseglass ikonet i venstrehjørne
+Sørg for å ha samme verdier som vist (115200 Baud)</p>
+<p>NB Sørg for å ha fix (dekning til satelitter) på Adafruit Ultimate Breakout. Fix lampen blinker da hvert 15 sekund.</p>
+<p>Oppgave 2.2 GNSS logger</p>
+<ol class="arabic simple">
+<li><p>Oppkobling</p></li>
+</ol>
+<p>•	Connect RX to  TXO<br />
+•	Connect TX to  RXI<br />
+•	 VIN to +(breadboard) - Adafruit Ultimate breakout
+•	GND to -(breadboard) - Adafruit Ultimate breakout
+•	VCC to +(breadboard) – Sparkfun Openlog
+•	GND to –(breadboard) – Sparkfun Openlog</p>
+<p><img alt="" src="../_images/gnss_sdcard.jpg" /></p>
+<ol class="arabic simple" start="2">
+<li><p>Start opp GNSS loggeren</p></li>
+</ol>
+<p>NB Sørg for å ha fix (dekning til satelitter) på Adafruit Ultimate Breakout</p>
+<p>Nå kan du gå deg en runde for å teste loggeren.</p>
+<ol class="arabic simple" start="3">
+<li><p>Konvertering
+•	Sett inn SD kortet i PCen og last over fila som dataen er logget på. Det kan hende det er flere filer som ligger inne så her må du bare prøve deg frem, siden loggeren ikke lagrer filene med navn eller dato.
+•	Last ned Google Earth
+•	Man må først konvertere fila fra TXT format til KML. Bruk denne nettsiden til å konvertere: <a class="reference external" href="http://www.h-schmidt.net/NMEA/">http://www.h-schmidt.net/NMEA/</a>
+•	Sett parameterne til det som er vist på bildet til høyre.
+•	Ruten som er gått skal nå vises i Google Earth.
+Videre kan man legge dette inn i QGIS som er et GIS verktøy. For å gjøre dette kan det være lurt å konvertere fra KML til CSV: <a class="reference external" href="http://www.monster.com.tw/kml2csv">http://www.monster.com.tw/kml2csv</a></p></li>
+</ol>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -431,12 +512,12 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="rebuslop.html"
+       href="gnss_punkt.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Rebusløp på Campus</p>
+        <p class="prev-next-title">Måle inn punkt med GNSS</p>
       </div>
     </a>
     <a class="right-next"
@@ -455,7 +536,21 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gnss">GNSS</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgave-1-arduino-gnss-logger">Oppgave 1 Arduino GNSS logger</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
