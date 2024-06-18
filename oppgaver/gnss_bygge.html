@@ -196,6 +196,7 @@
 <li class="toctree-l1"><a class="reference internal" href="google_earth.html">Bli kjent med Google Earth</a></li>
 <li class="toctree-l1"><a class="reference internal" href="qgis_intro.html">Introduksjon til QGIS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="python_intro.html">Introduksjon til Python</a></li>
+
 <li class="toctree-l1"><a class="reference internal" href="orienteringslop.html">Orienteringsløp korteste vei</a></li>
 <li class="toctree-l1"><a class="reference internal" href="rebuslop.html">Rebusløp på Campus</a></li>
 </ul>
@@ -397,8 +398,14 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gnss">GNSS</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgave-1-arduino-gnss-logger">Oppgave 1 Arduino GNSS logger</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hva-er-gnss">Hva er GNSS?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hva-kommer-ut-av-en-gnss-mottaker">Hva kommer ut av en GNSS mottaker?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#innstaller-programvare">Innstaller programvare</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#se-pa-nmea-data">Se på NMEA data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lagre-nmea-data-til-sd-kort">Lagre NMEA data til SD-kort</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#vis-hvor-du-har-vaert-i-google-earth">Vis hvor du har vært i Google Earth</a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -412,72 +419,52 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="bygg-din-egen-gnss-mottaker">
 <span id="gnss-bygge"></span><h1>Bygg din egen GNSS mottaker<a class="headerlink" href="#bygg-din-egen-gnss-mottaker" title="Permalink to this heading">#</a></h1>
-<section id="gnss">
-<h2>GNSS<a class="headerlink" href="#gnss" title="Permalink to this heading">#</a></h2>
-<p>GNSS er en fellesbetegnelse for satellittbaserte navigasjonssystemer. Det finnes flere slike satellittbaserte navigasjonssystemer, men de to mest utbredte er det amerikanske GPS systemet og det russiske GLONAS. Begge disse er militære navigasjonssystemer.
-Det europeiske navigasjonssystemet heter Galileo og er et sivilt navigasjonssystem. Nyere mottakere har også begynt å ta i bruk dette navigasjonssystemet.
-Desto flere navigasjonssystemer en mottaker kan bruke, desto flere satellitter har man tilgang til. Dette fører som regel til en bedre og mer nøyaktig posisjonsbestemmelse.
-Kort og enkelt forklart så måles avstanden mellom mottakeren og satellittene for å finne en posisjon. Man måler tiden det tar fra signalet sendes ut fra satellitten til det når mottakeren.
-Man trenger fire satellitter for å beregne sin posisjon. Dette er fordi vi har de romlige koordinatene i x, y og z-retning som ukjente, i tillegg til en klokkefeil i satellitt og mottakerklokke.</p>
-<p>Mottakerene dere skal bygge logger dataene på NMEA format. Dere skal bruke dette formatet til å lese av data som er aktuelle for å løse oppgavene. Se link for full beskrivelse av formatet.</p>
+<section id="hva-er-gnss">
+<h2>Hva er GNSS?<a class="headerlink" href="#hva-er-gnss" title="Permalink to this heading">#</a></h2>
+<p>GNSS er en fellesbetegnelse for globale satellittbaserte navigasjonssystemer. Det finnes flere slike satellittbaserte navigasjonssystemer, men mest kjente er nok det amerikanske GPS systemet som er et militært navigasjonssystem. Det eneste sivile satellittbaserte navigasjonssystemet heter Galileo og eies og driftes av EU. De fleste nyere mottakere kan bruke dette navigasjonssystemet.</p>
+<p>Desto flere navigasjonssystemer en mottaker kan bruke, desto flere satellitter har man tilgang til. Dette fører som regel til en bedre og mer nøyaktig posisjonsbestemmelse. Kort og enkelt forklart så måles avstanden mellom mottakeren og satellittene for å finne en posisjon. Man måler altså tiden det tar fra signalet sendes ut fra satellitten til det når mottakeren.</p>
+<p>For å beregne en posisjon trenger man fire satellitter. Dette er fordi vi har tre romlige koordinatene i X, Y og Z-retning som ukjente, i tillegg til en klokkefeil i satellitt- og mottakerklokke. Koordinattypen X, Y og Z kalles ECEF (Earth Centered Earth Fixed) og er 3D koordinater i et jordsentrisk koordinatsystem. Selvom GNSS mottakeren egentlig beregner ECEF koordinater, så vises de til brukeren som f.eks. breddegrad, lengdegrad og høyde, og det er denne koordinattypen som dere finner i NMEA formatet.</p>
+<p>Mottakerene dere skal bygge presenterer posisjonene på NMEA format. Dere skal bruke dette formatet til å lese av data som er aktuelle for å løse oppgavene.</p>
 </section>
-<section id="oppgave-1-arduino-gnss-logger">
-<h2>Oppgave 1 Arduino GNSS logger<a class="headerlink" href="#oppgave-1-arduino-gnss-logger" title="Permalink to this heading">#</a></h2>
-<p>Utstyr:
-•	Adafruit Ultimate GPS Breakout – Versjon 3
-•	SparkFun Openlog – SD data logger<br />
-•	Kingston® Micro SD card
-•	Breadboard (terminal)<br />
-•	Kompatible ledninger<br />
-•	Batteri 3,7 V, 850 mAh</p>
+<section id="hva-kommer-ut-av-en-gnss-mottaker">
+<h2>Hva kommer ut av en GNSS mottaker?<a class="headerlink" href="#hva-kommer-ut-av-en-gnss-mottaker" title="Permalink to this heading">#</a></h2>
+<p>For å finne ut av hva en GNSS mottaker egentlig sender ut, så må vi koble sammen en GNSS mottaker med en mikrokontroller. En mikrokontroller er en liten datamaskin som i vi kan bruke til å oversetter signalene som kommer ut av GNSS mottakeren til digitale data som vi kan se på.</p>
+<section id="innstaller-programvare">
+<h3>Innstaller programvare<a class="headerlink" href="#innstaller-programvare" title="Permalink to this heading">#</a></h3>
+<p>Begynn med å innstallere <a class="reference external" href="https://www.arduino.cc/en/software">Arduino IDE</a> (Integrated Development Environment).</p>
+<p>Dette programmet gjør det mulig å skrive programkode som kan lastes opp i mikrokontrolleren. Her er det også mulig å se på data som kommer ut av mikrokontrolleren - dette kalles en <em>terminal</em>.</p>
 <ol class="arabic simple">
-<li><p>Klargjøring
-a.	Installer Arduino IDE (programvare). <a class="reference external" href="https://www.arduino.cc/en/Main/Software">https://www.arduino.cc/en/Main/Software</a>
-b.	Installer Adafruit GPS Library  <a class="reference external" href="https://learn.adafruit.com/adafruit-ultimate-gps/arduino-wiring">https://learn.adafruit.com/adafruit-ultimate-gps/arduino-wiring</a></p></li>
-<li><p>Oppkobling</p></li>
+<li><p>Last opp eksempelkode (blink) som får LED på mikrokontrolleren til å blinke.</p></li>
 </ol>
-<p><img alt="" src="../_images/gnss_arduino.jpg" /></p>
-<ol class="arabic simple" start="3">
-<li><p>Data
-a.	Koble til Arduino UNO til PC med USB . Åpne Arduino IDE (program)
-b.	Innstillinger i Arduino IDE , verktøylinjen :
-Verktøy -&gt; Kort - velg Arduino/Genuino UNO
-Verktøy -&gt; Port – velg COM3</p></li>
-</ol>
-<p>c.	Kommunisere med GNSS loggeren</p>
-<p>i.	Finne frem kode
-Fil -&gt; eksempler – velg Adafruit GPS Library – velg parsing</p>
-<p>ii.	Laste opp kode til Arduino</p>
-<p>Trykk på pil ikonet i høyre hjørne</p>
-<p>iii.	Lese av Arduinoen
-Trykk på forstørellseglass ikonet i venstrehjørne
-Sørg for å ha samme verdier som vist (115200 Baud)</p>
-<p>NB Sørg for å ha fix (dekning til satelitter) på Adafruit Ultimate Breakout. Fix lampen blinker da hvert 15 sekund.</p>
-<p>Oppgave 2.2 GNSS logger</p>
-<ol class="arabic simple">
-<li><p>Oppkobling</p></li>
-</ol>
-<p>•	Connect RX to  TXO<br />
-•	Connect TX to  RXI<br />
-•	 VIN to +(breadboard) - Adafruit Ultimate breakout
-•	GND to -(breadboard) - Adafruit Ultimate breakout
-•	VCC to +(breadboard) – Sparkfun Openlog
-•	GND to –(breadboard) – Sparkfun Openlog</p>
-<p><img alt="" src="../_images/gnss_sdcard.jpg" /></p>
+<p>Klarer du å få LED til å blinke fortere eller saktere?</p>
+<p>Nå som dere har testet mikrokontrolleren litt, så er neste steg å bruke den til å vise hva en GNSS mottaker sender ut.</p>
+</section>
+<section id="se-pa-nmea-data">
+<h3>Se på NMEA data<a class="headerlink" href="#se-pa-nmea-data" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>GNSS mottaker (breakout board)</p></li>
+<li><p>Mikrokontroller for å lese data på NMEA format (Arduino UNO / MKR1000)</p></li>
+</ul>
 <ol class="arabic simple" start="2">
-<li><p>Start opp GNSS loggeren</p></li>
+<li><p>Koble strøm til GNSS mottakeren</p></li>
+<li><p>Koble seriell signal fra GNSS mottaker til en mikrokontroller TX (transmit) / RX (receive)</p></li>
+<li><p>Åpne en terminal (Serial monitor) og se på NMEA data som kommer ut av GNSS mottakeren</p></li>
 </ol>
-<p>NB Sørg for å ha fix (dekning til satelitter) på Adafruit Ultimate Breakout</p>
-<p>Nå kan du gå deg en runde for å teste loggeren.</p>
-<ol class="arabic simple" start="3">
-<li><p>Konvertering
-•	Sett inn SD kortet i PCen og last over fila som dataen er logget på. Det kan hende det er flere filer som ligger inne så her må du bare prøve deg frem, siden loggeren ikke lagrer filene med navn eller dato.
-•	Last ned Google Earth
-•	Man må først konvertere fila fra TXT format til KML. Bruk denne nettsiden til å konvertere: <a class="reference external" href="http://www.h-schmidt.net/NMEA/">http://www.h-schmidt.net/NMEA/</a>
-•	Sett parameterne til det som er vist på bildet til høyre.
-•	Ruten som er gått skal nå vises i Google Earth.
-Videre kan man legge dette inn i QGIS som er et GIS verktøy. For å gjøre dette kan det være lurt å konvertere fra KML til CSV: <a class="reference external" href="http://www.monster.com.tw/kml2csv">http://www.monster.com.tw/kml2csv</a></p></li>
+<p>Hva er innholdet i NMEA strengene?</p>
+</section>
+<section id="lagre-nmea-data-til-sd-kort">
+<h3>Lagre NMEA data til SD-kort<a class="headerlink" href="#lagre-nmea-data-til-sd-kort" title="Permalink to this heading">#</a></h3>
+<p>For å slippe å ha med seg en laptop for å kunne lagre NMEA strengene, så kan vi isteden lagre dem på et SD-kort.</p>
+<ol class="arabic simple" start="5">
+<li><p>Koble strøm til SD-kort leser/skriver</p></li>
+<li><p>koble seriell signal fra GNSS mottaker til SD-kort enhet TX (transmit) / RX (receive)</p></li>
 </ol>
+<p>Nå har dere en GNSS mottaker som lagrer NMEA strenger til et SD-kort.</p>
+</section>
+<section id="vis-hvor-du-har-vaert-i-google-earth">
+<h3>Vis hvor du har vært i Google Earth<a class="headerlink" href="#vis-hvor-du-har-vaert-i-google-earth" title="Permalink to this heading">#</a></h3>
+<p>…</p>
+</section>
 </section>
 </section>
 
@@ -545,8 +532,14 @@ Videre kan man legge dette inn i QGIS som er et GIS verktøy. For å gjøre dett
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gnss">GNSS</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgave-1-arduino-gnss-logger">Oppgave 1 Arduino GNSS logger</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hva-er-gnss">Hva er GNSS?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hva-kommer-ut-av-en-gnss-mottaker">Hva kommer ut av en GNSS mottaker?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#innstaller-programvare">Innstaller programvare</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#se-pa-nmea-data">Se på NMEA data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lagre-nmea-data-til-sd-kort">Lagre NMEA data til SD-kort</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#vis-hvor-du-har-vaert-i-google-earth">Vis hvor du har vært i Google Earth</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 
