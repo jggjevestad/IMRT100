@@ -11,5 +11,5 @@ Du er en geomatikkstudent som har fått i oppgave å måle høyden på det elega
 - Bruk enkel trigonometri til å beregne høyden på treet.
 
 ## Spørsmål
-1. Hvilke avstander/vinkler måler dere (tegn en skisse)?
+1. Hvilke avstander/vinkler måler dere (tegn en skisse)
 2. Hvor høyt er tuntreet?

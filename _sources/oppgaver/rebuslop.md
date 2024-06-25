@@ -108,36 +108,9 @@ Du er ute å går på Campus. Plutselig snubler du i et hull i bakken. Nede i hu
 
 $224445588223366$
 
-Spørsmål: Hvor er dette?
-
 **Hint**: Se youtube hvordan man skriver SMS med tastaturet til en Nokia mobiltelefon
 
-
-## Spørsmål 8 - Gateadresser for hele verden
-
-**Plus Codes** er som gateadresser for steder eller personer som ikke har en tradisjonell adresse. I stedet for adresser med gate- og husnummer er Plus Codes basert på breddegrad og lengdegrad. Her er hvordan de fungerer:
-
-1. **Individuell bruk**:
-   - Bruk Plus Codes for å dele en hvilken som helst posisjon – hjemmet ditt, en butikk, et møtested – selv om det ikke finnes gateadresser eller gater.
-   - Når du reiser til ukjente steder, sparer Plus Codes deg tid ved å veilede deg direkte til nøyaktig destinasjon.
-
-2. **Bedrifter og organisasjoner**:
-   - Små og mellomstore bedrifter: Del Plus Codes med kundene dine, slik at de enkelt kan finne deg, selv uten gateadresser.
-   - Leveringstjenester: Bruk Plus Codes for å finne nøyaktige leveringssteder, uavhengig av gateadresser eller nummer.
-   - Nødetater: Plus Codes gir nøyaktige posisjoner for rask assistanse til borgere.
-   - Humanitære organisasjoner: Bruk Plus Codes for å koordinere hjelpeinnsats i områder uten fullstendig kartlegging.
-
-**Eksempler på bruk**:
-- I Kolkata, India, la Addressing the Unaddressed til Plus Codes på dører i tett befolkede områder, slik at hundretusener av mennesker fikk fungerende adresser. Dette gjorde det mulig for dem å motta post og åpne bankkontoer.
-- I det rurale USA hjelper Rural Utah Project medlemmer av Navajo Nation med å registrere seg for å stemme ved å bruke Plus Codes. De hjelper også nødetatene med å nå innbyggerne raskere.
-- I Somalia kartla International Rescue Committee posisjoner for et familieplanleggings- og vaksinasjonsprosjekt ved hjelp av Plus Codes, slik at kvinner og barn kunne få oppfølging i tide.
-
-[Google Plus-codes](https://maps.google.com/pluscodes/)
-
-**Eiffeltårnet:** V75V+8R Paris, Frankrike
-
-Du kan søke etter steder med Plus Code-koder ved å skrive inn koden øverst i søkefeltet på Google Maps eller Google Earth.
-
 Spørsmål: Hvor er dette?
 
-MQ88+FF3 Ås
+## Spørsmål 8 - Google Plus Codes
+
