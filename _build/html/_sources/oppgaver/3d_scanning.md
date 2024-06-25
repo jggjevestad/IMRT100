@@ -1,7 +1,12 @@
 (3d_scan_mobil)=
 # 3D Scanning
 
-![](../bilder/frukt.png)
+```{image} ../bilder/frukt.png
+:alt: fishy
+:class: bg-primary mb-1
+:width: 600px
+:align: center
+```
 
 De siste årene har 3d scanning gjort det mulig å lage veldig detaljerte 3d modeller av virkeligheten på veldig kort tid. 
 Det finnes forskjellige metoder og utstyr for dette. I denne oppgaven skal dere sammenligne resultatet fra en app på mobilen mot en veldig dyr kommersiell laserscanner.

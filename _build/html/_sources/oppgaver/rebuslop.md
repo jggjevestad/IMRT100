@@ -11,7 +11,12 @@ Lykke til!
 ## Spørsmål 1 - Totalstasjon
 En totalstasjon er satt opp ved Vitenparken. En totalstasjon er et instrument som måler horisontalvinkel, vertikalvinkel og avstand. Gå ned til den oppsatte totalstasjonen når dere har funnet de nøyaktige vinklene i tabellen nedenfor og still inn totalstasjonen med de riktige vinklene. Vinklene har enheten gon.
 
-![](../bilder/totalstation.jpg)
+```{image} ../bilder/totalstation.jpg
+:alt: fishy
+:class: bg-primary mb-1
+:width: 600px
+:align: center
+```
 
 Horisontalvinkel|Vertikalvinkel
 ---:|---:
@@ -23,7 +28,12 @@ Spørsmål: Hva heter fossen?
 ## Spørsmål 2 - Transformasjon
 I geomatikk bruker vi noen ganger ECEF koordinater istedenfor breddegrad og lengdegrad fordi de er enklere å gjøre beregninger med. Problemet med disse ECEF koordinatene er bare at det ikke er så helt enkelt å tolke hvor posisjonen er. Senere i studiet må dere programmere denne transformasjonen selv, men i dag  holder det å bruke denne [linken](https://www.sysense.com/products/ecef_lla_converter/index.html) for å transformere mellom disse to koordinattypene.
 
-![](../bilder/coordinates.jpg)
+```{image} ../bilder/coordinates.jpg
+:alt: fishy
+:class: bg-primary mb-1
+:width: 600px
+:align: center
+```
 
 Transformer ECEF koordinatene nedenfor til breddegrad og lengdegrad.
 
@@ -41,7 +51,12 @@ Spørsmål: Hvilket årstall?
 ## Spørsmål 3 - Uleselig
 Du finner en lapp på bakken hvor noen har skrevet en posisjon med breddegrad og lengdegrad. Lappen er helt utvasket og du klarer såvidt å tyde tallene, men dessverre så er sekundene i lengdegraden blitt helt borte. Bygningen dere skal finne ligger midt imellom ytterpunktene til de mulige posisjonene.
 
-![](../bilder/note.jpg)
+```{image} ../bilder/note.jpg
+:alt: fishy
+:class: bg-primary mb-1
+:width: 600px
+:align: center
+```
 
 $$
 \begin{align}
@@ -60,7 +75,12 @@ areal blir litt feil i forhold til virkeligheten - det er ikke mulig å bevare a
 
 Kartsystemet EUREF89 UTM (Sone 32) er det som er vanligste i Norge.
 
-![](../bilder/map_projection.jpg)
+```{image} ../bilder/map_projection.jpg
+:alt: fishy
+:class: bg-primary mb-1
+:width: 600px
+:align: center
+```
 
 $$
 \begin{align}
@@ -82,7 +102,12 @@ Spørsmål: Hva tror dere denne delen av bygget har vært brukt til?
 ## Spørsmål 5 - Rundt og rundt
 Rundt om i Ås er det mange rundkjøringer. I tabellen nedenfor finner dere posisjonen til tre av dem. Stedet dere skal frem til er i skjæringspunktet mellom tre sirkler.
 
-![](../bilder/circles.jpg)
+```{image} ../bilder/circles.jpg
+:alt: fishy
+:class: bg-primary mb-1
+:width: 600px
+:align: center
+```
 
 Breddegrad|Lengdegrad|Radius
 ---:|---:|---:
@@ -96,7 +121,12 @@ Spørsmål: Hvor lang er den?
 ## Spørsmål 6 - Syn som en ørn
 Du står ved Gaustadtoppen turisthytte ved Rjukan. Du har syn som en ørn og langt borte i det fjerne ser noe som ligner på en marmorblokk. Nysgjerrig som du er finner du frem kompasset og leser av en retning på $98.83^0$. Etter mye strev og nøye måling finner du tilslutt ut at avstanden er $120267m$.
 
-![](../bilder/mountain.jpg)
+```{image} ../bilder/mountain.jpg
+:alt: fishy
+:class: bg-primary mb-1
+:width: 600px
+:align: center
+```
 
 Spørsmål: Hva heter skulpturen?
 
@@ -104,7 +134,12 @@ Spørsmål: Hva heter skulpturen?
 ## Spørsmål 7 - A numbers game
 Du er ute å går på Campus. Plutselig snubler du i et hull i bakken. Nede i hullet finner du en gammel Nokia mobiltelefon. Den siste som brukte telefonen hadde skrevet en SMS, men det eneste du kan se ser er rekkefølgen på tastene som ble trykket inn. Tallsekvensen finner du nedenfor.
 
-![](../bilder/nokia.jpg)
+```{image} ../bilder/nokia.jpg
+:alt: fishy
+:class: bg-primary mb-1
+:width: 600px
+:align: center
+```
 
 $224445588223366$
 

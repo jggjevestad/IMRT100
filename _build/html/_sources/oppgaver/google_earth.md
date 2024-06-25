@@ -10,8 +10,12 @@ Google Earth er en omfattende geografisk utforskningstjeneste som tilbyr detalje
 
 Bruk litt tid på å gjøre deg kjent med funksjonene Google Earth, enten ved å bruke web-applikasjonen direkte eller ved å laste ned applikasjonen til egen PC.
 
-![](../bilder/google_earth.jpg)
-
+```{image} ../bilder/google_earth.jpg
+:alt: fishy
+:class: bg-primary mb-1
+:width: 600px
+:align: center
+```
 
 ## Klarer du dette?
 1. Hvilken breddegrad og lengdegrad har disse landemerkene?

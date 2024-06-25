@@ -1,7 +1,12 @@
 (orienteringslop)=
 # Orienteringsløp korteste vei
 
-![](../bilder/orientering.jpg)
+```{image} ../bilder/orientering.jpg
+:alt: fishy
+:class: bg-primary mb-1
+:width: 600px
+:align: center
+```
 
 **Mål:** Målet med denne oppgaven er å anvende geomatikk-kunnskaper i praksis gjennom et orienteringsløp. 
 
