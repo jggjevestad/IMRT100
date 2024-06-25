@@ -111,3 +111,6 @@ $224445588223366$
 **Hint**: Se youtube hvordan man skriver SMS med tastaturet til en Nokia mobiltelefon
 
 Spørsmål: Hvor er dette?
+
+## Spørsmål 8 - Google Plus Codes
+
