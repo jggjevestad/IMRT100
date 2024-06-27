@@ -8,7 +8,7 @@
 :align: center
 ```
 
-Det å lage en videoblogg som dokumentasjon av en gruppevis prosjektoppgave kan være både morsomt og engasjerende. Her er noen tips for å komme i gang:
+Det å lage en videoblogg som dokumentasjon av en gruppevis prosjektoppgave er både morsomt og engasjerende. Her er noen tips for å komme i gang:
 
 1. **Idémyldring**: Først og fremst, samle gruppen din og brainstorm ideer. Hva er målet med videobloggen? Hva vil dere formidle? Lag en rød tråd som går gjennom hele filmen, slik at seerne holder interessen. Tenk på hvordan dere kan gjøre det relevant og engasjerende for temaet deres⁴.
 
