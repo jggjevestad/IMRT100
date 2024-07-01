@@ -65,7 +65,6 @@ Oppgave 2.2 GNSS logger
 •	VCC to +(breadboard) – Sparkfun Openlog 
 •	GND to –(breadboard) – Sparkfun Openlog 
 
-![](../bilder/gnss_sdcard.jpg)
 
 2.	Start opp GNSS loggeren 
 
