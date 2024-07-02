@@ -3,8 +3,8 @@
 
 | Dato  | Tid | Sted | Aktivitet | Ansvar |  Merknad |
 | --- | --- | --- | --- | --- | --- |
-| 12.08 | 1300-1500 | TF3-103 | Presentasjon av studieprogram  | JGG | Instituttleder <br> UU-leder ved fakultetet |
-| 13.08 | 1015-1200 | TF3-103 | Presentasjon av forskning | JGG | Forskere ved instituttet |
+| 12.08 | 1300-1500 | TF3-103 | Om studieprogrammet  | JGG | Hva er geomatikk? |
+| 13.08 | 1015-1200 | TF3-103 | Forskning <br> Masteroppgaver | JGG <br> IMJ | Hva venter i andre enden? <br> Hvorfor valgte dere geomatikk? |
 | | 1200-1500 | TF3-103 | Oppstart prosjektarbeid | JGG <br> TBN | Hva er en student? <br> Hvilke oppgaver skal løses? |
 | 14.08 | 0830-1130 | TF3-103 | Prosjektarbeid | JGG | [Introduksjon til Google Earth](google_earth) |
 | 15.08 | 0830-1500 | TF3-103 | Prosjektarbeid | IMS <br> TBN | [Hvordan lage video?](video_intro) <br> [Introduksjon til QGIS](qgis_intro) |

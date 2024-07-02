@@ -1,24 +1,25 @@
 (gnss_noyaktighet)=
 # Hvor nøyaktig er GNSS?
 
-**Mål:** Målet med denne oppgaven er å beregne nøyaktigheten til ulike GNSS-mottakere ved hjelp av data logget i form av NMEA-strenger.
+Målet med denne oppgaven er å utvikle en forståelse av hvordan man kan estimere nøyaktigheten til forskjellige typer GNSS-mottakere ved å analysere posisjonsdata lagret i NMEA-format.
 
-**Materialer:** 
-- Flere typer GNSS-mottakere
-- Programvare for å lese NMEA-strenger
-- Referansepunkt med kjent posisjon
 
-**Oppgavebeskrivelse:**
+1. Datainnsamling: </br> Samle inn NMEA-data fra forskjellige typer GNSS-mottakere. Legg GNSS-mottakeren i ro over et punkt og lagre inn data hvert sekund i f.eks. 5 minutter.
 
-1. **Datainnsamling:** Plasser GNSS-mottakerne på et referansepunkt med en kjent posisjon. La mottakerne logge data i minst 30 minutter.
+2. Lese inn data: </br>
+Analyser de innsamlede NMEA-dataene. Fokuser på GGA-setningene fordi disse inneholder informasjon om posisjon (breddegrad og lengdegrad), antall satellitter og HDOP-verdier.
 
-2. **Dataanalyse:** Last ned de innsamlede NMEA-strengene fra GNSS-mottakerne til datamaskinen din. Bruk programvaren til å lese NMEA-strengene og ekstrahere posisjonsdata (latitude, longitude og høyde).
+3. Sann posisjon: </br>
+Beregn gjennomsnittet av alle posisjonen. Dette vil være din "sanne" posisjon for sammenligning.
 
-3. **Beregning av nøyaktighet:** Sammenlign de beregnede posisjonene fra GNSS-mottakerne med den kjente posisjonen til referansepunktet. Beregn feilen (i meter) i nord/syd, øst/vest og opp/ned retning for hver mottaker.
+4. Beregning av nøyaktighet: </br>
+For hver posisjonsobservasjon, beregn avstanden fra den observerte posisjonen til middelposisjonen. Bruk disse avstandene til å beregne standardavviket, som vil være et mål for nøyaktigheten til GNSS-mottakeren.
 
-4. **Resultatpresentasjon:** Presenter resultatene i en tabell. Inkluder gjennomsnittlig feil, standardavvik og maksimal feil for hver mottaker og retning.
+5. Sammenligning mottakerne: </br>
+Gjenta trinnene ovenfor for forskjellige typer GNSS-mottakere. Sammenlign nøyaktigheten du har beregnet for hver mottaker.
 
-**Diskusjonsspørsmål:**
+
+## Spørsmål
 
 1. Hvilken mottaker hadde høyest nøyaktighet? Hvorfor tror du det er slik?
 2. Hvordan påvirker antall satellitter som er synlige nøyaktigheten til GNSS-mottakerne?

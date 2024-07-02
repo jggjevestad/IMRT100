@@ -17,7 +17,6 @@ Dere skal måle punktet SSIR som har disse koordinatene i UTM 32:
 2. Lag en Python kode for å finne gjennomsnittet av målingene
 
 ## Måling med RTK
-
 RTK (Real-Time Kinematic) er en måte å måle posisjon med GNSS satellitter mer nøyaktig. RTK bruker en basestasjon som kan korrigere målingen vi gjør med mottakeren ute i felt.
 
 Øvingslærere kjører demo for en og en gruppe.
