@@ -400,7 +400,14 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gnss">GNSS</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgave-1-arduino-gnss-logger">Oppgave 1 Arduino GNSS logger</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#nmea-format">NMEA format</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#arduino-ide">Arduino IDE</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#logge-gnss-nmea-til-sd-kort">Logge GNSS NMEA til SD-kort</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#visualisere-gnss-spor">Visualisere GNSS spor</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#google-earth">Google Earth</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#qgis">QGIS</a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -423,62 +430,26 @@ Kort og enkelt forklart så måles avstanden mellom mottakeren og satellittene f
 Man trenger fire satellitter for å beregne sin posisjon. Dette er fordi vi har de romlige koordinatene i x, y og z-retning som ukjente, i tillegg til en klokkefeil i satellitt og mottakerklokke.</p>
 <p>Mottakerene dere skal bygge logger dataene på NMEA format. Dere skal bruke dette formatet til å lese av data som er aktuelle for å løse oppgavene. Se link for full beskrivelse av formatet.</p>
 </section>
-<section id="oppgave-1-arduino-gnss-logger">
-<h2>Oppgave 1 Arduino GNSS logger<a class="headerlink" href="#oppgave-1-arduino-gnss-logger" title="Link to this heading">#</a></h2>
-<p>Utstyr:
-•	Adafruit Ultimate GPS Breakout – Versjon 3
-•	SparkFun Openlog – SD data logger<br />
-•	Kingston® Micro SD card
-•	Breadboard (terminal)<br />
-•	Kompatible ledninger<br />
-•	Batteri 3,7 V, 850 mAh</p>
-<ol class="arabic simple">
-<li><p>Klargjøring
-a.	Installer Arduino IDE (programvare). <a class="reference external" href="https://www.arduino.cc/en/Main/Software">https://www.arduino.cc/en/Main/Software</a>
-b.	Installer Adafruit GPS Library  <a class="reference external" href="https://learn.adafruit.com/adafruit-ultimate-gps/arduino-wiring">https://learn.adafruit.com/adafruit-ultimate-gps/arduino-wiring</a></p></li>
-<li><p>Oppkobling</p></li>
-</ol>
-<p><img alt="" src="../_images/gnss_arduino.jpg" /></p>
-<ol class="arabic simple" start="3">
-<li><p>Data
-a.	Koble til Arduino UNO til PC med USB . Åpne Arduino IDE (program)
-b.	Innstillinger i Arduino IDE , verktøylinjen :
-Verktøy -&gt; Kort - velg Arduino/Genuino UNO
-Verktøy -&gt; Port – velg COM3</p></li>
-</ol>
-<p>c.	Kommunisere med GNSS loggeren</p>
-<p>i.	Finne frem kode
-Fil -&gt; eksempler – velg Adafruit GPS Library – velg parsing</p>
-<p>ii.	Laste opp kode til Arduino</p>
-<p>Trykk på pil ikonet i høyre hjørne</p>
-<p>iii.	Lese av Arduinoen
-Trykk på forstørellseglass ikonet i venstrehjørne
-Sørg for å ha samme verdier som vist (115200 Baud)</p>
-<p>NB Sørg for å ha fix (dekning til satelitter) på Adafruit Ultimate Breakout. Fix lampen blinker da hvert 15 sekund.</p>
-<p>Oppgave 2.2 GNSS logger</p>
-<ol class="arabic simple">
-<li><p>Oppkobling</p></li>
-</ol>
-<p>•	Connect RX to  TXO<br />
-•	Connect TX to  RXI<br />
-•	 VIN to +(breadboard) - Adafruit Ultimate breakout
-•	GND to -(breadboard) - Adafruit Ultimate breakout
-•	VCC to +(breadboard) – Sparkfun Openlog
-•	GND to –(breadboard) – Sparkfun Openlog</p>
-<ol class="arabic simple" start="2">
-<li><p>Start opp GNSS loggeren</p></li>
-</ol>
-<p>NB Sørg for å ha fix (dekning til satelitter) på Adafruit Ultimate Breakout</p>
-<p>Nå kan du gå deg en runde for å teste loggeren.</p>
-<ol class="arabic simple" start="3">
-<li><p>Konvertering
-•	Sett inn SD kortet i PCen og last over fila som dataen er logget på. Det kan hende det er flere filer som ligger inne så her må du bare prøve deg frem, siden loggeren ikke lagrer filene med navn eller dato.
-•	Last ned Google Earth
-•	Man må først konvertere fila fra TXT format til KML. Bruk denne nettsiden til å konvertere: <a class="reference external" href="http://www.h-schmidt.net/NMEA/">http://www.h-schmidt.net/NMEA/</a>
-•	Sett parameterne til det som er vist på bildet til høyre.
-•	Ruten som er gått skal nå vises i Google Earth.
-Videre kan man legge dette inn i QGIS som er et GIS verktøy. For å gjøre dette kan det være lurt å konvertere fra KML til CSV: <a class="reference external" href="http://www.monster.com.tw/kml2csv">http://www.monster.com.tw/kml2csv</a></p></li>
-</ol>
+<section id="nmea-format">
+<h2>NMEA format<a class="headerlink" href="#nmea-format" title="Link to this heading">#</a></h2>
+</section>
+<section id="arduino-ide">
+<h2>Arduino IDE<a class="headerlink" href="#arduino-ide" title="Link to this heading">#</a></h2>
+</section>
+<section id="logge-gnss-nmea-til-sd-kort">
+<h2>Logge GNSS NMEA til SD-kort<a class="headerlink" href="#logge-gnss-nmea-til-sd-kort" title="Link to this heading">#</a></h2>
+<a class="bg-primary mb-1 reference internal image-reference" href="../_images/gnss_arduino.jpg"><img alt="fishy" class="bg-primary mb-1 align-center" src="../_images/gnss_arduino.jpg" style="width: 600px;" /></a>
+</section>
+<section id="visualisere-gnss-spor">
+<h2>Visualisere GNSS spor<a class="headerlink" href="#visualisere-gnss-spor" title="Link to this heading">#</a></h2>
+<section id="google-earth">
+<h3>Google Earth<a class="headerlink" href="#google-earth" title="Link to this heading">#</a></h3>
+<p><a class="reference external" href="http://www.h-schmidt.net/NMEA/">NMEA-&gt;KML</a></p>
+</section>
+<section id="qgis">
+<h3>QGIS<a class="headerlink" href="#qgis" title="Link to this heading">#</a></h3>
+<p><a class="reference external" href="http://www.monster.com.tw/kml2csv">KML-&gt;CVS</a></p>
+</section>
 </section>
 </section>
 
@@ -547,7 +518,14 @@ Videre kan man legge dette inn i QGIS som er et GIS verktøy. For å gjøre dett
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gnss">GNSS</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgave-1-arduino-gnss-logger">Oppgave 1 Arduino GNSS logger</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#nmea-format">NMEA format</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#arduino-ide">Arduino IDE</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#logge-gnss-nmea-til-sd-kort">Logge GNSS NMEA til SD-kort</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#visualisere-gnss-spor">Visualisere GNSS spor</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#google-earth">Google Earth</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#qgis">QGIS</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 

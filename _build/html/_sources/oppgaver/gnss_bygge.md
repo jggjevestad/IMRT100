@@ -11,74 +11,29 @@ Man trenger fire satellitter for å beregne sin posisjon. Dette er fordi vi har 
 Mottakerene dere skal bygge logger dataene på NMEA format. Dere skal bruke dette formatet til å lese av data som er aktuelle for å løse oppgavene. Se link for full beskrivelse av formatet.
 
 
-## Oppgave 1 Arduino GNSS logger
-Utstyr:
-•	Adafruit Ultimate GPS Breakout – Versjon 3 
-•	SparkFun Openlog – SD data logger  
-•	Kingston® Micro SD card 
-•	Breadboard (terminal)  
-•	Kompatible ledninger  
-•	Batteri 3,7 V, 850 mAh 
-
-1.	Klargjøring 
-a.	Installer Arduino IDE (programvare). https://www.arduino.cc/en/Main/Software 
-b.	Installer Adafruit GPS Library  https://learn.adafruit.com/adafruit-ultimate-gps/arduino-wiring
-
-2.	Oppkobling
-
-![](../bilder/gnss_arduino.jpg)
-
-3.	Data 
-a.	Koble til Arduino UNO til PC med USB . Åpne Arduino IDE (program)
-b.	Innstillinger i Arduino IDE , verktøylinjen :
-Verktøy -> Kort - velg Arduino/Genuino UNO
-Verktøy -> Port – velg COM3
+## NMEA format
 
 
-c.	Kommunisere med GNSS loggeren 
-
-i.	Finne frem kode
-Fil -> eksempler – velg Adafruit GPS Library – velg parsing
+## Arduino IDE
 
 
-ii.	Laste opp kode til Arduino
+## Logge GNSS NMEA til SD-kort
+
+```{image} ../bilder/gnss_arduino.jpg
+:alt: fishy
+:class: bg-primary mb-1
+:width: 600px
+:align: center
+```
+
+## Visualisere GNSS spor
+
+### Google Earth
+[NMEA->KML](http://www.h-schmidt.net/NMEA/)
 
 
-Trykk på pil ikonet i høyre hjørne 
-
-
-iii.	Lese av Arduinoen 
-Trykk på forstørellseglass ikonet i venstrehjørne 
-Sørg for å ha samme verdier som vist (115200 Baud)
-
-
-NB Sørg for å ha fix (dekning til satelitter) på Adafruit Ultimate Breakout. Fix lampen blinker da hvert 15 sekund.
-
-Oppgave 2.2 GNSS logger 
-
-1.	Oppkobling 
-
-•	Connect RX to  TXO   
-•	Connect TX to  RXI  
-•	 VIN to +(breadboard) - Adafruit Ultimate breakout
-•	GND to -(breadboard) - Adafruit Ultimate breakout
-•	VCC to +(breadboard) – Sparkfun Openlog 
-•	GND to –(breadboard) – Sparkfun Openlog 
-
-
-2.	Start opp GNSS loggeren 
-
-NB Sørg for å ha fix (dekning til satelitter) på Adafruit Ultimate Breakout 
-
-Nå kan du gå deg en runde for å teste loggeren.
-
-3.	Konvertering
-•	Sett inn SD kortet i PCen og last over fila som dataen er logget på. Det kan hende det er flere filer som ligger inne så her må du bare prøve deg frem, siden loggeren ikke lagrer filene med navn eller dato.
-•	Last ned Google Earth
-•	Man må først konvertere fila fra TXT format til KML. Bruk denne nettsiden til å konvertere: http://www.h-schmidt.net/NMEA/
-•	Sett parameterne til det som er vist på bildet til høyre.
-•	Ruten som er gått skal nå vises i Google Earth.
-Videre kan man legge dette inn i QGIS som er et GIS verktøy. For å gjøre dette kan det være lurt å konvertere fra KML til CSV: http://www.monster.com.tw/kml2csv
+### QGIS
+[KML->CVS](http://www.monster.com.tw/kml2csv)
 
 
 

@@ -17,6 +17,6 @@
 | 26.08 | 1015-1500 | TF3-103 | Prosjektarbeid | JGG | [Bygg din egen GNSS mottaker](gnss_bygge) |
 | 27.08 | 1015-1500 | TF3-103 | Prosjektarbeid | JGG | [Hvor nøyaktig er GNSS?](gnss_noyaktighet) |
 | 28.08 | 0830-1500 | TF3-103 | Innspurt | JGG | Lage presentasjon <br> Finpusse video |
-| 29.08 | 0830-1400 | TF3-103 | Presentasjon | JGG | Presentasjon av prosjektet <br> Kåring av beste video |
-| 30.08 | 0915-1100 | Aud-Max | Presentasjon | JGG | Presentasjon av beste video |
+| 29.08 | 0830-1400 | TF3-103 | Presentasjon for faggruppen | JGG | Presentasjon av prosjektet <br> Kåring av beste video |
+| 30.08 | 0915-1100 | Aud-Max | Presentasjon for alle | JGG | Presentasjon av beste video |
 | 02.09 | 1600 | TF3-103 | Innlevering | JGG | Siste frist for innlevering av prosjektrapport |
