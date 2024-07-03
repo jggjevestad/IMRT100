@@ -9,7 +9,7 @@
 | 14.08 | 0830-1130 | TF3-103 | Prosjektarbeid | JGG | [Introduksjon til Google Earth](google_earth) |
 | 15.08 | 0830-1500 | TF3-103 | Prosjektarbeid | IMS <br> TBN | [Hvordan lage video?](video_intro) <br> [Introduksjon til QGIS](qgis_intro) |
 | 16.08 | 0830-1200 | TF3-103 | Prosjektarbeid | JGG | [Hvor høyt er tuntreet?](tuntreet) |
-| 19.08 | 1015-1500 | TF3-103 | Prosjektarbeid | TBN | [Hvordan lage 3D modeller med mobilen?](3d_scan_mobil) |
+| 19.08 | 1015-1500 | TF3-103 | Prosjektarbeid | TBN | [Hvordan lage 3D modeller med mobilen?](3d_scanning) |
 | 20.08 | 1015-1500 | TF3-103 | Prosjektarbeid | TBN | [Hvordan logge posisjoner med mobilen?](gnss_punkt) |
 | 21.08 | 1015-1500 | TF3-103 | Prosjektarbeid | JGG | [Introduksjon til Python](python_intro) |
 | 22.08 | 1015-1500 | TF3-103 | Prosjektarbeid | TBN | [Orienteringsløp korteste vei](orienteringslop) |
