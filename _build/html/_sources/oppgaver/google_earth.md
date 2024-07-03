@@ -36,9 +36,10 @@ Du kan importere og eksportere geografiske data ved hjelp av KML (Keyhole Markup
 
 
 ## Oppgaver
-1. Hva er koordinater?
+1. Hva er egentlig koordinater?
    - Hvilke koordinattyper kan Google Earth vise?
-   - Klarer du å finne ut sammenhengen mellom disse koordinattypene: "DD", "DMS", "DDM", "UTM" og "MGRS"?
+   - Velg et objekt i Google Earth og vis posisjonen til objektet med alle de ulike koordinattypene i Google Earth.
+   - Klarer du å finne ut sammenhengen mellom noen av disse koordinattypene: "DD", "DMS", "DDM", "UTM" og "MGRS"?
 
 
 2. Hvilken breddegrad og lengdegrad har disse landemerkene?
@@ -47,7 +48,7 @@ Du kan importere og eksportere geografiske data ved hjelp av KML (Keyhole Markup
    - Kheopspyramiden, Egypt
 
 
-3. Hva finner du her?
+3. Hva finner du i disse to posisjonene?
 
 |Breddegrad|Lengdegrad|
 | --- |--- |
@@ -55,12 +56,13 @@ Du kan importere og eksportere geografiske data ved hjelp av KML (Keyhole Markup
 | $S72^0 00' 41.14''$ | $E02^0 32' 06.09''$ |
 
 
-4. Bruk GNSS mottakeren i mobiltelefonen din til å finne fram til disse posisjonene rundt på Campus. Ta en selfie med gruppen på stedet for å dokumentere hvor det er.
+4. Bruk GNSS mottakeren i mobiltelefonen din til å finne fram til disse tre posisjonene rundt på Campus. Ta en selfie med gruppen på stedet for å dokumentere hvor det er.
 
 |Breddegrad|Lengdegrad|
 |---|---|
 |$N59^0 39' 59.45''$|$E10^0 46' 06.64''$|
 |$N59^0 39' 57.26''$|$E10^0 45' 52.29''$|
+|$N59^0 40' 02.80''$|$E10^0 46' 18.47''$|
 
 
 5. Hva er avstanden fra ekvator til Nordpolen?
@@ -68,4 +70,4 @@ Du kan importere og eksportere geografiske data ved hjelp av KML (Keyhole Markup
 Anta et jorden er en kule med radius på 6371 km og forsøk å regne ut avstanden selv. Sammenlign ditt svar med den målte avstanden i Google Earth.
 
 
-> **Fun fact** <br> Meteren ble opprinnelig definert i 1791 av den franske nasjonalforsamlingen som en ti milliondel av avstanden fra ekvator til Nordpolen langs en stor sirkel. Med andre ord, det ble definert som en ti milliondel av kvadranten av jordens omkrets, målt langs en meridian gjennom Paris.
+> **Fun fact** <br> Meteren ble opprinnelig definert i 1791 av den franske nasjonalforsamlingen som en ti milliondel av avstanden fra ekvator til Nordpolen langs en storsirkel. Med andre ord, det ble definert som en ti milliondel av kvadranten av jordens omkrets, målt langs en meridian gjennom Paris.

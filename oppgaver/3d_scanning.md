@@ -10,7 +10,7 @@
 
 De siste årene har 3D scanning gjort det mulig å lage veldig detaljerte 3D modeller av virkeligheten på veldig kort tid. Det finnes forskjellige metoder og utstyr for dette. I denne oppgaven skal dere sammenligne resultatet fra en app på mobilen mot en kostbar kommersiell laserscanner.
 
-## Faro 3D scanner
+## FARO 3D scanner
 
 Det blir en felles demo med scanneren. Etterpå legges 3D modellen ut på canvas.
 
