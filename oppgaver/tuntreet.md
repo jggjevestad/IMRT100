@@ -15,6 +15,6 @@ Du er en geomatikkstudent som har fått i oppgave å måle høyden på det elega
 - Mål horisonalavstanden fra totalstasjonen til stammen på treet. Dette er din horisontalavstand.
 - Bruk enkel trigonometri til å beregne høyden på treet.
 
-## Spørsmål
+## Oppgaver
 1. Hvilke avstander/vinkler måler dere (tegn en skisse)
 2. Hvor høyt er tuntreet?
