@@ -52,7 +52,7 @@
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
@@ -60,8 +60,8 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'oppgaver/video_intro';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Bli kjent med Google Earth" href="google_earth.html" />
-    <link rel="prev" title="Hvor nøyaktig er GNSS?" href="gnss_noyaktighet.html" />
+    <link rel="next" title="Introduksjon til QGIS" href="qgis_intro.html" />
+    <link rel="prev" title="Introduksjon til Google Earth" href="google_earth.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -184,22 +184,19 @@
 <li class="toctree-l1"><a class="reference internal" href="../fremdriftsplan.html">Fremdriftsplan</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../felles_info.html">Kjekt å vite</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Rapport</span></p>
-<ul class="nav bd-sidenav">
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Oppgaver</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="google_earth.html">Introduksjon til Google Earth</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Hvordan lage video?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="qgis_intro.html">Introduksjon til QGIS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tuntreet.html">Hvor høyt er Tuntreet?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="3d_scanning.html">3D Scanning</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gnss_punkt.html">Måle inn punkt med GNSS</a></li>
-<li class="toctree-l1"><a class="reference internal" href="gnss_bygge.html">Bygg din egen GNSS mottaker</a></li>
-<li class="toctree-l1"><a class="reference internal" href="gnss_noyaktighet.html">Hvor nøyaktig er GNSS?</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Aktiviteter</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Hvordan lage video?</a></li>
-<li class="toctree-l1"><a class="reference internal" href="google_earth.html">Bli kjent med Google Earth</a></li>
-<li class="toctree-l1"><a class="reference internal" href="qgis_intro.html">Introduksjon til QGIS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="python_intro.html">Introduksjon til Python</a></li>
 <li class="toctree-l1"><a class="reference internal" href="orienteringslop.html">Orienteringsløp korteste vei</a></li>
 <li class="toctree-l1"><a class="reference internal" href="rebuslop.html">Rebusløp på Campus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gnss_bygge.html">Bygg din egen GNSS mottaker</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gnss_noyaktighet.html">Hvor nøyaktig er GNSS?</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Bruksanvisninger</span></p>
 <ul class="nav bd-sidenav">
@@ -415,9 +412,9 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="hvordan-lage-video">
 <span id="video-intro"></span><h1>Hvordan lage video?<a class="headerlink" href="#hvordan-lage-video" title="Link to this heading">#</a></h1>
-<a class="bg-primary mb-1 reference internal image-reference" href="../_images/videoblog.jpg"><img alt="fishy" class="bg-primary mb-1 align-center" src="../_images/videoblog.jpg" style="width: 600px;" /></a>
 <p>Alle studentene i IMRT100 skal lage en video som viser noe om hva hver klasse på REALTEK har lært i dette faget. Dere på geomatikk skal lage én video per gruppe som viser hva dere har brukt ukene på og hva dere har lært. Dette er en flott mulighet til å vise frem deres kreativitet og innsats!</p>
 <p>Mot slutten av emnet skal hver gruppe vise frem sin video, også skal vi gjennomføre avstemning for kåre klassens beste video. Videoen som vinner skal vises foran resten av IMRT100 i Aud.Max. på avslutningsdagen den <strong>30. august</strong>.</p>
+<a class="bg-primary mb-1 reference internal image-reference" href="../_images/videoblog.jpg"><img alt="fishy" class="bg-primary mb-1 align-center" src="../_images/videoblog.jpg" style="width: 600px;" /></a>
 <section id="oppgave">
 <h2>Oppgave<a class="headerlink" href="#oppgave" title="Link to this heading">#</a></h2>
 <p><em>Innhold</em><br>
@@ -488,20 +485,20 @@ Se gjennom videoen og gjør nødvendige justeringer for å sikre at den er klar 
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="gnss_noyaktighet.html"
+       href="google_earth.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Hvor nøyaktig er GNSS?</p>
+        <p class="prev-next-title">Introduksjon til Google Earth</p>
       </div>
     </a>
     <a class="right-next"
-       href="google_earth.html"
+       href="qgis_intro.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Bli kjent med Google Earth</p>
+        <p class="prev-next-title">Introduksjon til QGIS</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>

@@ -11,77 +11,76 @@ Man trenger fire satellitter for å beregne sin posisjon. Dette er fordi vi har 
 Mottakerene dere skal bygge logger dataene på NMEA format. Dere skal bruke dette formatet til å lese av data som er aktuelle for å løse oppgavene. Se link for full beskrivelse av formatet.
 
 
-## Oppgave 1 Arduino GNSS logger
-Utstyr:
-•	Adafruit Ultimate GPS Breakout – Versjon 3 
-•	SparkFun Openlog – SD data logger  
-•	Kingston® Micro SD card 
-•	Breadboard (terminal)  
-•	Kompatible ledninger  
-•	Batteri 3,7 V, 850 mAh 
+## NMEA formatet
+NMEA (National Marine Electronics Association) er et standard format som brukes for datakommunikasjon mellom forskjellige GNSS-enheter⁵. Det ble først definert av National Marine Electronics Association og er i dag det mest vanlige dataformatet som støttes av GNSS-utstyr³. 
 
-1.	Klargjøring 
-a.	Installer Arduino IDE (programvare). https://www.arduino.cc/en/Main/Software 
-b.	Installer Adafruit GPS Library  https://learn.adafruit.com/adafruit-ultimate-gps/arduino-wiring
+NMEA-meldinger består av såkalte "setninger" med GNSS-data som overføres fra en "talker"-enhet til en "listener"-enhet (eller flere enheter)³. Meldingene er generelt utgått av Rover-enheter og de fleste GNSS-mottakere støtter NMEA-utgang⁴.
 
-2.	Oppkobling
+Noen av de vanligste NMEA-meldingene inkluderer¹:
+- **GGA** — Global Positioning System Fixed Data
+- **GLL** — Geographic Position - Latitude/Longitude
+- **GSA** — GNSS DOP and Active Satellites
+- **GSV** — GNSS Satellites in View
+- **RMC** — Recommended Minimum Specific GNSS Data
+- **VTG** — Course Over Ground and Ground Speed
 
-![](../bilder/gnss_arduino.jpg)
+Hver datafelt i en NMEA-melding starter med `$`-tegnet, og hvert felt er adskilt med et komma. For eksempel, i `$GPGGA`-meldingen representerer `GP` at det er en GPS-posisjon (GL ville betydd GLONASS).
 
-3.	Data 
-a.	Koble til Arduino UNO til PC med USB . Åpne Arduino IDE (program)
-b.	Innstillinger i Arduino IDE , verktøylinjen :
-Verktøy -> Kort - velg Arduino/Genuino UNO
-Verktøy -> Port – velg COM3
+Formålet med NMEA er å gi utstyrsbrukere muligheten til å blande og matche maskinvare og programvare. NMEA-formatterte GPS-data gjør også livet lettere for programvareutviklere å skrive programvare for et bredt utvalg av GPS-mottakere i stedet for å måtte skrive et tilpasset grensesnitt for hver GPS-mottaker.
 
-
-c.	Kommunisere med GNSS loggeren 
-
-i.	Finne frem kode
-Fil -> eksempler – velg Adafruit GPS Library – velg parsing
+Kilder:
+1. Differences and Applications of RINEX, RTCM, and NMEA. https://www.tersus-gnss.com/tech_blog/Differences-and-Applications-of-RINEX-RTCM-and-NMEA.
+2. What Is NMEA and How to Feed Data from Reach to a Third-party ... - Emlid. https://blog.emlid.com/what-is-nmea-and-how-to-feed-data-from-reach-to-a-third-party-device/.
+3. GNSS Software and Data Formats - unoosa.org. https://www.unoosa.org/documents/pdf/icg/2024/Tokyo2024/B04_GNSS_Software_and_Data_Formats_Avinab.pdf.
+4. NMEA Reference Manual - SparkFun Electronics. https://www.sparkfun.com/datasheets/GPS/NMEA%20Reference%20Manual-Rev2.1-Dec07.pdf.
+5. What Exactly Is GPS NMEA Data? - GPS World. https://www.gpsworld.com/what-exactly-is-gps-nmea-data/.
 
 
-ii.	Laste opp kode til Arduino
+## Arduino IDE
+Arduino IDE (Integrated Development Environment) er en åpen kildekode programvare som er designet av Arduino.cc. Den brukes hovedsakelig for å skrive, kompilere og laste opp kode til forskjellige Arduino-moduler. 
+
+Her er noen viktige funksjoner og egenskaper ved Arduino IDE:
+
+- **Kompatibilitet**: Arduino IDE er kompatibel med forskjellige operativsystemer som Windows, Mac OS X, og Linux¹³.
+- **Programmeringsspråk**: Den støtter programmeringsspråkene C og C++.
+- **Brukervennlig**: Arduino IDE gjør koden kompilering så enkelt at selv en vanlig person uten tidligere teknisk kunnskap kan begynne med læringsprosessen.
+- **Skisser**: Programmer skrevet ved hjelp av Arduino Software (IDE) kalles skisser. Disse skissene er skrevet i tekstredigereren og lagres med filtypen .ino.
+- **Editor og Kompiler**: IDE-miljøet inneholder hovedsakelig to grunnleggende deler: Editor og Kompiler. Førstnevnte brukes for å skrive den nødvendige koden og sistnevnte brukes for å kompilere og laste opp koden til den gitte Arduino-modulen.
+
+Arduino IDE er et viktig verktøy for alle som jobber med Arduino-prosjekter, enten det er hobbyister, studenter, lærere eller profesjonelle utviklere.
+
+Kilder:
+1. Arduino. https://www.arduino.cc/en/software/.
+2. Introduction to Arduino IDE - The Engineering Projects. https://www.theengineeringprojects.com/2018/10/introduction-to-arduino-ide.html.
+3. Arduino IDE - JavaTpoint. https://www.javatpoint.com/arduino-ide.
+4. Using the Arduino Software (IDE). https://docs.arduino.cc/learn/starting-guide/the-arduino-software-ide/.
+5. Arduino IDE. https://apps.microsoft.com/detail/9NBLGGH4RSD8?launch=true&mode=full&hl=en-gb&gl=us.
 
 
-Trykk på pil ikonet i høyre hjørne 
+## Teste GNSS mottaker
+...
+
+## Logge GNSS NMEA til SD-kort
+
+```{image} ../bilder/gnss_arduino.jpg
+:alt: fishy
+:class: bg-primary mb-1
+:width: 600px
+:align: center
+```
+
+## Visualisere GNSS posisjoner
+
+### Google Earth
+[NMEA->KML](http://www.h-schmidt.net/NMEA/)
 
 
-iii.	Lese av Arduinoen 
-Trykk på forstørellseglass ikonet i venstrehjørne 
-Sørg for å ha samme verdier som vist (115200 Baud)
+### QGIS
+[KML->CVS](http://www.monster.com.tw/kml2csv)
 
 
-NB Sørg for å ha fix (dekning til satelitter) på Adafruit Ultimate Breakout. Fix lampen blinker da hvert 15 sekund.
-
-Oppgave 2.2 GNSS logger 
-
-1.	Oppkobling 
-
-•	Connect RX to  TXO   
-•	Connect TX to  RXI  
-•	 VIN to +(breadboard) - Adafruit Ultimate breakout
-•	GND to -(breadboard) - Adafruit Ultimate breakout
-•	VCC to +(breadboard) – Sparkfun Openlog 
-•	GND to –(breadboard) – Sparkfun Openlog 
-
-
-2.	Start opp GNSS loggeren 
-
-NB Sørg for å ha fix (dekning til satelitter) på Adafruit Ultimate Breakout 
-
-Nå kan du gå deg en runde for å teste loggeren.
-
-3.	Konvertering
-•	Sett inn SD kortet i PCen og last over fila som dataen er logget på. Det kan hende det er flere filer som ligger inne så her må du bare prøve deg frem, siden loggeren ikke lagrer filene med navn eller dato.
-•	Last ned Google Earth
-•	Man må først konvertere fila fra TXT format til KML. Bruk denne nettsiden til å konvertere: http://www.h-schmidt.net/NMEA/
-•	Sett parameterne til det som er vist på bildet til høyre.
-•	Ruten som er gått skal nå vises i Google Earth.
-Videre kan man legge dette inn i QGIS som er et GIS verktøy. For å gjøre dette kan det være lurt å konvertere fra KML til CSV: http://www.monster.com.tw/kml2csv
-
-
-
+## Spørsmål
+...
 
 
 

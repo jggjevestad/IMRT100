@@ -52,7 +52,7 @@
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
@@ -61,7 +61,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="3D Scanning" href="3d_scanning.html" />
-    <link rel="prev" title="Kjekt å vite" href="../felles_info.html" />
+    <link rel="prev" title="Introduksjon til QGIS" href="qgis_intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -184,26 +184,27 @@
 <li class="toctree-l1"><a class="reference internal" href="../fremdriftsplan.html">Fremdriftsplan</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../felles_info.html">Kjekt å vite</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Rapport</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Oppgaver</span></p>
 <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="google_earth.html">Introduksjon til Google Earth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="video_intro.html">Hvordan lage video?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="qgis_intro.html">Introduksjon til QGIS</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Hvor høyt er Tuntreet?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="3d_scanning.html">3D Scanning</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gnss_punkt.html">Måle inn punkt med GNSS</a></li>
-<li class="toctree-l1"><a class="reference internal" href="gnss_bygge.html">Bygg din egen GNSS mottaker</a></li>
-<li class="toctree-l1"><a class="reference internal" href="gnss_noyaktighet.html">Hvor nøyaktig er GNSS?</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Aktiviteter</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="video_intro.html">Hvordan lage video?</a></li>
-<li class="toctree-l1"><a class="reference internal" href="google_earth.html">Bli kjent med Google Earth</a></li>
-<li class="toctree-l1"><a class="reference internal" href="qgis_intro.html">Introduksjon til QGIS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="python_intro.html">Introduksjon til Python</a></li>
 <li class="toctree-l1"><a class="reference internal" href="orienteringslop.html">Orienteringsløp korteste vei</a></li>
 <li class="toctree-l1"><a class="reference internal" href="rebuslop.html">Rebusløp på Campus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gnss_bygge.html">Bygg din egen GNSS mottaker</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gnss_noyaktighet.html">Hvor nøyaktig er GNSS?</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Bruksanvisninger</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/polycam.html">Hvordan bruke polycam og Blender</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Ressurser</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../ressurser/toc.html">Ressurser</a></li>
 </ul>
 
     </div>
@@ -399,7 +400,9 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sporsmal">Spørsmål</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#totalstasjon">Totalstasjon</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#laserdata">Laserdata</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgaver">Oppgaver</a></li>
 </ul>
             </nav>
         </div>
@@ -413,19 +416,34 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="hvor-hoyt-er-tuntreet">
 <span id="tuntreet"></span><h1>Hvor høyt er Tuntreet?<a class="headerlink" href="#hvor-hoyt-er-tuntreet" title="Link to this heading">#</a></h1>
-<p>Du er en geomatikkstudent som har fått i oppgave å måle høyden på det elegante Tuntreet ved NMBU. Du har tilgang til en totalstasjon med en såkalt prismeløs avstandsmåler, dvs du kan måle avstanden til hva som helst du sikter på.</p>
+<p>Du er en geomatikkstudent som har fått i oppgave å måle høyden på det elegante Tuntreet ved NMBU. Hvordan kan du få til dette?</p>
+<p>Som geomatikkstudent har du tilgang til en totalstasjon med en såkalt prismeløs avstandsmåler, dvs du kan måle avstand og vinkler til hva som helst du sikter på. Du har også tilgang til nasjonale databaser med punktskyer fra flybårne laserkanninger over hele landet.</p>
 <a class="bg-primary mb-1 reference internal image-reference" href="../_images/tuntreet.jpg"><img alt="fishy" class="bg-primary mb-1 align-center" src="../_images/tuntreet.jpg" style="width: 600px;" /></a>
+<p>Lag først en måleplan med en skisse for hvordan dere vil gå frem for å bestemme høyden på tuntreet. Hva skal dere måle? Hvordan kan dere kontrollere at resultatet er riktig?</p>
+<p>Når dere er enig om måleplanen, så må dere teste den ut ved å beregne høyden på noen utvalgte detaljer inne på landmålingslab’en før dere går ned til Tuntreet.</p>
+<section id="totalstasjon">
+<h2>Totalstasjon<a class="headerlink" href="#totalstasjon" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>Plasser totalstasjonen på et egnet sted hvor du har klar sikt til både roten og toppen treet.</p></li>
-<li><p>Bruk totalstasjonen til å måle f.eks. vinkelen mellom roten og toppen av treet. Dette er din vertikalvinkel.</p></li>
-<li><p>Mål horisonalavstanden fra totalstasjonen til stammen på treet. Dette er din horisontalavstand.</p></li>
-<li><p>Bruk enkel trigonometri til å beregne høyden på treet.</p></li>
+<li><p>Bruk totalstasjonen til å måle f.eks. vinkelen vertikalt mellom roten og toppen av treet.</p></li>
+<li><p>Mål avstanden fra totalstasjonen til stammen på treet.</p></li>
+<li><p>Bruk enkel plan trigonometri til å beregne høyden på treet.</p></li>
 </ul>
-<section id="sporsmal">
-<h2>Spørsmål<a class="headerlink" href="#sporsmal" title="Link to this heading">#</a></h2>
+</section>
+<section id="laserdata">
+<h2>Laserdata<a class="headerlink" href="#laserdata" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Last inn laserdata for campus i programmet Cloud Compare (CC)</p></li>
+<li><p>Klipp ut et lite område rundt Tuntreet slik at du ser kun punktskyen for selve treet</p></li>
+<li><p>Bruk måleverktøyet i CC til å måle avstanden mellom et laserpunkt på bakken og et laserpunkt i kronen på treet</p></li>
+</ul>
+</section>
+<section id="oppgaver">
+<h2>Oppgaver<a class="headerlink" href="#oppgaver" title="Link to this heading">#</a></h2>
 <ol class="arabic simple">
-<li><p>Hvilke avstander/vinkler måler dere (tegn en skisse)</p></li>
-<li><p>Hvor høyt er tuntreet?</p></li>
+<li><p>Hvordan gikk dere frem for å bestemme høyden på Tuntreet?</p></li>
+<li><p>Hvor høyt mener dere Tuntreet er?</p></li>
+<li><p>Hvor sikre er dere på den høyden som dere har kommet frem til?</p></li>
 </ol>
 </section>
 </section>
@@ -461,12 +479,12 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../felles_info.html"
+       href="qgis_intro.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Kjekt å vite</p>
+        <p class="prev-next-title">Introduksjon til QGIS</p>
       </div>
     </a>
     <a class="right-next"
@@ -494,7 +512,9 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sporsmal">Spørsmål</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#totalstasjon">Totalstasjon</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#laserdata">Laserdata</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgaver">Oppgaver</a></li>
 </ul>
   </nav></div>
 

@@ -52,7 +52,7 @@
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
@@ -60,7 +60,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'oppgaver/gnss_noyaktighet';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Hvordan lage video?" href="video_intro.html" />
+    <link rel="next" title="Hvordan bruke polycam og Blender" href="../bruksanvisninger/polycam.html" />
     <link rel="prev" title="Bygg din egen GNSS mottaker" href="gnss_bygge.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -184,22 +184,19 @@
 <li class="toctree-l1"><a class="reference internal" href="../fremdriftsplan.html">Fremdriftsplan</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../felles_info.html">Kjekt å vite</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Rapport</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Oppgaver</span></p>
 <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="google_earth.html">Introduksjon til Google Earth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="video_intro.html">Hvordan lage video?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="qgis_intro.html">Introduksjon til QGIS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tuntreet.html">Hvor høyt er Tuntreet?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="3d_scanning.html">3D Scanning</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gnss_punkt.html">Måle inn punkt med GNSS</a></li>
-<li class="toctree-l1"><a class="reference internal" href="gnss_bygge.html">Bygg din egen GNSS mottaker</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Hvor nøyaktig er GNSS?</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Aktiviteter</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="video_intro.html">Hvordan lage video?</a></li>
-<li class="toctree-l1"><a class="reference internal" href="google_earth.html">Bli kjent med Google Earth</a></li>
-<li class="toctree-l1"><a class="reference internal" href="qgis_intro.html">Introduksjon til QGIS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="python_intro.html">Introduksjon til Python</a></li>
 <li class="toctree-l1"><a class="reference internal" href="orienteringslop.html">Orienteringsløp korteste vei</a></li>
 <li class="toctree-l1"><a class="reference internal" href="rebuslop.html">Rebusløp på Campus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gnss_bygge.html">Bygg din egen GNSS mottaker</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Hvor nøyaktig er GNSS?</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Bruksanvisninger</span></p>
 <ul class="nav bd-sidenav">
@@ -376,7 +373,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -392,6 +391,14 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sporsmal">Spørsmål</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -403,27 +410,27 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="hvor-noyaktig-er-gnss">
 <span id="gnss-noyaktighet"></span><h1>Hvor nøyaktig er GNSS?<a class="headerlink" href="#hvor-noyaktig-er-gnss" title="Link to this heading">#</a></h1>
-<p><strong>Mål:</strong> Målet med denne oppgaven er å beregne nøyaktigheten til ulike GNSS-mottakere ved hjelp av data logget i form av NMEA-strenger.</p>
-<p><strong>Materialer:</strong></p>
-<ul class="simple">
-<li><p>Flere typer GNSS-mottakere</p></li>
-<li><p>Programvare for å lese NMEA-strenger</p></li>
-<li><p>Referansepunkt med kjent posisjon</p></li>
-</ul>
-<p><strong>Oppgavebeskrivelse:</strong></p>
+<p>Målet med denne oppgaven er å utvikle en forståelse av hvordan man kan estimere nøyaktigheten til forskjellige typer GNSS-mottakere ved å analysere posisjonsdata lagret i NMEA-format.</p>
 <ol class="arabic simple">
-<li><p><strong>Datainnsamling:</strong> Plasser GNSS-mottakerne på et referansepunkt med en kjent posisjon. La mottakerne logge data i minst 30 minutter.</p></li>
-<li><p><strong>Dataanalyse:</strong> Last ned de innsamlede NMEA-strengene fra GNSS-mottakerne til datamaskinen din. Bruk programvaren til å lese NMEA-strengene og ekstrahere posisjonsdata (latitude, longitude og høyde).</p></li>
-<li><p><strong>Beregning av nøyaktighet:</strong> Sammenlign de beregnede posisjonene fra GNSS-mottakerne med den kjente posisjonen til referansepunktet. Beregn feilen (i meter) i nord/syd, øst/vest og opp/ned retning for hver mottaker.</p></li>
-<li><p><strong>Resultatpresentasjon:</strong> Presenter resultatene i en tabell. Inkluder gjennomsnittlig feil, standardavvik og maksimal feil for hver mottaker og retning.</p></li>
+<li><p>Datainnsamling: </br> Samle inn NMEA-data fra forskjellige typer GNSS-mottakere. Legg GNSS-mottakeren i ro over et punkt og lagre inn data hvert sekund i f.eks. 5 minutter.</p></li>
+<li><p>Lese inn data: </br>
+Analyser de innsamlede NMEA-dataene. Fokuser på GGA-setningene fordi disse inneholder informasjon om posisjon (breddegrad og lengdegrad), antall satellitter og HDOP-verdier.</p></li>
+<li><p>Sann posisjon: </br>
+Beregn gjennomsnittet av alle posisjonen. Dette vil være din “sanne” posisjon for sammenligning.</p></li>
+<li><p>Beregning av nøyaktighet: </br>
+For hver posisjonsobservasjon, beregn avstanden fra den observerte posisjonen til middelposisjonen. Bruk disse avstandene til å beregne standardavviket, som vil være et mål for nøyaktigheten til GNSS-mottakeren.</p></li>
+<li><p>Sammenligning mottakerne: </br>
+Gjenta trinnene ovenfor for forskjellige typer GNSS-mottakere. Sammenlign nøyaktigheten du har beregnet for hver mottaker.</p></li>
 </ol>
-<p><strong>Diskusjonsspørsmål:</strong></p>
+<section id="sporsmal">
+<h2>Spørsmål<a class="headerlink" href="#sporsmal" title="Link to this heading">#</a></h2>
 <ol class="arabic simple">
 <li><p>Hvilken mottaker hadde høyest nøyaktighet? Hvorfor tror du det er slik?</p></li>
 <li><p>Hvordan påvirker antall satellitter som er synlige nøyaktigheten til GNSS-mottakerne?</p></li>
 <li><p>Hva er noen potensielle kilder til feil i GNSS-posisjonering?</p></li>
 </ol>
 <p>Husk at nøyaktigheten til GNSS-mottakere kan variere avhengig av mange faktorer, inkludert antall synlige satellitter, atmosfæriske forhold, og kvaliteten på mottakerens hardware og software.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -466,11 +473,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="video_intro.html"
+       href="../bruksanvisninger/polycam.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Hvordan lage video?</p>
+        <p class="prev-next-title">Hvordan bruke polycam og Blender</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -480,6 +487,21 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sporsmal">Spørsmål</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
