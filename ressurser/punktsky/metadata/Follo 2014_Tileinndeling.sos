@@ -1,0 +1,64 @@
+.HODE
+! lagret av exp2sosi versjon 3.2 rev. 2015-09-02
+..TEGNSETT UTF-8
+..TRANSPAR
+...KOORDSYS 22
+...ENHET 0.01
+...ORIGO-NØ 6615000 599200
+..OMRÅDE
+...MIN-NØ 6614999 599199
+...MAX-NØ 6616202 600001
+..SOSI-VERSJON  4.1
+..SOSI-NIVÅ     4		!Flateformat er 2
+..EIER "Geovekst"
+!
+!
+!---------------------------------------------------
+!Egenskaper som ikke er definert i global sosidef.txt eller [DEF HODE]
+.DEF
+..KARTSERIE D10.2
+.DEF
+..SHAPE_LENG D19.2
+.DEF
+..SHAPE_AREA D19.2
+!---------------------------------------------------
+!
+!
+! Shape fil nr. 1:  E:\gamp_workspace\RUN6936682_workspace\temp\scratch\shp_konvert_zuoiol.shp
+.KURVE 1:
+..OBJTYPE SOSI_Objekt
+..NØ
+0 0 ...KP 1
+..NØ
+60000 0
+60000 80000
+0 80000
+0 0 ...KP 1
+.FLATE 2:
+..OBJTYPE Kartblad
+..KARTSERIE 1000
+..KARTID 32-1-515-128-41
+..SHAPE_LENG 2800.0
+..SHAPE_AREA 479999.98
+..REF :1
+..NØ
+30000 40000
+.KURVE 3:
+..OBJTYPE SOSI_Objekt
+..NØ
+60000 0 ...KP 1
+..NØ
+120000 0
+120000 80000
+60000 80000
+60000 0 ...KP 1
+.FLATE 4:
+..OBJTYPE Kartblad
+..KARTSERIE 1000
+..KARTID 32-1-515-128-42
+..SHAPE_LENG 2800.0
+..SHAPE_AREA 479999.98
+..REF :3
+..NØ
+90000 40000
+.SLUTT

@@ -25,6 +25,9 @@ parts:
   - caption: Bruksanvisninger
     chapters:
     - file: bruksanvisninger/polycam
+  - caption: Ressurser
+    chapters:
+    - file: ressurser/ressurser
 #      sections:
 #      - file: oppgaver/arduino
 #  - caption: Python
