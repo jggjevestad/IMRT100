@@ -6,7 +6,7 @@
 [Arduino IDE](https://www.arduino.cc) <br>
 [QGIS](https://www.qgis.org) <br>
 [Cloud Compare (CC)](https://www.cloudcompare.org) <br>
-[Python](https://www.anaconda.com) <br>
+[Python](https://docs.anaconda.com/) <br>
 
 
 ## Hardware
