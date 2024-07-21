@@ -28,3 +28,20 @@ Trykk på tannhjulet, "Import og eksport" og så under Filformat velger du kml. 
 :width: 200px
 :class: bg-primary mb-1
 ```
+
+Nå kan begynne å gjøre opptak. Gå til hjemmeskjermen og trykk på den røde knappen
+
+```{image} ../bilder/opentracks/start.jpg
+:width: 200px
+```
+```{image} ../bilder/opentracks/opptak.jpg
+:width: 200px
+```
+
+Når du er ferdig gir du fila et fornuftig navn og overføre den til pcen.
+
+```{image} ../bilder/opentracks/lagre.jpg
+:width: 200px
+```
+
+KML filer kan åpnes i qgis, google earth og mange andre programmer. Som regel er det bare å dra fila inn i vinduet.

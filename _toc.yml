@@ -25,6 +25,7 @@ parts:
   - caption: Bruksanvisninger
     chapters:
     - file: bruksanvisninger/polycam
+    - file: bruksanvisninger/gnss_opptak
   - caption: Ressurser
     chapters:
     - file: ressurser/ressurser
