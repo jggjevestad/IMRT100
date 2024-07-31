@@ -23,7 +23,7 @@ parts:
     - file: oppgaver/3d_scanning
     - file: oppgaver/gnss_punkt
     - file: oppgaver/python_intro
-    - file: oppgaver/gnss_nøyaktighet
+    - file: oppgaver/gnss_noyaktighet
   - caption: Bruksanvisninger
     chapters:
     - file: bruksanvisninger/qgis_intro
