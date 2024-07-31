@@ -1,5 +1,14 @@
-(google_earth)=
-# Introduksjon til Google Earth
+(gis)=
+
+# GIS
+
+GIS står for Geografisk informasjonssystem og er egentlig bare litt avanserte kartprogram til PCen.
+
+De fleste dataprogram som brukes i geomatikk kan egentlig kalles GIS, men ofte tenker man på program som Qgis hvor man jobber med forskjellige lag med data som kan analysereres sammen.
+
+Selv om de fleste ikke ville kalt Google Earth et GIS oppfyller det egentlig definsjonen og er et nyttig verktøy. Første del av oppgava er å bli kjent med Google Earth og i andre del skal dere digitalisere kartet dere tegna i QGIS.
+
+## Introduksjon til Google Earth
 
 Google Earth er et kraftig verktøy som gir brukere muligheten til å utforske vår planet i detaljert 3D-grafikk. Her er noen av de grunnleggende funksjonene som kan være nyttige for geomatikkstudenter:
 
@@ -35,7 +44,7 @@ Du kan importere og eksportere geografiske data ved hjelp av KML (Keyhole Markup
 ```
 
 
-## Oppgaver
+### Oppgaver
 1. Hva er egentlig koordinater?
    - Hvilke koordinattyper kan Google Earth vise?
    - Velg et objekt i Google Earth og vis posisjonen til objektet med alle de ulike koordinattypene i Google Earth.
@@ -71,3 +80,13 @@ Anta et jorden er en kule med radius på 6371 km og forsøk å regne ut avstande
 
 
 > **Fun fact** <br> Meteren ble opprinnelig definert i 1791 av den franske nasjonalforsamlingen som en ti milliondel av avstanden fra ekvator til Nordpolen langs en storsirkel. Med andre ord, det ble definert som en ti milliondel av kvadranten av jordens omkrets, målt langs en meridian gjennom Paris.
+
+## Digitalisere kartskissa i QGIS
+
+Nå sitter dere forhåpentligvis med et nydelig kartutsnitt av campus, men kommunen vil slettes ikke ha noe papirkart. De krever at dere digitaliserer og  georeferer det slik at det kan rett inn i kommunens kartsystem!
+
+Å georefere kartet vill si å plassere kartet i et koordinatsystem. Det gjør man ved å finne koordinatene til  fire velldefinerte punkert som f.eks. husjørner. Deretter tastes dette inn i qgis som ved hjelp av matemattikk klarer å vri og strekke kartet til å passe med jordmodellen.
+
+Før dere starter må dere [laste ned og sette opp qgis](/bruksanvisninger/qgis_intro.html). Dere må også ha scannet inn kartet og fått lagra det som en bildefil på pcen.
+
+*Trygve skriver en steg for steg forklaring ✏️*
