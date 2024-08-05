@@ -6,15 +6,15 @@ Etter GNSS ble åpnet for sivile på 80-tallet har satelittbaserte målinger tat
 Det finnes mange metoder og systemer for å øke nøyaktigheten på GNSS slik at de kan brukes til landmåling m.m. 
 RTK er et slikt system og i denne oppgavene dere sammenligne det med nøyaktigheten til mobilen deres.
 
-Dere skal måle punktet SSIR som har disse koordinatene i UTM 32:
+Dere skal måle punktet NMB1 (dvs. søylen ved boksmia) som har disse koordinatene i UTM 32:
 
 | Punkt | N | E | H |
 |---|---|---|---|
-| SSIR | $6615572.623m$ | $600117.216m$ | $97.162m$ |
+| NMB1 | $6615708.451m$ | $599809.075m$ | $103.153m$ |
 
 ## Måling med mobilen
-1. Legg mobilen oppå SSIR og logg GNSS possisjonen i 5 minutt. Se: [hvordan logge posisjon med mobilen](../bruksanvisninger/gnss_mobil.html)
-2. Lag en Python kode for å finne gjennomsnittet av målingene
+1. Legg mobilen oppå søylen NMB1 og logg GNSS posisjonen i 5 minutt.
+2. Lag en Python kode for å finne gjennomsnittet av målingene.
 
 ## Måling med RTK
 RTK (Real-Time Kinematic) er en måte å måle posisjon med GNSS satellitter mer nøyaktig. RTK bruker en basestasjon som kan korrigere målingen vi gjør med mottakeren ute i felt.
