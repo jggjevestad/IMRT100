@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=87e54e7c" />
   
@@ -403,14 +403,14 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gnss">GNSS</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#nmea-formatet">NMEA formatet</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#arduino-ide">Arduino IDE</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#teste-gnss-mottaker">Teste GNSS mottaker</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sette-sammen-gnss-mottakeren">Sette sammen GNSS mottakeren</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#logge-gnss-nmea-til-sd-kort">Logge GNSS NMEA til SD-kort</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#visualisere-gnss-posisjoner">Visualisere GNSS posisjoner</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#google-earth">Google Earth</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#qgis">QGIS</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sporsmal">Spørsmål</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgave">Oppgave</a></li>
 </ul>
             </nav>
         </div>
@@ -431,6 +431,7 @@ Det europeiske navigasjonssystemet heter Galileo og er et sivilt navigasjonssyst
 Desto flere navigasjonssystemer en mottaker kan bruke, desto flere satellitter har man tilgang til. Dette fører som regel til en bedre og mer nøyaktig posisjonsbestemmelse.
 Kort og enkelt forklart så måles avstanden mellom mottakeren og satellittene for å finne en posisjon. Man måler tiden det tar fra signalet sendes ut fra satellitten til det når mottakeren.
 Man trenger fire satellitter for å beregne sin posisjon. Dette er fordi vi har de romlige koordinatene i x, y og z-retning som ukjente, i tillegg til en klokkefeil i satellitt og mottakerklokke.</p>
+<a class="bg-primary mb-1 reference internal image-reference" href="../_images/gps_breakout.jpg"><img alt="fishy" class="bg-primary mb-1 align-center" src="../_images/gps_breakout.jpg" style="width: 600px;" /></a>
 <p>Mottakerene dere skal bygge logger dataene på NMEA format. Dere skal bruke dette formatet til å lese av data som er aktuelle for å løse oppgavene. Se link for full beskrivelse av formatet.</p>
 </section>
 <section id="nmea-formatet">
@@ -448,46 +449,35 @@ Man trenger fire satellitter for å beregne sin posisjon. Dette er fordi vi har 
 </ul>
 <p>Hver datafelt i en NMEA-melding starter med <code class="docutils literal notranslate"><span class="pre">$</span></code>-tegnet, og hvert felt er adskilt med et komma. For eksempel, i <code class="docutils literal notranslate"><span class="pre">$GPGGA</span></code>-meldingen representerer <code class="docutils literal notranslate"><span class="pre">GP</span></code> at det er en GPS-posisjon (GL ville betydd GLONASS).</p>
 <p>Formålet med NMEA er å gi utstyrsbrukere muligheten til å blande og matche maskinvare og programvare. NMEA-formatterte GPS-data gjør også livet lettere for programvareutviklere å skrive programvare for et bredt utvalg av GPS-mottakere i stedet for å måtte skrive et tilpasset grensesnitt for hver GPS-mottaker.</p>
-<p>Kilder:</p>
-<ol class="arabic simple">
-<li><p>Differences and Applications of RINEX, RTCM, and NMEA. <a class="reference external" href="https://www.tersus-gnss.com/tech_blog/Differences-and-Applications-of-RINEX-RTCM-and-NMEA">https://www.tersus-gnss.com/tech_blog/Differences-and-Applications-of-RINEX-RTCM-and-NMEA</a>.</p></li>
-<li><p>What Is NMEA and How to Feed Data from Reach to a Third-party … - Emlid. <a class="reference external" href="https://blog.emlid.com/what-is-nmea-and-how-to-feed-data-from-reach-to-a-third-party-device/">https://blog.emlid.com/what-is-nmea-and-how-to-feed-data-from-reach-to-a-third-party-device/</a>.</p></li>
-<li><p>GNSS Software and Data Formats - <a class="reference external" href="http://unoosa.org">unoosa.org</a>. <a class="reference external" href="https://www.unoosa.org/documents/pdf/icg/2024/Tokyo2024/B04_GNSS_Software_and_Data_Formats_Avinab.pdf">https://www.unoosa.org/documents/pdf/icg/2024/Tokyo2024/B04_GNSS_Software_and_Data_Formats_Avinab.pdf</a>.</p></li>
-<li><p>NMEA Reference Manual - SparkFun Electronics. <a class="reference external" href="https://www.sparkfun.com/datasheets/GPS/NMEA%20Reference%20Manual-Rev2.1-Dec07.pdf">https://www.sparkfun.com/datasheets/GPS/NMEA Reference Manual-Rev2.1-Dec07.pdf</a>.</p></li>
-<li><p>What Exactly Is GPS NMEA Data? - GPS World. <a class="reference external" href="https://www.gpsworld.com/what-exactly-is-gps-nmea-data/">https://www.gpsworld.com/what-exactly-is-gps-nmea-data/</a>.</p></li>
-</ol>
 </section>
 <section id="arduino-ide">
 <h2>Arduino IDE<a class="headerlink" href="#arduino-ide" title="Link to this heading">#</a></h2>
 <p>Arduino IDE (Integrated Development Environment) er en åpen kildekode programvare som er designet av <a class="reference external" href="http://Arduino.cc">Arduino.cc</a>. Den brukes hovedsakelig for å skrive, kompilere og laste opp kode til forskjellige Arduino-moduler.</p>
 <p>Her er noen viktige funksjoner og egenskaper ved Arduino IDE:</p>
-<ul class="simple">
-<li><p><strong>Kompatibilitet</strong>: Arduino IDE er kompatibel med forskjellige operativsystemer som Windows, Mac OS X, og Linux¹³.</p></li>
-<li><p><strong>Programmeringsspråk</strong>: Den støtter programmeringsspråkene C og C++.</p></li>
-<li><p><strong>Brukervennlig</strong>: Arduino IDE gjør koden kompilering så enkelt at selv en vanlig person uten tidligere teknisk kunnskap kan begynne med læringsprosessen.</p></li>
-<li><p><strong>Skisser</strong>: Programmer skrevet ved hjelp av Arduino Software (IDE) kalles skisser. Disse skissene er skrevet i tekstredigereren og lagres med filtypen .ino.</p></li>
-<li><p><strong>Editor og Kompiler</strong>: IDE-miljøet inneholder hovedsakelig to grunnleggende deler: Editor og Kompiler. Førstnevnte brukes for å skrive den nødvendige koden og sistnevnte brukes for å kompilere og laste opp koden til den gitte Arduino-modulen.</p></li>
-</ul>
+<p><strong>Kompatibilitet</strong>: Arduino IDE er kompatibel med forskjellige operativsystemer som Windows, Mac OS X, og Linux.</p>
+<p><strong>Programmeringsspråk</strong>: Den støtter programmeringsspråkene C og C++.</p>
+<p><strong>Brukervennlig</strong>: Arduino IDE gjør koden kompilering så enkelt at selv en vanlig person uten tidligere teknisk kunnskap kan begynne med læringsprosessen.</p>
+<p><strong>Skisser</strong>: Programmer skrevet ved hjelp av Arduino Software (IDE) kalles skisser. Disse skissene er skrevet i tekstredigereren og lagres med filtypen .ino.</p>
+<p><strong>Editor og Kompiler</strong>: IDE-miljøet inneholder hovedsakelig to grunnleggende deler: Editor og Kompiler. Førstnevnte brukes for å skrive den nødvendige koden og sistnevnte brukes for å kompilere og laste opp koden til den gitte Arduino-modulen.</p>
 <p>Arduino IDE er et viktig verktøy for alle som jobber med Arduino-prosjekter, enten det er hobbyister, studenter, lærere eller profesjonelle utviklere.</p>
 <p>Kilder:</p>
 <ol class="arabic simple">
-<li><p>Arduino. <a class="reference external" href="https://www.arduino.cc/en/software/">https://www.arduino.cc/en/software/</a>.</p></li>
-<li><p>Introduction to Arduino IDE - The Engineering Projects. <a class="reference external" href="https://www.theengineeringprojects.com/2018/10/introduction-to-arduino-ide.html">https://www.theengineeringprojects.com/2018/10/introduction-to-arduino-ide.html</a>.</p></li>
-<li><p>Arduino IDE - JavaTpoint. <a class="reference external" href="https://www.javatpoint.com/arduino-ide">https://www.javatpoint.com/arduino-ide</a>.</p></li>
-<li><p>Using the Arduino Software (IDE). <a class="reference external" href="https://docs.arduino.cc/learn/starting-guide/the-arduino-software-ide/">https://docs.arduino.cc/learn/starting-guide/the-arduino-software-ide/</a>.</p></li>
-<li><p>Arduino IDE. <a class="reference external" href="https://apps.microsoft.com/detail/9NBLGGH4RSD8?launch=true&amp;amp;mode=full&amp;amp;hl=en-gb&amp;amp;gl=us">https://apps.microsoft.com/detail/9NBLGGH4RSD8?launch=true&amp;mode=full&amp;hl=en-gb&amp;gl=us</a>.</p></li>
+<li><p><a class="reference external" href="https://www.arduino.cc/en/software/">Arduino</a></p></li>
+<li><p><a class="reference external" href="https://docs.arduino.cc/learn/starting-guide/the-arduino-software-ide/">Using the Arduino Software (IDE)</a></p></li>
 </ol>
 </section>
-<section id="teste-gnss-mottaker">
-<h2>Teste GNSS mottaker<a class="headerlink" href="#teste-gnss-mottaker" title="Link to this heading">#</a></h2>
+<section id="sette-sammen-gnss-mottakeren">
+<h2>Sette sammen GNSS mottakeren<a class="headerlink" href="#sette-sammen-gnss-mottakeren" title="Link to this heading">#</a></h2>
 <p>…</p>
+<p>Husk å teste at GNSS mottakeren fungerer som den skal ved å sende NMEA strengene til en seriell terminal som f.eks. Arduino Serial Monitor. Merk at det kan være at dere må ta den med dere utendørs dersom den ikke klarer å tracke satellitter innendørs.</p>
 </section>
 <section id="logge-gnss-nmea-til-sd-kort">
 <h2>Logge GNSS NMEA til SD-kort<a class="headerlink" href="#logge-gnss-nmea-til-sd-kort" title="Link to this heading">#</a></h2>
-<a class="bg-primary mb-1 reference internal image-reference" href="../_images/gnss_arduino.jpg"><img alt="fishy" class="bg-primary mb-1 align-center" src="../_images/gnss_arduino.jpg" style="width: 600px;" /></a>
+<p>For å slippe å ta med PC’en ut for lagre NMEA str</p>
 </section>
 <section id="visualisere-gnss-posisjoner">
 <h2>Visualisere GNSS posisjoner<a class="headerlink" href="#visualisere-gnss-posisjoner" title="Link to this heading">#</a></h2>
+<p>Som vi har sett så presenterer de fleste an de enkleste GNSS mottakerne NMA mottakerne på NMEA format. Det er mange måter å visualisere denne informasjonen, men da må vi vanligvis transformere disse posisjonene til et annet egnet format.</p>
 <section id="google-earth">
 <h3>Google Earth<a class="headerlink" href="#google-earth" title="Link to this heading">#</a></h3>
 <p><a class="reference external" href="http://www.h-schmidt.net/NMEA/">NMEA-&gt;KML</a></p>
@@ -497,9 +487,12 @@ Man trenger fire satellitter for å beregne sin posisjon. Dette er fordi vi har 
 <p><a class="reference external" href="http://www.monster.com.tw/kml2csv">KML-&gt;CVS</a></p>
 </section>
 </section>
-<section id="sporsmal">
-<h2>Spørsmål<a class="headerlink" href="#sporsmal" title="Link to this heading">#</a></h2>
-<p>…</p>
+<section id="oppgave">
+<h2>Oppgave<a class="headerlink" href="#oppgave" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Er det situasjoner der den fungere veldig bra - eller veldig dårlig?</p></li>
+<li><p>Se nøyere på innholdet i NMEA filene og de transformerte KML/CSV filene. Hvilke data fra den opprinnelige NMEA filen blir transformert til KML/CSV?</p></li>
+</ol>
 </section>
 </section>
 
@@ -570,14 +563,14 @@ Man trenger fire satellitter for å beregne sin posisjon. Dette er fordi vi har 
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gnss">GNSS</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#nmea-formatet">NMEA formatet</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#arduino-ide">Arduino IDE</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#teste-gnss-mottaker">Teste GNSS mottaker</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sette-sammen-gnss-mottakeren">Sette sammen GNSS mottakeren</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#logge-gnss-nmea-til-sd-kort">Logge GNSS NMEA til SD-kort</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#visualisere-gnss-posisjoner">Visualisere GNSS posisjoner</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#google-earth">Google Earth</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#qgis">QGIS</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sporsmal">Spørsmål</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgave">Oppgave</a></li>
 </ul>
   </nav></div>
 

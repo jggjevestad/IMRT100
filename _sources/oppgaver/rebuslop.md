@@ -141,11 +141,28 @@ Du er ute å går på Campus. Plutselig snubler du i et hull i bakken. Nede i hu
 :align: center
 ```
 
-$224445588223366$
+`224445588223366`
 
-**Hint**: Se youtube hvordan man skriver SMS med tastaturet til en Nokia mobiltelefon
+**Hint**: Se f.eks. YouTube for hvordan man skriver SMS med tastaturet til en eldre Nokia mobiltelefon
 
 Spørsmål: Hvor er dette?
 
 ## Spørsmål 8 - Google Plus Codes
+Google Plus Codes er en åpen, enkel og konsistent adresseordning utviklet av Google. De er designet for å gi en adresse til ethvert sted på jorden, spesielt steder som ikke har en bestemt gateadresse.
+
+```{image} ../bilder/google_plus.jpg
+:alt: fishy
+:class: bg-primary mb-1
+:width: 600px
+:align: center
+```
+
+En Google Plus Code er en serie av sifre og bokstaver, med et pluss-tegn (+) i mellom, som representerer et område på jorden. De første 4-6 tegnene angir et stort område, mens de siste 6 tegnene angir et mer spesifikt sted innenfor det store området. For eksempel representerer koden `9C4M8XJ6+2V` et spesifikt sted i Lagos, Nigeria.
+
+For å bruke Google Plus Codes, kan du bare skrive inn koden i Google Maps søkefelt, akkurat som du ville skrevet inn en gateadresse. Dette vil umiddelbart ta deg til det nøyaktige stedet som koden representerer.
+
+`9FFGMQ7F+GR`
+
+Spørsmål: Hvor er dette?
+
 
