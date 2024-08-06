@@ -20,3 +20,10 @@ Har du macos eller windows laster du det fra [nettsida](https://qgis.org/downloa
 ## Last ned mal
 
 For at dere skal komme litt enklere i gang har vi laget en malfil til qgis. Her er det lagt inn noen bakgrunnskart som er greie å ha og koordinatsystemet er satt til UTM32. Malfila finner dere på canvas
+
+## Brukergrensesnittet
+
+Her er de viktigste delene, for dere, markert:
+
+```{image} ../bilder/qgis/forklaring.png
+```
