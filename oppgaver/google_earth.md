@@ -3,29 +3,21 @@
 
 Google Earth er et kraftig verktøy som gir brukere muligheten til å utforske vår planet i detaljert 3D-grafikk. Her er noen av de grunnleggende funksjonene som kan være nyttige for geomatikkstudenter:
 
-**Utforskning av jorden**: <br>
-Du kan zoome inn og ut, rotere og panorere for å se forskjellige deler av verden. Du kan også bruke søkefeltet til å finne spesifikke steder.
+**Utforskning av jorden**: Du kan zoome inn og ut, rotere og panorere for å se forskjellige deler av verden. Du kan også bruke søkefeltet til å finne spesifikke steder.
 
-**Satellittbilder**: <br>
-Google Earth gir deg tilgang til høyoppløselige satellittbilder fra hele verden. Disse bildene kan være svært nyttige for å studere geografiske trekk.
+**Satellittbilder**: Google Earth gir deg tilgang til høyoppløselige satellittbilder fra hele verden. Disse bildene kan være svært nyttige for å studere geografiske trekk.
 
-**3D-bygninger og terreng**: <br>
-I mange byer kan du se 3D-modeller av bygninger. Du kan også se terrengdetaljer som fjell og daler i 3D.
+**3D-bygninger og terreng**: I mange byer kan du se 3D-modeller av bygninger. Du kan også se terrengdetaljer som fjell og daler i 3D.
 
-**Måleverktøy**: <br>
-Du kan bruke måleverktøyene til å måle avstander og arealer på jorden. Dette kan være nyttig for å beregne avstanden mellom to punkter eller arealet av en bestemt region.
+**Måleverktøy**: Du kan bruke måleverktøyene til å måle avstander og arealer på jorden. Dette kan være nyttig for å beregne avstanden mellom to punkter eller arealet av en bestemt region.
 
-**Lag**: <br>
-Google Earth har mange forskjellige lag du kan slå på og av. Disse inkluderer ting som veier, stedsnavn, grenser, bilder, bygninger og mer.
+**Lag**: Google Earth har mange forskjellige lag du kan slå på og av. Disse inkluderer ting som veier, stedsnavn, grenser, bilder, bygninger og mer.
 
-**Historiske bilder**: <br>
-For noen områder kan du se historiske satellittbilder. Dette kan være nyttig for å studere endringer i landskapet over tid.
+**Historiske bilder**: For noen områder kan du se historiske satellittbilder. Dette kan være nyttig for å studere endringer i landskapet over tid.
 
-**Street View**: <br>
-I mange områder kan du se bilder tatt på gateplan. Dette kan gi deg en følelse av hvordan det er å være på det aktuelle stedet.
+**Street View**: I mange områder kan du se bilder tatt på gateplan. Dette kan gi deg en følelse av hvordan det er å være på det aktuelle stedet.
 
-**KML og KMZ filer**: <br>
-Du kan importere og eksportere geografiske data ved hjelp av KML (Keyhole Markup Language) og KMZ (en komprimert versjon av KML) filer. Dette er nyttig for å dele kart og geografisk informasjon.
+**KML og KMZ filer**: Du kan importere og eksportere geografiske data ved hjelp av KML (Keyhole Markup Language) og KMZ (en komprimert versjon av KML) filer. Dette er nyttig for å dele kart og geografisk informasjon.
 
 ```{image} ../bilder/google_earth.jpg
 :alt: fishy
@@ -51,7 +43,7 @@ Du kan importere og eksportere geografiske data ved hjelp av KML (Keyhole Markup
 3. Hva finner du i disse to posisjonene?
 
 |Breddegrad|Lengdegrad|
-| --- |--- |
+|---|---|
 | $N41^0 53' 24.68''$ | $E12^0 29' 32.19''$ |
 | $S72^0 00' 41.14''$ | $E02^0 32' 06.09''$ |
 
