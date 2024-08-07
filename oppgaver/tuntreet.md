@@ -17,16 +17,18 @@ Lag først en måleplan med en skisse for hvordan dere vil gå frem for å beste
 Når dere er enig om måleplanen, så må dere teste den ut ved å beregne høyden på noen utvalgte detaljer inne på landmålingslab'en før dere går ned til Tuntreet.
 
 
-### Totalstasjon
+## Totalstasjon
 - Plasser totalstasjonen på et egnet sted hvor du har klar sikt til både roten og toppen treet.
 - Bruk totalstasjonen til å måle f.eks. vinkelen vertikalt mellom roten og toppen av treet.
 - Mål avstanden fra totalstasjonen til stammen på treet.
 - Bruk enkel plan trigonometri til å beregne høyden på treet.
 
-### Laserdata
+## Laserdata
 - Last inn laserdata for campus i programmet Cloud Compare (CC)
 - Klipp ut et lite område rundt Tuntreet slik at du ser kun punktskyen for selve treet
 - Bruk måleverktøyet i CC til å måle avstanden mellom et laserpunkt på bakken og et laserpunkt i kronen på treet
+
+Laserdata for NMBU Campus funner dere her: [NMBU punktsky](https://nmbu.instructure.com/courses/10981/files/folder/Geomatikk/data). Alternativt kan dere laste data ned selv fra [](https://hoydedata.no).
 
 
 ## Oppgaver

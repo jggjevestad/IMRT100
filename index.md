@@ -1,5 +1,4 @@
 # Velkommen til IMRT100
-
 IMRT100 er innføringsemnet for studiene Master i teknologi, Bachelor i geomatikk og Bachelor i energi- og miljøfysikk.
 
 Studentene får en smakebit på studiet sitt som skal inspirere og begeistre. Gjennom et fagspesifiskt prosjekt utført i grupper blir studentene kjent med problemstillinger og metoder i sine studieretninger.
