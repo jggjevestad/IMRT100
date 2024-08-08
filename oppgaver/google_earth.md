@@ -3,6 +3,13 @@
 
 Google Earth er et kraftig verktøy som gir brukere muligheten til å utforske vår planet i detaljert 3D-grafikk. Her er noen av de grunnleggende funksjonene som kan være nyttige for geomatikkstudenter:
 
+```{image} ../bilder/google_earth.jpg
+:alt: fishy
+:class: bg-primary mb-1
+:width: 600px
+:align: center
+```
+
 **Utforskning av jorden**: Du kan zoome inn og ut, rotere og panorere for å se forskjellige deler av verden. Du kan også bruke søkefeltet til å finne spesifikke steder.
 
 **Satellittbilder**: Google Earth gir deg tilgang til høyoppløselige satellittbilder fra hele verden. Disse bildene kan være svært nyttige for å studere geografiske trekk.
@@ -19,13 +26,6 @@ Google Earth er et kraftig verktøy som gir brukere muligheten til å utforske v
 
 **KML og KMZ filer**: Du kan importere og eksportere geografiske data ved hjelp av KML (Keyhole Markup Language) og KMZ (en komprimert versjon av KML) filer. Dette er nyttig for å dele kart og geografisk informasjon.
 
-```{image} ../bilder/google_earth.jpg
-:alt: fishy
-:class: bg-primary mb-1
-:width: 600px
-:align: center
-```
-
 
 ## Oppgaver
 1. Hva er egentlig koordinater?
@@ -34,13 +34,13 @@ Google Earth er et kraftig verktøy som gir brukere muligheten til å utforske v
    - Klarer du å finne ut sammenhengen mellom noen av disse koordinattypene: "DD", "DMS", "DDM", "UTM" og "MGRS"?
 
 
-1. Hvilken breddegrad og lengdegrad har disse landemerkene?
+2. Hvilken breddegrad og lengdegrad har disse landemerkene?
    - Eiffeltårnet, Frankrike
    - Machu Picchu, Peru
    - Kheopspyramiden, Egypt
 
 
-1. Hva finner du i disse to posisjonene?
+3. Hva finner du i disse to posisjonene?
 
 |Breddegrad|Lengdegrad|
 |---|---|
@@ -48,7 +48,7 @@ Google Earth er et kraftig verktøy som gir brukere muligheten til å utforske v
 | $S72^0 00' 41.14''$ | $E02^0 32' 06.09''$ |
 
 
-1. Bruk GNSS mottakeren i mobiltelefonen din til å finne fram til disse tre posisjonene rundt på Campus. Ta en selfie med gruppen på stedet for å dokumentere hvor det er.
+4. Bruk GNSS mottakeren i mobiltelefonen din til å finne fram til disse tre posisjonene rundt på Campus. Ta en selfie med gruppen på stedet for å dokumentere hvor det er.
 
 |Breddegrad|Lengdegrad|
 |---|---|
@@ -57,7 +57,7 @@ Google Earth er et kraftig verktøy som gir brukere muligheten til å utforske v
 |$N59^0 40' 02.80''$|$E10^0 46' 18.47''$|
 
 
-1. Hva er avstanden fra ekvator til Nordpolen?
+5. Hva er avstanden fra ekvator til Nordpolen?
 
 Anta et jorden er en kule med radius på 6371 km og forsøk å regne ut avstanden selv. Sammenlign ditt svar med den målte avstanden i Google Earth.
 

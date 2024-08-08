@@ -14,11 +14,8 @@ Studentene skal oppnå kunnskap om hvordan matematiske realfag og teknologi grip
 
 ## Rapport
 
-Vurderinga i dette emnet er bestått/ikke bestått basert på en rapport hver gruppe leverer på slutten. Rapporten skal inneholde svar på spørsmålene som blir stilt i oppgavene og vise at dere har vært gjennom alt. Det er ikke mange formelle krav til rapporten, men vi forventer at den er systematisk og at dere svarer utfyllende. Er det noe dere synes er ekstra interessant eller gøy å utforske, så er det fritt frem!
+Vurderinga i dette emnet er *bestått/ikke bestått* basert på en rapport hver gruppe leverer på slutten. Rapporten skal inneholde svar på spørsmålene som blir stilt i oppgavene og vise at dere har vært gjennom alt. Det er ikke mange formelle krav til rapporten, men vi forventer at den er systematisk og at dere svarer utfyllende. Er det noe dere synes er ekstra interessant eller gøy å utforske, så er det fritt frem!
 
 Bruk gjerne mange bilder og skisser for å illustrere.
 
-I tillegg skal hver gruppe lage en kort video. Mer info om den [her](oppgaver/video_intro.md)
-
-```{tableofcontents}
-```
+I tillegg skal hver gruppe lage en kort video. Mer info om videoen finner dere [her](oppgaver/video_intro.md)
