@@ -60,7 +60,8 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'oppgaver/gnss_bygge';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="Ta GNSS opptak med mobilen" href="../bruksanvisninger/gnss_opptak.html" />
+    <link rel="next" title="Måle inn punkt med GNSS" href="gnss_punkt.html" />
+    <link rel="prev" title="3D Scanning" href="3d_scanning.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="no"/>
   </head>
@@ -191,21 +192,22 @@
 <li class="toctree-l1"><a class="reference internal" href="rebuslop.html">Rebusløp på Campus</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Oppgaver</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="synfaring.html">Synfaring</a></li>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="synfaring.html">Tegne kart</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gis.html">GIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="google_earth.html">Introduksjon til Google Earth</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tuntreet.html">Hvor høyt er Tuntreet?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="3d_scanning.html">3D Scanning</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Bygg din egen GNSS mottaker</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gnss_punkt.html">Måle inn punkt med GNSS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="python_intro.html">Introduksjon til Python</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gnss_noyaktighet.html">Hvor nøyaktig er GNSS?</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Bruksanvisninger</span></p>
-<ul class="current nav bd-sidenav">
+<ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/qgis_intro.html">Introduksjon til QGIS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/polycam.html">Hvordan bruke polycam og Blender</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/gnss_opptak.html">Ta GNSS opptak med mobilen</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Bygg din egen GNSS mottaker</a></li>
 </ul>
 
     </div>
@@ -426,9 +428,9 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#visualisere-gnss-posisjoner">Visualisere GNSS posisjoner</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#google-earth">Google Earth</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#qgis">QGIS</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgave">Oppgave</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgave">Oppgave</a></li>
 </ul>
             </nav>
         </div>
@@ -454,8 +456,8 @@ Man trenger fire satellitter for å beregne sin posisjon. Dette er fordi vi har 
 </section>
 <section id="nmea-formatet">
 <h2>NMEA formatet<a class="headerlink" href="#nmea-formatet" title="Link to this heading">#</a></h2>
-<p>NMEA (National Marine Electronics Association) er et standard format som brukes for datakommunikasjon mellom forskjellige GNSS-enheter⁵. Det ble først definert av National Marine Electronics Association og er i dag det mest vanlige dataformatet som støttes av GNSS-utstyr³.</p>
-<p>NMEA-meldinger består av såkalte «setninger» med GNSS-data som overføres fra en «talker»-enhet til en «listener»-enhet (eller flere enheter)³. Meldingene er generelt utgått av Rover-enheter og de fleste GNSS-mottakere støtter NMEA-utgang⁴.</p>
+<p>NMEA (National Marine Electronics Association) er et standard format som brukes for datakommunikasjon mellom forskjellige GNSS-enheter. Det ble først definert av National Marine Electronics Association og er i dag det mest vanlige dataformatet som støttes av GNSS-utstyr.</p>
+<p>NMEA-meldinger består av såkalte «setninger» med GNSS-data som overføres fra en «talker»-enhet til en «listener»-enhet (eller flere enheter). Meldingene er generelt utgått av Rover-enheter og de fleste GNSS-mottakere støtter NMEA-utgang.</p>
 <p>Noen av de vanligste NMEA-meldingene inkluderer¹:</p>
 <ul class="simple">
 <li><p><strong>GGA</strong> — Global Positioning System Fixed Data</p></li>
@@ -486,16 +488,19 @@ Man trenger fire satellitter for å beregne sin posisjon. Dette er fordi vi har 
 </section>
 <section id="sette-sammen-gnss-mottakeren">
 <h2>Sette sammen GNSS mottakeren<a class="headerlink" href="#sette-sammen-gnss-mottakeren" title="Link to this heading">#</a></h2>
-<p>…</p>
-<p>Husk å teste at GNSS mottakeren fungerer som den skal ved å sende NMEA strengene til en seriell terminal som f.eks. Arduino Serial Monitor. Merk at det kan være at dere må ta den med dere utendørs dersom den ikke klarer å tracke satellitter innendørs.</p>
+<p>Det er flere typer slike enkle GNSS  mottakerer, så vi skal gå igjennom hvordan hver av disse kan settes sammen for at vi skal få mottakeren til å lage de dataene som vi behøver til prosjektet.</p>
+<p>Det er viktig å teste at GNSS mottakeren fungerer som den skal ved å sende NMEA data til en seriell terminal som f.eks. Arduino Serial Monitor.</p>
+<blockquote>
+<div><p><strong>Merk</strong> <br> Det kan være at dere må ta den med dere GNSS mottakeren utendørs dersom den ikke klarer å få kontakt med satellittene innendørs.</p>
+</div></blockquote>
 </section>
 <section id="logge-gnss-nmea-til-sd-kort">
 <h2>Logge GNSS NMEA til SD-kort<a class="headerlink" href="#logge-gnss-nmea-til-sd-kort" title="Link to this heading">#</a></h2>
-<p>For å slippe å ta med PC’en ut for lagre NMEA str</p>
+<p>For å slippe å ta med PC’en ut for lagre NMEA data, så kan vi isteden sende datastrømmen til et SD kort. På denne måten kan GNSS enheten bli ganske liten og kompakt. Dersom dere bygger en slik GNSS mottaker, så må den drives av et eget batteri og dere må tømme SD kortet i ettertid for å kunne se hvor dere har vært.</p>
 </section>
 <section id="visualisere-gnss-posisjoner">
 <h2>Visualisere GNSS posisjoner<a class="headerlink" href="#visualisere-gnss-posisjoner" title="Link to this heading">#</a></h2>
-<p>Som vi har sett så presenterer de fleste an de enkleste GNSS mottakerne NMA mottakerne på NMEA format. Det er mange måter å visualisere denne informasjonen, men da må vi vanligvis transformere disse posisjonene til et annet egnet format.</p>
+<p>Som vi har sett så presenterer de fleste an de enkleste GNSS mottakerne data på NMEA format. Det er mange måter å visualisere denne informasjonen, men da må vi vanligvis transformere disse posisjonene til et annet egnet format.</p>
 <section id="google-earth">
 <h3>Google Earth<a class="headerlink" href="#google-earth" title="Link to this heading">#</a></h3>
 <p><a class="reference external" href="http://www.h-schmidt.net/NMEA/">NMEA-&gt;KML</a></p>
@@ -504,13 +509,13 @@ Man trenger fire satellitter for å beregne sin posisjon. Dette er fordi vi har 
 <h3>QGIS<a class="headerlink" href="#qgis" title="Link to this heading">#</a></h3>
 <p><a class="reference external" href="http://www.monster.com.tw/kml2csv">KML-&gt;CVS</a></p>
 </section>
-</section>
 <section id="oppgave">
-<h2>Oppgave<a class="headerlink" href="#oppgave" title="Link to this heading">#</a></h2>
+<h3>Oppgave<a class="headerlink" href="#oppgave" title="Link to this heading">#</a></h3>
 <ol class="arabic simple">
 <li><p>Er det situasjoner der den fungere veldig bra - eller veldig dårlig?</p></li>
 <li><p>Se nøyere på innholdet i NMEA filene og de transformerte KML/CSV filene. Hvilke data fra den opprinnelige NMEA filen blir transformert til KML/CSV?</p></li>
 </ol>
+</section>
 </section>
 </section>
 
@@ -545,13 +550,22 @@ Man trenger fire satellitter for å beregne sin posisjon. Dette er fordi vi har 
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../bruksanvisninger/gnss_opptak.html"
+       href="3d_scanning.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Ta GNSS opptak med mobilen</p>
+        <p class="prev-next-title">3D Scanning</p>
       </div>
+    </a>
+    <a class="right-next"
+       href="gnss_punkt.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Måle inn punkt med GNSS</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
@@ -577,9 +591,9 @@ Man trenger fire satellitter for å beregne sin posisjon. Dette er fordi vi har 
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#visualisere-gnss-posisjoner">Visualisere GNSS posisjoner</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#google-earth">Google Earth</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#qgis">QGIS</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgave">Oppgave</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgave">Oppgave</a></li>
 </ul>
   </nav></div>
 

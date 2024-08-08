@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Hvor høyt er Tuntreet? &#8212; IMRT100</title>
+    <title>Introduksjon til Google Earth &#8212; IMRT100</title>
   
   
   
@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=87e54e7c" />
   
@@ -57,11 +57,13 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'oppgaver/tuntreet';</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'oppgaver/google_earth';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="3D Scanning" href="3d_scanning.html" />
-    <link rel="prev" title="Introduksjon til Google Earth" href="google_earth.html" />
+    <link rel="next" title="Hvor høyt er Tuntreet?" href="tuntreet.html" />
+    <link rel="prev" title="GIS" href="gis.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="no"/>
   </head>
@@ -195,8 +197,8 @@
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="synfaring.html">Tegne kart</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gis.html">GIS</a></li>
-<li class="toctree-l1"><a class="reference internal" href="google_earth.html">Introduksjon til Google Earth</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Hvor høyt er Tuntreet?</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Introduksjon til Google Earth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tuntreet.html">Hvor høyt er Tuntreet?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="3d_scanning.html">3D Scanning</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gnss_bygge.html">Bygg din egen GNSS mottaker</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gnss_punkt.html">Måle inn punkt med GNSS</a></li>
@@ -279,7 +281,7 @@
       
       
       
-      <li><a href="https://github.com/jggjevestad/IMRT100/edit/main/oppgaver/tuntreet.md" target="_blank"
+      <li><a href="https://github.com/jggjevestad/IMRT100/edit/main/oppgaver/google_earth.md" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -296,7 +298,7 @@
       
       
       
-      <li><a href="https://github.com/jggjevestad/IMRT100/issues/new?title=Issue%20on%20page%20%2Foppgaver/tuntreet.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/jggjevestad/IMRT100/issues/new?title=Issue%20on%20page%20%2Foppgaver/google_earth.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Åpne et problem"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -326,7 +328,7 @@
       
       
       
-      <li><a href="../_sources/oppgaver/tuntreet.md" target="_blank"
+      <li><a href="../_sources/oppgaver/google_earth.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Last ned kildefilen"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -410,7 +412,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Hvor høyt er Tuntreet?</h1>
+    <h1>Introduksjon til Google Earth</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -420,8 +422,6 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#totalstasjon">Totalstasjon</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#laserdata">Laserdata</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgaver">Oppgaver</a></li>
 </ul>
             </nav>
@@ -434,38 +434,82 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="hvor-hoyt-er-tuntreet">
-<span id="tuntreet"></span><h1>Hvor høyt er Tuntreet?<a class="headerlink" href="#hvor-hoyt-er-tuntreet" title="Link to this heading">#</a></h1>
-<p>Du er en geomatikkstudent som har fått i oppgave å måle høyden på det elegante Tuntreet ved NMBU. Hvordan kan du få til dette?</p>
-<p>Som geomatikkstudent har du tilgang til en totalstasjon med en såkalt prismeløs avstandsmåler, dvs du kan måle avstand og vinkler til hva som helst du sikter på. Du har også tilgang til nasjonale databaser med punktskyer fra flybårne laserkanninger over hele landet.</p>
-<a class="bg-primary mb-1 reference internal image-reference" href="../_images/tuntreet.jpg"><img alt="fishy" class="bg-primary mb-1 align-center" src="../_images/tuntreet.jpg" style="width: 600px;" /></a>
-<p>Lag først en måleplan med en skisse for hvordan dere vil gå frem for å bestemme høyden på tuntreet. Hva skal dere måle? Hvordan kan dere kontrollere at resultatet er riktig?</p>
-<p>Når dere er enig om måleplanen, så må dere teste den ut ved å beregne høyden på noen utvalgte detaljer inne på landmålingslab’en før dere går ned til Tuntreet.</p>
-<section id="totalstasjon">
-<h2>Totalstasjon<a class="headerlink" href="#totalstasjon" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p>Plasser totalstasjonen på et egnet sted hvor dere har klar sikt til både roten og toppen treet.</p></li>
-<li><p>Bruk totalstasjonen til å måle f.eks. vinkelen vertikalt mellom roten og toppen av treet.</p></li>
-<li><p>Mål avstanden fra totalstasjonen til stammen på treet.</p></li>
-<li><p>Bruk enkel plan trigonometri til å beregne høyden på treet.</p></li>
-</ul>
-</section>
-<section id="laserdata">
-<h2>Laserdata<a class="headerlink" href="#laserdata" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p>Last inn laserdata for campus i programmet <a class="reference external" href="https://www.cloudcompare.org">Cloud Compare (CC)</a></p></li>
-<li><p>Klipp ut et lite område rundt Tuntreet slik at du ser kun punktskyen for selve treet</p></li>
-<li><p>Bruk måleverktøyet i CC til å måle avstanden mellom et laserpunkt på bakken og et laserpunkt i kronen på treet</p></li>
-</ul>
-<p>Laserdata for NMBU Campus funner dere her: <a class="reference external" href="https://nmbu.instructure.com/courses/10981/files/folder/Geomatikk/data">NMBU punktsky</a>. Alternativt kan dere laste data ned selv <a class="reference external" href="https://hoydedata.no">her</a>.</p>
-</section>
+  <section class="tex2jax_ignore mathjax_ignore" id="introduksjon-til-google-earth">
+<span id="google-earth"></span><h1>Introduksjon til Google Earth<a class="headerlink" href="#introduksjon-til-google-earth" title="Link to this heading">#</a></h1>
+<p>Google Earth er et kraftig verktøy som gir brukere muligheten til å utforske vår planet i detaljert 3D-grafikk. Her er noen av de grunnleggende funksjonene som kan være nyttige for geomatikkstudenter:</p>
+<a class="bg-primary mb-1 reference internal image-reference" href="../_images/google_earth.jpg"><img alt="fishy" class="bg-primary mb-1 align-center" src="../_images/google_earth.jpg" style="width: 600px;" /></a>
+<p><strong>Utforskning av jorden</strong>: Du kan zoome inn og ut, rotere og panorere for å se forskjellige deler av verden. Du kan også bruke søkefeltet til å finne spesifikke steder.</p>
+<p><strong>Satellittbilder</strong>: Google Earth gir deg tilgang til høyoppløselige satellittbilder fra hele verden. Disse bildene kan være svært nyttige for å studere geografiske trekk.</p>
+<p><strong>3D-bygninger og terreng</strong>: I mange byer kan du se 3D-modeller av bygninger. Du kan også se terrengdetaljer som fjell og daler i 3D.</p>
+<p><strong>Måleverktøy</strong>: Du kan bruke måleverktøyene til å måle avstander og arealer på jorden. Dette kan være nyttig for å beregne avstanden mellom to punkter eller arealet av en bestemt region.</p>
+<p><strong>Lag</strong>: Google Earth har mange forskjellige lag du kan slå på og av. Disse inkluderer ting som veier, stedsnavn, grenser, bilder, bygninger og mer.</p>
+<p><strong>Historiske bilder</strong>: For noen områder kan du se historiske satellittbilder. Dette kan være nyttig for å studere endringer i landskapet over tid.</p>
+<p><strong>Street View</strong>: I mange områder kan du se bilder tatt på gateplan. Dette kan gi deg en følelse av hvordan det er å være på det aktuelle stedet.</p>
+<p><strong>KML og KMZ filer</strong>: Du kan importere og eksportere geografiske data ved hjelp av KML (Keyhole Markup Language) og KMZ (en komprimert versjon av KML) filer. Dette er nyttig for å dele kart og geografisk informasjon.</p>
 <section id="oppgaver">
 <h2>Oppgaver<a class="headerlink" href="#oppgaver" title="Link to this heading">#</a></h2>
 <ol class="arabic simple">
-<li><p>Hvordan gikk dere frem for å bestemme høyden på Tuntreet?</p></li>
-<li><p>Hvor høyt mener dere Tuntreet er?</p></li>
-<li><p>Hvor sikre er dere på den høyden som dere har kommet frem til?</p></li>
+<li><p>Hva er egentlig koordinater?</p>
+<ul class="simple">
+<li><p>Hvilke koordinattyper kan Google Earth vise?</p></li>
+<li><p>Velg et objekt i Google Earth og vis posisjonen til objektet med alle de ulike koordinattypene i Google Earth.</p></li>
+<li><p>Klarer du å finne ut sammenhengen mellom noen av disse koordinattypene: «DD», «DMS», «DDM», «UTM» og «MGRS»?</p></li>
+</ul>
+</li>
+<li><p>Hvilken breddegrad og lengdegrad har disse landemerkene?</p>
+<ul class="simple">
+<li><p>Eiffeltårnet, Frankrike</p></li>
+<li><p>Machu Picchu, Peru</p></li>
+<li><p>Kheopspyramiden, Egypt</p></li>
+</ul>
+</li>
+<li><p>Hva finner du i disse to posisjonene?</p></li>
 </ol>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Breddegrad</p></th>
+<th class="head"><p>Lengdegrad</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><span class="math notranslate nohighlight">\(N41^0 53' 24.68''\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(E12^0 29' 32.19''\)</span></p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="math notranslate nohighlight">\(S72^0 00' 41.14''\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(E02^0 32' 06.09''\)</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<ol class="arabic simple" start="4">
+<li><p>Bruk GNSS mottakeren i mobiltelefonen din til å finne fram til disse tre posisjonene rundt på Campus. Ta en selfie med gruppen på stedet for å dokumentere hvor det er.</p></li>
+</ol>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Breddegrad</p></th>
+<th class="head"><p>Lengdegrad</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><span class="math notranslate nohighlight">\(N59^0 39' 59.45''\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(E10^0 46' 06.64''\)</span></p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="math notranslate nohighlight">\(N59^0 39' 57.26''\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(E10^0 45' 52.29''\)</span></p></td>
+</tr>
+<tr class="row-even"><td><p><span class="math notranslate nohighlight">\(N59^0 40' 02.80''\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(E10^0 46' 18.47''\)</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<ol class="arabic simple" start="5">
+<li><p>Hva er avstanden fra ekvator til Nordpolen?</p></li>
+</ol>
+<p>Anta et jorden er en kule med radius på 6371 km og forsøk å regne ut avstanden selv. Sammenlign ditt svar med den målte avstanden i Google Earth.</p>
+<blockquote>
+<div><p><strong>Fun fact</strong> <br> Meteren ble i 1791 definert av den franske nasjonalforsamlingen som en ti milliondel av avstanden fra ekvator til Nordpolen langs en storsirkel. Med andre ord, den ble definert som en ti milliondel av kvadranten av jordens omkrets, målt langs en meridian gjennom Paris.</p>
+</div></blockquote>
 </section>
 </section>
 
@@ -500,20 +544,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="google_earth.html"
+       href="gis.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Introduksjon til Google Earth</p>
+        <p class="prev-next-title">GIS</p>
       </div>
     </a>
     <a class="right-next"
-       href="3d_scanning.html"
+       href="tuntreet.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">3D Scanning</p>
+        <p class="prev-next-title">Hvor høyt er Tuntreet?</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -533,8 +577,6 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#totalstasjon">Totalstasjon</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#laserdata">Laserdata</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgaver">Oppgaver</a></li>
 </ul>
   </nav></div>

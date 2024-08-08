@@ -16,7 +16,7 @@ Når du er ferdig trykker du på knappen som heter "Done":
 :width: 200px
 ```
 
-Da år du opp en skjerm som ser slik ut: 
+Da får du opp en skjerm som ser slik ut: 
  
 ```{image} ../bilder/polycam/eksport.png
 :width: 200px
@@ -63,6 +63,6 @@ For å fargelegge modellen må du velge shading oppe til høyre:
 
 Blender kan være litt knotete både med og uten datamus, men det finnes mye info i manualen: [https://docs.blender.org/manual/en/latest/editors/3dview/navigate/navigation.html](https://docs.blender.org/manual/en/latest/editors/3dview/navigate/navigation.html)
 
-Det går også an å skru på spaseringsnavigasjon: [https://docs.blender.org/manual/en/latest/editors/3dview/navigate/walk_fly.html](https://docs.blender.org/manual/en/latest/editors/3dview/navigate/walk_fly.html)
+Det går også ann å skru på spaseringsnavigasjon: [https://docs.blender.org/manual/en/latest/editors/3dview/navigate/walk_fly.html](https://docs.blender.org/manual/en/latest/editors/3dview/navigate/walk_fly.html)
 
 ![Walk Navigation](../bilder/blender/walk.png)

@@ -60,7 +60,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'oppgaver/3d_scanning';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Måle inn punkt med GNSS" href="gnss_punkt.html" />
+    <link rel="next" title="Bygg din egen GNSS mottaker" href="gnss_bygge.html" />
     <link rel="prev" title="Hvor høyt er Tuntreet?" href="tuntreet.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="no"/>
@@ -193,10 +193,12 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Oppgaver</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="synfaring.html">Synfaring</a></li>
+<li class="toctree-l1"><a class="reference internal" href="synfaring.html">Tegne kart</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gis.html">GIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="google_earth.html">Introduksjon til Google Earth</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tuntreet.html">Hvor høyt er Tuntreet?</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">3D Scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gnss_bygge.html">Bygg din egen GNSS mottaker</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gnss_punkt.html">Måle inn punkt med GNSS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="python_intro.html">Introduksjon til Python</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gnss_noyaktighet.html">Hvor nøyaktig er GNSS?</a></li>
@@ -206,7 +208,6 @@
 <li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/qgis_intro.html">Introduksjon til QGIS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/polycam.html">Hvordan bruke polycam og Blender</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/gnss_opptak.html">Ta GNSS opptak med mobilen</a></li>
-<li class="toctree-l1"><a class="reference internal" href="gnss_bygge.html">Bygg din egen GNSS mottaker</a></li>
 </ul>
 
     </div>
@@ -435,8 +436,8 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="d-scanning">
 <span id="d-scan-mobil"></span><h1>3D Scanning<a class="headerlink" href="#d-scanning" title="Link to this heading">#</a></h1>
-<a class="bg-primary mb-1 reference internal image-reference" href="../_images/frukt.png"><img alt="fishy" class="bg-primary mb-1 align-center" src="../_images/frukt.png" style="width: 600px;" /></a>
 <p>De siste årene har 3D scanning gjort det mulig å lage veldig detaljerte 3D modeller av virkeligheten på veldig kort tid. Det finnes forskjellige metoder og utstyr for dette. I denne oppgaven skal dere sammenligne resultatet fra en app på mobilen mot en kostbar kommersiell laserscanner.</p>
+<a class="bg-primary mb-1 reference internal image-reference" href="../_images/frukt.png"><img alt="fishy" class="bg-primary mb-1 align-center" src="../_images/frukt.png" style="width: 600px;" /></a>
 <section id="faro-3d-scanner">
 <h2>FARO 3D scanner<a class="headerlink" href="#faro-3d-scanner" title="Link to this heading">#</a></h2>
 <p>Det blir en felles demo med scanneren. Etterpå legges 3D modellen ut på canvas.</p>
@@ -495,11 +496,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="gnss_punkt.html"
+       href="gnss_bygge.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Måle inn punkt med GNSS</p>
+        <p class="prev-next-title">Bygg din egen GNSS mottaker</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>

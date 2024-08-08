@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Synfaring &#8212; IMRT100</title>
+    <title>Tegne kart &#8212; IMRT100</title>
   
   
   
@@ -193,10 +193,12 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Oppgaver</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Synfaring</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Tegne kart</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gis.html">GIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="google_earth.html">Introduksjon til Google Earth</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tuntreet.html">Hvor høyt er Tuntreet?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="3d_scanning.html">3D Scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gnss_bygge.html">Bygg din egen GNSS mottaker</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gnss_punkt.html">Måle inn punkt med GNSS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="python_intro.html">Introduksjon til Python</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gnss_noyaktighet.html">Hvor nøyaktig er GNSS?</a></li>
@@ -206,7 +208,6 @@
 <li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/qgis_intro.html">Introduksjon til QGIS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/polycam.html">Hvordan bruke polycam og Blender</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/gnss_opptak.html">Ta GNSS opptak med mobilen</a></li>
-<li class="toctree-l1"><a class="reference internal" href="gnss_bygge.html">Bygg din egen GNSS mottaker</a></li>
 </ul>
 
     </div>
@@ -396,7 +397,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -407,11 +410,19 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Synfaring</h1>
+    <h1>Tegne kart</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Innhold </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgave">Oppgave</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -421,15 +432,19 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="synfaring">
-<span id="id1"></span><h1>Synfaring<a class="headerlink" href="#synfaring" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="tegne-kart">
+<span id="synfaring"></span><h1>Tegne kart<a class="headerlink" href="#tegne-kart" title="Link to this heading">#</a></h1>
 <p>Dagens geomatikere jobber stort sett digitalt, men av og til er det best å ta fatt i penn og papir!</p>
-<p>Tenk dere at Ås kommune oppdaterer kartene sine, og dere har fått i oppdrag å lage kart over en bit av campus. Lag en skisse over området med bygninger veier og annet dere synes er interresant. Dere blir nødt til å planlegge hvordan dere skal få målt avstand og vinkler og hvilke symboler og farger dere skal bruke.</p>
-<p>I rapporten svarer dere på følgende:</p>
+<p><em>Illustrasjonsbilde</em></p>
+<p>Tenk dere at Ås kommune oppdaterer kartene sine, og dere har fått i oppdrag å lage kart over en bit av campus. Lag en skisse over området med bygninger veier og annet dere synes er interessant. Dere blir nødt til å planlegge hvordan dere skal få målt avstand og vinkler og hvilke symboler og farger dere skal bruke.</p>
+<p><em>Trygve skriver mer beskrivende tekst ✏️</em></p>
+<section id="oppgave">
+<h2>Oppgave<a class="headerlink" href="#oppgave" title="Link to this heading">#</a></h2>
 <ol class="arabic simple">
 <li><p>Hvordan gikk det? Hva fungerte bra og hva gikk ikke som planlagt?</p></li>
-<li><p>Gå inn på <a class="reference external" href="https://norgeskart.no">norgeskart.no</a> og sammenlign deres arbeid med statens. Hvordan ble resultatet?</p></li>
+<li><p>Gå inn på <a class="reference external" href="https://norgeskart.no">norgeskart.no</a> og sammenlign deres arbeid med Kartverket. Hvordan ble resultatet?</p></li>
 </ol>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -486,6 +501,21 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Innhold
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgave">Oppgave</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
