@@ -18,9 +18,9 @@ Man trenger fire satellitter for å beregne sin posisjon. Dette er fordi vi har 
 Mottakerene dere skal bygge logger dataene på NMEA format. Dere skal bruke dette formatet til å lese av data som er aktuelle for å løse oppgavene. Se link for full beskrivelse av formatet.
 
 ## NMEA formatet
-NMEA (National Marine Electronics Association) er et standard format som brukes for datakommunikasjon mellom forskjellige GNSS-enheter⁵. Det ble først definert av National Marine Electronics Association og er i dag det mest vanlige dataformatet som støttes av GNSS-utstyr³. 
+NMEA (National Marine Electronics Association) er et standard format som brukes for datakommunikasjon mellom forskjellige GNSS-enheter. Det ble først definert av National Marine Electronics Association og er i dag det mest vanlige dataformatet som støttes av GNSS-utstyr. 
 
-NMEA-meldinger består av såkalte "setninger" med GNSS-data som overføres fra en "talker"-enhet til en "listener"-enhet (eller flere enheter)³. Meldingene er generelt utgått av Rover-enheter og de fleste GNSS-mottakere støtter NMEA-utgang⁴.
+NMEA-meldinger består av såkalte "setninger" med GNSS-data som overføres fra en "talker"-enhet til en "listener"-enhet (eller flere enheter). Meldingene er generelt utgått av Rover-enheter og de fleste GNSS-mottakere støtter NMEA-utgang.
 
 Noen av de vanligste NMEA-meldingene inkluderer¹:
 - **GGA** — Global Positioning System Fixed Data
@@ -56,15 +56,17 @@ Kilder:
 1. [Using the Arduino Software (IDE)](https://docs.arduino.cc/learn/starting-guide/the-arduino-software-ide/)
 
 ## Sette sammen GNSS mottakeren
-...
+Det er flere typer slike enkle GNSS  mottakerer, så vi skal gå igjennom hvordan hver av disse kan settes sammen for at vi skal få mottakeren til å lage de dataene som vi behøver til prosjektet.
 
-Husk å teste at GNSS mottakeren fungerer som den skal ved å sende NMEA strengene til en seriell terminal som f.eks. Arduino Serial Monitor. Merk at det kan være at dere må ta den med dere utendørs dersom den ikke klarer å tracke satellitter innendørs.
+Det er viktig å teste at GNSS mottakeren fungerer som den skal ved å sende NMEA data til en seriell terminal som f.eks. Arduino Serial Monitor.
+
+> **Merk** <br> Det kan være at dere må ta den med dere GNSS mottakeren utendørs dersom den ikke klarer å få kontakt med satellittene innendørs.
 
 ## Logge GNSS NMEA til SD-kort
-For å slippe å ta med PC'en ut for lagre NMEA str
+For å slippe å ta med PC'en ut for lagre NMEA data, så kan vi isteden sende datastrømmen til et SD kort. På denne måten kan GNSS enheten bli ganske liten og kompakt. Dersom dere bygger en slik GNSS mottaker, så må den drives av et eget batteri og dere må tømme SD kortet i ettertid for å kunne se hvor dere har vært.
 
 ## Visualisere GNSS posisjoner
-Som vi har sett så presenterer de fleste an de enkleste GNSS mottakerne NMA mottakerne på NMEA format. Det er mange måter å visualisere denne informasjonen, men da må vi vanligvis transformere disse posisjonene til et annet egnet format.
+Som vi har sett så presenterer de fleste an de enkleste GNSS mottakerne data på NMEA format. Det er mange måter å visualisere denne informasjonen, men da må vi vanligvis transformere disse posisjonene til et annet egnet format.
 
 ### Google Earth
 [NMEA->KML](http://www.h-schmidt.net/NMEA/)
@@ -72,7 +74,7 @@ Som vi har sett så presenterer de fleste an de enkleste GNSS mottakerne NMA mot
 ### QGIS
 [KML->CVS](http://www.monster.com.tw/kml2csv)
 
-## Oppgave
+### Oppgave
 1. Er det situasjoner der den fungere veldig bra - eller veldig dårlig?
 1. Se nøyere på innholdet i NMEA filene og de transformerte KML/CSV filene. Hvilke data fra den opprinnelige NMEA filen blir transformert til KML/CSV?
 
