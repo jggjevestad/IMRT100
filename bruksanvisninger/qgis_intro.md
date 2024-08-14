@@ -19,11 +19,15 @@ Har du macos eller windows laster du det fra [nettsida](https://qgis.org/downloa
 
 ## Last ned mal
 
-For at dere skal komme litt enklere i gang har vi laget en malfil til qgis. Her er det lagt inn noen bakgrunnskart som er greie å ha og koordinatsystemet er satt til UTM32. Malfila finner dere på canvas
+For at dere skal komme litt enklere i gang har vi laget en malfil til qgis. Her er det lagt inn noen bakgrunnskart som er greie å ha og koordinatsystemet er satt til UTM32. [Last ned malfila her](/filer/qgis/mal.qgz)
 
 ## Brukergrensesnittet
 
-Her er de viktigste delene, for dere, markert:
+Her er de viktigste delene av qgis markert:
 
 ```{image} ../bilder/qgis/forklaring.png
 ```
+
+Lagene kommer i den rekkefølgen de ligger i. Bakgrunnskartene dekker over alt så de må ligge på bunn.
+
+For å åpne gps filer og lignende er det så enkelt som å dra de inn i lagmenyen.
