@@ -2,16 +2,19 @@
 
 # Tegne kart
 
-Dagens geomatikere jobber stort sett digitalt, men av og til er det best å ta fatt i penn og papir!
+Det er lett å ta google maps og norgeskart for gitt, men noen har faktisk tegna disse kartene. Datamaskiner har gjort jobben mye enklere og det er mulig å komme veldig langt ved å se på flyfoto og laserscanning, men skal man få virkelig detaljerte kart må man fortsatt ut av kontoret og ta fatt i penn og papir!
 
-*Illustrasjonsbilde*
+```{image} ../bilder/tegne_kart.jpg
+```
 
-Tenk dere at Ås kommune oppdaterer kartene sine, og dere har fått i oppdrag å lage kart over en bit av campus. Lag en skisse over området med bygninger veier og annet dere synes er interessant. Dere blir nødt til å planlegge hvordan dere skal få målt avstand og vinkler og hvilke symboler og farger dere skal bruke.
+Tenk dere at Ås kommune skal oppdatere kartene sine over NMBU og har gitt dere jobben å tegne inn en bygning på campus.
 
-*Trygve skriver mer beskrivende tekst ✏️*
+Dere skal lage en kartskisse over bygningen med veier, vegetasjon og annet dere synes er interessant. Det er opp til dere hvordan dere skal måle avstander og vinkler, men det er ikke lov å bruke gnss eller eksisterende kart.
 
+Dere bestemmer selv hva dere vil kartlegge og hvor nøye, men det bør ikke ta mer enn noen timer.
+Et greit prosjekt kan f.eks være å få studentenes hus ned på et a4 ark.
 
-## Oppgave
-
-1. Hvordan gikk det? Hva fungerte bra og hva gikk ikke som planlagt?
-2. Gå inn på [norgeskart.no](https://norgeskart.no) og sammenlign deres arbeid med Kartverket. Hvordan ble resultatet?
+## Spørsmål
+1. Hvordan gikk dere frem?
+2. Hvilke tegn og farger brukte dere på kartet og hvorfor?
+3. Hvordan synes dere det gikk? Hva fungerte bra og ikke?
