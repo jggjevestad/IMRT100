@@ -21,7 +21,10 @@ Nå sitter dere forhåpentligvis med et nydelig kartutsnitt av campus, men kommu
 
 Før dere starter må dere [laste ned og sette opp QGIS](/bruksanvisninger/qgis_intro.md). Dere må også ha scannet inn kartet og fått lagra det som en bildefil på pcen.
 
-Det er en printer/scanner [nord i andre etasje i TF1](https://link.mazemap.com/lBEoe8OY) en i [biotek](https://link.mazemap.com/DDupHkQX) og flere andre rundt forbi. For å bruke scanneren legger dere studentkortet deres på leseren og velger send til onedrive. Når fila er scanna inn havner den i mappa som heter Scan på onedriven deres.
+Det er en printer/scanner [nord i andre etasje i TF1](https://link.mazemap.com/lBEoe8OY) en i [biotek](https://link.mazemap.com/DDupHkQX) og flere andre rundt forbi. 
+Får å få tilgang til printeren må dere logge inn på [myprint.nmbu.no](https://myprint.nmbu.no/) og få en engangskode dere må taste inn i printeren når dere scanner studentkortet for første gang. Når dere har gjort det trenger dere bare å scanne kortet deres neste gang.
+
+Når fila er scanna inn havner den i mappa som heter Scan på onedriven deres.
 Har ingen på gruppa studentkort enda kan dere skrive epostadressa til en av dere på kartet og gi det til Trygve eller Ingrid som scanner det for dere.
 
 Følg [bruksanvisninga for georeferering](/bruksanvisninger/qgis_georef.md). Når dere er ferdig sitter dere igjen med et kartlag i qgis som ligger riktig i forhold til bakgrunnskartene.
