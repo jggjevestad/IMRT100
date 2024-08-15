@@ -23,4 +23,4 @@
 [Norgeskart](https://www.norgeskart.no) <br>
 [Norge i bilder](https://www.norgeibilder.no) <br>
 [Høydedata](https://www.hoydedata.no) <br>
-[Canvas IMRT100](https://nmbu.instructure.com/courses/10981/files/folder/Geomatikk/data)
+[Laserdata NMBU](https://eduumb-my.sharepoint.com/:f:/g/personal/jon_glenn_gjevestad_nmbu_no/EhZNW6vu5CFJrBjHd5rTwPIBmjrtvMEFTLuKKkfl9J7ECQ?e=rKvIFD)

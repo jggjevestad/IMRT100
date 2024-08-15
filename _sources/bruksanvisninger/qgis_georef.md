@@ -23,9 +23,13 @@ Pass på å velg UTM sone 32 og at norgeskart har nord først, mens QGIS har øs
 
 ```{image} ../bilder/qgis/georeferering/koordinat.png
 ```
+<<<<<<< HEAD
 
 Når dere har minst 3 bilder trykker dere på den grønne "play" knappen
 
+=======
+Når dere har minst 3 punkter trykker dere på den grønne "play" knappen
+>>>>>>> 7bdf3677cdada170f5b3b01cb4624f475b33b1b6
 ```{image} ../bilder/qgis/georeferering/georef_vindu3.png
 ```
 
@@ -39,5 +43,10 @@ Trykk på play knappen igjen og vent på at qgis blir ferdig å kalkulere.
 ```{image} ../bilder/qgis/georeferering/ferdig.png
 ```
 
+<<<<<<< HEAD
 Nå skal kartet deres ha dukket opp i QGIS!
 Pass på at laget ligger øverst lagmenyen.
+=======
+Nå skal kartet deres ha dukket opp i qgis!
+Pass på at laget ligger øverst lagmenyen
+>>>>>>> 7bdf3677cdada170f5b3b01cb4624f475b33b1b6

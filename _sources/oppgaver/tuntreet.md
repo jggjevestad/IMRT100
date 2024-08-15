@@ -29,7 +29,7 @@ Når dere er enig om måleplanen, så må dere teste den ut ved å beregne høyd
 - Klipp ut et lite område rundt Tuntreet slik at du ser kun punktskyen for selve treet
 - Bruk måleverktøyet i CC til å måle avstanden mellom et laserpunkt på bakken og et laserpunkt i kronen på treet
 
-Laserdata for NMBU Campus funner dere her: [NMBU punktsky](https://nmbu.instructure.com/courses/10981/files/folder/Geomatikk/data). Alternativt kan dere laste data ned selv [her](https://hoydedata.no).
+Laserdata for NMBU Campus funner dere her: [NMBU punktsky](https://eduumb-my.sharepoint.com/:f:/g/personal/jon_glenn_gjevestad_nmbu_no/EhZNW6vu5CFJrBjHd5rTwPIBmjrtvMEFTLuKKkfl9J7ECQ?e=rKvIFD). Alternativt kan dere laste data ned selv [her](https://hoydedata.no).
 
 
 ## Oppgaver
