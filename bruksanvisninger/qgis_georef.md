@@ -21,7 +21,7 @@ Pass på å velg UTM sone 32 og at norgeskart har nord først, mens qgis har øs
 
 ```{image} ../bilder/qgis/georeferering/koordinat.png
 ```
-Når dere har minst 3 bilder trykker dere på den grønne "play" knappen
+Når dere har minst 3 punkter trykker dere på den grønne "play" knappen
 ```{image} ../bilder/qgis/georeferering/georef_vindu3.png
 ```
 Lagre resultatfila en fornuftig plass og hukk av for "Bruk 0 for gjennomsiktighet":
