@@ -4,13 +4,13 @@
 ```{image} ../bilder/qgis/forside.png
 ```
 
-GIS står for Geografisk informasjonssystem og er egentlig bare litt avanserte kartprogram til PCen.
+GIS står for Geografiske informasjonssystem og er egentlig bare litt avanserte kartprogrammer til PCen.
 
-De fleste dataprogram som brukes i geomatikk kan egentlig kalles GIS, men ofte tenker man på program som Qgis hvor man jobber med forskjellige lag med data som kan analysereres sammen.
+Mange dataprogram som brukes i geomatikk kan egentlig kalles GIS, men ofte tenker man på program som QGIS hvor man jobber med forskjellige lag med data som kan analysereres sammen.
 
-Qgis er fri programmvare, alle kan altså hjelpe med å utvikle programmet og laste det ned gratis.
+QGIS er fri programvare, alle kan altså hjelpe med å utvikle programmet og laste det ned gratis.
 
-I høstblokka skal dere ha LAD102 hvor dere skal bli drevne i Qgis og få testa ut litt avanserte funksjoner.
+I høstblokka skal dere ha LAD102 hvor dere skal bli drevne i QGIS og få testa ut litt avanserte funksjoner.
 
 ## Laste ned qgis
 
@@ -23,11 +23,11 @@ For at dere skal komme litt enklere i gang har vi laget en malfil til qgis. Her 
 
 ## Brukergrensesnittet
 
-Her er de viktigste delene av qgis markert:
+Her er de viktigste delene av QGIS markert:
 
 ```{image} ../bilder/qgis/forklaring.png
 ```
 
 Lagene kommer i den rekkefølgen de ligger i. Bakgrunnskartene dekker over alt så de må ligge på bunn.
 
-For å åpne gps filer og lignende er det så enkelt som å dra de inn i lagmenyen.
+For å åpne GPS-filer og lignende er det så enkelt som å dra de inn i lagmenyen.
