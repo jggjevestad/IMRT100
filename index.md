@@ -4,7 +4,7 @@ IMRT100 er innføringsemnet for studiene Master i teknologi, Bachelor i geomatik
 
 Studentene får en smakebit på studiet sitt som skal inspirere og begeistre. Gjennom et fagspesifiskt prosjekt utført i grupper blir studentene kjent med problemstillinger og metoder i sine studieretninger.
 
-I tillegg får studentene en grunnleggende innføring i studieteknikk, en innføring om fakultetet og studiestedet NMBU og et opplegg for å friske opp sine matematikkkunnskaper.
+I tillegg får studentene en grunnleggende innføring i studieteknikk, en innføring om fakultetet og studiestedet NMBU og et opplegg for å friske opp sine matematikkunnskaper.
 
 
 ## Dette lærer du
