@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=87e54e7c" />
   
@@ -197,7 +197,7 @@
 <li class="toctree-l1"><a class="reference internal" href="gis.html">GIS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="google_earth.html">Introduksjon til Google Earth</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tuntreet.html">Hvor høyt er Tuntreet?</a></li>
-<li class="toctree-l1"><a class="reference internal" href="3d_scanning.html">3D Scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3d_scanning.html">3D Skanning</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gnss_bygge.html">Bygg din egen GNSS mottaker</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gnss_punkt.html">Måle inn punkt med GNSS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="python_intro.html">Introduksjon til Python</a></li>
@@ -398,7 +398,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -414,6 +416,16 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Innhold </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgave">Oppgave</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#juks">Juks</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#premie">Premie</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -425,15 +437,20 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="orienteringslop-korteste-vei">
 <span id="orienteringslop"></span><h1>Orienteringsløp korteste vei<a class="headerlink" href="#orienteringslop-korteste-vei" title="Link to this heading">#</a></h1>
-<a class="bg-primary mb-1 reference internal image-reference" href="../_images/orientering.jpg"><img alt="fishy" class="bg-primary mb-1 align-center" src="../_images/orientering.jpg" style="width: 600px;" /></a>
-<p><strong>Mål:</strong> Målet med denne oppgaven er å anvende geomatikk-kunnskaper i praksis gjennom et orienteringsløp.</p>
-<p><strong>Oppgavebeskrivelse:</strong></p>
-<p>Dere vil bli delt inn i grupper og hver gruppe vil få utdelt en GNSS-mottaker. Orienteringsløpet består av flere poster som er plassert rundt på campus. Hver post har en unik kode som skal registreres i GNSS-mottakeren når dere ankommer posten.</p>
-<p>Målet med løpet er å finne den korteste veien mellom postene. Det er ikke nødvendig å besøke postene i en bestemt rekkefølge, men alle postene må besøkes. Gruppen som gjennomfører løpet ved å gå den korteste totalveien, vinner.</p>
-<p>GNSS-mottakeren vil lagre sporinformasjonen (lengden på veien dere har gått) og dette vil bli brukt til å bestemme vinneren. Husk at det er totalveien som teller, ikke tiden det tar å fullføre løpet.</p>
-<p><strong>Vurdering:</strong></p>
-<p>Vurderingen vil være basert på nøyaktigheten av sporet som er lagret i GNSS-mottakeren. Gruppen som har det korteste sporet (dvs. den korteste totalveien mellom alle postene) vil bli erklært som vinner.</p>
-<p>Lykke til! Må det beste laget vinne!</p>
+<a class="bg-primary mb-1 reference internal image-reference" href="../_images/orientering.jpg"><img alt="Orienteringsløper i aksjon" class="bg-primary mb-1 align-center" src="../_images/orientering.jpg" style="width: 600px;" /></a>
+<section id="oppgave">
+<h2>Oppgave<a class="headerlink" href="#oppgave" title="Link to this heading">#</a></h2>
+<p>Dere får et kart over campus med orienteringsposter. Målet er å finne korteste rute mellom alle postene og tilbake til start. Dere logger ruta deres enten med mobilen, eller en arduino. Etterpå sender dere meg ruta deres i kml format til <a class="reference external" href="mailto:trygve&#46;borte&#46;nomeland&#37;&#52;&#48;nmbu&#46;no">trygve<span>&#46;</span>borte<span>&#46;</span>nomeland<span>&#64;</span>nmbu<span>&#46;</span>no</a></p>
+<p>Lykke til!</p>
+</section>
+<section id="juks">
+<h2>Juks<a class="headerlink" href="#juks" title="Link to this heading">#</a></h2>
+<p>Er ikke lov</p>
+</section>
+<section id="premie">
+<h2>Premie<a class="headerlink" href="#premie" title="Link to this heading">#</a></h2>
+<p>Ja.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -490,6 +507,23 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Innhold
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppgave">Oppgave</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#juks">Juks</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#premie">Premie</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

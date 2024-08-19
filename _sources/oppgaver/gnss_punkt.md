@@ -1,6 +1,13 @@
 (gnss_mobil)=
 # Måle inn punkt med GNSS
 
+```{image} ../bilder/rtk.jpg
+:alt: Ekte landmåler i aksjon
+:class: mb-1
+:width: 300px
+:align: center
+```
+
 Etter GNSS ble åpnet for sivile på 80-tallet har satelittbaserte målinger tatt over mye av arbeidet innenfor landmåling. Du bruker sannsynligvis også GNSS hver dag til å finne frem eller kontinuerlig kringkaste posisjonen din til alle du kjenner.
 
 Det finnes mange metoder og systemer for å øke nøyaktigheten på GNSS slik at de kan brukes til landmåling m.m. 
@@ -17,11 +24,18 @@ Dere skal måle punktet NMB1 (dvs. søylen ved boksmia) som har disse koordinate
 1. Lag en Python kode for å finne gjennomsnittet av målingene.
 
 ## Måling med RTK
-RTK (Real-Time Kinematic) er en måte å måle posisjon med GNSS satellitter mer nøyaktig. RTK bruker en basestasjon som kan korrigere målingen vi gjør med mottakeren ute i felt.
+RTK (Real-Time Kinematic) er en måte å måle posisjon med GNSS satellitter mer nøyaktig. RTK bruker en basestasjon som korrigerer målingene vi gjør med mottakeren ute i felt.
 
-Øvingslærere kjører demo for en og en gruppe.
+Øvingslærere kjører demo for en og en gruppe. 
 
 ## Spørsmål:
 1. Hvor nøyaktig ble målingen fra mobilen?
 1. Hvor nøyaktig ble målingen fra RTK mottakeren?
 1. Hvor mye mer nøyaktig er RTK enn mobilen din? Hvorfor er det så stor forskjell?
+
+```{image} ../bilder/presisjon_vs_noyaktighet.png
+:alt: Presisjon vs nøyaktighet
+:class: mb-1
+:width: 600px
+:align: center
+```
