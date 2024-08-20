@@ -6,8 +6,10 @@
 
 [Arduino IDE](https://www.arduino.cc) <br>
 [QGIS](https://www.qgis.org) <br>
+[Google Earth](https://www.google.com/earth/about/versions/) <br>
 [Cloud Compare (CC)](https://www.cloudcompare.org) <br>
 [Python](https://docs.anaconda.com/) <br>
+[GPSBabel](https://www.gpsbabel.org) <br>
 
 
 ## Hardware
