@@ -24,3 +24,15 @@
 [Norge i bilder](https://www.norgeibilder.no) <br>
 [Høydedata](https://www.hoydedata.no) <br>
 [Laserdata NMBU](https://eduumb-my.sharepoint.com/:f:/g/personal/jon_glenn_gjevestad_nmbu_no/EhZNW6vu5CFJrBjHd5rTwPIBmjrtvMEFTLuKKkfl9J7ECQ?e=rKvIFD)
+
+
+## Fastmerker
+
+```{image} fastmerker.png
+:alt: fishy
+:class: bg-primary mb-1
+:width: 600px
+:align: center
+```
+
+[fastmerker](fastmerker.csv)
