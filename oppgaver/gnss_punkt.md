@@ -13,20 +13,27 @@ Etter GNSS ble åpnet for sivile på 80-tallet har satelittbaserte målinger tat
 Det finnes mange metoder og systemer for å øke nøyaktigheten på GNSS slik at de kan brukes til landmåling m.m. 
 RTK er et slikt system og i denne oppgavene dere sammenligne det med nøyaktigheten til mobilen deres.
 
-Dere skal måle punktet NMB1 (dvs. søylen ved boksmia) som har disse koordinatene i UTM 32:
+På campus er det et nettverk av såkalte fastmerker. Det vil si punkter i bakken vi kjenner veldig nøyaktige koordinater til og som vi bruker som utgangspunkt for andre målinger.
+Dere skal velge et fastmerke og se hvor nøyaktig mobilen og RTK mottakeren er på å måle posisjonen og hvor langt de er fra sannheten. 
+
+**Dere kan f.eks måle NMB1 (dvs. søylen ved boksmia) som har disse koordinatene i UTM 32:**
 
 | Punkt | N | E | H |
 |---|---|---|---|
 | NMB1 | $6615708.451m$ | $599809.075m$ | $103.153m$ |
 
+Resten av fastmerkene ligger her: [fastmerker.csv](/ressurser/fastmerker.csv)
+
+[Her](/bruksanvisninger/qgis_punkt.md) er en bruksanvisning på å legge inn csv filer i qgis. Skal dere legge egne punkt er det lurt å skrive de inn i en csv fil.
+
 ## Måling med mobilen
-1. Legg mobilen oppå søylen NMB1 og logg GNSS posisjonen i f.eks. 5 minutt.
-1. Lag en Python kode for å finne gjennomsnittet av målingene.
+1. Legg mobilen oppå et fastmerke og logg GNSS posisjonen i f.eks. 5 minutt.
+1. Finn gjennomsnittet og standardavviket til målingene. [Se bruksanvisning](/bruksanvisninger/gjennomsnitt_koordinater.md)
 
 ## Måling med RTK
 RTK (Real-Time Kinematic) er en måte å måle posisjon med GNSS satellitter mer nøyaktig. RTK bruker en basestasjon som korrigerer målingene vi gjør med mottakeren ute i felt.
 
-Øvingslærere kjører demo for en og en gruppe. 
+**Øvingslærere kjører demo for en og en gruppe hvor dere måler samme fastmerke**
 
 ## Spørsmål:
 1. Hvor nøyaktig ble målingen fra mobilen?
