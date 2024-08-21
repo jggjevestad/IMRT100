@@ -1,5 +1,5 @@
 (gjennomsnitt_koordinater)=
-## Ta gjennomsnittet av koordinater i en kml fil
+# Ta gjennomsnittet av koordinater i en kml fil
 
 Her er en måte å ta gjennomsnittet av koordinater i excel, uten å bruke python. Python gjør jobben mye enklere, så bruk det om dere får det til. Da er det fortsatt lurt å starte med en csv fil som forklares i punkt en.
 

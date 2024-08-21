@@ -2,7 +2,7 @@
 # Hvordan legge inn punkt fra csv filer i qgis
 
 CSV står for comma seperated values og er den enkleste måten å lagre data i tabellform. Det er rett og slett data seperert med komma, f.eks en liste med koordinater:
-```csv
+```
 name,     easting,    northing,    elevation
 AASC,     600389.138, 6614931.498,  94.575
 FLO3,     600153.479, 6615523.159, 103.808
