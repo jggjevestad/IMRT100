@@ -8,19 +8,17 @@ Lykke til!
 **NB**: Før dere begynner på rebusløpet er det viktig at dere har lekt dere litt med Google Earth på forhånd og prøvd noen av funksjonene.
 
 
-## Spørsmål 1 - Totalstasjon
-En totalstasjon er satt opp ved Vitenparken. En totalstasjon er et instrument som måler horisontalvinkel, vertikalvinkel og avstand. Gå ned til den oppsatte totalstasjonen når dere har funnet de nøyaktige vinklene i tabellen nedenfor og still inn totalstasjonen med de riktige vinklene. Vinklene har enheten gon.
+## Spørsmål 1 - En slags foss på en måte
+Nede på NMBU Campus, skjult blant trærne og omfavnet av naturens ro, ligger en mystisk dam. Midt i denne dammen, som glitrer i sollyset og speiler himmelens skiftende farger, finnes en liten, bortgjemt øy. På denne øyen står et sjarmerende, gammelt hus, som ser ut som det er hentet rett ut av et eventyr. Huset, med sitt krokete tak, bærer på hemmeligheter fra en svunnen tid.
 
-```{image} ../bilder/totalstation.jpg
+Vannet i dammen er ikke krystallklart, men renner stille ut i en bekk som slynger seg gjennom landskapet. Bekken, med sitt melodiske klukk, fører vannet videre til en bitte liten foss. Denne fossen, selv om den er liten, bruser med en kraft som kanskje kan høres dersom du legger godviljen til og skaper en følelse av eventyr og mystikk. 
+
+```{image} ../bilder/foss.jpg
 :alt: fishy
 :class: bg-primary mb-1
-:width: 600px
+:width: 300px
 :align: center
 ```
-
-Horisontalvinkel|Vertikalvinkel
----:|---:
-BAB.IEAC|AFG.IHGE
 
 Spørsmål: Hva heter fossen?
 
@@ -92,11 +90,10 @@ $$
 N koordinaten er antall meter fra ekvator, mens E er 500 000 pluss antall meter fra en bestemt
 lengdegrad (9 grader øst i sone 32). Øst-koordinaten begynner på 500 000 for å unngå
 negative tall.
-Gå til disse UTM koordinatene, og kom dere opp så høyt dere kan for å finne stedet.
 
-**Hint**: Bygget er høyere enn du tror
+Gå til disse UTM koordinatene, og dere vil finne et bygg med noe spesielt på taket.
 
-Spørsmål: Hva tror dere denne delen av bygget har vært brukt til?
+Spørsmål: Hva heter bygget og hva tror dere dette bygget har vært brukt til?
 
 
 ## Spørsmål 5 - Rundt og rundt

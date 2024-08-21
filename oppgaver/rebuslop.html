@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=87e54e7c" />
   
@@ -199,18 +199,21 @@
 <li class="toctree-l1"><a class="reference internal" href="gis.html">GIS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="google_earth.html">Introduksjon til Google Earth</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tuntreet.html">Hvor høyt er Tuntreet?</a></li>
-<li class="toctree-l1"><a class="reference internal" href="3d_scanning.html">3D Scanning</a></li>
-<li class="toctree-l1"><a class="reference internal" href="gnss_bygge.html">Bygg din egen GNSS mottaker</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3d_scanning.html">3D Skanning</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gnss_punkt.html">Måle inn punkt med GNSS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="python_intro.html">Introduksjon til Python</a></li>
+
+<li class="toctree-l1"><a class="reference internal" href="gnss_bygge.html">Bygg din egen GNSS mottaker</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gnss_noyaktighet.html">Hvor nøyaktig er GNSS?</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Bruksanvisninger</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/qgis_intro.html">Introduksjon til QGIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/qgis_punkt.html">Hvordan legge inn punkt fra csv filer i qgis</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/qgis_georef.html">Georeferere en bildefil i QGIS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/polycam.html">Hvordan bruke polycam og Blender</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/gnss_opptak.html">Ta GNSS opptak med mobilen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/gjennomsnitt_koordinater.html">Ta gjennomsnittet av koordinater i en kml fil</a></li>
 </ul>
 
     </div>
@@ -423,7 +426,7 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sporsmal-1-totalstasjon">Spørsmål 1 - Totalstasjon</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sporsmal-1-en-slags-foss-pa-en-mate">Spørsmål 1 - En slags foss på en måte</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sporsmal-2-transformasjon">Spørsmål 2 - Transformasjon</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sporsmal-3-uleselig">Spørsmål 3 - Uleselig</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sporsmal-4-en-flat-verden">Spørsmål 4 - En flat verden</a></li>
@@ -447,23 +450,11 @@ document.write(`
 <p>I dette rebusløpet skal dere gjennom 8 oppgaver finne frem til steder på Campus ved hjelp av målinger og enkel geometri. Når dere har funnet stedet, så skal dere dokumentere hvor dere mener det er ved å ta en selfie av hele gruppa. Til hver oppgave er det også et spørsmål som dere må finne frem til svaret på.</p>
 <p>Lykke til!</p>
 <p><strong>NB</strong>: Før dere begynner på rebusløpet er det viktig at dere har lekt dere litt med Google Earth på forhånd og prøvd noen av funksjonene.</p>
-<section id="sporsmal-1-totalstasjon">
-<h2>Spørsmål 1 - Totalstasjon<a class="headerlink" href="#sporsmal-1-totalstasjon" title="Link to this heading">#</a></h2>
-<p>En totalstasjon er satt opp ved Vitenparken. En totalstasjon er et instrument som måler horisontalvinkel, vertikalvinkel og avstand. Gå ned til den oppsatte totalstasjonen når dere har funnet de nøyaktige vinklene i tabellen nedenfor og still inn totalstasjonen med de riktige vinklene. Vinklene har enheten gon.</p>
-<a class="bg-primary mb-1 reference internal image-reference" href="../_images/totalstation.jpg"><img alt="fishy" class="bg-primary mb-1 align-center" src="../_images/totalstation.jpg" style="width: 600px;" /></a>
-<div class="pst-scrollable-table-container"><table class="table">
-<thead>
-<tr class="row-odd"><th class="head text-right"><p>Horisontalvinkel</p></th>
-<th class="head text-right"><p>Vertikalvinkel</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td class="text-right"><p>BAB.IEAC</p></td>
-<td class="text-right"><p>AFG.IHGE</p></td>
-</tr>
-</tbody>
-</table>
-</div>
+<section id="sporsmal-1-en-slags-foss-pa-en-mate">
+<h2>Spørsmål 1 - En slags foss på en måte<a class="headerlink" href="#sporsmal-1-en-slags-foss-pa-en-mate" title="Link to this heading">#</a></h2>
+<p>Nede på NMBU Campus, skjult blant trærne og omfavnet av naturens ro, ligger en mystisk dam. Midt i denne dammen, som glitrer i sollyset og speiler himmelens skiftende farger, finnes en liten, bortgjemt øy. På denne øyen står et sjarmerende, gammelt hus, som ser ut som det er hentet rett ut av et eventyr. Huset, med sitt krokete tak, bærer på hemmeligheter fra en svunnen tid.</p>
+<p>Vannet i dammen er ikke krystallklart, men renner stille ut i en bekk som slynger seg gjennom landskapet. Bekken, med sitt melodiske klukk, fører vannet videre til en bitte liten foss. Denne fossen, selv om den er liten, bruser med en kraft som kanskje kan høres dersom du legger godviljen til og skaper en følelse av eventyr og mystikk.</p>
+<a class="bg-primary mb-1 reference internal image-reference" href="../_images/foss.jpg"><img alt="fishy" class="bg-primary mb-1 align-center" src="../_images/foss.jpg" style="width: 300px;" /></a>
 <p>Spørsmål: Hva heter fossen?</p>
 </section>
 <section id="sporsmal-2-transformasjon">
@@ -510,10 +501,9 @@ areal blir litt feil i forhold til virkeligheten - det er ikke mulig å bevare a
 \end{split}\]</div>
 <p>N koordinaten er antall meter fra ekvator, mens E er 500 000 pluss antall meter fra en bestemt
 lengdegrad (9 grader øst i sone 32). Øst-koordinaten begynner på 500 000 for å unngå
-negative tall.
-Gå til disse UTM koordinatene, og kom dere opp så høyt dere kan for å finne stedet.</p>
-<p><strong>Hint</strong>: Bygget er høyere enn du tror</p>
-<p>Spørsmål: Hva tror dere denne delen av bygget har vært brukt til?</p>
+negative tall.</p>
+<p>Gå til disse UTM koordinatene, og dere vil finne et bygg med noe spesielt på taket.</p>
+<p>Spørsmål: Hva heter bygget og hva tror dere dette bygget har vært brukt til?</p>
 </section>
 <section id="sporsmal-5-rundt-og-rundt">
 <h2>Spørsmål 5 - Rundt og rundt<a class="headerlink" href="#sporsmal-5-rundt-og-rundt" title="Link to this heading">#</a></h2>
@@ -633,7 +623,7 @@ Gå til disse UTM koordinatene, og kom dere opp så høyt dere kan for å finne 
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sporsmal-1-totalstasjon">Spørsmål 1 - Totalstasjon</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sporsmal-1-en-slags-foss-pa-en-mate">Spørsmål 1 - En slags foss på en måte</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sporsmal-2-transformasjon">Spørsmål 2 - Transformasjon</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sporsmal-3-uleselig">Spørsmål 3 - Uleselig</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sporsmal-4-en-flat-verden">Spørsmål 4 - En flat verden</a></li>
