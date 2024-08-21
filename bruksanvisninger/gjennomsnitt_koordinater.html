@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Introduksjon til Python &#8212; IMRT100</title>
+    <title>Ta gjennomsnittet av koordinater i en kml fil &#8212; IMRT100</title>
   
   
   
@@ -57,11 +57,10 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'oppgaver/python_intro';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'bruksanvisninger/gjennomsnitt_koordinater';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Bygg din egen GNSS mottaker" href="gnss_bygge.html" />
-    <link rel="prev" title="Måle inn punkt med GNSS" href="gnss_punkt.html" />
+    <link rel="prev" title="Ta GNSS opptak med mobilen" href="gnss_opptak.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="no"/>
   </head>
@@ -183,36 +182,34 @@
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../fremdriftsplan.html">Fremdriftsplan</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../felles_info.html">Kjekt å vite</a></li>
-<li class="toctree-l1"><a class="reference internal" href="video_intro.html">Hvordan lage video?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../oppgaver/video_intro.html">Hvordan lage video?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../ressurser/ressurser.html">Ressurser</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Aktiviteter</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="orienteringslop.html">Orienteringsløp korteste vei</a></li>
-<li class="toctree-l1"><a class="reference internal" href="rebuslop.html">Rebusløp på Campus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../oppgaver/orienteringslop.html">Orienteringsløp korteste vei</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../oppgaver/rebuslop.html">Rebusløp på Campus</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Oppgaver</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="synfaring.html">Tegne kart</a></li>
-<li class="toctree-l1"><a class="reference internal" href="gis.html">GIS</a></li>
-<li class="toctree-l1"><a class="reference internal" href="google_earth.html">Introduksjon til Google Earth</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tuntreet.html">Hvor høyt er Tuntreet?</a></li>
-<li class="toctree-l1"><a class="reference internal" href="3d_scanning.html">3D Skanning</a></li>
-<li class="toctree-l1"><a class="reference internal" href="gnss_punkt.html">Måle inn punkt med GNSS</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Introduksjon til Python</a></li>
-<li class="toctree-l1"><a class="reference internal" href="gnss_bygge.html">Bygg din egen GNSS mottaker</a></li>
-<li class="toctree-l1"><a class="reference internal" href="gnss_noyaktighet.html">Hvor nøyaktig er GNSS?</a></li>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../oppgaver/synfaring.html">Tegne kart</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../oppgaver/gis.html">GIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../oppgaver/google_earth.html">Introduksjon til Google Earth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../oppgaver/tuntreet.html">Hvor høyt er Tuntreet?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../oppgaver/3d_scanning.html">3D Skanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../oppgaver/gnss_punkt.html">Måle inn punkt med GNSS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../oppgaver/python_intro.html">Introduksjon til Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../oppgaver/gnss_bygge.html">Bygg din egen GNSS mottaker</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../oppgaver/gnss_noyaktighet.html">Hvor nøyaktig er GNSS?</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Bruksanvisninger</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/qgis_intro.html">Introduksjon til QGIS</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/qgis_punkt.html">Hvordan legge inn punkt fra csv filer i qgis</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/qgis_georef.html">Georeferere en bildefil i QGIS</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/polycam.html">Hvordan bruke polycam og Blender</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/gnss_opptak.html">Ta GNSS opptak med mobilen</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/gjennomsnitt_koordinater.html">Ta gjennomsnittet av koordinater i en kml fil</a></li>
-
-
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="qgis_intro.html">Introduksjon til QGIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="qgis_punkt.html">Hvordan legge inn punkt fra csv filer i qgis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="qgis_georef.html">Georeferere en bildefil i QGIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="polycam.html">Hvordan bruke polycam og Blender</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gnss_opptak.html">Ta GNSS opptak med mobilen</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Ta gjennomsnittet av koordinater i en kml fil</a></li>
 </ul>
 
     </div>
@@ -284,7 +281,7 @@
       
       
       
-      <li><a href="https://github.com/jggjevestad/IMRT100/edit/main/oppgaver/python_intro.ipynb" target="_blank"
+      <li><a href="https://github.com/jggjevestad/IMRT100/edit/main/bruksanvisninger/gjennomsnitt_koordinater.md" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -301,7 +298,7 @@
       
       
       
-      <li><a href="https://github.com/jggjevestad/IMRT100/issues/new?title=Issue%20on%20page%20%2Foppgaver/python_intro.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/jggjevestad/IMRT100/issues/new?title=Issue%20on%20page%20%2Fbruksanvisninger/gjennomsnitt_koordinater.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Åpne et problem"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -331,7 +328,7 @@
       
       
       
-      <li><a href="../_sources/oppgaver/python_intro.ipynb" target="_blank"
+      <li><a href="../_sources/bruksanvisninger/gjennomsnitt_koordinater.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Last ned kildefilen"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -341,7 +338,7 @@
 <span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="btn__text-container">.ipynb</span>
+<span class="btn__text-container">.md</span>
 </a>
 </li>
       
@@ -402,7 +399,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -413,11 +412,20 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Introduksjon til Python</h1>
+    <h1>Ta gjennomsnittet av koordinater i en kml fil</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Innhold </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#konvertering-fra-kml-til-csv-lengde-og-breddegrader">1.  Konvertering fra KML til CSV (Lengde og breddegrader)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#konvertering-fra-csv-lengde-og-breddegrader-til-csv-utm">2.  Konvertering fra CSV (Lengde og breddegrader) til CSV (UTM)</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -427,32 +435,38 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="introduksjon-til-python">
-<span id="python-intro"></span><h1>Introduksjon til Python<a class="headerlink" href="#introduksjon-til-python" title="Link to this heading">#</a></h1>
-<p>Python er et at de mest anvendelige programmeringsspråkene for læring og utvkling, og støtter et stort utviklingsmiljø for pakker for alt fra statistikk til maskinlæring. Dere kommer til bruke Python mye gjennom studiet, så dette er en god anledning til å friske opp kunnskapene fra videregående skole og se hvordan dette programmeringsspråket kan brukes med enkle eksempler fra geomatikk.</p>
-<p>I undervisningen brukes Anaconda for å skrive og kjøre kode. Har dere ikke Anaconda installerert enda kan dere laste det ned <a class="reference external" href="https://www.anaconda.com/download/success">her</a>.
-Har dere programmert tidligere og har et annet program dere liker bedre er det fullt mulig å bruke det.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Import</span>
-<span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">pi</span>
-
-<span class="c1"># Konverter fra grader til radianer</span>
-<span class="k">def</span> <span class="nf">deg2rad</span><span class="p">(</span><span class="n">deg</span><span class="p">):</span>
-    <span class="k">return</span> <span class="n">deg</span><span class="o">*</span><span class="p">(</span><span class="n">pi</span><span class="o">/</span><span class="mi">180</span><span class="p">)</span>
-
-<span class="c1"># Test funksjonen</span>
-<span class="n">deg</span> <span class="o">=</span> <span class="mi">90</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">deg</span><span class="si">:</span><span class="s2">5.3f</span><span class="si">}</span><span class="s2"> grader tilsvarer </span><span class="si">{</span><span class="n">deg2rad</span><span class="p">(</span><span class="n">deg</span><span class="p">)</span><span class="si">:</span><span class="s2">6.5f</span><span class="si">}</span><span class="s2"> radianer&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>90.000 grader tilsvarer 1.57080 radianer
-</pre></div>
-</div>
-</div>
-</div>
+  <section class="tex2jax_ignore mathjax_ignore" id="ta-gjennomsnittet-av-koordinater-i-en-kml-fil">
+<span id="gjennomsnitt-koordinater"></span><h1>Ta gjennomsnittet av koordinater i en kml fil<a class="headerlink" href="#ta-gjennomsnittet-av-koordinater-i-en-kml-fil" title="Link to this heading">#</a></h1>
+<p>Her er en måte å ta gjennomsnittet av koordinater i excel, uten å bruke python. Python gjør jobben mye enklere, så bruk det om dere får det til. Da er det fortsatt lurt å starte med en csv fil som forklares i punkt en.</p>
+<section id="konvertering-fra-kml-til-csv-lengde-og-breddegrader">
+<h2>1.  Konvertering fra KML til CSV (Lengde og breddegrader)<a class="headerlink" href="#konvertering-fra-kml-til-csv-lengde-og-breddegrader" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Benytt følgende nettside for å konvertere KML-filen til en CSV fil: <a class="reference external" href="https://anyconv.com/kml-to-csv-converter/"><strong>https://anyconv.com/kml-to-csv-converter/</strong></a></p></li>
+<li><p>Åpne CSV filen i Excel. Det kan være litt utfordrende å åpne en CSV fil riktig i Excel dersom dere ikke har gjort dette før. Prøv dere frem litt, og så kan dere spørre om hjelp dersom dere ikke forstår hvorfor det ikke fungerer som dere forventet.</p></li>
+<li><p>Resultatfilen inneholder lengde- og breddegrader <strong>kun</strong> i de første 2 kolonene.</p></li>
+<li><p>I Excel, fjern de andre kolonene fra filen og lagre filen på nytt som en CSV fil.</p></li>
+</ul>
+</section>
+<section id="konvertering-fra-csv-lengde-og-breddegrader-til-csv-utm">
+<h2>2.  Konvertering fra CSV (Lengde og breddegrader) til CSV (UTM)<a class="headerlink" href="#konvertering-fra-csv-lengde-og-breddegrader-til-csv-utm" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Benytt følgende nettside for konvertering til UTM: <a class="reference external" href="http://www.zonums.com/online/coords/cotrans.php?module=13"><strong>http://www.zonums.com/online/coords/cotrans.php?module=13</strong></a></p></li>
+<li><p>Trykk på Upload file. Velg csv filen med lengde og breddegrader og
+trykk Accept</p></li>
+<li><p>Bruk innstillingene som vist i bildet under, men pass på at Lat Lon
+rekkefølgen er riktig i csv filen. Det vil si hvis lengdegrader er
+første kolonne så skal dere bruke Lon Lat i «columns», eller blir det
+Lat Lon.</p></li>
+<li><p>Trykk Transform</p></li>
+<li><p>Copy paste resultatdataen inn i en teksteditor som Notepad++</p></li>
+<li><p>Lagre filen med extension .csv</p></li>
+<li><p>Åpne denne filen i Excel</p></li>
+<li><p>Beregn gjennomsnittet av alle Nord og Øst koordinater. Dette blir da
+deres beste estimat for det korrekte koordinatet</p></li>
+<li><p>Beregn standardavvik av alle Nord og Øst koordinater. Dette blir da
+deres beste estimat på nøyaktigheten av koordinatet deres.</p></li>
+</ul>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -468,7 +482,7 @@ Har dere programmert tidligere og har et annet program dere liker bedre er det f
         },
         kernelOptions: {
             name: "python3",
-            path: "./oppgaver"
+            path: "./bruksanvisninger"
         },
         predefinedOutput: true
     }
@@ -486,22 +500,13 @@ Har dere programmert tidligere og har et annet program dere liker bedre er det f
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="gnss_punkt.html"
+       href="gnss_opptak.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Måle inn punkt med GNSS</p>
+        <p class="prev-next-title">Ta GNSS opptak med mobilen</p>
       </div>
-    </a>
-    <a class="right-next"
-       href="gnss_bygge.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Bygg din egen GNSS mottaker</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
@@ -509,6 +514,22 @@ Har dere programmert tidligere og har et annet program dere liker bedre er det f
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Innhold
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#konvertering-fra-kml-til-csv-lengde-og-breddegrader">1.  Konvertering fra KML til CSV (Lengde og breddegrader)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#konvertering-fra-csv-lengde-og-breddegrader-til-csv-utm">2.  Konvertering fra CSV (Lengde og breddegrader) til CSV (UTM)</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

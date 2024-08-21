@@ -63,7 +63,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Introduksjon til Python" href="python_intro.html" />
-    <link rel="prev" title="Bygg din egen GNSS mottaker" href="gnss_bygge.html" />
+    <link rel="prev" title="3D Skanning" href="3d_scanning.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="no"/>
   </head>
@@ -200,17 +200,21 @@
 <li class="toctree-l1"><a class="reference internal" href="google_earth.html">Introduksjon til Google Earth</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tuntreet.html">Hvor høyt er Tuntreet?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="3d_scanning.html">3D Skanning</a></li>
-<li class="toctree-l1"><a class="reference internal" href="gnss_bygge.html">Bygg din egen GNSS mottaker</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Måle inn punkt med GNSS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="python_intro.html">Introduksjon til Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gnss_bygge.html">Bygg din egen GNSS mottaker</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gnss_noyaktighet.html">Hvor nøyaktig er GNSS?</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Bruksanvisninger</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/qgis_intro.html">Introduksjon til QGIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/qgis_punkt.html">Hvordan legge inn punkt fra csv filer i qgis</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/qgis_georef.html">Georeferere en bildefil i QGIS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/polycam.html">Hvordan bruke polycam og Blender</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/gnss_opptak.html">Ta GNSS opptak med mobilen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/gjennomsnitt_koordinater.html">Ta gjennomsnittet av koordinater i en kml fil</a></li>
+
+
 </ul>
 
     </div>
@@ -443,7 +447,9 @@ document.write(`
 <p>Etter GNSS ble åpnet for sivile på 80-tallet har satelittbaserte målinger tatt over mye av arbeidet innenfor landmåling. Du bruker sannsynligvis også GNSS hver dag til å finne frem eller kontinuerlig kringkaste posisjonen din til alle du kjenner.</p>
 <p>Det finnes mange metoder og systemer for å øke nøyaktigheten på GNSS slik at de kan brukes til landmåling m.m.
 RTK er et slikt system og i denne oppgavene dere sammenligne det med nøyaktigheten til mobilen deres.</p>
-<p>Dere skal måle punktet NMB1 (dvs. søylen ved boksmia) som har disse koordinatene i UTM 32:</p>
+<p>På campus er det et nettverk av såkalte fastmerker. Det vil si punkter i bakken vi kjenner veldig nøyaktige koordinater til og som vi bruker som utgangspunkt for andre målinger.
+Dere skal velge et fastmerke og se hvor nøyaktig mobilen og RTK mottakeren er på å måle posisjonen og hvor langt de er fra sannheten.</p>
+<p><strong>Dere kan f.eks måle NMB1 (dvs. søylen ved boksmia) som har disse koordinatene i UTM 32:</strong></p>
 <div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>Punkt</p></th>
@@ -461,17 +467,19 @@ RTK er et slikt system og i denne oppgavene dere sammenligne det med nøyaktighe
 </tbody>
 </table>
 </div>
+<p>Resten av fastmerkene ligger her: <a class="reference download internal" download="" href="../_downloads/cf632ecfa48fe4806c518a790dca99d3/fastmerker.csv"><span class="xref download myst">fastmerker.csv</span></a></p>
+<p><a class="reference internal" href="../bruksanvisninger/qgis_punkt.html"><span class="std std-doc">Her</span></a> er en bruksanvisning på å legge inn csv filer i qgis. Skal dere legge egne punkt er det lurt å skrive de inn i en csv fil.</p>
 <section id="maling-med-mobilen">
 <h2>Måling med mobilen<a class="headerlink" href="#maling-med-mobilen" title="Link to this heading">#</a></h2>
 <ol class="arabic simple">
-<li><p>Legg mobilen oppå søylen NMB1 og logg GNSS posisjonen i f.eks. 5 minutt.</p></li>
-<li><p>Lag en Python kode for å finne gjennomsnittet av målingene.</p></li>
+<li><p>Legg mobilen oppå et fastmerke og logg GNSS posisjonen i f.eks. 5 minutt.</p></li>
+<li><p>Finn gjennomsnittet og standardavviket til målingene. <a class="reference internal" href="../bruksanvisninger/gjennomsnitt_koordinater.html"><span class="std std-doc">Se bruksanvisning</span></a></p></li>
 </ol>
 </section>
 <section id="maling-med-rtk">
 <h2>Måling med RTK<a class="headerlink" href="#maling-med-rtk" title="Link to this heading">#</a></h2>
 <p>RTK (Real-Time Kinematic) er en måte å måle posisjon med GNSS satellitter mer nøyaktig. RTK bruker en basestasjon som korrigerer målingene vi gjør med mottakeren ute i felt.</p>
-<p>Øvingslærere kjører demo for en og en gruppe.</p>
+<p><strong>Øvingslærere kjører demo for en og en gruppe hvor dere måler samme fastmerke</strong></p>
 </section>
 <section id="sporsmal">
 <h2>Spørsmål:<a class="headerlink" href="#sporsmal" title="Link to this heading">#</a></h2>
@@ -515,12 +523,12 @@ RTK er et slikt system og i denne oppgavene dere sammenligne det med nøyaktighe
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="gnss_bygge.html"
+       href="3d_scanning.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Bygg din egen GNSS mottaker</p>
+        <p class="prev-next-title">3D Skanning</p>
       </div>
     </a>
     <a class="right-next"
