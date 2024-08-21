@@ -22,13 +22,15 @@ parts:
     - file: oppgaver/google_earth
     - file: oppgaver/tuntreet
     - file: oppgaver/3d_scanning
-    - file: oppgaver/gnss_bygge
     - file: oppgaver/gnss_punkt
     - file: oppgaver/python_intro
+    - file: oppgaver/gnss_bygge
     - file: oppgaver/gnss_noyaktighet
   - caption: Bruksanvisninger
     chapters:
     - file: bruksanvisninger/qgis_intro
+    - file: bruksanvisninger/qgis_punkt
     - file: bruksanvisninger/qgis_georef
     - file: bruksanvisninger/polycam
     - file: bruksanvisninger/gnss_opptak
+    - file: bruksanvisninger/gjennomsnitt_koordinater
