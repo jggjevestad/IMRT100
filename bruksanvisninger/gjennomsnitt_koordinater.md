@@ -1,9 +1,41 @@
 (gjennomsnitt_koordinater)=
-# Ta gjennomsnittet av koordinater i en kml fil
+# Ta gjennomsnittet av koordinater
 
-Her er en måte å ta gjennomsnittet av koordinater i excel, uten å bruke python. Python gjør jobben mye enklere, så bruk det om dere får det til. Da er det fortsatt lurt å starte med en csv fil som forklares i punkt en.
+## Ta gjennomsnittet av koordinater i qgis
 
-## 1.  Konvertering fra KML til CSV (Lengde og breddegrader)
+I QGIS er det et innebygd verktøy for å ta gjennomsnittet av en liste med koordinater. Dette funker med de fleste format som KML, GPX og CSV.
+
+Først må man laste inn fila med den statiske målingen:
+
+```{image} ../bilder/qgis/gjennomsnitt/lag.png
+```
+For å få opp Prossesering - verktøykasse på høyre side må den aktiveres i Prosseseringsmenyen
+```{image} ../bilder/qgis/gjennomsnitt/meny.png
+```
+
+I verktøykassa velger dere _Gjennomsnittskoordinat(er)_. Det er et søkefelt på toppen for å finne frem.
+```{image} ../bilder/qgis/gjennomsnitt/verktoy.png
+```
+
+I vinduet som dukker opp kan dere la alt stå og trykke Kjør. Hvis dere vil kan dere lagre punktet som en fil ved å trykke på `...` knappen under Gjennomsnittskoordinater
+```{image} ../bilder/qgis/gjennomsnitt/vindu.png
+```
+
+Nå skal punktet ha dukket opp i QGIS.
+
+For å se koordinatene kan dere velge _Identifiser objekter_  verktøyet og trykke på punktet i kartet:
+```{image} ../bilder/qgis/gjennomsnitt/identifiser.png
+```
+
+X og Y er koordinatene i prosjektes koordinatsystem (UTM32), mens MEAN_X og MEAN_Y er koordinatene fra fila, som regel geografiske koordinater.
+
+```{image} ../bilder/qgis/gjennomsnitt/koordinater.png
+```
+
+## Ta gjennomsnitt av koordinater med excel
+
+Her er en måte å ta gjennomsnittet av koordinater i excel, det anbefales å bruke QGIS eller python istedet.
+### 1.  Konvertering fra KML til CSV (Lengde og breddegrader)
 
 - Benytt følgende nettside for å konvertere KML-filen til en CSV fil: [**https://anyconv.com/kml-to-csv-converter/**](https://anyconv.com/kml-to-csv-converter/)
 
@@ -13,7 +45,7 @@ Her er en måte å ta gjennomsnittet av koordinater i excel, uten å bruke pytho
 
 - I Excel, fjern de andre kolonene fra filen og lagre filen på nytt som en CSV fil.
 
-## 2.  Konvertering fra CSV (Lengde og breddegrader) til CSV (UTM)
+### 2.  Konvertering fra CSV (Lengde og breddegrader) til CSV (UTM)
 
 - Benytt følgende nettside for konvertering til UTM: [**http://www.zonums.com/online/coords/cotrans.php?module=13**](http://www.zonums.com/online/coords/cotrans.php?module=13)
 
