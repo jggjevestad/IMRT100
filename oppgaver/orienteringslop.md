@@ -10,9 +10,14 @@
 
 ## Oppgave
 
-Dere får et kart over campus med orienteringsposter. Målet er å finne korteste rute mellom alle postene og tilbake til start. Dere logger ruta deres enten med mobilen, eller en arduino. Etterpå sender dere meg ruta deres i kml format til trygve.borte.nomeland@nmbu.no
+Hver gruppe får et kart over campus med orienteringsposter. Postene kan tas i vilkårlig rekkefølge og målet er å finne korteste rute mellom alle postene og tilbake til start.
+
+Dere logger ruta deres enten med mobilen eller en arduino. Etterpå leverer dere fila deres på [canvas](https://nmbu.instructure.com/courses/10981/assignments/45448)
+
+Vinnergruppa er den med kortest GNSS spor.
 
 Lykke til!
+
 
 ## Juks
 Er ikke lov
