@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Ta gjennomsnittet av koordinater i en kml fil &#8212; IMRT100</title>
+    <title>Ta gjennomsnittet av koordinater &#8212; IMRT100</title>
   
   
   
@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=87e54e7c" />
   
@@ -199,6 +199,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../oppgaver/3d_scanning.html">3D Skanning</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../oppgaver/gnss_punkt.html">Måle inn punkt med GNSS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../oppgaver/python_intro.html">Introduksjon til Python</a></li>
+
 <li class="toctree-l1"><a class="reference internal" href="../oppgaver/gnss_bygge.html">Bygg din egen GNSS mottaker</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../oppgaver/gnss_noyaktighet.html">Hvor nøyaktig er GNSS?</a></li>
 </ul>
@@ -209,7 +210,7 @@
 <li class="toctree-l1"><a class="reference internal" href="qgis_georef.html">Georeferere en bildefil i QGIS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="polycam.html">Hvordan bruke polycam og Blender</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gnss_opptak.html">Ta GNSS opptak med mobilen</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Ta gjennomsnittet av koordinater i en kml fil</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Ta gjennomsnittet av koordinater</a></li>
 </ul>
 
     </div>
@@ -412,7 +413,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Ta gjennomsnittet av koordinater i en kml fil</h1>
+    <h1>Ta gjennomsnittet av koordinater</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -422,8 +423,12 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#konvertering-fra-kml-til-csv-lengde-og-breddegrader">1.  Konvertering fra KML til CSV (Lengde og breddegrader)</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#konvertering-fra-csv-lengde-og-breddegrader-til-csv-utm">2.  Konvertering fra CSV (Lengde og breddegrader) til CSV (UTM)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ta-gjennomsnittet-av-koordinater-i-qgis">Ta gjennomsnittet av koordinater i qgis</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ta-gjennomsnitt-av-koordinater-med-excel">Ta gjennomsnitt av koordinater med excel</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#konvertering-fra-kml-til-csv-lengde-og-breddegrader">1.  Konvertering fra KML til CSV (Lengde og breddegrader)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#konvertering-fra-csv-lengde-og-breddegrader-til-csv-utm">2.  Konvertering fra CSV (Lengde og breddegrader) til CSV (UTM)</a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -435,11 +440,30 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="ta-gjennomsnittet-av-koordinater-i-en-kml-fil">
-<span id="gjennomsnitt-koordinater"></span><h1>Ta gjennomsnittet av koordinater i en kml fil<a class="headerlink" href="#ta-gjennomsnittet-av-koordinater-i-en-kml-fil" title="Link to this heading">#</a></h1>
-<p>Her er en måte å ta gjennomsnittet av koordinater i excel, uten å bruke python. Python gjør jobben mye enklere, så bruk det om dere får det til. Da er det fortsatt lurt å starte med en csv fil som forklares i punkt en.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="ta-gjennomsnittet-av-koordinater">
+<span id="gjennomsnitt-koordinater"></span><h1>Ta gjennomsnittet av koordinater<a class="headerlink" href="#ta-gjennomsnittet-av-koordinater" title="Link to this heading">#</a></h1>
+<section id="ta-gjennomsnittet-av-koordinater-i-qgis">
+<h2>Ta gjennomsnittet av koordinater i qgis<a class="headerlink" href="#ta-gjennomsnittet-av-koordinater-i-qgis" title="Link to this heading">#</a></h2>
+<p>I QGIS er det et innebygd verktøy for å ta gjennomsnittet av en liste med koordinater. Dette funker med de fleste format som KML, GPX og CSV.</p>
+<p>Først må man laste inn fila med den statiske målingen:</p>
+<img alt="../_images/lag.png" src="../_images/lag.png" />
+<p>For å få opp Prossesering - verktøykasse på høyre side må den aktiveres i Prosseseringsmenyen</p>
+<img alt="../_images/meny.png" src="../_images/meny.png" />
+<p>I verktøykassa velger dere <em>Gjennomsnittskoordinat(er)</em>. Det er et søkefelt på toppen for å finne frem.</p>
+<img alt="../_images/verktoy.png" src="../_images/verktoy.png" />
+<p>I vinduet som dukker opp kan dere la alt stå og trykke Kjør. Hvis dere vil kan dere lagre punktet som en fil ved å trykke på <code class="docutils literal notranslate"><span class="pre">...</span></code> knappen under Gjennomsnittskoordinater</p>
+<img alt="../_images/vindu.png" src="../_images/vindu.png" />
+<p>Nå skal punktet ha dukket opp i QGIS.</p>
+<p>For å se koordinatene kan dere velge <em>Identifiser objekter</em>  verktøyet og trykke på punktet i kartet:</p>
+<img alt="../_images/identifiser.png" src="../_images/identifiser.png" />
+<p>X og Y er koordinatene i prosjektes koordinatsystem (UTM32), mens MEAN_X og MEAN_Y er koordinatene fra fila, som regel geografiske koordinater.</p>
+<img alt="../_images/koordinater.png" src="../_images/koordinater.png" />
+</section>
+<section id="ta-gjennomsnitt-av-koordinater-med-excel">
+<h2>Ta gjennomsnitt av koordinater med excel<a class="headerlink" href="#ta-gjennomsnitt-av-koordinater-med-excel" title="Link to this heading">#</a></h2>
+<p>Her er en måte å ta gjennomsnittet av koordinater i excel, det anbefales å bruke QGIS eller python istedet.</p>
 <section id="konvertering-fra-kml-til-csv-lengde-og-breddegrader">
-<h2>1.  Konvertering fra KML til CSV (Lengde og breddegrader)<a class="headerlink" href="#konvertering-fra-kml-til-csv-lengde-og-breddegrader" title="Link to this heading">#</a></h2>
+<h3>1.  Konvertering fra KML til CSV (Lengde og breddegrader)<a class="headerlink" href="#konvertering-fra-kml-til-csv-lengde-og-breddegrader" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Benytt følgende nettside for å konvertere KML-filen til en CSV fil: <a class="reference external" href="https://anyconv.com/kml-to-csv-converter/"><strong>https://anyconv.com/kml-to-csv-converter/</strong></a></p></li>
 <li><p>Åpne CSV filen i Excel. Det kan være litt utfordrende å åpne en CSV fil riktig i Excel dersom dere ikke har gjort dette før. Prøv dere frem litt, og så kan dere spørre om hjelp dersom dere ikke forstår hvorfor det ikke fungerer som dere forventet.</p></li>
@@ -448,7 +472,7 @@ document.write(`
 </ul>
 </section>
 <section id="konvertering-fra-csv-lengde-og-breddegrader-til-csv-utm">
-<h2>2.  Konvertering fra CSV (Lengde og breddegrader) til CSV (UTM)<a class="headerlink" href="#konvertering-fra-csv-lengde-og-breddegrader-til-csv-utm" title="Link to this heading">#</a></h2>
+<h3>2.  Konvertering fra CSV (Lengde og breddegrader) til CSV (UTM)<a class="headerlink" href="#konvertering-fra-csv-lengde-og-breddegrader-til-csv-utm" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Benytt følgende nettside for konvertering til UTM: <a class="reference external" href="http://www.zonums.com/online/coords/cotrans.php?module=13"><strong>http://www.zonums.com/online/coords/cotrans.php?module=13</strong></a></p></li>
 <li><p>Trykk på Upload file. Velg csv filen med lengde og breddegrader og
@@ -466,6 +490,7 @@ deres beste estimat for det korrekte koordinatet</p></li>
 <li><p>Beregn standardavvik av alle Nord og Øst koordinater. Dette blir da
 deres beste estimat på nøyaktigheten av koordinatet deres.</p></li>
 </ul>
+</section>
 </section>
 </section>
 
@@ -524,8 +549,12 @@ deres beste estimat på nøyaktigheten av koordinatet deres.</p></li>
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#konvertering-fra-kml-til-csv-lengde-og-breddegrader">1.  Konvertering fra KML til CSV (Lengde og breddegrader)</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#konvertering-fra-csv-lengde-og-breddegrader-til-csv-utm">2.  Konvertering fra CSV (Lengde og breddegrader) til CSV (UTM)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ta-gjennomsnittet-av-koordinater-i-qgis">Ta gjennomsnittet av koordinater i qgis</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ta-gjennomsnitt-av-koordinater-med-excel">Ta gjennomsnitt av koordinater med excel</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#konvertering-fra-kml-til-csv-lengde-og-breddegrader">1.  Konvertering fra KML til CSV (Lengde og breddegrader)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#konvertering-fra-csv-lengde-og-breddegrader-til-csv-utm">2.  Konvertering fra CSV (Lengde og breddegrader) til CSV (UTM)</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 

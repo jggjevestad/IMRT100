@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=87e54e7c" />
   
@@ -198,17 +198,20 @@
 <li class="toctree-l1"><a class="reference internal" href="google_earth.html">Introduksjon til Google Earth</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tuntreet.html">Hvor høyt er Tuntreet?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="3d_scanning.html">3D Skanning</a></li>
-<li class="toctree-l1"><a class="reference internal" href="gnss_bygge.html">Bygg din egen GNSS mottaker</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gnss_punkt.html">Måle inn punkt med GNSS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="python_intro.html">Introduksjon til Python</a></li>
+
+<li class="toctree-l1"><a class="reference internal" href="gnss_bygge.html">Bygg din egen GNSS mottaker</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gnss_noyaktighet.html">Hvor nøyaktig er GNSS?</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Bruksanvisninger</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/qgis_intro.html">Introduksjon til QGIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/qgis_punkt.html">Hvordan legge inn punkt fra csv filer i qgis</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/qgis_georef.html">Georeferere en bildefil i QGIS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/polycam.html">Hvordan bruke polycam og Blender</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/gnss_opptak.html">Ta GNSS opptak med mobilen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bruksanvisninger/gjennomsnitt_koordinater.html">Ta gjennomsnittet av koordinater</a></li>
 </ul>
 
     </div>
@@ -440,7 +443,9 @@ document.write(`
 <a class="bg-primary mb-1 reference internal image-reference" href="../_images/orientering.jpg"><img alt="Orienteringsløper i aksjon" class="bg-primary mb-1 align-center" src="../_images/orientering.jpg" style="width: 600px;" /></a>
 <section id="oppgave">
 <h2>Oppgave<a class="headerlink" href="#oppgave" title="Link to this heading">#</a></h2>
-<p>Dere får et kart over campus med orienteringsposter. Målet er å finne korteste rute mellom alle postene og tilbake til start. Dere logger ruta deres enten med mobilen, eller en arduino. Etterpå sender dere meg ruta deres i kml format til <a class="reference external" href="mailto:trygve&#46;borte&#46;nomeland&#37;&#52;&#48;nmbu&#46;no">trygve<span>&#46;</span>borte<span>&#46;</span>nomeland<span>&#64;</span>nmbu<span>&#46;</span>no</a></p>
+<p>Hver gruppe får et kart over campus med orienteringsposter. Postene kan tas i vilkårlig rekkefølge og målet er å finne korteste rute mellom alle postene og tilbake til start.</p>
+<p>Dere logger ruta deres enten med mobilen eller en arduino. Etterpå leverer dere fila deres på <a class="reference external" href="https://nmbu.instructure.com/courses/10981/assignments/45448">canvas</a></p>
+<p>Vinnergruppa er den med kortest GNSS spor.</p>
 <p>Lykke til!</p>
 </section>
 <section id="juks">
