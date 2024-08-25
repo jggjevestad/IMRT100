@@ -34,3 +34,4 @@ parts:
     - file: bruksanvisninger/polycam
     - file: bruksanvisninger/gnss_opptak
     - file: bruksanvisninger/gjennomsnitt_koordinater
+    - file: bruksanvisninger/cc_intro
