@@ -60,7 +60,7 @@ Det er flere typer slike enkle GNSS  mottakerer, så vi skal gå igjennom hvorda
 
 Det er viktig å teste at GNSS mottakeren fungerer som den skal ved å sende NMEA data til en seriell terminal som f.eks. Arduino Serial Monitor.
 
-> **Merk** <br> Det kan være at dere må ta den med dere GNSS mottakeren utendørs dersom den ikke klarer å få kontakt med satellittene innendørs.
+> **Merk** <br> Dere må ta med dere GNSS mottakeren utendørs dersom den ikke klarer å få kontakt med satellittene innendørs.
 
 ## Logge GNSS NMEA til SD-kort
 For å slippe å ta med PC'en ut for lagre NMEA data, så kan vi isteden sende datastrømmen til et SD kort. På denne måten kan GNSS enheten bli ganske liten og kompakt. Dersom dere bygger en slik GNSS mottaker, så må den drives av et eget batteri og dere må tømme SD kortet i ettertid for å kunne se hvor dere har vært.
@@ -76,5 +76,5 @@ Som vi har sett så presenterer de fleste an de enkleste GNSS mottakerne data p�
 
 ### Oppgave
 1. Er det situasjoner der den fungere veldig bra - eller veldig dårlig?
-1. Se nøyere på innholdet i NMEA filene og de transformerte KML/CSV filene. Hvilke data fra den opprinnelige NMEA filen blir transformert til KML/CSV?
+2. Se nøyere på innholdet i NMEA filene og de transformerte KML/CSV filene. Hvilke data fra den opprinnelige NMEA filen blir transformert til KML/CSV?
 
