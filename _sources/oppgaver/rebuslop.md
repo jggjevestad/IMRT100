@@ -16,7 +16,7 @@ Vannet i dammen er ikke krystallklart, men renner stille ut i en bekk som slynge
 ```{image} ../bilder/foss.jpg
 :alt: fishy
 :class: bg-primary mb-1
-:width: 300px
+:width: 600px
 :align: center
 ```
 

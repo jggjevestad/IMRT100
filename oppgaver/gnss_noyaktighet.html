@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=87e54e7c" />
   
@@ -439,15 +439,16 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="hvor-noyaktig-er-gnss">
 <span id="gnss-noyaktighet"></span><h1>Hvor nøyaktig er GNSS?<a class="headerlink" href="#hvor-noyaktig-er-gnss" title="Link to this heading">#</a></h1>
-<p>Målet med denne oppgaven er å utvikle en forståelse av hvordan man kan estimere nøyaktigheten til forskjellige typer GNSS-mottakere ved å analysere posisjonsdata lagret i NMEA-format.</p>
+<p>Målet med denne oppgaven er å utvikle en forståelse av hvordan man kan estimere nøyaktigheten til forskjellige typer GNSS-mottakere ved å analysere posisjonsdata dom dere har lagret som f.eks. breddegrad, lengdegrad og høyde.</p>
+<a class="bg-primary mb-1 reference internal image-reference" href="../_images/gps_acc.jpg"><img alt="fishy" class="bg-primary mb-1 align-center" src="../_images/gps_acc.jpg" style="width: 600px;" /></a>
 <ol class="arabic simple">
-<li><p>Datainnsamling: </br> Samle inn NMEA-data fra forskjellige typer GNSS-mottakere. Legg GNSS-mottakeren i ro over et punkt og lagre inn data hvert sekund i f.eks. 5 minutter.</p></li>
+<li><p>Datainnsamling: </br> Samle inn posisjonsdata fra forskjellige typer GNSS-mottakere. Legg GNSS-mottakeren i ro over et punkt og lagre inn data hvert sekund i 10 minutter.</p></li>
 <li><p>Lese inn data: </br>
-Analyser de innsamlede NMEA-dataene. Fokuser på GGA-setningene fordi disse inneholder informasjon om posisjon (breddegrad og lengdegrad), antall satellitter og HDOP-verdier.</p></li>
+Analyser de innsamlede posisjonsdataene. Dersom dere har data på NMEA-format så kan dere fokusere på GGA-setningene fordi disse inneholder informasjon om posisjoner i form av breddegrad og lengdegrad.</p></li>
 <li><p>Sann posisjon: </br>
-Beregn gjennomsnittet av alle posisjonen. Dette vil være din «sanne» posisjon for sammenligning.</p></li>
+Plasser GNSS-mottakeren i et punkt med kjente koordinater, evt. kan dere beregne gjennomsnittet av alle koordinatene og bruke dette som «sanne» koordinater.</p></li>
 <li><p>Beregning av nøyaktighet: </br>
-For hver posisjonsobservasjon, beregn avstanden fra den observerte posisjonen til middelposisjonen. Bruk disse avstandene til å beregne standardavviket, som vil være et mål for nøyaktigheten til GNSS-mottakeren.</p></li>
+For hver posisjon dere har lagret så kan dere beregne avstanden til den kjente posisjonen. Bruk så disse avstandene til å beregne standardavviket til posisjonene. Dette vil være et mål for nøyaktigheten til GNSS-mottakeren.</p></li>
 <li><p>Sammenligning mottakerne: </br>
 Gjenta trinnene ovenfor for forskjellige typer GNSS-mottakere. Sammenlign nøyaktigheten du har beregnet for hver mottaker.</p></li>
 </ol>
@@ -456,7 +457,7 @@ Gjenta trinnene ovenfor for forskjellige typer GNSS-mottakere. Sammenlign nøyak
 <ol class="arabic simple">
 <li><p>Hvilken mottaker hadde høyest nøyaktighet? Hvorfor tror du det er slik?</p></li>
 <li><p>Hvordan påvirker antall satellitter som er synlige nøyaktigheten til GNSS-mottakerne?</p></li>
-<li><p>Hva er noen potensielle kilder til feil i GNSS-posisjonering?</p></li>
+<li><p>Hva er potensielle kilder til feil i GNSS-posisjonering?</p></li>
 </ol>
 <p>Husk at nøyaktigheten til GNSS-mottakere kan variere avhengig av mange faktorer, inkludert antall synlige satellitter, atmosfæriske forhold, og kvaliteten på mottakerens hardware og software.</p>
 </section>
