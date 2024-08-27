@@ -29,8 +29,9 @@ parts:
   - caption: Bruksanvisninger
     chapters:
     - file: bruksanvisninger/qgis_intro
-    - file: bruksanvisninger/qgis_punkt
     - file: bruksanvisninger/qgis_georef
+    - file: bruksanvisninger/qgis_csv_import
+    - file: bruksanvisninger/qgis_csv_eksport
     - file: bruksanvisninger/polycam
     - file: bruksanvisninger/gnss_opptak
     - file: bruksanvisninger/gjennomsnitt_koordinater
