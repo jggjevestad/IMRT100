@@ -28,7 +28,8 @@ Resten av fastmerkene ligger her: [fastmerker.csv](/ressurser/fastmerker.csv)
 
 ## Måling med mobilen
 1. Legg mobilen oppå et fastmerke og logg GNSS posisjonen i f.eks. 5 minutt.
-1. Finn gjennomsnittet og standardavviket til målingene. [Se bruksanvisning](/bruksanvisninger/gjennomsnitt_koordinater.md)
+2. Konverter kml eller GPX fila fra mobilen til CSV med QGIS. [Se bruksanvisning](/bruksanvisninger/qgis_csv_eksport.md)
+2. Finn gjennomsnittet og standardavviket til målingene med python. [Se koden her](python_gjennomsnitt)
 
 ## Måling med RTK
 RTK (Real-Time Kinematic) er en måte å måle posisjon med GNSS satellitter mer nøyaktig. RTK bruker en basestasjon som korrigerer målingene vi gjør med mottakeren ute i felt.
