@@ -17,7 +17,7 @@
 | 26.08 | 1015-1500 | TF3-103 | Prosjektarbeid | JGG | [Bygg din egen GNSS mottaker](/oppgaver/gnss_bygge.md) |
 | 27.08 | 1015-1500 | TF3-103 | Prosjektarbeid | JGG | [Hvor nøyaktig er GNSS?](/oppgaver/gnss_noyaktighet.md) |
 | 28.08 | 0915-1500 | TF3-103 | Innspurt | JGG | Lage presentasjon <br> Finpusse video |
-| 29.08 | 0915-1300 | TF3-103 | Presentasjon av prosjektet | JGG | Gruppevis presentasjon |
+| 29.08 | 0915-1300 | TF3-103 | Presentasjon av prosjektet | JGG | |
 | | 1315-1500 | TF3-103 | Kåring av beste video | IMS | Avstemning |
 | 30.08 | 0915-1000 | TF3-103 | Studentdemokrativalg | IMS | Gjennomføring av valg |
 | | 1015-1200 | Aud-Max | Presentasjon for alle | JGG | Presentasjon av beste video |
