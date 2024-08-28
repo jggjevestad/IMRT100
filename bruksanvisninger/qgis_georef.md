@@ -1,7 +1,7 @@
 (qgis_georef)=
 # Georeferere en bildefil i QGIS
 
-Her er en steg for steg forklaring på hvordan man tar en bildefil og [georeferer](https://en.wikipedia.org/wiki/Georeferencing) den i qgis, slik at den kan brukes sammen med annen geodata. Dere skal gi qgis de nøyaktige koordinatene til 4 punkt på kartet, som QGIS bruker [matematikk](https://no.wikipedia.org/wiki/Affin_transformasjon) på for å finne ut hvor kartet deres ligger.
+Her er en steg for steg forklaring på hvordan man tar en bildefil og [georeferer](https://en.wikipedia.org/wiki/Georeferencing) den i QGIS, slik at den kan brukes sammen med annen geodata. Dere skal gi QGIS de nøyaktige koordinatene til 4 punkt på kartet, som QGIS bruker [matematikk](https://no.wikipedia.org/wiki/Affin_transformasjon) på for å finne ut hvor kartet deres ligger.
 
 ## Fremgangsmåte
 
