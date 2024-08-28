@@ -23,7 +23,6 @@ parts:
     - file: oppgaver/tuntreet
     - file: oppgaver/3d_scanning
     - file: oppgaver/gnss_punkt
-    - file: oppgaver/python_intro
     - file: oppgaver/gnss_bygge
     - file: oppgaver/gnss_noyaktighet
   - caption: Bruksanvisninger
@@ -34,5 +33,6 @@ parts:
     - file: bruksanvisninger/qgis_csv_eksport
     - file: bruksanvisninger/polycam
     - file: bruksanvisninger/gnss_opptak
+    - file: bruksanvisninger/python_intro
     - file: bruksanvisninger/gjennomsnitt_koordinater
     - file: bruksanvisninger/cc_intro
