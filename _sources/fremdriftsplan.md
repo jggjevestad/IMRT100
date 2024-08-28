@@ -16,7 +16,8 @@
 | 23.08 | 1015-1500 | TF3-103 | Prosjektarbeid | JGG | [Rebusløp på Campus](/oppgaver/rebuslop.md) |
 | 26.08 | 1015-1500 | TF3-103 | Prosjektarbeid | JGG | [Bygg din egen GNSS mottaker](/oppgaver/gnss_bygge.md) |
 | 27.08 | 1015-1500 | TF3-103 | Prosjektarbeid | JGG | [Hvor nøyaktig er GNSS?](/oppgaver/gnss_noyaktighet.md) |
-| 28.08 | 0830-1500 | TF3-103 | Innspurt | JGG | Lage presentasjon <br> Finpusse video |
-| 29.08 | 0830-1400 | TF3-103 | Presentasjon for faggruppen | JGG | Presentasjon av prosjektet <br> Kåring av beste video |
-| 30.08 | 0915-1100 | Aud-Max | Presentasjon for alle | JGG | Presentasjon av beste video |
+| 28.08 | 0915-1500 | TF3-103 | Innspurt | JGG | Lage presentasjon <br> Finpusse video |
+| 29.08 | 0915-1500 | TF3-103 | Presentasjon for faggruppen | JGG | Presentasjon av prosjektet <br> Kåring av beste video |
+| 30.08 | 0915-1000 | TF3-103 | Studentdemokrativalg | IMS | Gjennomføring av valg |
+| | 1015-1200 | Aud-Max | Presentasjon for alle | JGG | Presentasjon av beste video |
 | 02.09 | 1600 | TF3-103 | Innlevering | JGG | Siste frist for innlevering av prosjektrapport |

@@ -24,7 +24,7 @@ Dere skal velge et fastmerke og se hvor nøyaktig mobilen og RTK mottakeren er p
 
 Resten av fastmerkene ligger her: [fastmerker.csv](/ressurser/fastmerker.csv)
 
-[Her](/bruksanvisninger/qgis_punkt.md) er en bruksanvisning på å legge inn csv filer i qgis. Skal dere legge egne punkt er det lurt å skrive de inn i en csv fil.
+[Her](/bruksanvisninger/qgis_csv_import.md) er en bruksanvisning på å legge inn csv filer i qgis. Skal dere legge egne punkt er det lurt å skrive de inn i en csv fil.
 
 ## Måling med mobilen
 1. Legg mobilen oppå et fastmerke og logg GNSS posisjonen i f.eks. 5 minutt.

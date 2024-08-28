@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Hvordan legge inn punkt fra csv filer i qgis &#8212; IMRT100</title>
+    <title>Eksportere csv fil fra qgis &#8212; IMRT100</title>
   
   
   
@@ -57,11 +57,11 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'bruksanvisninger/qgis_punkt';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'bruksanvisninger/qgis_csv_eksport';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Georeferere en bildefil i QGIS" href="qgis_georef.html" />
-    <link rel="prev" title="Introduksjon til QGIS" href="qgis_intro.html" />
+    <link rel="next" title="Hvordan bruke polycam og Blender" href="polycam.html" />
+    <link rel="prev" title="Legge inn punkt fra csv filer i qgis" href="qgis_csv_import.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="no"/>
   </head>
@@ -207,8 +207,9 @@
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Bruksanvisninger</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="qgis_intro.html">Introduksjon til QGIS</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Hvordan legge inn punkt fra csv filer i qgis</a></li>
 <li class="toctree-l1"><a class="reference internal" href="qgis_georef.html">Georeferere en bildefil i QGIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="qgis_csv_import.html">Legge inn punkt fra csv filer i qgis</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Eksportere csv fil fra qgis</a></li>
 <li class="toctree-l1"><a class="reference internal" href="polycam.html">Hvordan bruke polycam og Blender</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gnss_opptak.html">Ta GNSS opptak med mobilen</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gjennomsnitt_koordinater.html">Ta gjennomsnittet av koordinater</a></li>
@@ -284,7 +285,7 @@
       
       
       
-      <li><a href="https://github.com/jggjevestad/IMRT100/edit/main/bruksanvisninger/qgis_punkt.md" target="_blank"
+      <li><a href="https://github.com/jggjevestad/IMRT100/edit/main/bruksanvisninger/qgis_csv_eksport.md" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -301,7 +302,7 @@
       
       
       
-      <li><a href="https://github.com/jggjevestad/IMRT100/issues/new?title=Issue%20on%20page%20%2Fbruksanvisninger/qgis_punkt.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/jggjevestad/IMRT100/issues/new?title=Issue%20on%20page%20%2Fbruksanvisninger/qgis_csv_eksport.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Åpne et problem"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -331,7 +332,7 @@
       
       
       
-      <li><a href="../_sources/bruksanvisninger/qgis_punkt.md" target="_blank"
+      <li><a href="../_sources/bruksanvisninger/qgis_csv_eksport.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Last ned kildefilen"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -415,7 +416,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Hvordan legge inn punkt fra csv filer i qgis</h1>
+    <h1>Eksportere csv fil fra qgis</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -425,7 +426,11 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fremgangsmate">Fremgangsmåte</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fremgangsmate">Fremgangsmåte:</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#konvertere-linje-til-punkt">1. Konvertere linje til punkt</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#eksportere-punkt-til-en-csv-fil">2. Eksportere punkt til en csv fil</a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -437,30 +442,78 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="hvordan-legge-inn-punkt-fra-csv-filer-i-qgis">
-<span id="qgis-punkt"></span><h1>Hvordan legge inn punkt fra csv filer i qgis<a class="headerlink" href="#hvordan-legge-inn-punkt-fra-csv-filer-i-qgis" title="Link to this heading">#</a></h1>
-<p>CSV står for comma seperated values og er den enkleste måten å lagre data i tabellform. Det er rett og slett data seperert med komma, f.eks en liste med koordinater:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">name</span><span class="p">,</span>     <span class="n">easting</span><span class="p">,</span>    <span class="n">northing</span><span class="p">,</span>    <span class="n">elevation</span>
-<span class="n">AASC</span><span class="p">,</span>     <span class="mf">600389.138</span><span class="p">,</span> <span class="mf">6614931.498</span><span class="p">,</span>  <span class="mf">94.575</span>
-<span class="n">FLO3</span><span class="p">,</span>     <span class="mf">600153.479</span><span class="p">,</span> <span class="mf">6615523.159</span><span class="p">,</span> <span class="mf">103.808</span>
-<span class="n">G010</span><span class="p">,</span>     <span class="mf">599667.953</span><span class="p">,</span> <span class="mf">6615798.982</span><span class="p">,</span>  <span class="mf">98.851</span>
+  <section class="tex2jax_ignore mathjax_ignore" id="eksportere-csv-fil-fra-qgis">
+<span id="qgis-csv-eksport"></span><h1>Eksportere csv fil fra qgis<a class="headerlink" href="#eksportere-csv-fil-fra-qgis" title="Link to this heading">#</a></h1>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">X</span>               <span class="p">,</span> <span class="n">Y</span>
+<span class="mf">600013.797162439</span><span class="p">,</span> <span class="mf">6615537.20985808</span>
+<span class="mf">600013.793633959</span><span class="p">,</span> <span class="mf">6615537.21533447</span>
+<span class="mf">600013.794641339</span><span class="p">,</span> <span class="mf">6615537.21981804</span>
+<span class="mf">600013.780259357</span><span class="p">,</span> <span class="mf">6615537.25174379</span>
+<span class="p">[</span> <span class="o">...</span> <span class="p">]</span>
 </pre></div>
 </div>
-<p>Har dere koordinater dere vill putte inn i qgis er den aller enkleste metoden å lage en csv fil i dette formatet og importere den</p>
+<p>Ofte ønsker man å gjøre utregninger på koordinater i f.eks Python. KML, GPX og andre filformat kan være veldig knotete å lese inn i python så ofte er det lurt å konvertere disse til csv (comma seperated values). I tillegg kan qgis transformere geografiske koordinater til f.eks UTM, noe som også er mer innvikla å gjøre i python.</p>
 <section id="fremgangsmate">
-<h2>Fremgangsmåte<a class="headerlink" href="#fremgangsmate" title="Link to this heading">#</a></h2>
-<p>Trykk på <code class="docutils literal notranslate"><span class="pre">lag</span> <span class="pre">&gt;</span> <span class="pre">Legg</span> <span class="pre">til</span> <span class="pre">Lag</span> <span class="pre">&gt;</span> <span class="pre">Legg</span> <span class="pre">til</span> <span class="pre">tegnseparert</span> <span class="pre">tekstlag</span> <span class="pre">...</span></code></p>
-<img alt="../_images/meny2.png" src="../_images/meny2.png" />
-<p>I vinduet dere får opp må dere under fanen <em>Geometridefinisjon</em> velge riktig x og y kolonne og riktig KRS. Det er som regel ETRS89 UTM 32</p>
-<img alt="../_images/import.png" src="../_images/import.png" />
-<p>Trykk legg til så skal punktene dukke opp som et lag:</p>
-<img alt="../_images/kart.png" src="../_images/kart.png" />
-<p>For å endre på utseende til punktene kan dere høyreklikke på laget og velge egenskaper:</p>
-<img alt="../_images/egenskaper.png" src="../_images/egenskaper.png" />
-<p>Under symbologi kan dere velge farge og tegn:</p>
-<img alt="../_images/symbologi.png" src="../_images/symbologi.png" />
-<p>Under påskrift kan dere få navnet på punktet til å dukke opp i kartet. Husk å velg riktig kolonne i verdifeltet</p>
-<img alt="../_images/paskrift.png" src="../_images/paskrift.png" />
+<h2>Fremgangsmåte:<a class="headerlink" href="#fremgangsmate" title="Link to this heading">#</a></h2>
+<section id="konvertere-linje-til-punkt">
+<h3>1. Konvertere linje til punkt<a class="headerlink" href="#konvertere-linje-til-punkt" title="Link to this heading">#</a></h3>
+<p>Last inn fila deres i QGIS. Er det en kml fil vil man ofte bare få en linje. Da må vi konvertere den til punkt for å kunne lage csv fila.</p>
+<figure class="align-default">
+<img alt="../_images/1.png" src="../_images/1.png" />
+</figure>
+<p>For å konvertere linje til punkt velger dere <code class="docutils literal notranslate"><span class="pre">Vektor</span> <span class="pre">-&gt;</span> <span class="pre">Geometriverktøy</span> <span class="pre">-&gt;</span> <span class="pre">Punktuttrekk</span></code> fra toppmenyen</p>
+<figure class="align-default">
+<img alt="../_images/meny1.png" src="../_images/meny1.png" />
+</figure>
+<p>I vinduet velger dere laget dere importerte og trykker kjør</p>
+<figure class="align-default">
+<img alt="../_images/punktuttrekk.png" src="../_images/punktuttrekk.png" />
+</figure>
+</section>
+<section id="eksportere-punkt-til-en-csv-fil">
+<h3>2. Eksportere punkt til en csv fil<a class="headerlink" href="#eksportere-punkt-til-en-csv-fil" title="Link to this heading">#</a></h3>
+<p>Nå kan dere eksportere punktene. Høyreklikk på laget og velg <code class="docutils literal notranslate"><span class="pre">Eksporter</span> <span class="pre">-&gt;</span> <span class="pre">Lagre</span> <span class="pre">objekter</span> <span class="pre">som</span> <span class="pre">...</span></code></p>
+<figure class="align-default">
+<img alt="../_images/eksport1.png" src="../_images/eksport1.png" />
+</figure>
+<p>Nå får dere opp et vindu med mange valg. Her er det dere må endre:</p>
+<ul class="simple">
+<li><p><strong>Format: Comma Seperated Value [CSV]</strong></p></li>
+<li><p><strong>Filnavn: ditt_filnavn.csv</strong> Husk å lagre fila på en lur plass</p></li>
+<li><p><strong>KRS: ETRS89 UTM32</strong> Hvilket koordinatsystem du vill eksportere til. Skal man regne på gjennomsnitt og annen statistikk er UTM fint fordi enhetene er i meter</p></li>
+<li><p><strong>Hvilke felt skal eksporteres…</strong> Utvid menyen og trykk på <code class="docutils literal notranslate"><span class="pre">Fravelg</span> <span class="pre">alle</span></code>. Hvis dere vill kan dere eksportere de feltene dere synes er interresante, men mesteparten er bare støy</p></li>
+<li><p><strong>Bibehold lagmetadata: [ ]</strong> Denne lager en ekstra fil som inneholder forklaringer til kolonnene. Det er som regel ikke nødvendig.</p></li>
+<li><p><strong>GEOMETRY: AS_XY</strong> hvilket format det blir på koordinatene. I eksemplene i dette emnet bruker vi X,Y (øst, nord)</p></li>
+</ul>
+<figure class="align-default">
+<img alt="../_images/eksportvindu.png" src="../_images/eksportvindu.png" />
+</figure>
+<p>Når alt er klart trykker dere kjør og koordinater lagres forhåpentligvis som dere ønska. Åpne fila i f.eks notepad og sjekk at den ser riktig ut:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">X</span><span class="p">,</span><span class="n">Y</span>
+<span class="mf">600013.797162439</span><span class="p">,</span><span class="mf">6615537.20985808</span>
+<span class="mf">600013.793633959</span><span class="p">,</span><span class="mf">6615537.21533447</span>
+<span class="mf">600013.794641339</span><span class="p">,</span><span class="mf">6615537.21981804</span>
+<span class="mf">600013.780259357</span><span class="p">,</span><span class="mf">6615537.25174379</span>
+<span class="mf">600013.763210001</span><span class="p">,</span><span class="mf">6615537.27802741</span>
+<span class="mf">600013.749096082</span><span class="p">,</span><span class="mf">6615537.29993294</span>
+<span class="mf">600013.624070957</span><span class="p">,</span><span class="mf">6615538.09655177</span>
+<span class="mf">600013.722789364</span><span class="p">,</span><span class="mf">6615539.75816998</span>
+<span class="mf">600013.718462</span><span class="p">,</span><span class="mf">6615539.75136928</span>
+<span class="mf">600013.709893976</span><span class="p">,</span><span class="mf">6615539.75559669</span>
+<span class="mf">600013.704172031</span><span class="p">,</span><span class="mf">6615539.75878608</span>
+<span class="mf">600013.694715767</span><span class="p">,</span><span class="mf">6615539.75407648</span>
+<span class="mf">600013.683954276</span><span class="p">,</span><span class="mf">6615539.7560169</span>
+<span class="mf">600013.663706736</span><span class="p">,</span><span class="mf">6615539.75436108</span>
+<span class="mf">600013.653597858</span><span class="p">,</span><span class="mf">6615539.75297649</span>
+<span class="mf">600013.646364845</span><span class="p">,</span><span class="mf">6615539.74944053</span>
+<span class="mf">600013.654783946</span><span class="p">,</span><span class="mf">6615539.75077991</span>
+<span class="mf">600013.655704621</span><span class="p">,</span><span class="mf">6615539.73743467</span>
+<span class="mf">600013.637352701</span><span class="p">,</span><span class="mf">6615539.74919943</span>
+<span class="mf">600013.185514383</span><span class="p">,</span><span class="mf">6615540.09921231</span>
+<span class="p">[</span> <span class="o">...</span> <span class="p">]</span>
+</pre></div>
+</div>
+</section>
 </section>
 </section>
 
@@ -495,20 +548,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="qgis_intro.html"
+       href="qgis_csv_import.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Introduksjon til QGIS</p>
+        <p class="prev-next-title">Legge inn punkt fra csv filer i qgis</p>
       </div>
     </a>
     <a class="right-next"
-       href="qgis_georef.html"
+       href="polycam.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Georeferere en bildefil i QGIS</p>
+        <p class="prev-next-title">Hvordan bruke polycam og Blender</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -528,7 +581,11 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fremgangsmate">Fremgangsmåte</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fremgangsmate">Fremgangsmåte:</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#konvertere-linje-til-punkt">1. Konvertere linje til punkt</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#eksportere-punkt-til-en-csv-fil">2. Eksportere punkt til en csv fil</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 
