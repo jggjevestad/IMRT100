@@ -7,17 +7,17 @@ Her er en steg for steg forklaring på hvordan man tar en bildefil og [georefere
 
 Åpne malfila og velg georeferering under lag-menyen
 
-```{image} ../bilder/qgis/georeferering/meny.png
+```{figure} ../bilder/qgis/georeferering/meny.png
 ```
 
 I georefering-vinduet trykker dere på åpne raster og velger kartet dere tegna
 
-```{image} ../bilder/qgis/georeferering/georef_vindu.png
+```{figure} ../bilder/qgis/georeferering/georef_vindu.png
 ```
 
 Nå skal dere ha fått opp kartet deres:
 
-```{image} ../bilder/qgis/georeferering/georef_vindu2.png
+```{figure} ../bilder/qgis/georeferering/georef_vindu2.png
 ```
 
 Nå må dere endre noen innstillinger, trykk på det gule tannhjulet for å få opp georef-innstillinger
@@ -31,7 +31,7 @@ De viktigste innstillingene:
 
 Trykk på OK når dere er ferdige. Nå kan dere starte med selve georefereringa.
 
-```{image} ../bilder/qgis/georeferering/innstillinger.png
+```{figure} ../bilder/qgis/georeferering/innstillinger.png
 ```
 
 Nå må dere velge dere ut fire punkter på kartet som skal få koordinater. De bør være veldefinerte og jevnt fordelt utover.
@@ -39,14 +39,14 @@ Nå må dere velge dere ut fire punkter på kartet som skal få koordinater. De 
 Trykk på ett og ett punkt i kartet og skriv inn koordinaten dere finner i f.eks [norgeskart.no](https://norgeskart.no)
 Pass på å velg UTM sone 32 og at norgeskart har nord først, mens QGIS har øst først.
 
-```{image} ../bilder/qgis/georeferering/koordinat.png
+```{figure} ../bilder/qgis/georeferering/koordinat.png
 ```
 Når dere har minst 4 punkter trykker dere på den grønne "play" knappen
-```{image} ../bilder/qgis/georeferering/georef_vindu3.png
+```{figure} ../bilder/qgis/georeferering/georef_vindu3.png
 ```
 
 Nå skal kartet deres ha dukket opp i QGIS!
 Pass på at laget ligger øverst lagmenyen
 
-```{image} ../bilder/qgis/georeferering/ferdig.png
+```{figure} ../bilder/qgis/georeferering/ferdig.png
 ```
