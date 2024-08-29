@@ -1,3 +1,13 @@
+---
+jupytext:
+  text_representation:
+    extension: .md
+    format_name: myst
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
 (ressurs)=
 # Ressurser
 
@@ -30,11 +40,20 @@
 
 ## Fastmerker
 
-```{image} fastmerker.png
-:alt: fishy
-:class: bg-primary mb-1
-:width: 600px
-:align: center
-```
+[fastmerker.csv](fastmerker.csv)
 
-[fastmerker](fastmerker.csv)
+```{code-cell} ipython3
+:tags: [hide-input]
+from shapely.geometry import Point
+import geopandas
+import pandas
+
+df = pandas.read_csv("fastmerker.csv")
+# Kolonnene får mellomromm i starten av navnet ¯\_(ツ)_/¯
+geometry = geopandas.points_from_xy(df["     easting"], df["    northing"])
+crs = {'init': 'epsg:25832'} #http://www.spatialreference.org/ref/epsg/25832/
+geo_df = geopandas.GeoDataFrame(df, crs=crs, geometry=geometry)
+geo_df.explore(marker_kwds=dict(radius=5, fill=True),
+                color="red",
+                popup=["name", "     easting", "    northing"])
+```
