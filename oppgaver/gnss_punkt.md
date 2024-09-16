@@ -24,11 +24,12 @@ Dere skal velge et fastmerke og se hvor nøyaktig mobilen og RTK mottakeren er p
 
 Resten av fastmerkene ligger her: [fastmerker.csv](/ressurser/fastmerker.csv)
 
-[Her](/bruksanvisninger/qgis_csv_import.md) er en bruksanvisning på å legge inn csv filer i qgis. Skal dere legge egne punkt er det lurt å skrive de inn i en csv fil.
+[Her](/bruksanvisninger/qgis_csv_import.md) er en bruksanvisning på å legge inn csv filer i QGIS. Skal dere legge egne punkt er det lurt å skrive de inn i en csv fil.
 
 ## Måling med mobilen
 1. Legg mobilen oppå et fastmerke og logg GNSS posisjonen i f.eks. 5 minutt.
-1. Finn gjennomsnittet og standardavviket til målingene. [Se bruksanvisning](/bruksanvisninger/gjennomsnitt_koordinater.md)
+2. Konverter kml eller GPX fila fra mobilen til CSV med QGIS. [Se bruksanvisning](/bruksanvisninger/qgis_csv_eksport.md)
+2. Finn gjennomsnittet og standardavviket til målingene med python. [Se koden her](python_gjennomsnitt)
 
 ## Måling med RTK
 RTK (Real-Time Kinematic) er en måte å måle posisjon med GNSS satellitter mer nøyaktig. RTK bruker en basestasjon som korrigerer målingene vi gjør med mottakeren ute i felt.

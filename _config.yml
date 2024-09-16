@@ -4,6 +4,7 @@
 title: IMRT100
 author: JGG/TBN/IMS
 logo: nmbu.png
+copyright: "2024"
 
 exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", README.md]
 
@@ -11,6 +12,7 @@ exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", README.
 # See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: force
+  stderr_output: remove-warn
 
 # Define the name of the latex output file for PDF builds
 latex:
@@ -29,6 +31,7 @@ repository:
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
+  favicon: nmbu.png
   use_issues_button: true
   use_repository_button: true
   use_edit_page_button: true

@@ -30,5 +30,5 @@ Har ingen på gruppa studentkort enda kan dere skrive epostadressa til en av der
 Følg [bruksanvisninga for georeferering](/bruksanvisninger/qgis_georef.md). Når dere er ferdig sitter dere igjen med et kartlag i qgis som ligger riktig i forhold til bakgrunnskartene.
 
 ## Spørsmål
-1. Bruk qgis til å anslå nøyaktigheten på kartet deres. Diskuter mulige feilkilder
+1. Bruk QGIS til å anslå nøyaktigheten på kartet deres. Diskuter mulige feilkilder
 2. Hvordan ble kvaliteten og detaljenivået på kartet deres i forhold til f.eks Norgeskart?

@@ -12,9 +12,9 @@ QGIS er fri programvare, alle kan altså hjelpe med å utvikle programmet og las
 
 I høstblokka skal dere ha LAD102 hvor dere skal bli drevne i QGIS og få testa ut litt avanserte funksjoner.
 
-## Laste ned qgis
+## Laste ned QGIS
 
-På linux finnes qgis på [flathub](https://flathub.org/apps/org.qgis.qgis)
+På linux finnes QGIS på [flathub](https://flathub.org/apps/org.qgis.qgis)
 Har du macos eller windows laster du det fra [nettsida](https://qgis.org/download/)
 
 ## Last ned mal
