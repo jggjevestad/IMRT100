@@ -1,5 +1,5 @@
 (qgis_csv_eksport)=
-# Eksportere csv fil fra qgis
+# Eksportere csv fil fra QGIS
 
 ```
 X               , Y
@@ -10,7 +10,7 @@ X               , Y
 [ ... ]
 ```
 
-Ofte ønsker man å gjøre utregninger på koordinater i f.eks Python. KML, GPX og andre filformat kan være veldig knotete å lese inn i python så ofte er det lurt å konvertere disse til csv (comma seperated values). I tillegg kan qgis transformere geografiske koordinater til f.eks UTM, noe som også er mer innvikla å gjøre i python.
+Ofte ønsker man å gjøre utregninger på koordinater i f.eks Python. KML, GPX og andre filformat kan være veldig knotete å lese inn i python så ofte er det lurt å konvertere disse til csv (comma seperated values). I tillegg kan QGIS transformere geografiske koordinater til f.eks UTM, noe som også er mer innvikla å gjøre i python.
 
 ## Fremgangsmåte:
 

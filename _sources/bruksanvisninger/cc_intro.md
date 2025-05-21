@@ -23,7 +23,7 @@
 
 For mer detaljerte instruksjoner og veiledninger, kan du sjekke ut den offisielle dokumentasjonen og brukermanualen på CloudCompare sin nettside [CloudCompare User Manual](https://www.cloudcompare.org/doc/qCC/CloudCompare%20v2.6.1%20-%20User%20manual.pdf).
 
-
+(cc_utsnitt)=
 ## Gjøre et utsnitt av en punktsky
 
 Ofte er vi bare interresert i en liten bit av punktskyen, da er det greit å klippe vekk det uinterresante. Her brukes en [punktsky over NMBU](https://nmbu.instructure.com/courses/10981/files/2173646/download?download_frd=1) som eksempel:
@@ -40,6 +40,7 @@ Klippe ut Tuntreet, lage et "volum" av treet og mål høyden på treet:
 9. Edit -> Scalar Field -> Filter by Value -> Export (Change color to RGB)
 10. Point picking -> distance between 2 points
 
+(cc_maale)=
 ## Måle avstand
 
 Ofte ønsker man å måle avstander i punktskyer. Start med å velge Point Picking verktøyet

@@ -43,4 +43,4 @@ Når du er ferdig gir du fila et fornuftig navn og overføre den til pcen.
 :width: 200px
 ```
 
-KML filer kan åpnes i qgis, google earth og mange andre programmer. Som regel er det bare å dra fila inn i vinduet.
+KML filer kan åpnes i QGIS, google earth og mange andre programmer. Som regel er det bare å dra fila inn i vinduet.

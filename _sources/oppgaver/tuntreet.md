@@ -26,8 +26,8 @@ Når dere er enig om måleplanen, så må dere teste den ut ved å beregne høyd
 
 ## Laserdata
 - Last inn laserdata for campus i programmet [Cloud Compare (CC)](https://www.cloudcompare.org)
-- Klipp ut et lite område rundt Tuntreet slik at du ser kun punktskyen for selve treet
-- Bruk måleverktøyet i CC til å måle avstanden mellom et laserpunkt på bakken og et laserpunkt i kronen på treet
+- Klipp ut et lite område rundt Tuntreet slik at du ser kun punktskyen for selve treet. [Se bruksanvisning](cc_utsnitt)
+- Bruk måleverktøyet i CC til å måle avstanden mellom et laserpunkt på bakken og et laserpunkt i kronen på treet. [Se bruksanvisning](cc_maale)
 
 Laserdata for NMBU Campus funner dere her: [Laserdata NMBU](https://eduumb-my.sharepoint.com/:f:/g/personal/jon_glenn_gjevestad_nmbu_no/EhZNW6vu5CFJrBjHd5rTwPIBmjrtvMEFTLuKKkfl9J7ECQ?e=rKvIFD). Alternativt kan dere laste data ned selv på [hoydedata.no](https://hoydedata.no).
 
