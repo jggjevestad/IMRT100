@@ -30,7 +30,7 @@
   <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
 <link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
 
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b76e3c8a" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
@@ -436,25 +436,25 @@
 <h2>Gjøre om mellom forskjellige vinkelmål<a class="headerlink" href="#gjore-om-mellom-forskjellige-vinkelmal" title="Link to this heading">#</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">pi</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="kn">import</span> <span class="n">pi</span>
 
 <span class="c1"># Konverter fra grader til radianer</span>
-<span class="k">def</span> <span class="nf">deg2rad</span><span class="p">(</span><span class="n">deg</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">deg2rad</span><span class="p">(</span><span class="n">deg</span><span class="p">):</span>
     <span class="n">rad</span> <span class="o">=</span> <span class="n">deg</span><span class="o">*</span><span class="p">(</span><span class="n">pi</span><span class="o">/</span><span class="mi">180</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">rad</span>
 
 <span class="c1"># Konverter fra radianer til grader</span>
-<span class="k">def</span> <span class="nf">rad2deg</span><span class="p">(</span><span class="n">rad</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">rad2deg</span><span class="p">(</span><span class="n">rad</span><span class="p">):</span>
     <span class="n">deg</span> <span class="o">=</span> <span class="n">rad</span><span class="o">*</span><span class="p">(</span><span class="mi">180</span><span class="o">/</span><span class="n">pi</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">deg</span>
 
 <span class="c1"># Konverter fra gon til grader</span>
-<span class="k">def</span> <span class="nf">grad2deg</span><span class="p">(</span><span class="n">grad</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">grad2deg</span><span class="p">(</span><span class="n">grad</span><span class="p">):</span>
     <span class="n">deg</span> <span class="o">=</span> <span class="n">grad</span><span class="o">*</span><span class="p">(</span><span class="mi">360</span><span class="o">/</span><span class="mi">400</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">deg</span>
 
 <span class="c1"># Konverter fra grader til gon</span>
-<span class="k">def</span> <span class="nf">deg2grad</span><span class="p">(</span><span class="n">deg</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">deg2grad</span><span class="p">(</span><span class="n">deg</span><span class="p">):</span>
     <span class="n">grad</span> <span class="o">=</span> <span class="n">deg</span><span class="o">*</span><span class="p">(</span><span class="mi">400</span><span class="o">/</span><span class="mi">360</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">grad</span>
 
@@ -483,8 +483,8 @@
 Har du en KML, eller GPX fil kan du konvertere den til CSV i QGIS. <a class="reference internal" href="qgis_csv_eksport.html"><span class="std std-doc">Se bruksanvisning</span></a></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">csv</span>
-<span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">mean</span><span class="p">,</span> <span class="n">std</span><span class="p">,</span> <span class="n">array</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">csv</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="kn">import</span> <span class="n">mean</span><span class="p">,</span> <span class="n">std</span><span class="p">,</span> <span class="n">array</span>
 
 <span class="c1"># Hvilken fil du vill lese inn. Ligger ikke fila i samme mappe som python-skriptet må du skrive hele stien.</span>
 <span class="n">csv_file</span> <span class="o">=</span> <span class="s1">&#39;data.csv&#39;</span>
@@ -494,7 +494,7 @@ Har du en KML, eller GPX fil kan du konvertere den til CSV i QGIS. <a class="ref
 <span class="n">northing</span> <span class="o">=</span> <span class="mi">1</span>
 
 <span class="c1"># Her leser vi inn fila og returnerer et numpy array. Et numpy array er litt som et regneark med kolonner og rader</span>
-<span class="k">def</span> <span class="nf">read_csv</span><span class="p">(</span><span class="n">file_name</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">read_csv</span><span class="p">(</span><span class="n">file_name</span><span class="p">):</span>
     <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_name</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
         <span class="n">line</span> <span class="o">=</span> <span class="n">csv</span><span class="o">.</span><span class="n">reader</span><span class="p">(</span><span class="n">file</span><span class="p">)</span>
         <span class="c1"># line.__next__() gjør at vi hopper over første rad i fila, siden den ikke har koordinater men navnet på kolonnene (X, Y)</span>
@@ -505,11 +505,11 @@ Har du en KML, eller GPX fil kan du konvertere den til CSV i QGIS. <a class="ref
 
 <span class="c1"># I disse funksjonene henter vi ut x og y kolonnene og gjør utregninger på de seperat. </span>
 <span class="c1"># Vi bruker funksjoner fra numpy slik at vi slipper å skrive formlene for gjennomsnitt og standardavvik selv.</span>
-<span class="k">def</span> <span class="nf">compute_mean</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">compute_mean</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
     <span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="p">[:,</span> <span class="p">[</span><span class="n">easting</span><span class="p">,</span> <span class="n">northing</span><span class="p">]</span> <span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">mean</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
 
-<span class="k">def</span> <span class="nf">compute_std</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">compute_std</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
     <span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="p">[:,</span> <span class="p">[</span><span class="n">easting</span><span class="p">,</span> <span class="n">northing</span><span class="p">]</span> <span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">std</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
 
@@ -532,14 +532,14 @@ Standardavvik:  [1.22477852 1.39692817]
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Funksjon som konverterer fra CSV til KML</span>
 
 <span class="c1"># Import</span>
-<span class="kn">import</span> <span class="nn">csv</span>
-<span class="kn">import</span> <span class="nn">simplekml</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">csv</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">simplekml</span>
 
 <span class="n">csv_file</span> <span class="o">=</span> <span class="s1">&#39;data.csv&#39;</span>
 <span class="n">kml_file</span> <span class="o">=</span> <span class="s1">&#39;data.kml&#39;</span>
 
 <span class="c1"># Funksjon som konverterer fra CSV format til KML format</span>
-<span class="k">def</span> <span class="nf">csv2kml</span><span class="p">(</span><span class="n">csv_file</span><span class="p">,</span> <span class="n">kml_file</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">csv2kml</span><span class="p">(</span><span class="n">csv_file</span><span class="p">,</span> <span class="n">kml_file</span><span class="p">):</span>
     <span class="n">kml</span> <span class="o">=</span> <span class="n">simplekml</span><span class="o">.</span><span class="n">Kml</span><span class="p">()</span>
     <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">csv_file</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
         <span class="n">reader</span> <span class="o">=</span> <span class="n">csv</span><span class="o">.</span><span class="n">reader</span><span class="p">(</span><span class="n">file</span><span class="p">)</span>
@@ -559,8 +559,8 @@ Standardavvik:  [1.22477852 1.39692817]
 <span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1"># Funksjon som konverterer fra CSV til KML</span>
 <span class="g g-Whitespace">      </span><span class="mi">2</span> 
 <span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="c1"># Import</span>
-<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="kn">import</span> <span class="nn">csv</span>
-<span class="ne">----&gt; </span><span class="mi">5</span> <span class="kn">import</span> <span class="nn">simplekml</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="kn">import</span><span class="w"> </span><span class="nn">csv</span>
+<span class="ne">----&gt; </span><span class="mi">5</span> <span class="kn">import</span><span class="w"> </span><span class="nn">simplekml</span>
 <span class="g g-Whitespace">      </span><span class="mi">7</span> <span class="n">csv_file</span> <span class="o">=</span> <span class="s1">&#39;data.csv&#39;</span>
 <span class="g g-Whitespace">      </span><span class="mi">8</span> <span class="n">kml_file</span> <span class="o">=</span> <span class="s1">&#39;data.kml&#39;</span>
 
