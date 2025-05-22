@@ -2,9 +2,9 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: IMRT100
-author: JGG/TBN/IMS
+author: JGG
 logo: nmbu.png
-copyright: "2024"
+copyright: "2025"
 
 exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", README.md]
 
