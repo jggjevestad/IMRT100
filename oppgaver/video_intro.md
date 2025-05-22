@@ -55,7 +55,7 @@ Hva vil dere vise frem, og hvordan vil dere strukturere videoen? Hvilket konsept
 Ta bilder, videoopptak, og andre relevante ressurser.
 
 *Rediger videoen*<br>
-Bruk verktøy til å sette sammen materialet på en kreativ og engasjerende måte. En enkel videoredigtringsapp som iMovie kan brukes. 
+Bruk et redigeringsverktøy til å sette sammen oppsamlet materiale til en sammenhengende video. Det finnes mange videoredigeringsapper, for eksempel iMovie eller HitFilm, velg det dere er mest komfortabel med. 
 
 *Gjennomgå*<br>
 Se gjennom videoen og gjør nødvendige justeringer for å sikre at den er klar og sammenhengende.
