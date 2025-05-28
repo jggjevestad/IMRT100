@@ -1,9 +1,9 @@
 (video_intro)=
 # Hvordan lage video?
 
-Alle studentene i IMRT100 skal lage en video som viser noe om hva hver klasse på REALTEK har lært i dette faget. Dere på geomatikk skal lage én video per gruppe som viser hva dere har brukt ukene på og hva dere har lært. Dette er en flott mulighet til å vise frem deres kreativitet og innsats!
+Alle studentene i IMRT100 skal lage en video som viser hva hvert studieprogram på REALTEK har lært i dette emnet. Dere på geomatikk skal lage én video per gruppe som viser hva dere har brukt ukene på, og hva dere har lært. Dette er en flott mulighet til å vise frem deres kreativitet og innsats!
 
-Mot slutten av emnet skal hver gruppe vise frem sin video, også skal vi gjennomføre avstemning for kåre klassens beste video. Videoen som vinner skal vises for resten av IMRT100 studentene i Aud-Max på avslutningsdagen den **30. august**.  
+Mot slutten av emnet skal hver gruppe vise frem sin video for alle, også skal vi gjennomføre en avstemning for kåre beste video. Videoen som vinner fra geomatikk skal vises for resten av IMRT100 studentene i Aud-Max på avslutningsdagen den **29. august**.  
 
 ```{image} ../bilder/videoblog.jpg
 :alt: fishy
@@ -25,7 +25,7 @@ Videoen bør være mellom 3 og 5 minutter lang.
 Dere kan bruke alle tilgjengelige hjelpemidler og verktøy for å lage videoen, inkludert programvare for videoredigering, animasjoner, musikk, og grafikk. Sørg for god lyd og lys slik at det er lett å se og høre dere. Testklipp anbefales.
 
 *Visning*<br>
-Videoen skal vises foran resten av elevene på REALTEK. Det er viktig at presentasjonen er klar, engasjerende og tydelig.
+Videoen skal vises foran resten av studentene på REALTEK. Det er viktig at presentasjonen er klar, engasjerende og tydelig.
 
 
 ## Tips til innhold
