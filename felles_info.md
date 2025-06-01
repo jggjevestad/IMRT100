@@ -1,3 +1,4 @@
+(felles_info)= 
 # Kjekt å vite
 
 ## Still spørsmål
