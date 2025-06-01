@@ -1,21 +1,12 @@
 # Velkommen til IMRT100
 
-IMRT100 er innføringsemnet for studiene Master i teknologi, Bachelor i geomatikk og Bachelor i energi- og miljøfysikk.
+Generell informasjon om emnet, som da også gjelder flere sudieretninger, finner dere på NMBU sine nettsider: https://www.nmbu.no/emne/imrt100. 
+Det anbefales å se litt rundt på nettsiden, der også emnesøk er en nyttig ressurs for fremtidige emner.  
 
-Studentene får en smakebit på studiet sitt som skal inspirere og begeistre. Gjennom et fagspesifiskt prosjekt utført i grupper blir studentene kjent med problemstillinger og metoder i sine studieretninger.
-
-I tillegg får studentene en grunnleggende innføring i studieteknikk, en innføring om fakultetet og studiestedet NMBU og et opplegg for å friske opp sine matematikkunnskaper.
-
-
-## Dette lærer du
-
-Studentene skal oppnå kunnskap om hvordan matematiske realfag og teknologi griper inn i fakultetets ulike fagområder, til nytte for egne videre studier. Studente skal få kunnskap om gode studieteknikker, plagiatbestemmelser og rapportfremstilling. Studentene skal oppnå ferdighet i prosjektarbeid og rapportskriving ved, innen eget fagområde, å gjennomføre et fagorientert prosjektarbeid i gruppe.
+Innføringsemnet for Geoinformatikk/Geomatikk skal være en inspirerende start på studiene, samt gi et lite innblikk i hva studieretningen innebærer. Her skal dere bli kjent med utstyr og få en grunnleggende forståelse av hva geomatikk egentlig er gjennom oppgaveløsning i grupper. Endelig vurdering er en rapport basert på oppgavene. Det er også et krav om å lage en kort video. Mer info om videoen finner dere [her](oppgaver/video_intro.md)
 
 
-## Rapport
+## Vurdering
 
-Vurderinga i dette emnet er *bestått/ikke bestått* basert på en rapport hver gruppe leverer på slutten. Rapporten skal inneholde svar på spørsmålene som blir stilt i oppgavene og vise at dere har vært gjennom alt. Det er ikke mange formelle krav til rapporten, men vi forventer at den er systematisk og at dere svarer utfyllende. Er det noe dere synes er ekstra interessant eller gøy å utforske, så er det fritt frem!
+Vurdering i emnet er *bestått/ikke bestått* basert på sluttrapporten. Alle oppgavene må være gjennomført. Rapporten skal inneholde svar på spørsmålene som blir stilt i oppgavene.  Det er ikke mange formelle krav til rapporten, men vi forventer at den er systematisk og at dere svarer utfyllende. Det er ellers fritt frem, føl dere fri til å utforske det dere er interessert i! Det oppfordres også til bruk av bilder og skisser for å illustrere.
 
-Bruk gjerne mange bilder og skisser for å illustrere.
-
-I tillegg skal hver gruppe lage en kort video. Mer info om videoen finner dere [her](oppgaver/video_intro.md)
