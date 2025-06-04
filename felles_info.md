@@ -34,5 +34,5 @@ Nedenfor finner dere kontaktinformasjon til alle som underviser i emnet. Ta kont
 |Navn|Epost|Mobil|
 |---|---|---|
 |Jon Glenn Gjevestad|jon.glenn.gjevestad@nmbu.no|90174759|
-|Ingrid Marie Simpson|ingrid.marie.simpson@nmbu.no| |
-|Trygve Børte Nomeland|trygve.borte.nomeland@nmbu.no| |
+|Agathe Cornelia Høydal Hide|agathe.cornelia.hoydal.hide@nmbu.no| |
+
