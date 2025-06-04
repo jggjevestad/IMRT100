@@ -1,4 +1,4 @@
-(felles_info)=
+(felles_info)= 
 # Kjekt å vite
 
 ## Still spørsmål
@@ -29,7 +29,7 @@ Det blir et kort felles oppstartsmøte hver dag når vi møtes. Dette møtet er 
 
 ## Kontakt
 
-Nedenfor finner dere kontaktinformasjon til alle som underviser i emnet. Ta kontakt om det er noe dere lurer på.
+Nedenfor finner dere kontaktinformasjon til de som underviser i emnet. Ta kontakt om det er noe dere lurer på.
 
 |Navn|Epost|Mobil|
 |---|---|---|
