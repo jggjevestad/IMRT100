@@ -1,6 +1,6 @@
 # Velkommen til IMRT100
 
-Generell informasjon om emnet, som da også gjelder flere sudieretninger, finner dere på NMBU sine nettsider: https://www.nmbu.no/emne/imrt100. 
+Generell informasjon om emnet, som da også gjelder flere studieretninger, finner dere på NMBU sine nettsider: https://www.nmbu.no/emne/imrt100. 
 Det anbefales å se litt rundt på nettsiden, der også emnesøk er en nyttig ressurs for fremtidige emner.  
 
 Innføringsemnet for Geoinformatikk/Geomatikk skal være en inspirerende start på studiene, samt gi et lite innblikk i hva studieretningen innebærer. Her skal dere bli kjent med utstyr, og få en grunnleggende forståelse av hva geomatikk egentlig er gjennom oppgaveløsning i grupper. Endelig vurdering er en rapport basert på oppgavene. Det er også et krav om å lage en kort video. Mer info om videoen finner dere [her](oppgaver/video_intro.md)

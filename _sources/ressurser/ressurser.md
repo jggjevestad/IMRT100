@@ -18,7 +18,7 @@ kernelspec:
 [QGIS](https://www.qgis.org) <br>
 [Google Earth](https://www.google.com/earth/about/versions/) <br>
 [Cloud Compare (CC)](https://www.cloudcompare.org) <br>
-[Plas](https://plas.io/) <br>
+[Plas.io](https://plas.io/) <br>
 [Blender](https://www.blender.org/) <br>
 [Python](https://docs.anaconda.com/) <br>
 [GPSBabel](https://www.gpsbabel.org) <br>
