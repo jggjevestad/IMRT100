@@ -87,7 +87,7 @@ $$
 \end{align}
 $$
 
-N koordinaten er antall meter fra ekvator, mens E er 500 000 pluss antall meter fra en bestemt
+Nord-koordinaten (N) er antall meter fra ekvator, mens øst-koordinaten (E) er 500 000 pluss antall meter fra en bestemt
 lengdegrad (9 grader øst i sone 32). Øst-koordinaten begynner på 500 000 for å unngå
 negative tall.
 
