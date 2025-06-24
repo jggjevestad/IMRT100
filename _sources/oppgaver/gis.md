@@ -1,6 +1,6 @@
 (gis)=
 
-# GIS
+# Geografiske Informasjonssystemer (GIS)
 
 GIS er en forkortelse for Geografisk informasjonssystem og er egentlig bare litt avanserte kartprogram til PCen.
 
