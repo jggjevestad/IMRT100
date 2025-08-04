@@ -22,6 +22,7 @@ kernelspec:
 [Blender](https://www.blender.org/) <br>
 [Python](https://docs.anaconda.com/) <br>
 [GPSBabel](https://www.gpsbabel.org) <br>
+[Earthpy](https://earthpy.readthedocs.io/en/latest/) <br>
 
 
 ## Hardware
