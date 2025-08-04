@@ -25,6 +25,7 @@ kernelspec:
 [Earthpy](https://earthpy.readthedocs.io/en/latest/) <br>
 
 
+
 ## Hardware
 
 [Ultimate GPS breakout board](https://www.adafruit.com/product/746) <br>
@@ -38,7 +39,8 @@ kernelspec:
 [Norgeskart](https://www.norgeskart.no) <br>
 [Norge i bilder](https://www.norgeibilder.no) <br>
 [Høydedata](https://www.hoydedata.no) <br>
-[Laserdata NMBU](https://eduumb-my.sharepoint.com/:f:/g/personal/jon_glenn_gjevestad_nmbu_no/EhZNW6vu5CFJrBjHd5rTwPIBYbGtYXwHpw2Tk1TwTj1q0g?e=M8ILSF)
+[GeoNorge](https://www.geonorge.no/) <br>
+[Laserdata NMBU](https://eduumb-my.sharepoint.com/:f:/g/personal/jon_glenn_gjevestad_nmbu_no/EhZNW6vu5CFJrBjHd5rTwPIBYbGtYXwHpw2Tk1TwTj1q0g?e=M8ILSF) <br>
 
 
 ## Fastmerker
