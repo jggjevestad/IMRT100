@@ -29,6 +29,7 @@ kernelspec:
 ## Hardware
 
 [Ultimate GPS breakout board](https://www.adafruit.com/product/746) <br>
+[GPS + BDS Beidou Dual module](https://wiki.dfrobot.com/GPS_%2B_BDS_BeiDou_Dual_Module_SKU_TEL0132) <br>
 [Arduino MKR GPS Shield](https://store.arduino.cc/products/arduino-mkr-gps-shield?gad_source=1&gclid=Cj0KCQjws560BhCuARIsAHMqE0GcMGz16OT4DQchmQGp525-Cedd_PwuvEVKaMn0l7sHR5FsAh52r7caAg2YEALw_wcB) <br>
 [Arduino MKR 1000](https://store.arduino.cc/products/arduino-mkr1000-wifi?selectedStore=eu) <br>
 [Arduino Uno](https://store.arduino.cc/products/arduino-uno-rev3) <br>
