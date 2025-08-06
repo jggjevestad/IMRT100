@@ -31,3 +31,6 @@ Her er de viktigste delene av QGIS markert:
 Lagene kommer i den rekkefølgen de ligger i. Bakgrunnskartene dekker over alt så de må ligge på bunn.
 
 For å åpne GPS-filer og lignende er det så enkelt som å dra de inn i lagmenyen.
+
+## QGIS veiledning med eksempler
+[QGIS Tutorials and Tips](https://www.qgistutorials.com/en/)
