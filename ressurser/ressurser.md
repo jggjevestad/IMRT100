@@ -47,7 +47,7 @@ kernelspec:
 ## Fastmerker
 [fastmerker.csv](fastmerker.csv)
 
-| Name     | Easting (m)    | Northing (m)   | Elevation (m) |
+| Name     | Øst (m)    | Nord (m)    | Høyde (m) |
 |----------|------------|-------------|-----------|
 | AASC     | 600389.138 | 6614931.498 | 94.575   |
 | FLO3     | 600153.479 | 6615523.159 | 103.808  |
