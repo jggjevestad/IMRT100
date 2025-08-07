@@ -25,7 +25,6 @@ kernelspec:
 [Earthpy](https://earthpy.readthedocs.io/en/latest/) <br>
 
 
-
 ## Hardware
 
 [Ultimate GPS breakout board](https://www.adafruit.com/product/746) <br>
@@ -42,6 +41,12 @@ kernelspec:
 [Høydedata](https://www.hoydedata.no) <br>
 [GeoNorge](https://www.geonorge.no/) <br>
 [Laserdata NMBU](https://eduumb-my.sharepoint.com/:f:/g/personal/jon_glenn_gjevestad_nmbu_no/EhZNW6vu5CFJrBjHd5rTwPIBYbGtYXwHpw2Tk1TwTj1q0g?e=M8ILSF) <br>
+
+
+## YouTube
+[How RTK works | Real-Time Kinematic for Precise GNSS Positioning](https://www.youtube.com/watch?v=ieearzWTCZw&t=6s) <br>
+[Terrestrial Reference Frames - Connecting the World through Geodesy](https://www.youtube.com/watch?v=vvNXv05646M&t=258s) <br>
+[Why every world map is wrong](https://www.youtube.com/watch?v=eTYsIePy5zg) <br>
 
 
 ## Fastmerker
