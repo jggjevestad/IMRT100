@@ -6,7 +6,7 @@
 | 11.08 | 1300_1500 | TF3_103 | Om studieprogrammet  | JGG | Hva er geomatikk? |
 | 12.08 | 1015_1500 | TF3_103 | Oppstart prosjektarbeid | JGG | Hva er en student? <br> Hvilke oppgaver skal løses? |                
 | 13.08 | 0815_1500 | TF3_103 | Prosjektarbeid | JGG | [Tegne kart](/oppgaver/synfaring.md) <br> [Georeferering i QGIS](/bruksanvisninger/qgis_georef.md) |
-| 14.08 | 0815_1300 | TF3_103 | Prosjektarbeid | ACHH <br> JGG | [Hvordan lage video?](/oppgaver/video_intro.md) <br> [Introduksjon til Google Earth](/oppgaver/google_earth.md) |
+| 14.08 | 0815_1300 | TF3_103 | Prosjektarbeid | ACHH <br> JGG | [Hvordan lage video?](/oppgaver/video_intro.md) <br> [Introduksjon til Google Earth](/oppgaver/google_earth.md) <br> Terrestriske referansesystemer |
 | 15.08 | 0815_1200 <br> 0930_1000 | TF3_103 | Prosjektarbeid <br> Linjeforeningen ATLAS | JGG <br> IL | [Hvor høyt er tuntreet?](/oppgaver/tuntreet.md) <br> Presentasjon |
 | 18.08 | 1015_1500 | TF3_103 | Prosjektarbeid | ACHH | [3D Scanning](/oppgaver/3d_scanning.md) |
 | 19.08 | 1015_1500 | TF3_103 | Prosjektarbeid | ACHH | [Måle punkt med gnss](/oppgaver/gnss_punkt.md) |
