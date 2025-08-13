@@ -5,7 +5,7 @@ Vi anbefaler at du utforsker denne nettsiden, hvor emnesøk også er en nyttig r
 
 ## Oppdag verden rundt deg gjennom teknologi og vitenskap!
 
-Velkommen til din første reise inn i geomatikk - et felt som kombinerer teknologi, vitenskap og utforskning av vår verden! I dette spennende introduksjonsemnet får du muligheten til å:
+Velkommen til ditt første møte med geomatikk og geoinformatikk - et felt som kombinerer teknologi, vitenskap og utforskning av vår verden! I dette introduksjonsemnet får du bla. muligheten til å:
 
 **🔍 Utforske moderne teknologi:**
 - Lær å bruke GPS-mottakere og navigasjonssystemer
@@ -24,7 +24,7 @@ Velkommen til din første reise inn i geomatikk - et felt som kombinerer teknolo
 - Se sammenhengen mellom teknologi og bærekraftig utvikling
 - Forstå hvordan vi kan kartlegge og analysere vår verden
 
-Dette emnet er din port til en verden av muligheter! Du vil få hands-on erfaring med utstyr og teknikker som brukes i moderne geomatikk, samtidig som du bygger et solid fundament for videre studier. Gjennom gruppeoppgaver og praktiske prosjekter vil du oppdage hva du kan studere innenfor dette mangfoldige fagfeltet.
+Dette emnet er ditt utgangspunkt til en verden av muligheter! Du vil få hands-on erfaring med utstyr og teknikker som brukes i moderne geomatikk, samtidig som du bygger et solid fundament for videre studier. Gjennom gruppeoppgaver og praktiske prosjekter vil du oppdage hva du kan studere innenfor dette mangfoldige fagfeltet.
 
 **Endelig vurdering:** En kreativ grupperapport basert på dine utforskninger, pluss en kort video som viser din læringsreise. Mer info om videoen finner dere [her](oppgaver/video_intro.md)
 
