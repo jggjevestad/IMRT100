@@ -1,9 +1,9 @@
 (felles_info)= 
 # Din læringsreise starter her!
 
-## Still spørsmål - Vær nysgjerrig! 💭
+## Still spørsmål - Vær nysgjerrig!
 
-Som *student* er du nå en utforsker på en spennende læringsreise – og det er en stor forskjell fra å være *elev*! Du har muligheten til å:
+Som *student* er du nå i starten av en spennende læringsreise – og det er en stor forskjell fra å være *elev* til å bli en *student*:
 
 - **Vær nysgjerrig:** Still spørsmål, utforsk, og oppdag nye ting
 - **Ta ansvar for din læring:** Les litteratur, se på YouTube, diskuter med medstudenter
