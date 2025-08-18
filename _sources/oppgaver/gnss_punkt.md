@@ -16,13 +16,17 @@ RTK er et slikt system og i denne oppgavene dere sammenligne det med nøyaktighe
 På campus er det et nettverk av såkalte fastmerker. Det vil si punkter i bakken vi kjenner veldig nøyaktige koordinater til og som vi bruker som utgangspunkt for andre målinger.
 Dere skal velge et fastmerke og se hvor nøyaktig mobilen og RTK mottakeren er på å måle posisjonen og hvor langt de er fra sannheten. 
 
-**Dere kan f.eks måle NMB1 (dvs. søylen ved boksmia) som har disse koordinatene i UTM 32:**
 
-| Punkt | N (m) | E (m) | H (m) |
+**Dere kan f.eks måle P102 (ligger ved TF-sletta) som har disse koordinatene i UTM 32:**
+
+| Punkt | E (m) | N (m) | H (m) |
 |---|---|---|---|
-| NMB1 | 6615708.451 | 599809.075 | 103.153 |
+| P102 | 600043.410 | 6615542.322 | 97.511 |
+
+> **Merk** <br> Vi unngår punktene: G010, G015, NMB1 og SSIR da disse punktene brukes av studentene i emnet GMLM210
 
 Resten av fastmerkene ligger her: [fastmerker.csv](/ressurser/fastmerker.csv)
+
 
 [Her](/bruksanvisninger/qgis_csv_import.md) er en bruksanvisning på å legge inn csv filer i QGIS. Skal dere legge egne punkt er det lurt å skrive de inn i en csv fil.
 
