@@ -41,7 +41,7 @@ kernelspec:
 [Norge i bilder](https://www.norgeibilder.no) <br>
 [Høydedata](https://www.hoydedata.no) <br>
 [GeoNorge](https://www.geonorge.no/) <br>
-[Laserdata NMBU](https://eduumb-my.sharepoint.com/:f:/g/personal/jon_glenn_gjevestad_nmbu_no/EhZNW6vu5CFJrBjHd5rTwPIBYbGtYXwHpw2Tk1TwTj1q0g?e=M8ILSF) <br>
+[Laserdata NMBU](https://eduumb-my.sharepoint.com/:f:/g/personal/jon_glenn_gjevestad_nmbu_no/EhZNW6vu5CFJrBjHd5rTwPIBYbGtYXwHpw2Tk1TwTj1q0g?e=XCT4er) <br>
 
 
 ## YouTube
