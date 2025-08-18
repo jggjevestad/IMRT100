@@ -18,9 +18,9 @@ Dere skal velge et fastmerke og se hvor nøyaktig mobilen og RTK mottakeren er p
 
 **Dere kan f.eks måle NMB1 (dvs. søylen ved boksmia) som har disse koordinatene i UTM 32:**
 
-| Punkt | N | E | H |
+| Punkt | N (m) | E (m) | H (m) |
 |---|---|---|---|
-| NMB1 | $6615708.451m$ | $599809.075m$ | $103.153m$ |
+| NMB1 | 6615708.451 | 599809.075 | 103.153 |
 
 Resten av fastmerkene ligger her: [fastmerker.csv](/ressurser/fastmerker.csv)
 
