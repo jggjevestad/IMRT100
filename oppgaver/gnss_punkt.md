@@ -19,15 +19,11 @@ Dere skal velge et fastmerke og se hvor nøyaktig mobilen og RTK mottakeren er p
 
 **Dere kan f.eks måle P102 (ligger ved TF-sletta) som har disse koordinatene i UTM 32:**
 
-| Punkt | N (m) | E (m) | H (m) |
+| Punkt | E (m) | N (m) | H (m) |
 |---|---|---|---|
-<<<<<<< HEAD
-| P102 | $600043.410m$ | $6615542.322m$ | $97.511m$ |
+| P102 | 600043.410 | 6615542.322 | 97.511 |
 
-**Vi unngår punktene G010, G015, NMB1 og SSIR, da disse punktene brukes av studentene i emnet GMLM210.** 
-=======
-| NMB1 | 6615708.451 | 599809.075 | 103.153 |
->>>>>>> f6840039b65b9bc34075af9668d5af924be1b025
+> **Merk** <br> Vi unngår punktene: G010, G015, NMB1 og SSIR da disse punktene brukes av studentene i emnet GMLM210
 
 Resten av fastmerkene ligger her: [fastmerker.csv](/ressurser/fastmerker.csv)
 
