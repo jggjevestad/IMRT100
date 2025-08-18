@@ -3,7 +3,7 @@
 
 Du er en geomatikkstudent som har fått i oppgave å måle høyden på det elegante Tuntreet ved NMBU. Hvordan kan du få til dette?
 
-Som geomatikkstudent har du tilgang til en totalstasjon med en såkalt prismeløs avstandsmåler, dvs du kan måle avstand og vinkler til hva som helst du sikter på. Du har også tilgang til nasjonale databaser med punktskyer fra flybårne laserkanninger over hele landet.
+Som student har du tilgang til en totalstasjon med en avstandsmåler, dvs du kan måle avstand og vinkler til hva som helst du sikter på. Du har også tilgang til nasjonale databaser med punktskyer fra flybårne laserkanninger over hele landet.
 
 ```{image} ../bilder/tuntreet.jpg
 :alt: fishy
