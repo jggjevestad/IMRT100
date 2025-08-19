@@ -1,7 +1,7 @@
 (gjennomsnitt_koordinater)=
-# Ta gjennomsnittet av koordinater
+# Beregne gjennomsnittet av koordinater
 
-## Ta gjennomsnittet av koordinater i qgis
+## Beregne gjennomsnittet av koordinater i QGIS
 
 I QGIS er det et innebygd verktøy for å ta gjennomsnittet av en liste med koordinater. Dette funker med de fleste format som KML, GPX og CSV.
 
@@ -27,7 +27,7 @@ For å se koordinatene kan dere velge _Identifiser objekter_  verktøyet og tryk
 ```{figure} ../bilder/qgis/gjennomsnitt/identifiser.png
 ```
 
-X og Y er koordinatene i prosjektes koordinatsystem (UTM32), mens MEAN_X og MEAN_Y er koordinatene fra fila, som regel geografiske koordinater.
+X og Y er koordinatene i prosjektets koordinatsystem (UTM32), mens MEAN_X og MEAN_Y er koordinatene fra fila, som regel geografiske koordinater.
 
 ```{figure} ../bilder/qgis/gjennomsnitt/koordinater.png
 ```

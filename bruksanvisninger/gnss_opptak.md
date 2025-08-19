@@ -7,7 +7,7 @@ Alle smarttelefoner kan ta i mot GNSS signaler, men du trenger en egen app for �
 
 ## Android
 
-[OpenTracks](https://opentracksapp.com) er en gnss logger for android som har 책pen kildekode.
+[OpenTracks](https://opentracksapp.com) er en GNSS logger som har 책pen kildekode.
 
 For 책 f책 appen til 책 spytte ut vanlige kml filer m책 du endre noen innstillinger.
 
