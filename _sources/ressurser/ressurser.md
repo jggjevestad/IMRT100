@@ -24,6 +24,8 @@ kernelspec:
 [GPSBabel](https://www.gpsbabel.org) <br>
 [Earthpy](https://earthpy.readthedocs.io/en/latest/) <br>
 [SCENE LT](https://knowledge.faro.com/Software/FARO_SCENE/SCENE/Software_Download_Installation_and_Release_Notes_for_SCENE_LT) <br>
+[GeoTracker](https://geo-tracker.org/en/) <br>
+[OpenTracks](https://opentracksapp.com) <br>
 
 
 ## Hardware
