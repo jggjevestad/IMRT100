@@ -17,11 +17,12 @@ På campus er det et nettverk av såkalte fastmerker. Det vil si punkter i bakke
 Dere skal velge et fastmerke og se hvor nøyaktig mobilen og RTK mottakeren er på å måle posisjonen og hvor langt de er fra sannheten. 
 
 
-**Dere kan f.eks måle P102 (ligger ved TF-sletta) som har disse koordinatene i UTM 32:**
+**Dere kan f.eks måle P102 eller P103 som har disse koordinatene i UTM 32:**
 
 | Punkt | E (m) | N (m) | H (m) |
 |---|---|---|---|
 | P102 | 600043.410 | 6615542.322 | 97.511 |
+| P103 | 600011.199 | 6615540.593 | 98.128 |
 
 > **Merk** <br> Vi unngår punktene: G010, G015, NMB1 og SSIR da disse punktene brukes av studentene i emnet GMLM210
 
