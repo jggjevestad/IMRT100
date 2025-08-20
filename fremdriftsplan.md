@@ -12,9 +12,9 @@
 | 19.08 | 1015_1500 | TF3_103 | Prosjektarbeid | ACHH | [Måle punkt med gnss](/oppgaver/gnss_punkt.md) |
 | 20.08 | 1015_1200 | TF3_103 | Geodata | SS | [Eget program](/bilder/program_geodata.png) |
 | 21.08 | 1015_1300 <br> 1300_1500 | TF3_103 | Prosjektarbeid <br> Scan Survey | TBN <br> IFI | [Orienteringsløp korteste vei](/oppgaver/orienteringslop.md) |
-| 22.08 | 1015_1200 <br> <br> 1315_1500 | TF3_103 | Forskning <br> Masteroppgaver <br> Prosjektarbeid | JGG <br> IMJ | Hva venter i andre enden? <br> Hvorfor valgte dere geomatikk? <br> [Rebusløp på Campus](/oppgaver/rebuslop.md) |
-| 25.08 | 1015_1500 | TF3_103 | Prosjektarbeid | JGG | [Bygg din egen GNSS mottaker](/oppgaver/gnss_bygge.md) <br> [Introduksjon til Python](/bruksanvisninger/python_intro.ipynb) |
-| 26.08 | 1015_1500 | TF3_103 | Prosjektarbeid | JGG | [Hvor nøyaktig er GNSS?](/oppgaver/gnss_noyaktighet.md) |
+| 22.08 | 1015_1500 | TF3_103 | Prosjektarbeid | JGG | [Introduksjon til Python](/bruksanvisninger/python_intro.ipynb) <br> [Hvor nøyaktig er GNSS?](/oppgaver/gnss_noyaktighet.md) |
+| 25.08 | 1015_1500 | TF3_103 | Prosjektarbeid | JGG | [Bygg din egen GNSS mottaker](/oppgaver/gnss_bygge.md) |
+| 26.08 | 1015_1200 <br> <br> 1315_1500 | TF3_103 | Forskning <br> Masteroppgaver <br> Prosjektarbeid | JGG <br> IMJ | Hva venter i andre enden? <br> Hvorfor valgte dere geomatikk? <br> [Rebusløp på Campus](/oppgaver/rebuslop.md) |
 | 27.08 | 0915_1500 | TF3_103 | Innspurt | JGG <br> ACHH | Lage presentasjon <br> Finpusse video |
 | 28.08 | 0915_1200 <br> 1315_1500 | TF3_103 | Presentasjon av prosjektet <br> Kåring av beste video (Geomatikk) | JGG <br> ACHH | <br> Avstemning |
 | 29.08 | 0915_1000 <br> 1015_1200 | TF3_103 <br> Aud_Max | Studentdemokrativalg <br> Kåring av beste video (IMRT100) | ACHH <br> JGG | Gjennomføring av valg <br> Avstemning |
