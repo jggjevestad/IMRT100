@@ -51,6 +51,7 @@ kernelspec:
 [Terrestrial Reference Frames - Connecting the World through Geodesy](https://www.youtube.com/watch?v=vvNXv05646M&t=258s) <br>
 [Why every world map is wrong](https://www.youtube.com/watch?v=eTYsIePy5zg) <br>
 [QGIS Full Course for Beginners](https://www.youtube.com/watch?v=SovdBaus7pM) <br>
+[How to quickly align and merge two pointclouds in CloudCompare](https://www.youtube.com/watch?v=0OcN-lNChlA)
 [How to turn a point cloud to mesh using CloudCompare](https://www.youtube.com/watch?v=m43usERF33M) <br>
 
 
