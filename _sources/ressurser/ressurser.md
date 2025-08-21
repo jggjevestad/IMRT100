@@ -50,7 +50,8 @@ kernelspec:
 [How RTK works | Real-Time Kinematic for Precise GNSS Positioning](https://www.youtube.com/watch?v=ieearzWTCZw&t=6s) <br>
 [Terrestrial Reference Frames - Connecting the World through Geodesy](https://www.youtube.com/watch?v=vvNXv05646M&t=258s) <br>
 [Why every world map is wrong](https://www.youtube.com/watch?v=eTYsIePy5zg) <br>
-[QGIS Full Course for Beginners](https://www.youtube.com/watch?v=SovdBaus7pM)
+[QGIS Full Course for Beginners](https://www.youtube.com/watch?v=SovdBaus7pM) <br>
+[How to turn a point cloud to mesh using CloudCompare](https://www.youtube.com/watch?v=m43usERF33M) <br>
 
 
 ## Fastmerker
