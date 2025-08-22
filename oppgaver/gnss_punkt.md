@@ -52,3 +52,5 @@ RTK (Real-Time Kinematic) er en måte å måle posisjon med GNSS satellitter mer
 :width: 600px
 :align: center
 ```
+
+[Her](../ressurser/HP01.csv) finner dere eksempel på målinger med RTK i punkt HP01 dersom dere ikke fikk målt det selv.
