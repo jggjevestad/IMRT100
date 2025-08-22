@@ -24,3 +24,7 @@ Er ikke lov
 
 ## Premie
 Ja.
+
+## Resultater
+
+Mappe med tilhørende resultater finner dere [her](../filer/qgis/Orienteringsløp_korteste_vei/korteste_vei.qgz). Denne kan dere se på selv i qgis.
