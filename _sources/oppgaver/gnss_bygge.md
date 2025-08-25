@@ -70,7 +70,6 @@ Som vi har sett sÃ¥ presenterer de fleste an de enkleste GNSS mottakerne data pÃ
 
 ### Google Earth
 [NMEA->KML 1](https://mygeodata.cloud/converter/nmea-to-kml)
-[NMEA->KML 2](https://anyconv.com/nmea-to-kml-converter/)
 
 ### QGIS
 [KML->CVS](http://www.monster.com.tw/kml2csv)
