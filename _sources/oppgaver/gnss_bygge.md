@@ -58,7 +58,7 @@ Kilder:
 ## Sette sammen GNSS mottakeren
 Det er flere typer slike enkle GNSS  mottakerer, så vi skal gå igjennom hvordan hver av disse kan settes sammen for at vi skal få mottakeren til å lage de dataene som vi behøver til prosjektet.
 
-Det er viktig å teste at GNSS mottakeren fungerer som den skal ved å sende NMEA data til en seriell terminal som f.eks. Arduino Serial Monitor.
+Det er viktig å teste at GNSS mottakeren fungerer som den skal ved å sende NMEA data til en seriell terminal som f.eks. Arduino Serial Monitor. For å få til dette må dere koble til GNSS mottakeren til en mikrokontroller, f.eks. Arduino MK1000 eller Arduino UNO. Dersom dere bruker Arduino MK1000, så må dere først laste opp "SerialPassthrough" som dere finner blant eksempelprogrammene i Arduino IDE. **Merk** dette steget er ikke nødvendig dersom dere bruker Arduino UNO.
 
 > **Merk** <br> Dere må ta med dere GNSS mottakeren utendørs dersom den ikke klarer å få kontakt med satellittene innendørs.
 
