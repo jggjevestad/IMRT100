@@ -69,7 +69,7 @@ For å slippe å ta med PC'en ut for lagre NMEA data, så kan vi isteden sende d
 Som vi har sett så presenterer de fleste an de enkleste GNSS mottakerne data på NMEA format. Det er mange måter å visualisere denne informasjonen, men da må vi vanligvis transformere disse posisjonene til et annet egnet format.
 
 ### Google Earth
-[NMEA->KML 1](https://mygeodata.cloud/converter/nmea-to-kml)
+[NMEA->KML](https://mygeodata.cloud/converter/nmea-to-kml)
 
 ### QGIS
 [KML->CVS](http://www.monster.com.tw/kml2csv)
