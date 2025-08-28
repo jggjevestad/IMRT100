@@ -16,6 +16,6 @@
 | 25.08 | 1015_1500 | TF3_103 | Prosjektarbeid | JGG | [Bygg din egen GNSS mottaker](/oppgaver/gnss_bygge.md) |
 | 26.08 | 1015_1200 <br> <br> 1315_1500 | TF3_103 | Forskning <br> Masteroppgaver <br> Prosjektarbeid | JGG <br> IMJ | Hva venter i andre enden? <br> [Rebusløp på Campus](/oppgaver/rebuslop.md) <br> **Frist** foreløpig rapport |
 | 27.08 | 0915_1500 | TF3_103 | Innspurt | JGG <br> ACHH | Lage presentasjon <br> Finpusse video |
-| 28.08 | 0915_1200 <br> 1315_1500 | TF3_103 | Presentasjon av prosjektet <br> Rekkefølge på grupper: 2, 1, 8, 6, 3, 5, 7, 4 (ca. 10min) <br> Kåring av beste video (Geomatikk) | JGG <br> ACHH | <br> Avstemning |
+| 28.08 | 0915_1200 <br> 1315_1500 | TF3_103 | Presentasjon av prosjektet <br> Rekkefølge på grupper: 2, 1, 8, 6, 3, 5, 7, 4 (ca. 10min) <br> Kåring av beste video (Geomatikk) | JGG <br> ACHH | <br> [Avstemning] (https://strawpoll.com/05ZdzEaJbn6) |
 | 29.08 | 0915_1000 <br> 1015_1200 | TF3_103 <br> Aud_Max | Studentdemokrativalg <br> Kåring av beste video (IMRT100) | ACHH <br> JGG | Gjennomføring av valg <br> Avstemning |
 | 01.09 | 1600 | | Innlevering | JGG | Siste frist for innlevering av prosjektrapport |
