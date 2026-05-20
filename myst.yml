@@ -1,0 +1,59 @@
+version: 1
+project:
+  title: IMRT100
+  authors:
+    - name: Jon Glenn Gjevestad
+      email: jon.glenn.gjevestad@nmbu.no
+  copyright: '2025'
+  exclude:
+    - _build
+    - Thumbs.db
+    - .DS_Store
+    - '**.ipynb_checkpoints'
+    - README.md
+  github: jggjevestad/IMRT100
+  bibliography:
+    - references.bib
+  exports:
+    - format: pdf
+      template: plain_latex_book
+      output: exports/book.pdf
+  toc:
+    - file: index.md
+    - title: Info
+      children:
+        - file: fremdriftsplan.md
+        - file: felles_info.md
+        - file: oppgaver/video_intro.md
+        - file: ressurser/ressurser.md
+    - title: Aktiviteter
+      children:
+        - file: oppgaver/orienteringslop.md
+        - file: oppgaver/rebuslop.md
+    - title: Oppgaver
+      children:
+        - file: oppgaver/synfaring.md
+        - file: oppgaver/gis.md
+        - file: oppgaver/google_earth.md
+        - file: oppgaver/tuntreet.md
+        - file: oppgaver/3d_scanning.md
+        - file: oppgaver/gnss_punkt.md
+        - file: oppgaver/gnss_bygge.md
+        - file: oppgaver/gnss_noyaktighet.md
+    - title: Bruksanvisninger
+      children:
+        - file: bruksanvisninger/qgis_intro.md
+        - file: bruksanvisninger/qgis_georef.md
+        - file: bruksanvisninger/qgis_csv_import.md
+        - file: bruksanvisninger/qgis_csv_eksport.md
+        - file: bruksanvisninger/polycam.md
+        - file: bruksanvisninger/gnss_opptak.md
+        - file: bruksanvisninger/python_intro.ipynb
+        - file: bruksanvisninger/gjennomsnitt_koordinater.md
+        - file: bruksanvisninger/cc_intro.md
+site:
+  options:
+    logo: nmbu.png
+    favicon: nmbu.png
+    folders: true
+  template: book-theme
