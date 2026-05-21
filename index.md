@@ -26,7 +26,9 @@ Velkommen til ditt første møte med geomatikk og geoinformatikk - et felt som k
 
 Dette emnet er ditt utgangspunkt til en verden av muligheter! Du vil få hands-on erfaring med utstyr og teknikker som brukes i moderne geomatikk, samtidig som du bygger et solid fundament for videre studier. Gjennom gruppeoppgaver og praktiske prosjekter vil du oppdage hva du kan studere innenfor dette mangfoldige fagfeltet.
 
+
 **Endelig vurdering:**
+
 En grupperapport basert på dine utforskninger, pluss en kort video som på en kreativ måte dokumenterer hva dere har holdt på med disse ukene. Mer info om videoen finner dere [her](oppgaver/video_intro.md)
 
 ```{image} bilder/geoinformatikk.jpg
