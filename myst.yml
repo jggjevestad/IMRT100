@@ -4,7 +4,7 @@ project:
   authors:
     - name: Jon Glenn Gjevestad
       email: jon.glenn.gjevestad@nmbu.no
-  copyright: '2025'
+  copyright: '2026'
   exclude:
     - _build
     - Thumbs.db
