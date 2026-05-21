@@ -1,11 +1,11 @@
 (felles_info)= 
 
-# Din læringsreise starter her!
+# Din studenttid starter her!
 
 
 ## Still spørsmål - vær nysgjerrig!
 
-Som **student** er du nå i starten av en spennende læringsreise. Overgangen fra elev til student innebærer ansvar for egen læring:
+Som **student** er du nå i starten av en spennende periode i livet der du skal etablere gode studievaner for egen læring. Overgangen fra elev til student innebærer nå for alvor et stort **ansvar** for egen læring:
 
 - **Vær nysgjerrig:** Still spørsmål, utforsk og oppdag nye ting
 - **Ta ansvar for egen læring:** Les litteratur, se relevante videoer (f.eks. [YouTube](https://www.youtube.com/)) og diskuter med dine medstudenter
@@ -24,22 +24,22 @@ Start alltid med å forstå hva som forventes av dere. Hva er målet, og hvilke 
 Utforsk ulike tilnærminger sammen med medstudenter eller veileder. Hvilke metoder og verktøy kan dere bruke? Finnes det andre, mer innovative løsninger? Åpne diskusjoner gir nye perspektiver og kan føre til nye oppdagelser.
 
 **🧪 Test og eksperimenter:**
-Før dere starter selve prosjektet, er det lurt å teste ideene først. Er de realistiske, og fungerer de som forventet? Dette sparer masse tid og vil gi enda bedre løsninger.
+Før dere starter selve prosjektet, er det lurt å teste ut ideene dine først. Er de realistiske, og fungerer de som forventet? Dette sparer masse tid og vil gi sannsynligvis ende i mye bedre løsninger.
 
 **📋 Lag en plan:**
-Organiser arbeidet med en god plan. Hva skal gjøres når, og hvem har ansvar for hva? En tydelig plan gir struktur og oversikt, men husk å være fleksible når nye muligheter dukker opp.
+Organiser arbeidet med en god plan. Hva skal gjøres når? Hvem har ansvar for hva? En tydelig plan gir struktur og oversikt, men husk å være fleksible når nye muligheter dukker opp.
 
 **📸 Dokumenter alt:**
-Ta vare på alle data (bilder, video og målinger) dere samler inn i felt. Dette er svært verdifullt senere og kan være avgjørende for å dokumentere arbeidet.
+Ta vare på alle data (bilder, video og målinger) dere samler inn i felt. Dette er svært verdifullt senere og kan være avgjørende for å kunne dokumentere arbeidet på en ordentlig måte.
 
 
 ## Daglige oppstartsmøter
 
-Hver dag starter vi med et kort oppstartsmøte når vi møtes. Møtet er nyttig for å:
-- Avklare dagens gjøremål
-- Rydde opp i eventuelle utfordringer
-- Dele tips og triks
-- Få inspirasjon til dagen som kommer
+Hver dag starter vi med et kort oppstartsmøte når vi møtes. Dette møtet er nyttig for å:
+- avklare dagens gjøremål
+- rydde opp i eventuelle utfordringer
+- dele tips og triks
+- få inspirasjon til dagen(e) som kommer
 
 Det er viktig at alle deltar aktivt. Sammen lærer vi mer, og arbeidet blir både bedre og morsommere.
 
