@@ -1,36 +1,5 @@
 # Velkommen til IMRT100
 
-Generell informasjon om emnet, som gjelder flere studieretninger, finner du på NMBUs nettsider: [IMRT100](https://www.nmbu.no/emne/imrt100). 
-Vi anbefaler at du utforsker denne nettsiden, hvor emnesøk også er en nyttig ressurs for fremtidige emner.
-
-## Oppdag verden rundt deg gjennom teknologi og vitenskap!
-
-Velkommen til ditt første møte med geomatikk og geoinformatikk - et felt som kombinerer teknologi, vitenskap og utforskning av vår verden! I dette introduksjonsemnet får du bla. muligheten til å:
-
-**🔍 Utforske moderne teknologi:**
-- Lær å bruke GPS-mottakere og navigasjonssystemer
-- Opplev 3D-skanning og digitalisering av omgivelsene
-- Arbeid med geografiske informasjonssystemer (GIS)
-- Utforsk satellittbaserte posisjoneringsteknikker
-
-**🌱 Opplev praktisk læring:**
-- Gå ut i felt og samle inn egne data
-- Bruk profesjonelle verktøy og programvare
-- Se hvordan teori blir til praksis i virkelige prosjekter
-- Samarbeid i grupper og del kunnskap med medstudenter
-
-**🎯 Forstå geomatikkens betydning:**
-- Oppdag hvordan geomatikk brukes i dagens samfunn
-- Se sammenhengen mellom teknologi og bærekraftig utvikling
-- Forstå hvordan vi kan kartlegge og analysere vår verden
-
-Dette emnet er ditt utgangspunkt til en verden av muligheter! Du vil få hands-on erfaring med utstyr og teknikker som brukes i moderne geomatikk, samtidig som du bygger et solid fundament for videre studier. Gjennom gruppeoppgaver og praktiske prosjekter vil du oppdage hva du kan studere innenfor dette mangfoldige fagfeltet.
-
-
-**Endelig vurdering:**
-
-En grupperapport basert på dine utforskninger, pluss en kort video som på en kreativ måte dokumenterer hva dere har holdt på med disse ukene. Mer info om videoen finner dere [her](oppgaver/video_intro.md)
-
 ```{image} bilder/geoinformatikk.jpg
 :alt: Geomatikk og geoinformatikk - utforsk verden med teknologi
 :class: bg-primary mb-1
@@ -38,12 +7,43 @@ En grupperapport basert på dine utforskninger, pluss en kort video som på en k
 :align: center
 ```
 
+Generell informasjon om emnet, som gjelder flere studieprogram, finner du på NMBUs nettsider: [IMRT100](https://www.nmbu.no/emne/imrt100).
+Vi anbefaler at du ser gjennom denne siden. Emnesøket er også en nyttig ressurs for senere emner.
+
+## Oppdag verden rundt deg gjennom teknologi og vitenskap
+
+Velkommen til ditt første møte med geomatikk og geoinformatikk, et fagfelt som kombinerer teknologi, vitenskap og utforsking av verden rundt oss. I dette introduksjonsemnet får du blant annet mulighet til å:
+
+**Utforske moderne teknologi:**
+- lære å bruke GPS-mottakere og navigasjonssystemer
+- prøve 3D-skanning og digitalisering av omgivelser
+- arbeide med geografiske informasjonssystemer (GIS)
+- utforske satellittbaserte posisjoneringsteknikker
+
+**Oppleve praktisk læring:**
+- samle inn egne data i felt
+- bruke profesjonelle verktøy og programvare
+- se hvordan teori blir til praksis i virkelige prosjekter
+- samarbeide i grupper og dele kunnskap med medstudenter
+
+**Forstå geomatikkens betydning:**
+- se hvordan geomatikk brukes i samfunnet
+- forstå sammenhengen mellom teknologi og bærekraftig utvikling
+- lære hvordan vi kan kartlegge og analysere verden rundt oss
+
+Dette emnet gir deg et godt utgangspunkt for videre studier. Du får praktisk erfaring med utstyr og metoder som brukes i moderne geomatikk, samtidig som du bygger et solid faglig grunnlag. Gjennom gruppeoppgaver og praktiske prosjekter får du innsikt i bredden av studiemuligheter innen fagfeltet.
+
+**Endelig vurdering:**
+
+En grupperapport basert på arbeidet dere har gjort, samt en kort video som på en kreativ måte dokumenterer aktivitetene i emnet. Mer informasjon om videoen finner dere [her](oppgaver/video_intro.md).
+
+
 ## Vurdering
 
-Vurdering i emnet er *bestått/ikke bestått* basert på en gruppevis rapport. 
+Vurderingen i emnet er *bestått/ikke bestått* og er basert på en grupperapport.
 
-Rapporten skal inneholde svar på spørsmålene stilt i oppgavene, der alle oppgavene må være gjennomført. 
-Det er ikke mange formelle krav til rapporten, men vi forventer god struktur og utfyllende svar. 
-Det oppfordres også sterkt til bruk av bilder og skisser for å illustrere. 
+Rapporten skal inneholde svar på spørsmålene i oppgavene, og alle oppgavene må være gjennomført.
+Det er få formelle krav til utforming, men vi forventer god struktur og utfyllende svar.
+Vi oppfordrer også sterkt til bruk av bilder og skisser for å illustrere arbeidet.
 
-**Det er ellers fritt frem - føl dere fri til å utforske det dere er interessert i!** 🌟
+**Ellers er det stor frihet i arbeidet. Utforsk gjerne det dere er mest interessert i.**

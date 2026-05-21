@@ -20,7 +20,7 @@ project:
       output: exports/book.pdf
   toc:
     - file: index.md
-    - title: Info
+    - title: Informasjon
       children:
         - file: fremdriftsplan.md
         - file: felles_info.md

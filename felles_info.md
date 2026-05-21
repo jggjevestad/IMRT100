@@ -1,52 +1,54 @@
 (felles_info)= 
+
 # Din læringsreise starter her!
 
-## Still spørsmål - Vær nysgjerrig!
 
-Som *student* er du nå i starten av en spennende læringsreise – og det er en stor forskjell fra å være *elev* til å bli en *student*:
+## Still spørsmål - vær nysgjerrig!
 
-- **Vær nysgjerrig:** Still spørsmål, utforsk, og oppdag nye ting
-- **Ta ansvar for din læring:** Les litteratur, se på YouTube, diskuter med medstudenter
-- **Finn dine egne løsninger:** Prøv, feil, lær, og prøv igjen
-- **Del kunnskap:** Noen ganger er det å forklare for andre det du lurer på, den beste måten å lære på
+Som **student** er du nå i starten av en spennende læringsreise. Overgangen fra elev til student innebærer ansvar for egen læring:
 
-**Husk:** Det finnes ingen dumme spørsmål - bare spørsmål som venter på svar! 🤔
+- **Vær nysgjerrig:** Still spørsmål, utforsk og oppdag nye ting
+- **Ta ansvar for egen læring:** Les litteratur, se relevante videoer (f.eks. [YouTube](https://www.youtube.com/)) og diskuter med dine medstudenter
+- **Finn egne løsninger:** Prøv, gjør feil, lær og prøv igjen
+- **Del kunnskap:** Å forklare noe til andre er ofte en av de beste måtene å lære på
+
+**Husk:** Det finnes ingen dumme spørsmål - bare spørsmål som venter på svar.
 
 
 ## Tips til effektivt prosjektarbeid
 
 **📖 Les oppgaveteksten grundig:**
-Start alltid med å forstå hva som forventes av dere. Hva er målet? Hvilke muligheter har dere? Dette gir dere et solid utgangspunkt for å skape noe sammen.
+Start alltid med å forstå hva som forventes av dere. Hva er målet, og hvilke muligheter har dere? Dette gir et solid utgangspunkt for godt samarbeid.
 
 **💡 Diskuter og utforsk:**
-Sammen med medstudenter eller veileder, utforsk ulike tilnærminger. Hvilke metoder og verktøy kan dere bruke? Finnes det andre innovative løsninger? Åpne diskusjoner gir nye perspektiver og kan føre til overraskende oppdagelser.
+Utforsk ulike tilnærminger sammen med medstudenter eller veileder. Hvilke metoder og verktøy kan dere bruke? Finnes det andre, mer innovative løsninger? Åpne diskusjoner gir nye perspektiver og kan føre til nye oppdagelser.
 
 **🧪 Test og eksperimenter:**
-Før dere starter på selve prosjektet, er det lurt å teste ideene deres. Er de realistiske? Fungerer de som forventet? Dette sparer tid og kan føre til nye, enda bedre ideer.
+Før dere starter selve prosjektet, er det lurt å teste ideene først. Er de realistiske, og fungerer de som forventet? Dette sparer masse tid og vil gi enda bedre løsninger.
 
 **📋 Lag en plan:**
-Organiser arbeidet deres med en god plan. Hva skal gjøres når? Hvem har ansvar for hva? En god plan gir struktur og oversikt, men husk å være fleksibel når nye muligheter dukker opp.
+Organiser arbeidet med en god plan. Hva skal gjøres når, og hvem har ansvar for hva? En tydelig plan gir struktur og oversikt, men husk å være fleksible når nye muligheter dukker opp.
 
 **📸 Dokumenter alt:**
-Ta vare på alle data (bilder, video, målinger) som dere samler inn i felt. Dette er gull verdt senere og kan være avgjørende for å dokumentere arbeidet deres.
+Ta vare på alle data (bilder, video og målinger) dere samler inn i felt. Dette er svært verdifullt senere og kan være avgjørende for å dokumentere arbeidet.
 
 
 ## Daglige oppstartsmøter
 
-Vi starter hver dag med et kort, oppstartsmøte når vi møtes. Dette møtet er nytting for å:
+Hver dag starter vi med et kort oppstartsmøte når vi møtes. Møtet er nyttig for å:
 - Avklare dagens gjøremål
 - Rydde opp i eventuelle utfordringer
 - Dele tips og triks
 - Få inspirasjon til dagen som kommer
 
-Det er viktig at alle deltar aktivt - sammen lærer vi mer, og det blir mye morsommere!
+Det er viktig at alle deltar aktivt. Sammen lærer vi mer, og arbeidet blir både bedre og morsommere.
 
 
 ## Kontakt
 
-Nedenfor finner dere kontaktinformasjon til de som underviser i emnet. Ta kontakt om det er noe dere lurer på.
+Nedenfor finner dere kontaktinformasjon til underviserne i emnet. Ta gjerne kontakt hvis dere lurer på noe.
 
 |Navn|Epost|Mobil|
 |---|---|---|
 |Jon Glenn Gjevestad|jon.glenn.gjevestad@nmbu.no|90174759|
-|Agathe Cornelia Høydal Hide|agathe.cornelia.hoydal.hide@nmbu.no| |
+
