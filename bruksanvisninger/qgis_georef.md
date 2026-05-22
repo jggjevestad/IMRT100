@@ -1,7 +1,16 @@
 (qgis_georef)=
 # Georeferere en bildefil i QGIS
 
-Her er en steg for steg forklaring på hvordan man tar en bildefil og [georeferer](https://en.wikipedia.org/wiki/Georeferencing) den i QGIS, slik at den kan brukes sammen med annen geodata. Dere skal gi QGIS de nøyaktige koordinatene til 4 punkt på kartet, som QGIS bruker [matematikk](https://no.wikipedia.org/wiki/Affin_transformasjon) på for å finne ut hvor kartet deres ligger.
+[Georeferering](https://en.wikipedia.org/wiki/Georeferencing) er prosessen med å knytte et bilde – for eksempel et håndtegnet kart eller et skannet kart – til et kjent koordinatsystem, slik at det kan brukes sammen med annen geodata.
+
+QGIS har et innebygd verktøy for dette kalt **Georeferer**. Grunnprinsippet er å velge ut punkter i bildet som du kjenner de geografiske koordinatene til. Disse punktene kalles **passpunkter** (engelsk: *Ground Control Points*, GCP). QGIS bruker koordinatene til passpunktene til å beregne en [matematisk transformasjon](https://no.wikipedia.org/wiki/Affin_transformasjon) som strekker, roterer og plasserer bildet riktig i kartet.
+
+For å få et godt resultat bør passpunktene:
+- Være minst **4 stykker** (transformasjonstypen *Projektiv* krever minimum 4)
+- Være **jevnt fordelt** over hele bildet
+- Ligge på **veldefinerte og tydelige steder** du lett finner igjen på norgeskart.no
+
+Her er en steg-for-steg forklaring på hvordan du gjennomfører georeferering i QGIS.
 
 ## Fremgangsmåte
 

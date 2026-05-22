@@ -1,68 +1,150 @@
 (polycam)=
-# Hvordan bruke polycam og Blender
-Polycam er en app som lager 3d modeller av bilder du tar med mobilen. Den er desverre ikke fri programvare, men det finnes mer tekniske, frie programmer som kan gjøre det samme på pc.  
-Polycam kan lastes ned til [android](https://play.google.com/store/apps/details?id=ai.polycam) og [iphone](https://apps.apple.com/no/app/polycam-3d-scanner-lidar-360/id1532482376)
+# Polycam og Blender
 
-Første gang du åpner appen blir du spurt om å lage en bruker. etter du har registrert deg får du opp denne skjermen:  
+Polycam er en app som lager 3D-modeller fra bilder du tar med mobilen, ved hjelp av [fotogrammetri](https://snl.no/fotogrammetri). Appen er ikke fri programvare, men gratisversjonen er tilstrekkelig for denne oppgaven.
+
+Last ned Polycam til [Android](https://play.google.com/store/apps/details?id=ai.polycam) eller [iPhone](https://apps.apple.com/no/app/polycam-3d-scanner-lidar-360/id1532482376).
+
+---
+
+## Opptaksmodus
+
+Polycam har to relevante opptaksmodi:
+
+**Photo Mode** (tilgjengelig på alle enheter)
+Appen tar automatisk bilder mens du beveger deg rundt motivet. Bildene sendes til en server som beregner en 3D-modell gjennom fotogrammetri. Krever god belysning og at motivet er detaljrikt nok til at appen finner like punkter på tvers av bildene.
+
+**LiDAR Mode** (kun iPhone 12 Pro og nyere)
+Bruker telefonens LiDAR-sensor til å måle dybde direkte. Raskere og fungerer bedre i svakt lys, men gir lavere oppløsning enn Photo Mode.
+
+For best resultat med Photo Mode:
+- Gå sakte og jevnt rundt motivet
+- Sørg for god, jevn belysning uten sterke skygger
+- Motiver med matte overflater og tydelig tekstur fungerer best
+- Unngå blanke, gjennomsiktige eller eintfargede flater
+- Ta bilder fra flere høyder (lavt, midt og ovenfra)
+
+---
+
+## Ta opp en 3D-modell
+
+Første gang du åpner appen blir du bedt om å registrere en bruker. Etter innlogging får du opp startskjermen:
 
 ```{image} ../bilder/polycam/start.png
 :width: 200px
 ```
 
-Nå er det bare å trykke på den hvit knappen så tar den automatisk bilder når du beveger deg rundt motivet.  
-Når du er ferdig trykker du på knappen som heter "Done": 
- 
+Velg **Photo** og trykk på den hvite knappen. Appen tar automatisk bilder mens du beveger deg rundt motivet. Når du har dekket alle sider trykker du **Done**:
+
 ```{image} ../bilder/polycam/record.png
 :width: 200px
 ```
 
-Da får du opp en skjerm som ser slik ut: 
- 
+---
+
+## Eksportere modellen
+
+Etter opptak får du opp prosesseringsmenyen:
+
 ```{image} ../bilder/polycam/eksport.png
 :width: 200px
 ```
 
-"Detail" styrer hvor stor fila blir, medium er som regel nok. "Object Masking" prøver å klippe vekk bakgrunn fra modellen så du kun sitter igjen med motivet. I første omgang er et lurt å skru den av.
+| Innstilling | Beskrivelse |
+|---|---|
+| **Detail** | Styrer kvalitet og filstørrelse. *Medium* er som regel tilstrekkelig. |
+| **Object Masking** | Forsøker å fjerne bakgrunnen automatisk. Skru av i første omgang. |
 
-Trykk "Upload & process" og vent på at den gjør seg ferdig.
-
-Når modellen er klar kan trykke inn og se hvordan den ble
+Trykk **Upload & process** og vent til prosesseringen er ferdig. Når modellen er klar kan du forhåndsvise den i appen:
 
 ```{image} ../bilder/polycam/ferdig.png
 :width: 200px
 ```
 
-For å kunne se nøye på modellen er det lurt å åpne den i Blender på pcen. For å eksportere modellen trykker man på nedlastingsikonet of velger GLTF. Deretter må du på en eller annem måte overføre den til pcen.
+For å eksportere: trykk på nedlastingsikonet og velg **GLTF**. Overfør den nedlastede `.glb`-filen til PCen din.
 
 ```{image} ../bilder/polycam/gltf_eksport.png
 :width: 200px
 ```
 
-På pcen må du ha Blender installert. Windows og Mac versjoner finnes på [https://www.blender.org/](https://www.blender.org/), mens Linux versjonen hentes fra [Flathub](https://flathub.org/apps/org.blender.Blender).  
-Blender brukes til å lage både dataspill og hollywood filmer, men for oss funker det også fint til å titte på 3d modeller.
+---
+
+## Blender
+
+Blender er et kraftig, gratis og åpen kildekode-program for 3D-modellering, animasjon og rendering. Vi bruker det her til å importere og inspisere 3D-modellen fra Polycam.
+
+Last ned Blender:
+- Windows og Mac: [https://www.blender.org/](https://www.blender.org/)
+- Linux: [Flathub](https://flathub.org/apps/org.blender.Blender)
+
+### Importere modellen
+
+Når du starter Blender ser du velkomstskjermen med en standardscene:
 
 ![Blender velkomstskjermen](../bilder/blender/blender.png)
 
-Først sletter vi standardkuben ved å høyreklikke og velge delete
+**Steg 1** – Slett standardkuben ved å høyreklikke og velge **Delete**:
 
 ![](../bilder/blender/slett.png)
 
-Så importerer modellen vår ved å trykke på  `File->Import->glTF`
+**Steg 2** – Importer modellen via **File → Import → glTF 2.0 (.glb/.gltf)**:
 
 ![](../bilder/blender/import_gltf.png)
 
-Deretter navigerer du til mappa med `.glb` fila fra Polycam og dobbeltrykker på den:
+**Steg 3** – Naviger til mappa med `.glb`-filen og dobbeltklikk på den:
 
 ![](../bilder/blender/velg_fil.png)
 
-Nå kan du rotere deg rundt, zoome inn og inspisere modellen.  
-For å fargelegge modellen må du velge shading oppe til høyre:
+### Shading
 
-![](../bilder/blender/ingen_shading.png)
-![](../bilder/blender/shading.png)
+Rett etter import kan modellen se grå og uten farger ut. For å se teksturene må du slå på **Material Preview** øverst til høyre i 3D-visningen:
 
-Blender kan være litt knotete både med og uten datamus, men det finnes mye info i manualen: [https://docs.blender.org/manual/en/latest/editors/3dview/navigate/navigation.html](https://docs.blender.org/manual/en/latest/editors/3dview/navigate/navigation.html)
+| Ikon | Modus | Beskrivelse |
+|---|---|---|
+| ![](../bilder/blender/ingen_shading.png) | Solid | Grå overflate, ingen tekstur |
+| ![](../bilder/blender/shading.png) | Material Preview | Viser tekstur og farger |
 
-Det går også ann å skru på spaseringsnavigasjon: [https://docs.blender.org/manual/en/latest/editors/3dview/navigate/walk_fly.html](https://docs.blender.org/manual/en/latest/editors/3dview/navigate/walk_fly.html)
+Klikk på kulesymbolet (Material Preview) for å se modellen med tekstur.
+
+---
+
+## Navigere i 3D-visningen
+
+### Mus og tastatur
+
+| Handling | Mus | Tastatur |
+|---|---|---|
+| Rotere | Midtknapp + dra | Numpad 4 / 6 / 8 / 2 |
+| Panorere | Shift + Midtknapp + dra | Shift + Numpad 4 / 6 / 8 / 2 |
+| Zoome | Scrollhjul | Numpad + / − |
+| Frontvisning | – | Numpad 1 |
+| Sidevisning | – | Numpad 3 |
+| Toppvisning | – | Numpad 7 |
+| Kameravisning | – | Numpad 0 |
+| Tilpass til vindu | – | Numpad . (punktum) |
+
+Uten mus (f.eks. på bærbar PC): aktiver **Emulate 3 Button Mouse** under **Edit → Preferences → Input**.
+
+Full navigasjonsdokumentasjon: [https://docs.blender.org/manual/en/latest/editors/3dview/navigate/navigation.html](https://docs.blender.org/manual/en/latest/editors/3dview/navigate/navigation.html)
+
+### Walk Navigation (spaseringsmodus)
+
+Walk Navigation lar deg bevege deg gjennom scenen som i et førstepersonsspill. Nyttig for å utforske store modeller innenfra.
+
+Aktiver Walk Navigation med **Shift + `** (backtick, tasten til venstre for 1).
 
 ![Walk Navigation](../bilder/blender/walk.png)
+
+| Tast | Handling |
+|---|---|
+| W / Pil opp | Gå fremover |
+| S / Pil ned | Gå bakover |
+| A / Pil venstre | Gå til venstre |
+| D / Pil høyre | Gå til høyre |
+| Mus | Snu kameraet |
+| Scrollhjul | Endre ganghastighet |
+| Mellomrom / Shift | Gå opp / ned |
+| Enter | Bekreft ny kameraposisjon |
+| Esc | Avbryt og gå tilbake |
+
+Full dokumentasjon: [https://docs.blender.org/manual/en/latest/editors/3dview/navigate/walk_fly.html](https://docs.blender.org/manual/en/latest/editors/3dview/navigate/walk_fly.html)

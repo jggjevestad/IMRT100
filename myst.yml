@@ -48,7 +48,7 @@ project:
         - file: bruksanvisninger/qgis_csv_eksport.md
         - file: bruksanvisninger/polycam.md
         - file: bruksanvisninger/gnss_opptak.md
-        - file: bruksanvisninger/python_intro.ipynb
+        - file: bruksanvisninger/python_intro.md
         - file: bruksanvisninger/gjennomsnitt_koordinater.md
         - file: bruksanvisninger/cc_intro.md
 site:
