@@ -32,7 +32,7 @@ Når dere er enig om måleplanen, så må dere teste den ut ved å beregne høyd
 Laserdata for NMBU Campus funner dere her: [Laserdata NMBU](https://eduumb-my.sharepoint.com/:f:/g/personal/jon_glenn_gjevestad_nmbu_no/EhZNW6vu5CFJrBjHd5rTwPIBYbGtYXwHpw2Tk1TwTj1q0g?e=XCT4er). Alternativt kan dere laste data ned selv på [hoydedata.no](https://hoydedata.no).
 
 
-## Oppgaver
+## Spørsmål
 1. Hvordan gikk dere frem for å bestemme høyden på Tuntreet?
 2. Hvor høyt mener dere Tuntreet er?
 3. Hvor sikre er dere på den høyden som dere har kommet frem til?

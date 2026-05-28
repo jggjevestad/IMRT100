@@ -162,4 +162,9 @@ For å bruke Google Plus Codes, kan du bare skrive inn koden i Google Maps søke
 
 Spørsmål: Hvor er dette?
 
+## Spørsmål til refleksjon
 
+1. Hvilke av de åtte oppgavene var vanskeligst å løse, og hva var det som gjorde den utfordrende?
+2. Hva lærte dere om ulike måter å beskrive en posisjon på — breddegrad/lengdegrad, UTM, ECEF, Plus Codes?
+3. Hvilke verktøy (Google Earth, kalkulator, kart) brukte dere mest, og hva fungerte best?
+4. Hva tenker dere om bruken av koordinater i hverdagen etter å ha løst disse oppgavene?

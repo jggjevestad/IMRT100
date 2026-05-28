@@ -63,3 +63,11 @@ Se gjennom videoen og gjør nødvendige justeringer for å sikre at den er klar 
 Dette er en god mulighet til å engasjere medstudentene og vise hvor gøy dere har hatt det! Vi ser frem til å se deres videoer!
 
 Lykke til!
+
+## Spørsmål til refleksjon
+
+1. Hva ville dere formidle med videoen, og i hvilken grad synes dere dere lyktes?
+2. Hvilke oppgaver eller erfaringer fra emnet valgte dere å fremheve, og hvorfor?
+3. Hva var de største utfordringene i produksjonen — planlegging, opptak, redigering?
+4. Hva er de viktigste faglige tingene dere har lært i dette emnet?
+

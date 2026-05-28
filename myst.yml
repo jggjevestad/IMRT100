@@ -32,7 +32,7 @@ project:
         - file: oppgaver/rebuslop.md
     - title: Oppgaver
       children:
-        - file: oppgaver/synfaring.md
+        - file: oppgaver/tegne_kart.md
         - file: oppgaver/gis.md
         - file: oppgaver/google_earth.md
         - file: oppgaver/tuntreet.md
@@ -40,10 +40,14 @@ project:
         - file: oppgaver/gnss_punkt.md
         - file: oppgaver/gnss_bygge.md
         - file: oppgaver/gnss_noyaktighet.md
+        - file: oppgaver/høydemodell.md
+        - file: oppgaver/historiske_kart.md
     - title: Bruksanvisninger
       children:
         - file: bruksanvisninger/qgis_intro.md
         - file: bruksanvisninger/qgis_georef.md
+        - file: bruksanvisninger/qgis_dtm.md
+        - file: bruksanvisninger/qgis_wms.md
         - file: bruksanvisninger/qgis_csv_import.md
         - file: bruksanvisninger/qgis_csv_eksport.md
         - file: bruksanvisninger/polycam.md

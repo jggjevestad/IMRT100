@@ -28,7 +28,6 @@ Gjenta trinnene ovenfor for forskjellige typer GNSS-mottakere. Sammenlign nøyak
 ## Spørsmål
 
 1. Hvilken mottaker hadde høyest nøyaktighet? Hvorfor tror du det er slik?
-2. Hvordan påvirker antall satellitter som er synlige nøyaktigheten til GNSS-mottakerne?
+2. Hvordan påvirker antall synlige satellitter nøyaktigheten til GNSS-mottakerne?
 3. Hva er potensielle kilder til feil i GNSS-posisjonering?
-
-Husk at nøyaktigheten til GNSS-mottakere kan variere avhengig av mange faktorer, inkludert antall synlige satellitter, atmosfæriske forhold, og kvaliteten på mottakerens hardware og software.
+4. Hva lærte dere om GNSS-nøyaktighet gjennom denne oppgaven — stemte resultatet med forventningene deres?

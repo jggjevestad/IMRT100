@@ -28,3 +28,11 @@ Ja.
 ## Resultater
 
 Kart med tilhørende resultater finner dere [her](../filer/qgis/Orienteringsløp_korteste_vei/korteste_vei.qgz).
+
+## Spørsmål til refleksjon
+
+1. Beskriv hvordan dere planla ruten. Hvilke hensyn tok dere da dere valgte rekkefølge på postene?
+2. Hva ble den totale lengden på GNSS-sporet deres, og sammenlign med andre gruppers spor?
+3. Stemte den planlagte ruten med den faktiske ruten dere gikk? Hva avvek, og hvorfor?
+4. Hva lærte dere om GNSS-logging og kartbruk gjennom denne aktiviteten?
+

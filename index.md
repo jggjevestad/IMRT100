@@ -41,4 +41,4 @@ Vurderingen i emnet er **bestått/ikke bestått** og er basert på en grupperapp
 
 Rapporten skal inneholde svar på spørsmålene i oppgavene, og alle oppgavene må være gjennomført. Det er få formelle krav til utforming, men vi forventer god struktur og utfyllende svar. Vi oppfordrer også sterkt til bruk av bilder og video for å illustrere arbeidet.
 
-**Ellers er det stor frihet i arbeidet - utforsk gjerne det dere er mest interessert i!**
+**Ellers er det stor frihet i arbeidet - utforsk det som dere er mest interessert i!**

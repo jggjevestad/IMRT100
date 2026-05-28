@@ -74,7 +74,11 @@ Som vi har sett så presenterer de fleste an de enkleste GNSS mottakerne data p�
 ### QGIS
 [KML->CVS](http://www.monster.com.tw/kml2csv)
 
-### Oppgave
-1. Er det situasjoner der den fungere veldig bra - eller veldig dårlig?
-2. Se nøyere på innholdet i NMEA filene og de transformerte KML/CSV filene. Hvilke data fra den opprinnelige NMEA filen blir transformert til KML/CSV?
+### Spørsmål
+
+1. Beskriv stegene dere fulgte for å sette sammen og konfigurere GNSS-mottakeren. Hva var de viktigste utfordringene dere møtte?
+2. Se nøyere på innholdet i NMEA-filene. Hvilke meldingstyper dukket opp, og hva inneholder GGA-setningen?
+3. Hvilke data fra den opprinnelige NMEA-filen blir med over når dere konverterer til KML/CSV, og hva forsvinner?
+4. Er det situasjoner der mottakeren fungerte veldig bra eller veldig dårlig? Hva tror dere er årsaken?
+5. Hva er den praktiske fordelen med å bruke NMEA som standardformat for GNSS-data?
 

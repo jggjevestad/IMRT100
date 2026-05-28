@@ -27,7 +27,7 @@ Google Earth er et kraftig verktøy som gir brukere muligheten til å utforske v
 **KML og KMZ filer**: Du kan importere og eksportere geografiske data ved hjelp av KML (Keyhole Markup Language) og KMZ (en komprimert versjon av KML) filer. Dette er nyttig for å dele kart og geografisk informasjon.
 
 
-## Oppgaver
+## Spørsmål
 1. Hva er egentlig koordinater?
    - Hvilke koordinattyper kan Google Earth vise?
    - Velg et objekt i Google Earth og vis posisjonen til objektet med alle de ulike koordinattypene i Google Earth.

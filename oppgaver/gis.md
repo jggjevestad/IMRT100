@@ -30,5 +30,9 @@ Har ingen på gruppa studentkort enda kan dere skrive epostadressa til en av der
 Følg [bruksanvisninga for georeferering](/bruksanvisninger/qgis_georef.md). Når dere er ferdig sitter dere igjen med et kartlag i qgis som ligger riktig i forhold til bakgrunnskartene.
 
 ## Spørsmål
-1. Bruk QGIS til å anslå nøyaktigheten på kartet deres. Diskuter mulige feilkilder
-2. Hvordan ble kvaliteten og detaljenivået på kartet deres i forhold til f.eks Norgeskart?
+
+1. Beskriv hvordan dere gikk frem for å georeferere kartet. Hvilke punkter valgte dere som passpunkter, og hvorfor?
+2. Bruk QGIS til å anslå nøyaktigheten på kartet deres. Diskuter mulige feilkilder.
+3. Hvordan ble kvaliteten og detaljenivået på kartet deres i forhold til f.eks. Norgeskart?
+4. Hva synes dere var vanskeligst med å lage kartet for hånd og å digitalisere det etterpå?
+5. Hva har dere lært om GIS og digital kartografi gjennom denne oppgaven?
