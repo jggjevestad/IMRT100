@@ -1,7 +1,7 @@
 (rebuslop)=
 # Rebusløp på Campus
 
-I dette rebusløpet skal dere gjennom 8 oppgaver finne frem til steder på Campus ved hjelp av målinger og enkel geometri. Når dere har funnet stedet, så skal dere dokumentere hvor dere mener det er ved å ta en selfie av hele gruppa. Til hver oppgave er det også et spørsmål som dere må finne frem til svaret på.
+I dette rebusløpet skal dere gjennom ti oppgaver finne frem til steder på Campus ved hjelp av målinger og enkel geometri. Når dere har funnet stedet, så skal dere dokumentere hvor dere mener det er ved å ta en selfie av hele gruppa. Til hver oppgave er det også et spørsmål som dere må finne frem til svaret på.
 
 Lykke til!
 
@@ -14,7 +14,7 @@ Nede på NMBU Campus, skjult blant trærne og omfavnet av naturens ro, ligger en
 Vannet i dammen er ikke krystallklart, men renner stille ut i en bekk som slynger seg gjennom landskapet. Bekken, med sitt melodiske klukk, fører vannet videre til en bitte liten foss. Denne fossen, selv om den er liten, bruser med en kraft som kanskje kan høres dersom du legger godviljen til og skaper en følelse av eventyr og mystikk. 
 
 ```{image} ../bilder/foss.jpg
-:alt: fishy
+:alt: foss
 :class: bg-primary mb-1
 :width: 600px
 :align: center
@@ -24,10 +24,10 @@ Spørsmål: Hva heter fossen?
 
 
 ## Spørsmål 2 - Transformasjon
-I geomatikk bruker vi noen ganger ECEF koordinater istedenfor breddegrad og lengdegrad fordi de er enklere å gjøre beregninger med. Problemet med disse ECEF koordinatene er bare at det ikke er så helt enkelt å tolke hvor posisjonen er. Senere i studiet må dere programmere denne transformasjonen selv, men i dag  holder det å bruke denne [linken](https://www.sysense.com/products/ecef_lla_converter/index.html) for å transformere mellom disse to koordinattypene.
+I geomatikk bruker vi noen ganger ECEF koordinater istedenfor breddegrad og lengdegrad fordi de er enklere å gjøre beregninger med. Problemet med disse ECEF koordinatene er bare at det ikke er så helt enkelt å tolke hvor posisjonen er. Senere i studiet må dere programmere denne transformasjonen selv, men i dag holder det å bruke denne [linken](https://www.sysense.com/products/ecef_lla_converter/index.html) for å transformere mellom disse to koordinattypene.
 
 ```{image} ../bilder/coordinates.jpg
-:alt: fishy
+:alt: koordinater
 :class: bg-primary mb-1
 :width: 600px
 :align: center
@@ -50,7 +50,7 @@ Spørsmål: Hvilket årstall?
 Du finner en lapp på bakken hvor noen har skrevet en posisjon med breddegrad og lengdegrad. Lappen er helt utvasket og du klarer såvidt å tyde tallene, men dessverre så er sekundene i lengdegraden blitt helt borte. Bygningen dere skal finne ligger midt imellom ytterpunktene til de mulige posisjonene.
 
 ```{image} ../bilder/note.jpg
-:alt: fishy
+:alt: lapp
 :class: bg-primary mb-1
 :width: 600px
 :align: center
@@ -74,7 +74,7 @@ areal blir litt feil i forhold til virkeligheten - det er ikke mulig å bevare a
 Kartsystemet EUREF89 UTM (Sone 32) er det som er vanligste i Norge.
 
 ```{image} ../bilder/map_projection.jpg
-:alt: fishy
+:alt: UTM
 :class: bg-primary mb-1
 :width: 600px
 :align: center
@@ -100,7 +100,7 @@ Spørsmål: Hva heter bygget og hva tror dere dette bygget har vært brukt til?
 Rundt om i Ås er det mange rundkjøringer. I tabellen nedenfor finner dere posisjonen til tre av dem. Stedet dere skal frem til er i skjæringspunktet mellom tre sirkler.
 
 ```{image} ../bilder/circles.jpg
-:alt: fishy
+:alt: sirkler
 :class: bg-primary mb-1
 :width: 600px
 :align: center
@@ -116,10 +116,10 @@ Spørsmål: Hvor lang er den?
 
 
 ## Spørsmål 6 - Syn som en ørn
-Du står ved Gaustadtoppen turisthytte ved Rjukan. Du har syn som en ørn og langt borte i det fjerne ser noe som ligner på en marmorblokk. Nysgjerrig som du er finner du frem kompasset og leser av en retning på $98.83^0$. Etter mye strev og nøye måling finner du tilslutt ut at avstanden er $120267m$.
+Du står ved Gaustadtoppen turisthytte ved Rjukan. Du har syn som en ørn og langt borte i det fjerne ser noe som ligner på en marmorblokk. Nysgjerrig som du er finner du frem kompasset og leser av en retning på $98.83^0$. Etter mye strev og nøye måling finner du til slutt ut at avstanden er $120267m$.
 
 ```{image} ../bilder/mountain.jpg
-:alt: fishy
+:alt: gaustadtoppen
 :class: bg-primary mb-1
 :width: 600px
 :align: center
@@ -132,7 +132,7 @@ Spørsmål: Hva heter skulpturen?
 Du er ute å går på Campus. Plutselig snubler du i et hull i bakken. Nede i hullet finner du en gammel Nokia mobiltelefon. Den siste som brukte telefonen hadde skrevet en SMS, men det eneste du kan se ser er rekkefølgen på tastene som ble trykket inn. Tallsekvensen finner du nedenfor.
 
 ```{image} ../bilder/nokia.jpg
-:alt: fishy
+:alt: mobil
 :class: bg-primary mb-1
 :width: 600px
 :align: center
@@ -148,7 +148,7 @@ Spørsmål: Hvor er dette?
 Google Plus Codes er en åpen, enkel og konsistent adresseordning utviklet av Google. De er designet for å gi en adresse til ethvert sted på jorden, spesielt steder som ikke har en bestemt gateadresse.
 
 ```{image} ../bilder/google_plus.jpg
-:alt: fishy
+:alt: google plus codes
 :class: bg-primary mb-1
 :width: 600px
 :align: center
@@ -174,7 +174,7 @@ What3Words er et system som deler jordoverflaten inn i 57 billioner kvadrater p�
 
 Bruk nettsiden [what3words.com](https://what3words.com) eller appen til å finne posisjonen som tilsvarer de tre ordene nedenfor.
 
-`///origin.piper.scorched`
+`///kjeks.bedring.heiste`
 
 Spørsmål: Hva er dette stedet?
 
@@ -202,7 +202,7 @@ Spørsmål: Hva finner dere på dette stedet?
 
 ## Spørsmål til refleksjon
 
-1. Hvilke av de åtte oppgavene var vanskeligst å løse, og hva var det som gjorde den utfordrende?
-2. Hva lærte dere om ulike måter å beskrive en posisjon på — breddegrad/lengdegrad, UTM, ECEF, Plus Codes?
+1. Hvilke av de ti oppgavene var vanskeligst å løse, og hva var det som gjorde den utfordrende?
+2. Hva lærte dere om ulike måter å beskrive en posisjon på — breddegrad/lengdegrad, UTM, ECEF, Plus Codes og magiske ord?
 3. Hvilke verktøy (Google Earth, kalkulator, kart) brukte dere mest, og hva fungerte best?
 4. Hva tenker dere om bruken av koordinater i hverdagen etter å ha løst disse oppgavene?
