@@ -162,6 +162,44 @@ For å bruke Google Plus Codes, kan du bare skrive inn koden i Google Maps søke
 
 Spørsmål: Hvor er dette?
 
+## Spørsmål 9 - Tre magiske ord
+What3Words er et system som deler jordoverflaten inn i 57 billioner kvadrater på 3×3 meter. Hvert kvadrat har fått et unikt navn bestående av nettopp tre ord. Systemet gjør det mulig å beskrive en eksakt posisjon med bare tre ord, og brukes blant annet av nødetater og leveringstjenester verden over.
+
+```{image} ../bilder/what3words.jpg
+:alt: what3words
+:class: bg-primary mb-1
+:width: 600px
+:align: center
+```
+
+Bruk nettsiden [what3words.com](https://what3words.com) eller appen til å finne posisjonen som tilsvarer de tre ordene nedenfor.
+
+`///origin.piper.scorched`
+
+Spørsmål: Hva er dette stedet?
+
+
+## Spørsmål 10 - Steg for steg
+Dead reckoning er en navigasjonsmetode der man beregner en ny posisjon ved å ta utgangspunkt i en kjent startposisjon og deretter følge oppgitte retninger og avstander. Metoden er gammel, men prinsippet brukes fortsatt i moderne navigasjonssystemer.
+
+```{image} ../bilder/dead_reckoning.jpg
+:alt: dead reckoning
+:class: bg-primary mb-1
+:width: 600px
+:align: center
+```
+
+Start ved inngangen til Urbygningen ($N59^0 39' 58.50''$, $E10^0 45' 57.92''$) og følg disse stegene:
+
+1. Gå i retning $62^0$ (nordøst), $95m$
+2. Gå i retning $148^0$ (sørøst), $70m$
+3. Gå i retning $255^0$ (vest), $55m$
+
+**Hint**: Bruk Google Earth til å plotte ruten trinn for trinn.
+
+Spørsmål: Hva finner dere på dette stedet?
+
+
 ## Spørsmål til refleksjon
 
 1. Hvilke av de åtte oppgavene var vanskeligst å løse, og hva var det som gjorde den utfordrende?

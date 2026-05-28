@@ -5,7 +5,7 @@
 
 Velkommen til IMRT100! Denne siden samler praktisk informasjon og råd som hjelper deg i gang med både studiehverdagen og prosjektarbeidet. Målet er at du raskt skal finne ut hva som forventes av deg, hvordan du kan jobbe effektivt i gruppe, og hvordan du kan lære mest mulig gjennom å prøve, diskutere og reflektere.
 
-I tillegg til denne siden bør du bruke [fremdriftsplanen](fremdriftsplan) aktivt gjennom uka, og orientere deg i oppgavene under de ulike temaene i kurset.
+I tillegg til denne siden bør du bruke [fremdriftsplanen](#fremdriftsplan) aktivt gjennom uka, og orientere deg i oppgavene under de ulike temaene i kurset.
 
 
 ## Still spørsmål - vær nysgjerrig!
