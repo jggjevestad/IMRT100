@@ -1,0 +1,96 @@
+(gnss_opptak)=
+# Ta GNSS opptak med mobilen
+
+Alle smarttelefoner kan ta i mot GNSS signaler, men du trenger en egen app for å lagre de som en fil. Her kommer vi til å bruke [kml](https://en.wikipedia.org/wiki/Keyhole_Markup_Language) som filformat, men det finnes andre som gpx og geojson som også har god støtte i GIS programmer.
+
+
+## Android – GPS Logger
+
+[GPS Logger](https://basicairdata.eu/projects/android/android-gps-logger/) er en GNSS-logger med åpen kildekode. Appen krever ingen internettforbindelse og lagrer all data lokalt på telefonen i mappen `/GPSLogger`.
+
+### Konfigurere KML-eksport
+
+Åpne innstillinger via de tre prikkene øverst til høyre. Under **EXPORTATION** slår du på **Export Tracks in KML**. Her kan du også velge hvilken mappe filene skal lagres i under **Export Folder**.
+
+Under **TRACKING** kan du justere hvor ofte appen registrerer nye posisjoner. Et GPS-oppdateringsintervall på minst 3 sekunder anbefales for god nøyaktighet.
+
+### Ta opp spor
+
+Åpne appen utendørs og vent til du ser **GPS Fix** i den første fanen – dette betyr at appen har satellittforbindelse. La gjerne appen stabilisere signalet i et minutt før du starter.
+
+Trykk på **Record**-knappen i bunnen av skjermen for å starte opptaket. Knappen blir rød når opptaket er aktivt. Fanen **TRACK** viser statistikk som hastighet, høyde og distanse i sanntid.
+
+```{image} ../bilder/gpslogger/screenshot_01.jpg
+:width: 200px
+:class: bg-primary mb-1
+```
+
+Når du er ferdig trykker du på **Stop**-knappen og bekrefter i dialogen som dukker opp.
+
+### Eksportere sporet
+
+Gå til fanen **TRACKLIST** og trykk på sporet du vil eksportere. Her kan du dele eller eksportere filen som KML og overføre den til pcen.
+
+```{image} ../bilder/gpslogger/screenshot_04.jpg
+:width: 200px
+:class: bg-primary mb-1
+```
+
+## iOS – myTracks
+
+[myTracks](https://www.mytracks4mac.info) er en GPS-logger for iPhone, iPad og Apple Watch. Appen kan eksportere til KML og KMZ, og synkroniserer spor via iCloud mellom Apple-enheter.
+
+### Starte opptak
+
+Åpne appen og trykk på **Record**-knappen (kamera-/rekord-knappen) for å komme til oppstartsskjermen. Trykk deretter på **Start Recording** for å begynne opptaket.
+
+```{image} ../bilder/mytracks/start.jpg
+:width: 200px
+:class: bg-primary mb-1
+```
+
+```{image} ../bilder/mytracks/start_recording.jpg
+:width: 200px
+:class: bg-primary mb-1
+```
+
+Under opptaket viser cockpit-skjermen hastighet, høyde, distanse og andre målinger i sanntid. Du kan også legge inn veipunkter underveis.
+
+```{image} ../bilder/mytracks/cockpit_after_start.jpg
+:width: 200px
+```
+
+### Konfigurere opptak
+
+Under **Recording Settings** kan du justere nøyaktighet, tidsintervall mellom punkter og automatisk bevegelsesdeteksjon.
+
+```{image} ../bilder/mytracks/recording_settings-1.jpg
+:width: 200px
+```
+
+### Eksportere som KML
+
+Stopp opptaket og åpne sporet fra listen. Fra detaljvisningen trykker du på **eksport-ikonet** (deleknappen øverst til høyre).
+
+```{image} ../bilder/mytracks/opened_track_export.jpg
+:width: 200px
+:class: bg-primary mb-1
+```
+
+I eksportdialogen aktiverer du **Use Google Format (KML)**. Som standard eksporteres spor som GPX, så dette steget er viktig. Trykk deretter på **Export** på nytt.
+
+```{image} ../bilder/mytracks/export_dialog.jpg
+:width: 200px
+:class: bg-primary mb-1
+```
+
+iOS-delemenyen åpnes og du kan lagre filen i Filer-appen, sende den på e-post eller overføre den til pcen via AirDrop eller kabel.
+
+```{image} ../bilder/mytracks/export_sheet.jpg
+:width: 200px
+```
+
+
+## Åpne KML-filen
+
+KML-filer kan åpnes i QGIS, Google Earth og mange andre programmer. Som regel er det bare å dra fila inn i vinduet.

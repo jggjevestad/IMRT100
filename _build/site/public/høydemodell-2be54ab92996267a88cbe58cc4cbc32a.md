@@ -1,0 +1,81 @@
+(høydemodell)=
+# Terrenganalyse med Høydedata (DTM)
+
+I denne oppgaven skal dere arbeide med åpne høydedata fra Kartverket. Dere skal laste ned en digital terrengmodell (DTM) over Ås, importere den i QGIS, og utføre terrenganalyser som skyggerelieff (hillshade), helningskart (slope), høydekurver (konturlinjer) og høydeprofiler.
+
+<div class="geo-dashboard">
+  <div class="geo-dashboard-item">
+    <span class="geo-dashboard-label">📍 Lokasjon</span>
+    <span class="geo-dashboard-value">NMBU Campus & Ås Kommune</span>
+  </div>
+  <div class="geo-dashboard-item">
+    <span class="geo-dashboard-label">🛠️ Utstyr</span>
+    <span class="geo-dashboard-value">Internett-tilkoblet PC</span>
+  </div>
+  <div class="geo-dashboard-item">
+    <span class="geo-dashboard-label">💻 Programvare</span>
+    <span class="geo-dashboard-value"><a href="../bruksanvisninger/qgis_intro.md">QGIS</a>, <a href="https://hoydedata.no">Hoydedata.no</a></span>
+  </div>
+  <div class="geo-dashboard-item">
+    <span class="geo-dashboard-label">⏱️ Tidsestimat</span>
+    <span class="geo-dashboard-value">3 - 4 timer</span>
+  </div>
+</div>
+
+```{image} ../bilder/terrengmodell_as.png
+:alt: Terrengmodell over Ås og Oslofjorden
+:class: bg-primary mb-1
+:width: 600px
+:align: center
+```
+
+---
+
+## 🎯 Introduksjon
+Norge har noen av verdens beste åpne høydedata. Gjennom det nasjonale prosjektet "Nasjonal detaljert høydemodell" er nesten hele landet skannet med flybåren laser (LiDAR). Høydedata lagres primært som rasterdata (et rutenett av celler der hver celle inneholder en høydeverdi over havet). En **Digital Terrengmodell (DTM)** representerer selve bakkenivået (uten trær og hus), mens en **Digital Overflatemodell (DOM)** inkluderer vegetasjon, tak og andre objekter over bakken.
+
+---
+
+## 🛠️ Forberedelser
+* Sørg for at QGIS er åpent og klart.
+* Les manualen for [DTM- og terrenganalyse i QGIS](../bruksanvisninger/qgis_dtm.md).
+* Opprett en konto eller logg inn på Kartverkets portal [hoydedata.no](https://hoydedata.no) for å laste ned data.
+
+---
+
+## 🏃‍♂️ Gjennomføring
+
+### Steg 1: Nedlasting av DTM fra Høydedata.no
+1. Gå til [hoydedata.no](https://hoydedata.no) og søk etter *Ås*.
+2. Velg **Eksporter data**-verktøyet.
+3. Velg produktet **DTM 1** (1 meters celle-oppløsning, som betyr at hver piksel representerer $1\times 1\text{ meter}$ på bakken) eller **DTM 10** ($10\text{ meters}$ oppløsning).
+4. Marker et rektangulært område som dekker hele NMBU Campus og litt av områdene rundt.
+5. Velg referansesystem **ETRS89 / UTM sone 32N (EPSG:25832)** og format **TIFF**. Eksporter og last ned rasterfilen.
+
+### Steg 2: Visualisering i QGIS
+1. Dra `.tif`-filen inn i QGIS-prosjektet ditt.
+2. Følg [bruksanvisningen for QGIS DTM](../bruksanvisninger/qgis_dtm.md) for å generere:
+   * **Skyggerelieff (Hillshade)**: Simulerer solbelysning av terrenget fra en gitt retning, noe som gjør det enkelt å tolke dumper, grøfter og rygger visuelt.
+   * **Høydekurver (Konturlinjer)**: Linjer med faste høydeintervaller (f.eks. $1\text{ meter}$ eller $5\text{ meter}$ ekvidistanse).
+   * **Helning (Slope)**: Fargekoder landskapet etter hvor bratt det er i grader ($0\text{–}90^\circ$).
+   * **Høydeprofil**: Bruk QGIS sitt innebygde *Elevation Profile*-verktøy til å tegne en linje på tvers av campus for å analysere høydevariasjonen.
+
+---
+
+## 📝 Rapportoppgaver
+
+:::{important} Viktig
+Besvar spørsmålene under i grupperapporten. Legg ved skjermbilder av skyggerelieffet med høydekurver og helningskartet dere har laget i QGIS, samt et bilde av høydeprofilen deres.
+:::
+
+### Spørsmål
+
+1. **Campus' Høydeekstremer**:
+   * Hva er høyden (meter over havet) på det absolutt **høyeste** og **laveste** punktet på NMBU campus? Hvor ligger disse punktene?
+2. **Bratthetsanalyse (Slope)**:
+   * Se på helningskartet deres: Hvilke deler av campus er de bratteste? Hva brukes disse arealene til i dag (f.eks. skog, plen, veier, bebyggelse)? Hvilke utfordringer gir bratt terreng for utbygging?
+3. **Hydrologisk analyse (Avrenning)**:
+   * Vann renner alltid minste motstands vei (vinkelrett på høydekurvene). Bruk DTM-en og høydekurvene til å vurdere hvor vannet vil samle seg og renne ved ekstremt kraftig nedbør. Samsvarer din analyse med plasseringen av bekker, dammer og kulverter på campus?
+4. **Oppløsning og Datamengde**:
+   * Hva er forskjellen på en **DTM 1** og en **DTM 10** høydemodell med tanke på cellestørrelse og detaljnivå?
+   * I hvilke situasjoner er det nødvendig med DTM 1 (høy oppløsning), og når er det mer hensiktsmessig å bruke DTM 10 (lavere oppløsning)?
