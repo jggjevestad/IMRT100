@@ -1,0 +1,62 @@
+(qgis_intro)=
+# Introduksjon til QGIS
+
+QGIS er et profesjonelt, gratis og åpen kildekode-basert geografisk informasjonssystem (GIS). Programmet er tilgjengelig for Windows, macOS og Linux, og er geomatikerens viktigste verktøy for kartproduksjon og romlig analyse.
+
+---
+
+## 📋 Oversikt
+Geografisk Informasjonssystem (GIS) er programvare for å samle inn, visualisere og analysere romlige data. I motsetning til vanlige tegneprogrammer er alle elementer i et GIS geografisk plassert i et koordinatsystem. 
+
+QGIS lar deg organisere dataene dine i **kartlag** (layers), utføre avanserte romlige analyser, og eksportere ferdige trykte eller digitale kart.
+
+```{image} ../bilder/qgis/forside.png
+:alt: QGIS - Det ledende åpen kildekode GIS-verktøyet
+:class: mb-2
+:width: 600px
+:align: center
+```
+
+---
+
+## 🔧 Brukergrensesnittet i QGIS
+Når du åpner QGIS for første gang, vil du se et skjermbilde delt inn i fem hovedområder:
+
+```{image} ../bilder/qgis/startup.png
+:alt: QGIS brukergrensesnitt (1: Menylinje, 2: Verktøylinje, 3: Sidepaneler, 4: Kartvisning, 5: Statuslinje)
+:class: mb-2
+:width: 600px
+:align: center
+```
+
+1. **Menylinje**: Gir tilgang til alle funksjoner (*Prosjekt*, *Rediger*, *Vis*, *Lag*, *Vektor*, *Raster*, *Prosessering*).
+2. **Verktøylinjer**: Rask tilgang til knapper for zoom, panorering, avstandsmåling og redigering. Du kan tilpasse disse ved å høyreklikke på en tom plass på topplinjen.
+3. **Sidepaneler**: 
+   * **Lagpanelet (Layers)**: Viser rekkefølgen på kartlagene. Laget som ligger øverst i listen, tegnes øverst i kartet.
+   * **Utforskerpanelet (Browser)**: Lar deg lete opp filer på PCen, databaser eller webtjenester direkte fra QGIS.
+4. **Kartvisning**: Det sentrale vinduet der kartlagene og dataene dine tegnes opp.
+5. **Statuslinje**: Viser gjeldende musekoordinater, kartmålestokk, og prosjektets koordinatreferansesystem (CRS / projeksjon) i høyre hjørne.
+
+---
+
+## 💻 Installasjon og Oppstart
+
+### 1. Last ned QGIS
+* Gå til den offisielle siden [qgis.org/download](https://qgis.org/download/).
+* Vi anbefaler å laste ned **LTR (Long Term Release)**-versjonen. Denne er mest stabil for undervisning.
+
+### 2. Åpne prosjektmalen
+For å spare tid har vi laget en malfil der bakgrunnskartene er klargjort, og prosjektets koordinatsystem er forhåndsinnstilt til det nasjonale standardformatet **ETRS89 / UTM sone 32N (EPSG:25832)**:
+* **Last ned malen**: [mal.qgz](../filer/qgis/mal.qgz)
+* Dobbeltklikk på `.qgz`-filen for å starte QGIS med malen ferdig lastet.
+
+---
+
+## 💡 Tips & feilsøking
+
+* **Paneler har forsvunnet**: Dersom Lagpanelet eller Utforskerpanelet blir borte, kan du slå dem på igjen via menylinjen: *Vis* -> *Paneler* -> Kryss av for *Lag* og *Utforsker*.
+* **Kartet ser tomt ut**: 
+  * Sjekk om lagene i Lagpanelet er slått på (huk av i boksen).
+  * Sjekk rekkefølgen: Et raster- eller flybilde-lag som ligger *over* punkter eller linjer i listen, vil dekke dem til. Dra flybildet nederst i listen!
+  * Høyreklikk på et lag i listen og velg **Zoom til lag (Zoom to layer)** for å hoppe rett til der dataene befinner seg geografisk.
+* **Tegningene mine forskyver seg**: Sørg for at koordinatsystemet i statuslinjen nederst til høyre alltid viser `EPSG:25832` (ETRS89 / UTM zone 32N).

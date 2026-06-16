@@ -1,0 +1,81 @@
+(historiske_kart)=
+# Historiske Kart og Arealendringer
+
+I denne oppgaven skal dere utforske hvordan landskap, arealbruk og bebyggelse endrer seg over tid. Dere skal ta i bruk historiske kart og historiske flybilder over NMBU campus og et valgfritt område, og lære hvordan geomatikere bruker disse til å analysere historisk utvikling.
+
+<div class="geo-dashboard">
+  <div class="geo-dashboard-item">
+    <span class="geo-dashboard-label">📍 Lokasjon</span>
+    <span class="geo-dashboard-value">NMBU Campus & Valgfritt studieområde i Norge/verden</span>
+  </div>
+  <div class="geo-dashboard-item">
+    <span class="geo-dashboard-label">🛠️ Utstyr</span>
+    <span class="geo-dashboard-value">PC med internett-tilkobling</span>
+  </div>
+  <div class="geo-dashboard-item">
+    <span class="geo-dashboard-label">💻 Programvare</span>
+    <span class="geo-dashboard-value"><a href="https://norgeibilder.no">Norge i Bilder</a>, <a href="https://norgeskart.no">Norgeskart.no</a>, <a href="../bruksanvisninger/qgis_intro.md">QGIS</a></span>
+  </div>
+  <div class="geo-dashboard-item">
+    <span class="geo-dashboard-label">⏱️ Tidsestimat</span>
+    <span class="geo-dashboard-value">3 - 4 timer</span>
+  </div>
+</div>
+
+```{image} ../bilder/historisk_kart_as.png
+:alt: Historisk amtskart over Ås
+:class: bg-primary mb-1
+:width: 600px
+:align: center
+```
+
+---
+
+## 🎯 Introduksjon
+Kart er ikke bare verktøy for navigasjon – de er verdifulle historiske dokumenter. Ved å sammenligne eldre kart (som historiske amtskart og rektangelkart fra 1800-tallet) eller tidlige flybilder med dagens digitale kartdata, kan geomatikere avdekke store endringer i samfunnet. Dette kalles **arealendringsanalyse** og er et viktig verktøy innen arealplanlegging, skogbruk, naturforvaltning og arkeologi.
+
+---
+
+## 🛠️ Forberedelser
+* Gjør deg kjent med følgende portaler:
+  * **Norge i Bilder** ([norgeibilder.no](https://norgeibilder.no)): Gir tilgang til historiske og moderne ortofotos (målestokkskorrigerte flybilder) helt tilbake til 1930-tallet.
+  * **Norgeskart** ([norgeskart.no](https://norgeskart.no)): Har en egen lag-velger for historiske kart (f.eks. Amtskart, Rektangelkart, Gradteigskart).
+* Les manualen for [WMS-tjenester i QGIS](../bruksanvisninger/qgis_wms.md) dersom dere ønsker å laste historiske kart direkte inn i GIS-prosjektet deres.
+
+---
+
+## 🏃‍♂️ Gjennomføring
+
+### Del 1: Utforsk NMBU Campus gjennom tidene
+1. Gå til [norgeibilder.no](https://norgeibilder.no), søk opp *Ås*, og finn NMBU Campus.
+2. Åpne menyen for historiske bilder og se på de eldste flybildene som er tilgjengelige over campus (f.eks. fra 1930- eller 1950-tallet).
+3. Sammenlign med dagens flybilder. Se spesielt etter endringer i bebyggelsen rundt Urbygningen, parkområdene, veiene og landbruksarealene.
+
+### Del 2: Valgfritt studieområde (Arealendring)
+Velg et område dere er nysgjerrige på. Det kan være:
+* Hjemstedet til et av gruppemedlemmene.
+* En by som har opplevd enorm urban vekst (f.eks. rundt Oslo eller en annen storby).
+* Et naturområde med store menneskelige inngrep (vannkraftutbygging, motorveier, vindkraftanlegg, eller dagbrudd/gruvedrift).
+* Undersøk og lagre historiske og moderne bilder/kart som dokumenterer endringene.
+
+### Del 3: Georeferering av historiske kart (Valgfri utfordring)
+For å sammenligne kartene direkte i QGIS:
+1. Last ned et historisk kartutsnitt som bildefil fra Kartverkets arkiver.
+2. Åpne georefereringsverktøyet i QGIS (se [bruksanvisning](../bruksanvisninger/qgis_georef.md)).
+3. Georeferer kartet ved å finne felles punkter som ikke har flyttet seg (f.eks. gamle kirker, historiske gårdsgrenser eller gamle veikryss).
+4. Sett gjennomsiktigheten på det gamle kartet til 50 % for å se hvordan det passer over det moderne kartet.
+
+---
+
+## 📝 Rapportoppgaver
+
+:::{important} Viktig
+Besvar spørsmålene under i grupperapporten og illustrer endringene med historiske og moderne kartutsnitt / flybilder ved siden av hverandre.
+:::
+
+### Spørsmål
+
+1. **Campus' Utvikling**: Beskriv de tre mest markante fysiske endringene dere observerte på NMBU-campus da dere sammenlignet de eldste flybildene med dagens situasjon.
+2. **Arealendringsstudie**: Presenter området dere valgte i Del 2. Vis bilder før og etter endringen, og forklar kort hva som har skjedd, og hva som er årsaken til denne utviklingen (f.eks. samfunnsendringer, økonomisk vekst, naturforvaltning).
+3. **Kart som Historisk Kilde**: Hvilken informasjon kan vi hente ut fra eldre, håndtegnede kart som vi ikke finner på moderne, heldigitaliserte kart (f.eks. gamle stedsnavn, historiske stier, endret markgrense)?
+4. **Tekniske Utfordringer**: Hvilke kartografiske utfordringer møtte dere (eller ville dere møtt) da dere prøvde å sammenligne eldre papirkart direkte med moderne digitale kart (tenk på kartprojeksjoner, målestokk, geometrisk nøyaktighet og symbolbruk)?
