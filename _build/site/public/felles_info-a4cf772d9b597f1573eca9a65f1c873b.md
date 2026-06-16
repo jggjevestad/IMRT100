@@ -54,7 +54,7 @@ Bruk gjerne **3-punkts-modellen** for oppstartsmøtet:
 
 ---
 
-## 📈 Vurdering og kvalitet
+## 📈 Vurdering og Kvalitet
 
 Vurderingen **Bestått / Ikke bestått** baseres på om alle oppgaver er tilfredsstillende besvart og dokumentert.
 
@@ -89,3 +89,4 @@ Har du faglige eller praktiske spørsmål underveis? Ta kontakt med emneansvarli
 | :--- | :--- | :--- | :--- | :--- |
 | **Jon Glenn Gjevestad** | Emneansvarlig | jon.glenn.gjevestad@nmbu.no | 901 74 759 | TF-bygget, TF3 |
 
+*(Ytterligere hjelpelærere og kontortider vil bli annonsert på Canvas ved oppstart)*
