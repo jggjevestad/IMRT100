@@ -75,7 +75,7 @@ Besvar spørsmålene under i grupperapporten og illustrer endringene med histori
 
 ### Spørsmål
 
-1. **Campus' utvikling**: Beskriv de tre mest markante fysiske endringene dere observerte på NMBU-campus da dere sammenlignet de eldste flybildene med dagens situasjon.
+1. **Campus' Utvikling**: Beskriv de tre mest markante fysiske endringene dere observerte på NMBU-campus da dere sammenlignet de eldste flybildene med dagens situasjon.
 2. **Arealendringsstudie**: Presenter området dere valgte i Del 2. Vis bilder før og etter endringen, og forklar kort hva som har skjedd, og hva som er årsaken til denne utviklingen (f.eks. samfunnsendringer, økonomisk vekst, naturforvaltning).
-3. **Kart som historisk kilde**: Hvilken informasjon kan vi hente ut fra eldre, håndtegnede kart som vi ikke finner på moderne, heldigitaliserte kart (f.eks. gamle stedsnavn, historiske stier, endret markgrense)?
-4. **Tekniske utfordringer**: Hvilke kartografiske utfordringer møtte dere (eller ville dere møtt) da dere prøvde å sammenligne eldre papirkart direkte med moderne digitale kart (tenk på kartprojeksjoner, målestokk, geometrisk nøyaktighet og symbolbruk)?
+3. **Kart som Historisk Kilde**: Hvilken informasjon kan vi hente ut fra eldre, håndtegnede kart som vi ikke finner på moderne, heldigitaliserte kart (f.eks. gamle stedsnavn, historiske stier, endret markgrense)?
+4. **Tekniske Utfordringer**: Hvilke kartografiske utfordringer møtte dere (eller ville dere møtt) da dere prøvde å sammenligne eldre papirkart direkte med moderne digitale kart (tenk på kartprojeksjoner, målestokk, geometrisk nøyaktighet og symbolbruk)?

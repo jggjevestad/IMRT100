@@ -74,7 +74,7 @@ Svar på spørsmålene under og vis beregninger og skjermbilder fra CloudCompare
 2. **Resultatsammenligning**:
    * Hvilken høyde kom dere frem til ved bruk av **totalstasjon**? (Vis rådata som avstander, vinkler og utregning).
    * Hvilken høyde kom dere frem til ved bruk av **laserskanning i CloudCompare**? (Legg ved et skjermbilde av den klippede punktskyen av treet med målingen markert).
-3. **Feilanalyse og diskusjon**:
+3. **Feilanalyse og Diskusjon**:
    * Hvorfor er de to resultatene eventuelt avvikende?
    * Hva er de største feilkildene ved trigonometrisk måling i felt (f.eks. er det lett å sikte på det absolutte toppunktet av kronen)?
    * Hva er begrensningene til laserskanning fra fly (f.eks. punkttetthet, om laseren faktisk traff det aller øverste bladet på treet)?

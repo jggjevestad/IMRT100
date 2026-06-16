@@ -72,9 +72,9 @@ for h in malinger:
 
 ---
 
-## 💻 Praktiske geomatikk-skript
+## 💻 Praktiske Geomatikk-Skript
 
-### Skript 1: Omregning av vinkelmål
+### Skript 1: Omregning av Vinkelmål
 Kopier denne koden inn i en fil kalt `vinkler.py`. Den konverterer mellom grader, radianer og gon (nygrader).
 ```python
 from numpy import pi
@@ -103,7 +103,7 @@ print(f"{vinkel_deg:.4f} grader  =  {vinkel_gon:.4f} gon")
 
 ---
 
-### Skript 2: Gjennomsnitt og standardavvik fra CSV
+### Skript 2: Gjennomsnitt og Standardavvik fra CSV
 Dette skriptet leser en CSV-fil med koordinater (f.eks. eksportert fra QGIS i UTM-meter) og regner ut gjennomsnitt og standardavvik for X (Øst) og Y (Nord).
 Lagre koden som `beregn_snitt.py` i samme mappe som koordinatfilen din (`data.csv`).
 ```python
