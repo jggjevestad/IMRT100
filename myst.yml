@@ -43,6 +43,8 @@ project:
         - file: oppgaver/høydemodell.md
         - file: oppgaver/historiske_kart.md
         - file: oppgaver/microbit_kompass.md
+        - file: oppgaver/maqueen_skanning.md
+        - file: oppgaver/maqueen_dead_reckoning.md
     - title: Bruksanvisninger
       children:
         - file: bruksanvisninger/qgis_intro.md
@@ -58,6 +60,7 @@ project:
         - file: bruksanvisninger/gjennomsnitt_koordinater.md
         - file: bruksanvisninger/cc_intro.md
         - file: bruksanvisninger/microbit_intro.md
+        - file: bruksanvisninger/maqueen_intro.md
 site:
   options:
     logo: nmbu.png
