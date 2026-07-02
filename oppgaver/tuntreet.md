@@ -6,7 +6,7 @@ I denne oppgaven skal dere bestemme høyden på det historiske og majestetiske T
 <div class="geo-dashboard">
   <div class="geo-dashboard-item">
     <span class="geo-dashboard-label">📍 Lokasjon</span>
-    <span class="geo-dashboard-value">Tuntreet i Urbygningen-parken <br> <code>59°39'59"N, 10°46'07"E</code> (UTM32N: 6615616, 599593)</span>
+    <span class="geo-dashboard-value">Tuntreet i Urbygningen-parken <br> <code>59°39'59"N, 10°46'07"E</code> (UTM32N: N=6615616, E=599593)</span>
   </div>
   <div class="geo-dashboard-item">
     <span class="geo-dashboard-label">🛠️ Utstyr</span>
