@@ -49,7 +49,7 @@ Micro:bit har et innebygd magnetometer (en elektronisk kompass-brikke) som måle
 
 *   Koble micro:bit-en til din PC ved hjelp av USB-kabelen.
 *   Åpne nettleseren og gå til [makecode.microbit.org](https://makecode.microbit.org/).
-*   Gjør deg kjent med hvordan du overfører programvare til micro:bit ved å dra en nedlastet `.hex`-fil over til en micro:bit når den er koblet til PC-en din.
+*   Gjør deg kjent med hvordan du overfører programvare til micro:bit ved å dra den nedlastede `.hex`-filen over til micro:bit-stasjonen på PC-en din (eller bruk direkte paring over WebUSB).
 
 ---
 
