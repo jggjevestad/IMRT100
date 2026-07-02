@@ -38,7 +38,7 @@ Før satellitter og luftfoto digitaliserte kartfaget, ble kart tegnet for hånd 
 
 ## 🛠️ Forberedelser
 * Ta med tegnesaker (A4-ark, blyant, viskelær, gjerne farger).
-* Lån målebånd fra veilederne om dere ikke har dette selv.
+* Lån kompass og målebånd fra veilederne om dere ikke har dette selv.
 * Finn ut hvem på gruppa som har kalibrert skrittlengde (se feltmetode under).
 
 ---
@@ -46,12 +46,12 @@ Før satellitter og luftfoto digitaliserte kartfaget, ble kart tegnet for hånd 
 ## 🏃‍♂️ Gjennomføring
 
 ### 1. Områdevalg
-Velg et avgrenset område på campus (f.eks. parken rundt Urbygningen eller området rundt en av dammene). Ytterpunktene for kartleggingen bør være tydelig definert i gruppa.
+Velg et avgrenset område på campus (f.eks. parken rundt Studentenes Hus, TF-plassen eller området rundt en av dammene). Ytterpunktene for kartleggingen bør være tydelig definert i gruppa.
 
 ### 2. Oppmåling i felt
-* **Kalibrering av skritt**: Gå en kjent avstand (f.eks. 100 meter) tre ganger. Tell skrittene dine og beregn din gjennomsnittlige skrittlengde (avstand / antall skritt).
+* **Kalibrering av skritt**: Gå en kjent avstand (f.eks. 100 meter markert ved TF-bygget) tre ganger. Tell skrittene dine og beregn din gjennomsnittlige skrittlengde (avstand / antall skritt).
 * **Avstandsmåling**: Mål opp de viktigste objektene (bygningsfasader, veibredder, gangstier) ved å telle skritt eller bruke målebånd.
-* **Retningsbestemmelse**: Bruk kompasset på mobilen til å lese av retninger i grader (0–360° der nord = 0°) langs vegger og stier.
+* **Retningsbestemmelse**: Bruk kompasset til å lese av retninger i grader (0–360° der nord = 0°) langs vegger og stier.
 
 ### 3. Tegne feltskisse og ferdigstillelse
 Tegn en grov skisse mens dere er ute i felt. Noter målte avstander og vinkler direkte på tegningen.

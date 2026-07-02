@@ -51,7 +51,7 @@ Velg et avgrenset område på campus (f.eks. parken rundt Urbygningen eller omr�
 ### 2. Oppmåling i felt
 * **Kalibrering av skritt**: Gå en kjent avstand (f.eks. 100 meter) tre ganger. Tell skrittene dine og beregn din gjennomsnittlige skrittlengde (avstand / antall skritt).
 * **Avstandsmåling**: Mål opp de viktigste objektene (bygningsfasader, veibredder, gangstier) ved å telle skritt eller bruke målebånd.
-* **Retningsbestemmelse**: Bruk kompasset på mobilen til å lese av retninger i grader (0–360° der nord = 0°) langs vegger og stier.
+* **Retningsbestemmelse**: Bruk kompasset til å lese av retninger i grader (0–360° der nord = 0°) langs vegger og stier.
 
 ### 3. Tegne feltskisse og ferdigstillelse
 Tegn en grov skisse mens dere er ute i felt. Noter målte avstander og vinkler direkte på tegningen.
