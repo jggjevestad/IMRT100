@@ -26,7 +26,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment_retry.outputs.page_url || steps.deployment.outputs.page_url }}
+      url: ${{ format('https://{0}.github.io/{1}/', github.repository_owner, github.event.repository.name) }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -47,6 +47,9 @@ jobs:
         id: deployment
         continue-on-error: true
         uses: actions/deploy-pages@v4
+      - name: Wait before retry
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 20
       - name: Retry Deploy to GitHub Pages
         if: steps.deployment.outcome == 'failure'
         id: deployment_retry
