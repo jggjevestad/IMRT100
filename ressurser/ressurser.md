@@ -12,38 +12,80 @@ kernelspec:
 # Ressurser
 
 
-## Software
+## Programvare (Software)
 
-[Arduino IDE](https://www.arduino.cc) <br>
-[QGIS](https://www.qgis.org) <br>
-[Google Earth](https://www.google.com/earth/about/versions/) <br>
-[Cloud Compare (CC)](https://www.cloudcompare.org) <br>
-[Plas.io](https://plas.io/) <br>
-[Blender](https://www.blender.org/) <br>
-[Python](https://docs.anaconda.com/) <br>
-[GPSBabel](https://www.gpsbabel.org) <br>
-[Earthpy](https://earthpy.readthedocs.io/en/latest/) <br>
-[SCENE LT](https://knowledge.faro.com/Software/FARO_SCENE/SCENE/Software_Download_Installation_and_Release_Notes_for_SCENE_LT) <br>
-[GeoTracker](https://geo-tracker.org/en/) <br>
-[OpenTracks](https://opentracksapp.com) <br>
+### GIS & Kartografi
+[QGIS](https://www.qgis.org) – Åpen kildekode geografisk informasjonssystem for kartlegging, analyse og redigering. <br>
+[Google Earth](https://www.google.com/earth/about/versions/) – Virtuell globus for visualisering og koordinatsøk. <br>
+[Google Maps](https://maps.google.com) – Nettbasert kart- og ruteplanleggingstjeneste. <br>
+[Norgeskart](https://www.norgeskart.no) – Offisielt norsk kartverktøy fra Kartverket. <br>
+
+### 3D-modellering & Punktskyer
+[CloudCompare](https://www.cloudcompare.org) – Åpen kildekode-programvare for 3D-punktskybehandling og analyse. <br>
+[Blender](https://www.blender.org/) – Gratis 3D-modellering, animering og visualisering. <br>
+[Polycam App](https://polycam.ai/) – Mobil-app for 3D-skanning via fotogrammetri og LiDAR. <br>
+[Plas.io](https://plas.io/) – Visning og utforsking av 3D-punktskyer direkte i nettleseren. <br>
+[SCENE LT](https://knowledge.faro.com/Software/FARO_SCENE/SCENE/Software_Download_Installation_and_Release_Notes_for_SCENE_LT) – Gratis viewer for FARO laserskanner-data. <br>
+
+### Programmering & Mikrokontrollere
+[Python / Anaconda](https://docs.anaconda.com/) – Python-distribusjon for dataanalyse og vitenskapelige beregninger. <br>
+[VS Code](https://code.visualstudio.com) – Fleksibel teksteditor for Python-programmering. <br>
+[MakeCode Editor](https://makecode.microbit.org) – Visuell blokkprogrammering for BBC micro:bit. <br>
+[MicroPython Editor](https://python.microbit.org) – Python-editor for micro:bit. <br>
+[Arduino IDE](https://www.arduino.cc) – Programvare for å programmere Arduino-kort og mikrokontrollere. <br>
+
+### GPS/GNSS-logging på mobil
+[GeoTracker](https://geo-tracker.org/en/) – GPS-logger-app for Android. <br>
+[OpenTracks](https://opentracksapp.com) – Personvernvennlig GPS-logger-app med åpen kildekode for Android. <br>
+[BasicAirData GPS Logger](https://www.basicairdata.eu/projects/android/gps-logger/) – Enkel og nøyaktig GPS-logger-app for Android. <br>
+[myTracks](https://mytracks-app.info/) – GPS-logger-app for iOS/Apple. <br>
+
+### Videoredigering
+[DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/) – Profesjonelt videoredigeringsprogram (har en god gratisversjon). <br>
+[CapCut](https://www.capcut.com/) – Brukervennlig og raskt videoredigeringsverktøy for mobil og PC. <br>
+[iMovie](https://www.apple.com/imovie/) – Enkelt videoredigeringsprogram for macOS og iOS. <br>
+
+### Biblioteker & Verktøy
+[GPSBabel](https://www.gpsbabel.org) – Verktøy for konvertering mellom ulike GPS-filformater. <br>
+[Earthpy](https://earthpy.readthedocs.io/en/latest/) – Python-bibliotek for enklere arbeid med geodata og romlige datasett. <br>
+[GeoPandas](https://geopandas.org/) – Python-bibliotek for geografisk dataanalyse. <br>
+[Shapely](https://shapely.readthedocs.io/) – Python-bibliotek for manipulering og analyse av geometriske objekter. <br>
 
 
-## Hardware
+## Maskinvare (Hardware)
 
-[Ultimate GPS breakout board](https://www.adafruit.com/product/746) <br>
-[GPS + BDS Beidou Dual module](https://wiki.dfrobot.com/GPS_%2B_BDS_BeiDou_Dual_Module_SKU_TEL0132) <br>
-[Arduino MKR GPS Shield](https://store.arduino.cc/products/arduino-mkr-gps-shield?gad_source=1&gclid=Cj0KCQjws560BhCuARIsAHMqE0GcMGz16OT4DQchmQGp525-Cedd_PwuvEVKaMn0l7sHR5FsAh52r7caAg2YEALw_wcB) <br>
-[Arduino MKR 1000](https://store.arduino.cc/products/arduino-mkr1000-wifi?selectedStore=eu) <br>
-[Arduino Uno](https://store.arduino.cc/products/arduino-uno-rev3) <br>
+### Mikrokontrollere & Robotikk
+[BBC micro:bit](https://microbit.org/) – Enkel og fleksibel mikrokontroller med innebygd kompass og sensorer. <br>
+[micro:Maqueen Lite Robot](https://www.dfrobot.com/product-1783.html) – Robotplattform for micro:bit utstyrt med motorer og sensorer. <br>
+[Arduino Uno](https://store.arduino.cc/products/arduino-uno-rev3) – Standard mikrokontroller for prototyping og elektronikkprosjekter. <br>
+[Arduino MKR 1000 WiFi](https://store.arduino.cc/products/arduino-mkr1000-wifi?selectedStore=eu) – IoT-fokusert mikrokontroller med innebygd trådløst nettverk. <br>
+
+### GNSS / GPS-moduler
+[Ultimate GPS breakout board](https://www.adafruit.com/product/746) – GPS-modul fra Adafruit for nøyaktig posisjonering. <br>
+[GPS + BDS Beidou Dual module](https://wiki.dfrobot.com/GPS_%2B_BDS_BeiDou_Dual_Module_SKU_TEL0132) – Dual GNSS-mottaker fra DFRobot. <br>
+[Arduino MKR GPS Shield](https://store.arduino.cc/products/arduino-mkr-gps-shield) – GPS-utvidelseskort tilpasset Arduino MKR-serien. <br>
+
+### Laserscannere & Sensorer
+[FARO Focus 3D Terrestrial Laser Scanner](https://www.faro.com/) – Profesjonell 3D-laserskanner for nøyaktig oppmåling av terreng og objekter. <br>
+[HC-SR04 Ultrasonic Sensor](https://www.dfrobot.com/product-1783.html) – Ultralydsensor for avstandsmåling på Maqueen-roboten. <br>
 
 
 ## Datakilder
 
-[Norgeskart](https://www.norgeskart.no) <br>
-[Norge i bilder](https://www.norgeibilder.no) <br>
-[Høydedata](https://www.hoydedata.no) <br>
-[GeoNorge](https://www.geonorge.no/) <br>
-[Laserdata NMBU](https://eduumb-my.sharepoint.com/:f:/g/personal/jon_glenn_gjevestad_nmbu_no/EhZNW6vu5CFJrBjHd5rTwPIBYbGtYXwHpw2Tk1TwTj1q0g?e=XCT4er) <br>
+### Offisielle Norske Kartdata
+[Norgeskart](https://www.norgeskart.no) – Offisielle topografiske kart og flybilder fra Kartverket. <br>
+[Norge i bilder](https://www.norgeibilder.no) – Ortofoto (flybilder) av Norge, inkludert historiske flybilder. <br>
+[Høydedata](https://www.hoydedata.no) – Nasjonal database for terrengmodeller (DTM/DOM) og laserskanningsdata (LiDAR). <br>
+[GeoNorge](https://www.geonorge.no/) – Den nasjonale portalen for kartdata og geografisk informasjon. <br>
+
+### Lokale Datakilder
+[Laserdata NMBU (OneDrive)](https://eduumb-my.sharepoint.com/:f:/g/personal/jon_glenn_gjevestad_nmbu_no/EhZNW6vu5CFJrBjHd5rTwPIBYbGtYXwHpw2Tk1TwTj1q0g?e=XCT4er) – Delte laserskannede punktskyer (LAS/LAZ) over NMBU campus. <br>
+[Fastmerker NMBU (CSV)](fastmerker.csv) – Koordinatoversikt over surveymarkører på campus. <br>
+
+### Globale systemer & verktøy
+[what3words](https://what3words.com) – Globalt adressesystem som deler verden inn i 3x3 meter ruter. <br>
+[ECEF til LLA-konverter](https://www.sysense.com/products/ecef_lla_converter/) – Nettbasert kalkulator for koordinatkonvertering mellom ECEF og LLA (Latitude, Longitude, Altitude). <br>
+[MazeMap](https://use.mazemap.com/) – Interaktivt campus-kart for enkel innendørs og utendørs navigering på NMBU. <br>
 
 
 ## YouTube
