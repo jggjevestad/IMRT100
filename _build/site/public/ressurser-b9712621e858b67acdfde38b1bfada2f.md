@@ -60,6 +60,7 @@ kernelspec:
 
 ### GNSS / GPS-moduler
 [Ultimate GPS breakout board](https://www.adafruit.com/product/746) – GPS-modul fra Adafruit for nøyaktig posisjonering. <br>
+[GPS + BDS Beidou Dual module](https://wiki.dfrobot.com/GPS_%2B_BDS_BeiDou_Dual_Module_SKU_TEL0132) – Dual GNSS-mottaker fra DFRobot. <br>
 [Arduino MKR GPS Shield](https://store.arduino.cc/products/arduino-mkr-gps-shield) – GPS-utvidelseskort tilpasset Arduino MKR-serien. <br>
 
 ### Laserscannere & Sensorer
