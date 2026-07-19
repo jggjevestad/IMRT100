@@ -1,0 +1,11 @@
+# Jupyter Book build output
+_build/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Execution cache (if you use --cache)
+.jupyter_cache/
+
+# OS/editor cruft
+.DS_Store
