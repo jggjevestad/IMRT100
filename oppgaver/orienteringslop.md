@@ -14,7 +14,7 @@ I denne oppgaven skal dere ut i felt på campus for å løse et klassisk optimer
   </div>
   <div class="geo-dashboard-item">
     <span class="geo-dashboard-label">💻 Programvare</span>
-    <span class="geo-dashboard-value">GPS Logger App, <a href="../filer/qgis/Orienteringsløp_korteste_vei/korteste_vei.qgz">QGIS (resultatmal)</a></span>
+    <span class="geo-dashboard-value">GPS Logger App</a></span>
   </div>
   <div class="geo-dashboard-item">
     <span class="geo-dashboard-label">⏱️ Tidsestimat</span>
@@ -39,7 +39,6 @@ I denne oppgaven skal dere ut i felt på campus for å løse et klassisk optimer
 ## 🛠️ Forberedelser
 * Sørg for at minst én på gruppa har en fullt ladet mobil med en fungerende GNSS/GPS-sporingsapp (f.eks. GPS Logger, MyTracks) satt til å logge hvert sekund.
 * Eventuelt kan dere bruke den selvbygde Arduino GPS-loggeren med SD-kort!
-* Last ned kartet og resultatfilen i QGIS for å analysere andres ruter etterpå: [korteste_vei.qgz](../filer/qgis/Orienteringsløp_korteste_vei/korteste_vei.qgz).
 
 ---
 
