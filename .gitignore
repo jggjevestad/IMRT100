@@ -8,4 +8,4 @@ _build/
 .jupyter_cache/
 
 # OS/editor cruft
-.DS_Store
+.DS_Store/
