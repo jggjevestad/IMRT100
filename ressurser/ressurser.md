@@ -69,13 +69,19 @@ kernelspec:
 
 ## Datakilder
 
-### Offisielle Norske Kartdata
+### Offisielle norske kartdata
 [Norgeskart](https://www.norgeskart.no) – Offisielle topografiske kart og flybilder fra Kartverket. <br>
 [Norge i bilder](https://www.norgeibilder.no) – Ortofoto (flybilder) av Norge, inkludert historiske flybilder. <br>
 [Høydedata](https://www.hoydedata.no) – Nasjonal database for terrengmodeller (DTM/DOM) og laserskanningsdata (LiDAR). <br>
 [GeoNorge](https://www.geonorge.no/) – Den nasjonale portalen for kartdata og geografisk informasjon. <br>
 
-### Lokale Datakilder
+## Noen WMS eksempler
+[Topografisk norgeskart](https://wms.geonorge.no/skwms1/wms.topo)
+[Norge i bilder](https://wms.geonorge.no/skwms1/wms.nib)
+[Google Earth](https://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x=%7Bx%7D&y=%7By%7D&z=%7Bz%7D)
+[OpenStreetMap](https://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png)
+
+### Lokale datakilder
 [Laserdata NMBU (OneDrive)](https://eduumb-my.sharepoint.com/:f:/g/personal/jon_glenn_gjevestad_nmbu_no/EhZNW6vu5CFJrBjHd5rTwPIBYbGtYXwHpw2Tk1TwTj1q0g?e=XCT4er) – Delte laserskannede punktskyer (LAS/LAZ) over NMBU campus. <br>
 [Fastmerker NMBU (CSV)](fastmerker.csv) – Koordinatoversikt over surveymarkører på campus. <br>
 
