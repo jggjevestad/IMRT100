@@ -76,10 +76,10 @@ kernelspec:
 [GeoNorge](https://www.geonorge.no/) – Den nasjonale portalen for kartdata og geografisk informasjon. <br>
 
 ## Noen WMS eksempler
-[Topografisk norgeskart](https://wms.geonorge.no/skwms1/wms.topo)
-[Norge i bilder](https://wms.geonorge.no/skwms1/wms.nib)
-[Google Earth](https://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x=%7Bx%7D&y=%7By%7D&z=%7Bz%7D)
-[OpenStreetMap](https://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png)
+[Topografisk norgeskart](https://wms.geonorge.no/skwms1/wms.topo) <br>
+[Norge i bilder](https://wms.geonorge.no/skwms1/wms.nib) <br>
+[Google Earth](https://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x=%7Bx%7D&y=%7By%7D&z=%7Bz%7D) <br>
+[OpenStreetMap](https://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png) <br>
 
 ### Lokale datakilder
 [Laserdata NMBU (OneDrive)](https://eduumb-my.sharepoint.com/:f:/g/personal/jon_glenn_gjevestad_nmbu_no/EhZNW6vu5CFJrBjHd5rTwPIBYbGtYXwHpw2Tk1TwTj1q0g?e=XCT4er) – Delte laserskannede punktskyer (LAS/LAZ) over NMBU campus. <br>
