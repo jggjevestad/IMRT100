@@ -51,13 +51,13 @@ I denne oppgaven skal vi bygge vår egen forenklede 2D-laserskanner ved å monte
 
 ## 🛠️ Forberedelser
 
-1.  Monter ultralydsensoren (HC-SR04) foran på micro:Maqueen-roboten.
-2.  Sett inn en micro:bit i roboten (dette blir **senderen / robot-enheten**).
-3.  Koble den andre micro:biten til din PC med USB-kabel (dette blir **mottakeren**).
-4.  Åpne [MakeCode Editor](https://makecode.microbit.org/).
-5.  For å styre roboten, må du legge til Maqueen-biblioteket i MakeCode:
+1.  Sett inn en micro:bit i roboten (dette blir **senderen / robot-enheten**).
+2.  Koble den andre micro:biten til din PC med USB-kabel (dette blir **mottakeren**).
+3.  Åpne [MakeCode Editor](https://makecode.microbit.org/).
+4.  For å styre roboten, må du legge til Maqueen-biblioteket i MakeCode:
     *   Klikk på **Utvidelser** (Extensions) under tannhjulet eller i menyen.
     *   Søk etter `maqueen` og installer pakken **maqueen** (av DFRobot).
+    *   Roboten er en Maqueen v4
 
 ---
 
@@ -71,17 +71,35 @@ Du skal programmere roboten til å rotere sakte og sende kompasskursen og avstan
 2.  I `ved start`-blokken:
     *   Sett radiogruppe til et unikt tall (f.eks. gruppenummeret deres) slik at dere ikke forstyrrer andre grupper: `radio sett gruppe [X]`.
     *   Sett radiosignalstyrke til maks (f.eks. `7`).
-    *   Kalibrer kompasset (valgfritt, men anbefales for retningsnøyaktighet): Bruk `kalibrer kompass` (ligger under Mer-kategorien under Input).
+    *   Kalibrer kompasset (valgfritt, men anbefales for retningsnøyaktighet): Bruk evt. `kalibrer kompass` (ligger under Mer-kategorien under Input).
 3.  I en `når knapp A trykkes`-blokk (eller i en løkke):
-    *   Start robotens motorer i motsatt retning med lav hastighet for å rotere roboten på stedet: `motor [venstre] roter [forover] fart [30]` og `motor [høyre] roter [bakover] fart [30]`.
+    *   Start robotens motorer i motsatt retning med lav hastighet for å rotere roboten på stedet: `motor [venstre] roter [forover] fart [15]` og `motor [høyre] roter [bakover] fart [15]`.
     *   Kjør en løkke som gjentas eller går kontinuerlig:
         *   Les avstand fra ultralydsensoren i cm: `les ultralyd avstand (cm)`.
         *   Les av kompassretningen: `kompassretning (°)`.
-        *   Konverter avstanden fra centimeter til meter: $d = \text{avstand} / 100$.
-        *   Send disse to verdiene over radio som en kommaseparert tekststreng (f.eks. `vinkel,avstand`), eller send dem som to tall etter hverandre med en kort pause imellom.
-        *   *Eksempel på tekststreng*: `radio send streng [ join (kompassretning) (join (",") (avstand_meter)) ]`.
+        *   Send disse to verdiene over radio som en kommaseparert tekststreng (f.eks. `retning,avstand`)
         *   Legg inn en kort pause på `100` ms for hver måling.
 4.  Last ned koden til micro:biten som står i roboten.
+
+```python
+avstand = 0
+retning = 0
+radio.set_group(1)
+
+# Roter roboten
+maqueen.motor_run(maqueen.Motors.M1, maqueen.Dir.CW, 15)
+maqueen.motor_run(maqueen.Motors.M2, maqueen.Dir.CCW, 15)
+
+def on_forever():
+    global retning, avstand
+    # Les data fra sensor
+    retning = input.compass_heading()
+    avstand = maqueen.ultrasonic()
+    # Send data som "retning,avstand"
+    radio.send_string("" + str(retning) + "," + str(avstand))
+    basic.pause(100)
+basic.forever(on_forever)
+```
 
 ### Del 2: Programmering av mottakeren
 
@@ -93,25 +111,37 @@ Mottakeren skal ta imot dataene over radio og videresende dem til PC-en via USB 
 3.  I `når radio mottar streng (receivedString)`-blokken:
     *   Skriv strengen direkte ut til serielinjen: `serielinje skriv streng [receivedString]`.
 4.  Last ned koden til mottaker-micro:biten (den som er koblet til PC-en med USB).
-5.  Åpne **Show Console Device**-knappen i MakeCode eller bruk en seriell monitor (f.eks. i VS Code eller Mu Editor) for å sjekke at du mottar data på formatet `vinkel,avstand` når roboten roterer.
+5.  Åpne **Show Data**-knappen i MakeCode for å sjekke at du mottar data på formatet `retning,avstand` når du holder roboten i hånden.
+
+```python
+def on_received_string(receivedString):
+    serial.write_line(receivedString)
+radio.on_received_string(on_received_string)
+
+radio.set_group(1)
+```
 
 ### Del 3: Datainnsamling i felt
 
-1.  Søk ut et område på laben eller i klasserommet der det er vegger og noen esker/hindringer i en avstand på mellom 0.2 og 2.5 meter.
+1.  Søk ut et område på laben der det er vegger og noen hindringer i en avstand på mellom 0.2 og 2.5 meter.
 2.  Plasser en markør på gulvet. Dette er stasjonspunktet vårt. Vi definerer at dette punktet har de lokale koordinatene:
-    *   $E_0 = 100.00\text{ m}$ (Øst)
-    *   $N_0 = 100.00\text{ m}$ (Nord)
+    *   $E_0 = 10\text{ m}$ (Øst)
+    *   $N_0 = 10\text{ m}$ (Nord)
 3.  Kalibrer robotens kompass ved å følge instruksjonene på LED-skjermen (vippe micro:biten til alle lysene tennes).
 4.  Plasser roboten nøyaktig over stasjonspunktet, vendt mot Nord ($0^\circ$).
-5.  Start loggføringen på PC-en og trykk på knapp **A** for å sette i gang skanningen.
+5.  Start loggføringen på PC-en sett i gang roboten for skanning.
 6.  La roboten fullføre minst én hel omdreining ($360^\circ$).
 7.  Kopier de loggede dataene fra den serielle monitoren og lagre dem som en tekstfil kalt `skanning.csv` med følgende innhold (sørg for at den første linjen er kolonnenavn):
 
 ```csv
-vinkel,avstand
-12,1.24
-25,1.28
-41,1.52
+tid,retning,avstand
+0.152	186	91	
+0.304	156	89	
+0.455	193	89	
+0.606	190	57	
+0.757	9	46	
+0.909	18	47	
+1.061	224	45	
 ...
 ```
 
