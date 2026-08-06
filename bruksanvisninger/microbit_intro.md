@@ -1,5 +1,5 @@
 (microbit_intro)=
-# Brukerveiledning: Programmering av micro:bit kompass
+# Programmering av micro:bit kompass
 
 BBC micro:bit er en liten, rimelig mikrokontroller utstyrt med en rekke innebygde sensorer. For geoinformatikk og landmåling er det spesielt **magnetometeret** (det digitale kompasset) som er nyttig. Magnetometeret måler styrken og retningen på magnetiske felt, og lar oss beregne retningsvinkler (asimuter) i felt.
 

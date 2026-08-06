@@ -1,5 +1,5 @@
 (maqueen_intro)=
-# Brukerveiledning: Kom i gang med micro:Maqueen
+# Kom i gang med micro:Maqueen
 
 [micro:Maqueen](https://www.dfrobot.com/product-1783.html) er en liten, programmerbar robotplattform utviklet av DFRobot for BBC micro:bit. Den er utstyrt med motorer, hjul, linjefølgingssensorer, en ultralydsensor for avstandsmåling, samt LED- og RGB-lys. I geoinformatikk bruker vi den til å simulere autonome kjøretøy, LiDAR-skanning og dead reckoning-navigasjon.
 

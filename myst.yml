@@ -53,6 +53,7 @@ project:
         - file: bruksanvisninger/qgis_wms.md
         - file: bruksanvisninger/qgis_csv_import.md
         - file: bruksanvisninger/qgis_csv_eksport.md
+        - file: bruksanvisninger/qgis_skanner.md
         - file: bruksanvisninger/polycam.md
         - file: bruksanvisninger/blender_intro.md
         - file: bruksanvisninger/gnss_opptak.md
