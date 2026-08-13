@@ -48,7 +48,7 @@ Tuntreet på NMBU-tunet er et av universitetets mest kjente symboler. Å bestemm
 
 ### Metode 1: Trigonometrisk høydemåling (Feltarbeid)
 1. **Måleplan**: Lag en enkel skisse på papir. Hvis du plasserer totalstasjonen i en avstand $D$ fra treet, og måler vertikalvinkelen (eller siktevinklene) til hhv. treets rot ($\theta_{\text{bunn}}$) og treets topp ($\theta_{\text{topp}}$), hvordan beregner du den totale høyden $H$?
-2. **Lab-test**: Test ut måleplanen inne på landmålingslaben først ved å måle høyden på en dørkarm eller en markør på veggen.
+2. **Lab-test**: Test ut måleplanen inne på landmålingslaben først ved å måle høyden på nivellerstang.
 3. **Feltmåling**: Sett opp totalstasjonen på plenen slik at dere har fri sikt til både toppen av Tuntreet og stammen nede ved bakken.
 4. Mål den horisontale avstanden $D$ til stammen.
 5. Sikt inn og les av vertikalvinklene til hhv. rot og topp.
