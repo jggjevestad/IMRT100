@@ -10,7 +10,7 @@ Dette er den veiledende planen for prosjektukene i IMRT100. Tabellen under gir e
 | **Man 10.08** | 13:00 - 15:00 | Introduksjon til studieprogrammet | TF3-103 | JGG | Hva er geomatikk? |
 | **Tir 11.08** | 10:15 - 15:00 | Oppstart av prosjektet <br> Analog og digital kartografi | TF3-103 | JGG | Hva er en student? <br> Inndeling i grupper <br> [Kreativ videoformidling](oppgaver/video_intro.md) <br> [Tegne kart over Campus](oppgaver/tegne_kart.md) <br> |
 | **Ons 12.08** | 08:15 - 15:00 | QGIS <br> Google Earth <br> Rebusløp | TF3-103 | JGG | [Georeferering i QGIS](bruksanvisninger/qgis_georef.md) <br> [Google Earth](oppgaver/google_earth.md) <br> [Rebusløp på Campus](oppgaver/rebuslop.md)|
-| **Tor 13.08** | 08:15 - 13:00 | Programmering i geomatikk | TF3-103 | JGG | [Introduksjon til Python](bruksanvisninger/python_intro.md) |
+| **Tor 13.08** | 08:15 - 13:00 | Programmering i geomatikk | TF3-103 | JGG | Forberede måling av Tuntreet <br> [Introduksjon til Python](bruksanvisninger/python_intro.md) |
 | **Fre 14.08** | 08:15 - 12:00 | Trigonometrisk Høydemåling | TF3-103 | JGG | [Hvor høyt er Tuntreet?](oppgaver/tuntreet.md) |
 | **Man 17.08** | 10:15 - 15:00 | 3D-skanning & Fotogrammetri | TF3-103 | IMJ | 3D-skanning med FARO (demo) <br> [3D-skanning med Polycam](oppgaver/3d_scanning.md) <br> [Blender 3D-import](bruksanvisninger/blender_intro.md) |
 | **Tir 18.08** | 10:15 - 15:00 | Bedriftspresentasjon <br> GNSS-måling | TF3-103 | SS/JGG | Geodata <br> [Måle fastpunkt med GNSS](oppgaver/gnss_punkt.md) |
