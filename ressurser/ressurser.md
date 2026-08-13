@@ -35,9 +35,7 @@ kernelspec:
 [Arduino IDE](https://www.arduino.cc) – Programvare for å programmere Arduino-kort og mikrokontrollere. <br>
 
 ### GPS/GNSS-logging på mobil
-[GeoTracker](https://geo-tracker.org/en/) – GPS-logger-app for Android. <br>
-[OpenTracks](https://opentracksapp.com) – Personvernvennlig GPS-logger-app med åpen kildekode for Android. <br>
-[myTracks](https://mytracks-app.info/) – GPS-logger-app for iOS/Apple. <br>
+[GeoTracker](https://geo-tracker.org/en/) – GPS-logger-app for Android og iOS. <br>
 
 ### Videoredigering
 [CapCut](https://www.capcut.com/) – Brukervennlig og raskt videoredigeringsverktøy for mobil og PC. <br>
