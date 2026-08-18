@@ -18,7 +18,7 @@ Dette er den veiledende planen for prosjektukene i IMRT100. Tabellen under gir e
 | **Tor 20.08** | 10:15 - 15:00 | Bedriftspresentasjon <br> Orienteringsløp | TF3-103 | IFI/IMJ | Scan Survey <br> [Orienteringsløp](oppgaver/orienteringslop.md) |
 | **Fre 21.08** | 10:15 - 15:00 | Forskning ved instituttet <br> Microbit <br> Maqueen Robot | TF3-103 | JGG | Forskningsprosjekter <br> [Hvordan bruke Microbit kompass](oppgaver/microbit_kompass.md) |
 | **Man 24.08** | 10:15 - 15:00 | Bygging av GNSS-mottaker | TF3-103 | JGG | [Bygg din egen GNSS-mottaker](oppgaver/gnss_bygge.md) <br> [Bygg din egen 2D-skanner](oppgaver/maqueen_skanning.md) <br> [Dead reckoning](oppgaver/maqueen_dead_reckoning.md) |
-| **Tir 25.08** | 10:15 - 15:00 | Nøyaktighet | TF3-103 | JGG | [Hvor nøyaktig er GNSS?](oppgaver/gnss_noyaktighet.md) <br> 🚨 **Frist: Foreløpig rapportutkast** |
+| **Tir 25.08** | 10:15 - 15:00 | Nøyaktighet | TF3-103 | JGG | [Hvor nøyaktig er GNSS?](oppgaver/gnss_noyaktighet.md) <br> Python for geoinformatikk <br> 🚨 **Frist: Foreløpig rapportutkast** |
 | **Ons 26.08** | 09:15 - 15:00 | Innspurt prosjektarbeid | TF3-103 | JGG | Skrive rapport, redigere prosjektvideo |
 | **Tor 27.08** | 09:15 - 15:00 | Presentasjon og kåring | TF3-103 | JGG | Presentasjon av prosjektene <br> Kåring av beste video (Geomatikk) |
 | **Fre 28.08** | 09:15 - 12:00 | Felles finale & Valg | Aud Max | JGG | Studentdemokrativalg <br> Kåring av beste video (IMRT100) |
