@@ -16,6 +16,7 @@ kernelspec:
 
 ### GIS & Kartografi
 [QGIS](https://www.qgis.org) – Åpen kildekode geografisk informasjonssystem for kartlegging, analyse og redigering. <br>
+[QField](https://qfield.org/) - Datafangst i QGIS <br>
 [Google Earth](https://www.google.com/earth/about/versions/) – Virtuell globus for visualisering og koordinatsøk. <br>
 [Google Maps](https://maps.google.com) – Nettbasert kart- og ruteplanleggingstjeneste. <br>
 [Norgeskart](https://www.norgeskart.no) – Offisielt norsk kartverktøy fra Kartverket. <br>
