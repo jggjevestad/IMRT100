@@ -1,7 +1,7 @@
 (gnss_mobil)=
 # Måling av fastpunkt med GNSS og RTK
 
-I denne oppgaven skal dere samle inn geografiske koordinater for et kjent fastpunkt på NMBU-campus. Dere skal måle punktet med en vanlig mobiltelefon og med en profesjonell RTK-mottaker, for deretter å sammenligne nøyaktigheten til de to metodene.
+I denne oppgaven skal dere samle inn koordinater for et kjent fastpunkt på NMBU-campus. Dere skal måle punktet med en vanlig mobiltelefon og med en profesjonell RTK-mottaker, for deretter å sammenligne nøyaktigheten til de to metodene.
 
 <div class="geo-dashboard">
   <div class="geo-dashboard-item">
@@ -32,12 +32,12 @@ I denne oppgaven skal dere samle inn geografiske koordinater for et kjent fastpu
 ---
 
 ## 🎯 Introduksjon
-Global Navigation Satellite Systems (GNSS) – fellesbetegnelsen for GPS, GLONASS, Galileo og BeiDou – har revolusjonert landmåling. En vanlig smarttelefon har en enkel GNSS-mottaker som bestemmer posisjon med en nøyaktighet på ca. 3–15 meter. Profesjonelle landmålere bruker derimot **RTK (Real-Time Kinematic)**-målinger. Ved å koble mottakeren til en basestasjon med kjente koordinater som kontinuerlig sender korreksjonsdata via mobilnettet (CPOS i Norge), kan RTK-posisjoner bestemmes i sanntid med en nøyaktighet på under 2 centimeter!
+Global Navigation Satellite Systems (GNSS) – fellesbetegnelsen for GPS, GLONASS, Galileo og BeiDou – har revolusjonert landmåling. En vanlig smarttelefon har en enkel GNSS-mottaker som bestemmer posisjon med en nøyaktighet på ca. 3–5 meter. Profesjonelle landmålere bruker derimot **RTK (Real-Time Kinematic)**. Ved å koble mottakeren til en basestasjon med kjente koordinater som kontinuerlig sender korreksjonsdata via mobilnettet (CPOS i Norge), kan RTK-posisjoner bestemmes i sanntid med en nøyaktighet på under 2 centimeter!
 
 ---
 
 ## 🛠️ Forberedelser
-* **Fastpunkter på Campus**: NMBU har et nettverk av offisielle fastpunkter markert med metallbolter i bakken. Vi skal bruke **P102** eller **P103** som har følgende nøyaktige koordinater i referansesystemet **ETRS89 / UTM sone 32N (EPSG:25832)**:
+* **Fastpunkter på Campus**: NMBU har et nettverk av offisielle fastpunkter markert med metallbolter i bakken. Vi skal bruke **P102** eller **P103** som har følgende koordinater i referansesystemet **ETRS89 / UTM sone 32N (EPSG:25832)**:
 
 | Fastpunkt | Øst (E) | Nord (N) | Høyde (H) |
 | :--- | :--- | :--- | :--- |
@@ -59,16 +59,15 @@ Komplett oversikt over campusbolter finnes i filen [fastmerker.csv](../ressurser
 ### Metode 1: Måling med smarttelefon
 1. Gå til det valgte fastpunktet (f.eks. P102).
 2. Legg mobilen i ro rett over bolten. Åpne GNSS-appen (f.eks. GPS Logger) og sett den til å logge posisjon hvert sekund.
-3. Logg kontinuerlig i **minst 5 minutter** uten å flytte telefonen.
+3. Logg kontinuerlig i **minst 3 minutter** uten å flytte telefonen.
 4. Eksporter loggfilen (GPX eller KML) og overfør den til din PC.
 5. Følg [bruksanvisningen for QGIS-eksport](../bruksanvisninger/qgis_csv_eksport.md) til å konvertere målingene dine til en ryddig CSV-fil med kolonner for Øst (E) og Nord (N).
 6. Åpne [Python-veiledningen](../bruksanvisninger/python_intro.md) og kjør scriptet for å beregne gjennomsnittlig målt koordinat og standardavvik på datasettet ditt.
 
-### Metode 2: Måling med RTK-mottaker (Demo)
-1. Avtal tidspunkt med øvingslærerne på laben.
-2. Dere vil få en felles demonstrasjon der dere måler inn det samme fastpunktet som dere målte med mobilen ved hjelp av et RTK-rover-oppsett.
-3. Noter ned koordinatene (E, N, H) og nøyaktighets-angivelsen instrumentet gir.
-* *Dersom dere ikke fikk gjennomført RTK-målingen selv, kan dere laste ned testdata for RTK-målinger på et tilsvarende punkt her: [HP01.csv](../ressurser/HP01.csv).*
+### Metode 2: Måling med RTK-mottaker
+1. Avtal tidspunkt med øvingslærerne for en demo.
+2. Dere måler inn det samme fastpunktet som dere målte med mobilen ved hjelp av et en RTK-rover.
+3. Mål inn fastmerket 10 ganger og noter ned koordinatene (E, N, H).
 
 ---
 
@@ -89,10 +88,10 @@ Besvar spørsmålene under i grupperapporten. Visualiser målingene deres ved å
 
 1. **Analyse av mobilposisjon**:
    * Hva ble den gjennomsnittlige koordinaten ($E_{\text{snitt}}, N_{\text{snitt}}$) for mobilmålingen din?
-   * Hvor stort er avviket (i meter) fra den sanne boltekoordinaten?
+   * Hvor stort er avviket (i meter) fra den sanne koordinaten?
    * Hva var standardavviket til målingene?
 2. **Analyse av RTK-posisjon**:
-   * Hva ble koordinaten målt med RTK, og hvor stort var avviket fra den sanne koordinaten til bolten?
+   * Hva ble koordinatene målt med RTK, og hvor stort var avviket fra den sanne koordinaten til bolten?
 3. **Presisjon vs. Nøyaktighet**:
    * Definer forskjellen på begrepene *presisjon* (precision) og *nøyaktighet* (accuracy) med utgangspunkt i illustrasjonen over.
    * Hvordan vil du beskrive mobilposisjoneringen din og RTK-posisjoneringen din ved bruk av disse begrepene?
