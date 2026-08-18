@@ -99,7 +99,7 @@ kernelspec:
 [How to turn a point cloud to mesh using CloudCompare](https://www.youtube.com/watch?v=m43usERF33M) <br>
 
 
-## Fastmerker
+## Fastmerker ETRS89 / UTM sone 32N (EPSG:25832)
 [fastmerker.csv](fastmerker.csv)
 
 | Name     | Øst (m)    | Nord (m)    | Høyde (m) |
