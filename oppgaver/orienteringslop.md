@@ -38,7 +38,6 @@ I denne oppgaven skal dere ut i felt på campus for å løse et klassisk optimer
 
 ## 🛠️ Forberedelser
 * Sørg for at minst én på gruppa har en fullt ladet mobil med en fungerende GNSS/GPS-sporingsapp (f.eks. GPS Logger, MyTracks) satt til å logge hvert sekund.
-* Eventuelt kan dere bruke den selvbygde Arduino GPS-loggeren med SD-kort!
 
 ---
 
@@ -52,7 +51,7 @@ I denne oppgaven skal dere ut i felt på campus for å løse et klassisk optimer
 5. **Innlevering**: Eksporter sporet som en GPX- eller KML-fil og lever den på Canvas rett etter målgang.
 
 :::{tip} Vinnere
-Gruppen med det korteste loggede GNSS-sporet (målt i meter i QGIS) som har vært innom alle poster, stikker av med den offisielle seieren og en flott premie!
+Gruppen med det korteste loggede GNSS-sporet (målt i meter i QGIS) som har vært innom alle poster, stikker av med den offisielle seieren med heder og ære!
 :::
 
 ---
