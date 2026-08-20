@@ -76,6 +76,6 @@ Her finner dere de enkelte gruppenes resultater: <br>
 1. **Ruteplanlegging**: Beskriv hvordan dere planla ruten før start. Hvilke geometriske eller topografiske hensyn tok dere da dere valgte rekkefølgen på postene?
 2. **Resultatanalyse**: 
    * Hva ble den totale lengden på sporet deres i meter?
-   * Sammenlign sporet deres med vinnergruppen eller andre gruppers spor. Hvor tapte/tente dere meter?
+   * Sammenlign sporet deres med vinnergruppen eller andre gruppers spor. Hvor tapte/tjente dere meter?
 3. **Avvik**: Stemte den planlagte ruten overens med det dere faktisk gikk? Hvis ikke, hva skyldtes avvikene (f.eks. sperringer, feilnavigering, dårlig GPS-signal som hoppet)?
 4. **Erfaring med GPS-data**: Hva har dere lært om nøyaktigheten til kontinuerlig GPS-logging (f.eks. ser dere "støy" eller sikksakk-linjer i sporet der dere stod stille ved postene)?
