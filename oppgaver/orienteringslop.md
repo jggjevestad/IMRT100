@@ -65,10 +65,10 @@ Besvar spørsmålene under i grupperapporten og legg ved et kartbilde av det log
 ### Resultater
 
 Her finner dere de enkelte gruppenes resultater:
-[Gruppe 1](../filer/spor/gruppe_1.gpx)
-[Gruppe 2](../filer/spor/gruppe_2.gpx)
-[Gruppe 3](../filer/spor/gruppe_3.gpx)
-[Gruppe 4](../filer/spor/gruppe_4.gpx)
+[Gruppe 1](../filer/spor/gruppe_1.gpx) <br>
+[Gruppe 2](../filer/spor/gruppe_2.gpx) <br>
+[Gruppe 3](../filer/spor/gruppe_3.gpx) <br>
+[Gruppe 4](../filer/spor/gruppe_4.gpx) <br>
 
 
 ### Spørsmål
