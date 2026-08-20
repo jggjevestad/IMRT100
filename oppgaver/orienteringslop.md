@@ -64,7 +64,7 @@ Besvar spørsmålene under i grupperapporten og legg ved et kartbilde av det log
 
 ### Resultater
 
-Her finner dere de enkelte gruppenes resultater:
+Her finner dere de enkelte gruppenes resultater: <br>
 [Gruppe 1](../filer/spor/%20gruppe_1.gpx) <br>
 [Gruppe 2](../filer/spor/gruppe_2.gpx) <br>
 [Gruppe 3](../filer/spor/gruppe_3.gpx) <br>
