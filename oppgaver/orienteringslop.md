@@ -37,7 +37,7 @@ I denne oppgaven skal dere ut i felt på campus for å løse et klassisk optimer
 ---
 
 ## 🛠️ Forberedelser
-* Sørg for at minst én på gruppa har en fullt ladet mobil med en fungerende GNSS/GPS-sporingsapp (f.eks. GPS Logger, MyTracks) satt til å logge hvert sekund. En georeferert versjon av kartet finner dere her: [kart](../filer/qgis/IMRT100_2026_kart.pdf)
+* Sørg for at minst én på gruppa har en fullt ladet mobil med en fungerende GNSS/GPS-sporingsapp (f.eks. GPS Logger, MyTracks) satt til å logge hvert sekund. En georeferert versjon av kartet finner dere her: [kart](../filer/qgis/SJ2026-Parken.tif)
 
 ---
 
