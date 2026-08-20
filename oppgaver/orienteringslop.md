@@ -62,6 +62,10 @@ Gruppen med det korteste loggede GNSS-sporet (målt i meter i QGIS) som har vær
 Besvar spørsmålene under i grupperapporten og legg ved et kartbilde av det loggede sporet deres lagt oppå campus-kartet i QGIS.
 :::
 
+### Resultater
+
+Her finner dere de enkelte gruppenes [spor](../filer/spor)
+
 ### Spørsmål
 
 1. **Ruteplanlegging**: Beskriv hvordan dere planla ruten før start. Hvilke geometriske eller topografiske hensyn tok dere da dere valgte rekkefølgen på postene?
