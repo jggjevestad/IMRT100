@@ -69,6 +69,7 @@ Her finner dere de enkelte gruppenes resultater: <br>
 [Gruppe 2](../filer/spor/gruppe_2.gpx) <br>
 [Gruppe 3](../filer/spor/gruppe_3.gpx) <br>
 [Gruppe 4](../filer/spor/gruppe_4.gpx) <br>
+[Gruppe 5](../filer/spor/gruppe_5.gpx) <br>
 
 
 ### Spørsmål
