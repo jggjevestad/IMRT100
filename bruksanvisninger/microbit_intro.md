@@ -13,7 +13,7 @@ For å bruke micro:bit som et digitalt kompass må vi:
 3.  **Kalibrere sensoren**: micro:bit må kalibreres for å skille jordas naturlige magnetfelt fra magnetisk støy (f.eks. fra batteripakken eller metallrammer).
 
 ### Støttede plattformer og språk
-*   **MakeCode Editor**: Grafisk blokk-programmering og JavaScript/TypeScript (anbefalt for nybegynnere). Nettadresse: [makecode.microbit.org](https://makecode.microbit.org/).
+*   **MakeCode Editor**: Grafisk blokk-programmering og JavaScript/TypeScript (anbefalt for nybegynnere). Nettadresse: [makecode.microbit.org](https://makecode.microbit.org/). Det anbefales å bruke Chrome som nettleser for best kompatibilitet med microbit.
 *   **MicroPython**: Tekstbasert Python-programmering (ypperlig for de som vil lære mer avansert koding). Nettadresse: [python.microbit.org](https://python.microbit.org/).
 
 ---
