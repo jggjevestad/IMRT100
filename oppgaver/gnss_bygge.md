@@ -38,7 +38,7 @@ Kommersielle GPS-mottakere skjuler ofte rådataene bak en app eller et kartgrens
 
 ## 🛠️ Forberedelser
 * Last ned og installer **Arduino IDE** på din PC.
-* Repeter det grunnleggende om seriekraftkommunikasjon (TX/RX-pinner).
+* Repeter det grunnleggende om seriell kommunikasjon (TX/RX-pinner).
 * Hent utstyrskassen fra veilederne (Arduino-kit med GPS- og SD-komponenter).
 
 ---
