@@ -21,5 +21,5 @@ Dette er den veiledende planen for prosjektukene i IMRT100. Tabellen under gir e
 | **Tir 25.08** | 10:15 - 15:00 | Nøyaktighet | TF3-103 | JGG | [Bygg din egen GNSS-mottaker](oppgaver/gnss_bygge.md) <br> [Hvor nøyaktig er GNSS?](oppgaver/gnss_noyaktighet.md) <br> Python for geoinformatikk <br> 🚨 **Frist: Foreløpig rapportutkast** |
 | **Ons 26.08** | 09:15 - 15:00 | Innspurt prosjektarbeid | TF3-103 | JGG | Skrive rapport, redigere prosjektvideo |
 | **Tor 27.08** | 09:15 - 15:00 | Presentasjon og kåring | TF3-103 | JGG | Presentasjon av prosjektene <br> Kåring av beste video (Geomatikk) |
-| **Fre 28.08** | 08:15 - 10:00 <br> 10:15 - 11:00 | Felles finale & Valg | Festsalen <br> TF3-103 | JGG |  Kåring av beste video (IMRT100) <br> Studentdemokrativalg |
+| **Fre 28.08** | 08:15 - 10:00 <br> 10:15 - 11:00 <br> 12:00 | Felles finale & Valg | Festsalen <br> TF3-103 <br> Studentenes hus | JGG |  Kåring av beste video (IMRT100) <br> Studentdemokrativalg <br> Avslutning (Pizza)|
 | **Man 31.08** | **🚨 Frist kl. 16:00** | **Endelig innlevering** | Canvas | - | **Grupperapport og prosjektvideo** |
